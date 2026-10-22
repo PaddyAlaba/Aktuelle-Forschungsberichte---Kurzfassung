@@ -81,27 +81,102 @@ def db_oeffnen() -> sqlite3.Connection:
             fehler TEXT,
             verarbeitet_am TEXT
         )""")
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS themen (
+            guid TEXT,
+            nr INTEGER,
+            titel TEXT,
+            kernaussage TEXT,
+            zusammenfassung TEXT,
+            fachgebiet TEXT,
+            schlagworte TEXT,
+            PRIMARY KEY (guid, nr)
+        )""")
     con.commit()
     return con
 
 
 # --------------------------------------------------------------------------- Feed
+_apple: dict | None = None
+
+
+def apple_podcast() -> dict:
+    """Podcast im Apple-Verzeichnis suchen (liefert collectionId und feedUrl)."""
+    global _apple
+    if _apple is None:
+        _apple = {}
+        r = requests.get(
+            "https://itunes.apple.com/search",
+            params={"term": "Forschung aktuell Deutschlandfunk", "entity": "podcast", "country": "DE"},
+            headers=UA, timeout=20,
+        )
+        r.raise_for_status()
+        for t in r.json().get("results", []):
+            if "forschung aktuell" in t.get("collectionName", "").lower() and t.get("feedUrl"):
+                _apple = t
+                break
+    return _apple
+
+
 def feed_url_ermitteln(cfg: dict) -> str:
     url = cfg.get("feed", {}).get("url", "").strip()
     if url:
         return url
-    # Automatisch über die öffentliche iTunes-Suche
-    r = requests.get(
-        "https://itunes.apple.com/search",
-        params={"term": "Forschung aktuell Deutschlandfunk", "entity": "podcast", "country": "DE"},
-        headers=UA, timeout=20,
-    )
-    r.raise_for_status()
-    for t in r.json().get("results", []):
-        if "forschung aktuell" in t.get("collectionName", "").lower() and t.get("feedUrl"):
-            print(f"Feed gefunden: {t['feedUrl']}  (trag ihn in config.toml ein, dann entfällt die Suche)")
-            return t["feedUrl"]
+    t = apple_podcast()
+    if t.get("feedUrl"):
+        print(f"Feed gefunden: {t['feedUrl']}")
+        return t["feedUrl"]
     sys.exit("Feed-URL nicht gefunden – bitte in config.toml unter [feed] url eintragen.")
+
+
+def apple_folgen() -> list[dict]:
+    """Ältere Folgen aus dem Apple-Katalog (enthält oft mehr Folgen als der Feed)."""
+    try:
+        cid = apple_podcast().get("collectionId")
+        if not cid:
+            return []
+        r = requests.get(
+            "https://itunes.apple.com/lookup",
+            params={"id": cid, "entity": "podcastEpisode", "limit": 200, "country": "DE"},
+            headers=UA, timeout=30,
+        )
+        r.raise_for_status()
+    except Exception as ex:
+        print(f"Apple-Katalog nicht erreichbar: {ex}")
+        return []
+    folgen = []
+    for t in r.json().get("results", []):
+        if t.get("wrapperType") != "podcastEpisode" or not t.get("episodeUrl"):
+            continue
+        datum = ""
+        if t.get("releaseDate"):
+            datum = datetime.fromisoformat(t["releaseDate"].replace("Z", "+00:00")).strftime("%Y-%m-%d %H:%M")
+        folgen.append({
+            "guid": t.get("episodeGuid") or t["episodeUrl"],
+            "titel": (t.get("trackName") or "").strip(),
+            "datum": datum,
+            "link": t.get("trackViewUrl", ""),
+            "audio_url": t["episodeUrl"],
+            "beschreibung": re.sub(r"\s+", " ", t.get("description") or "").strip(),
+        })
+    return folgen
+
+
+def alle_folgen(cfg: dict) -> list[dict]:
+    """Feed + Apple-Katalog zusammenführen, Dubletten entfernen."""
+    folgen = feed_lesen(feed_url_ermitteln(cfg))
+    gesehen = {f["guid"] for f in folgen} | {f["audio_url"].split("?")[0] for f in folgen}
+    gesehen |= {(f["datum"][:10], f["titel"]) for f in folgen}
+    extra = 0
+    for f in apple_folgen():
+        if (f["guid"] in gesehen or f["audio_url"].split("?")[0] in gesehen
+                or (f["datum"][:10], f["titel"]) in gesehen):
+            continue
+        folgen.append(f)
+        gesehen.add(f["guid"])
+        extra += 1
+    print(f"{len(folgen) - extra} Folgen aus dem Feed, {extra} zusätzliche aus dem Apple-Katalog.")
+    return folgen
 
 
 def feed_lesen(url: str) -> list[dict]:
@@ -161,21 +236,28 @@ class TageslimitErreicht(Exception):
 
 
 PROMPT = """Du erstellst Einträge für ein persönliches Wissensbuch über aktuelle Forschung.
-Hier ist das Transkript eines kurzen Radiobeitrags aus „Forschung aktuell" (Deutschlandfunk).
+Hier ist das Transkript einer Sendung „Forschung aktuell" (Deutschlandfunk). Eine Sendung enthält
+meist mehrere Beiträge zu verschiedenen Themen.
 
-Titel: {titel}
+Sendung: {titel}
 Datum: {datum}
 Transkript:
 \"\"\"{text}\"\"\"
 
+Erstelle für JEDEN Beitrag mit wissenschaftlichem Inhalt einen eigenen Eintrag. Lass Nachrichten-
+überblicke ohne Forschungsbezug, Moderation und Programmhinweise weg.
 Antworte NUR mit JSON in genau diesem Format:
 {{
-  "kernaussage": "Ein Satz: die wichtigste wissenschaftliche Erkenntnis.",
-  "zusammenfassung": "3–6 Sätze in eigenen Worten: Was wurde herausgefunden, von wem (Institution), wie (Methode), warum ist es relevant, welche Einschränkungen gibt es?",
-  "fachgebiet": "genau eines aus: {gebiete}",
-  "schlagworte": ["3 bis 6 kurze Schlagworte"]
+  "themen": [
+    {{
+      "titel": "Kurzer, sachlicher Titel des Beitrags",
+      "kernaussage": "Ein Satz: die wichtigste wissenschaftliche Erkenntnis.",
+      "zusammenfassung": "3–6 Sätze in eigenen Worten: Was wurde herausgefunden, von wem (Institution), wie (Methode), warum ist es relevant, welche Einschränkungen gibt es?",
+      "fachgebiet": "genau eines aus: {gebiete}",
+      "schlagworte": ["3 bis 6 kurze Schlagworte"]
+    }}
+  ]
 }}
-Wenn der Beitrag keine Forschungsergebnisse enthält (z. B. Programmhinweis), setze "fachgebiet" auf "Sonstiges".
 Keine wörtlichen Zitate, nichts erfinden, was nicht im Transkript steht."""
 
 
@@ -183,7 +265,7 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
     llm = cfg.get("llm", {})
     prompt = PROMPT.format(
         titel=folge["titel"], datum=folge["datum"],
-        text=text[:30000], gebiete=", ".join(FACHGEBIETE),
+        text=text[: llm.get("max_zeichen", 22000)], gebiete=", ".join(FACHGEBIETE),
     )
     anbieter = llm.get("anbieter", "github")
     if anbieter == "github":
@@ -236,28 +318,30 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
 
     m = re.search(r"\{.*\}", antwort, re.S)
     daten = json.loads(m.group(0) if m else antwort)
-    if daten.get("fachgebiet") not in FACHGEBIETE:
-        daten["fachgebiet"] = "Sonstiges"
-    return daten
+    themen = daten.get("themen", [daten] if "kernaussage" in daten else [])
+    for t in themen:
+        if t.get("fachgebiet") not in FACHGEBIETE:
+            t["fachgebiet"] = "Sonstiges"
+    return themen
 
 
 # --------------------------------------------------------------------------- Verarbeitung
 def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", max_minuten: int = 0) -> int:
     start = time.monotonic()
     transkripte_behalten = cfg.get("speicher", {}).get("transkripte", True)
-    folgen = feed_lesen(feed_url_ermitteln(cfg))
+    folgen = alle_folgen(cfg)
     if folgen:
         aelteste = min(f["datum"] for f in folgen)
-        print(f"Älteste Folge im Feed: {aelteste[:10]}")
+        print(f"Älteste verfügbare Folge: {aelteste[:10]}")
         if ab and aelteste[:10] > ab:
-            print(f"Hinweis: Der Feed reicht nicht bis {ab} zurück – ältere Folgen sind nicht abrufbar.")
+            print(f"Hinweis: Feed und Apple-Katalog reichen nicht bis {ab} zurück – ältere Folgen sind nicht abrufbar.")
     if ab:
         folgen = [f for f in folgen if f["datum"][:10] >= ab]
     bekannt = {r["guid"]: r["status"] for r in con.execute("SELECT guid, status FROM folgen")}
     offen = [f for f in folgen if bekannt.get(f["guid"]) != "fertig"]
     offen.sort(key=lambda f: f["datum"])  # älteste zuerst -> Buch wächst chronologisch
     offen = offen[-limit:] if limit else offen
-    print(f"{len(folgen)} Folgen im Feed, {len(offen)} werden jetzt verarbeitet.")
+    print(f"{len(folgen)} Folgen verfügbar, {len(offen)} werden jetzt verarbeitet.")
 
     neu = 0
     for i, f in enumerate(offen, 1):
@@ -275,13 +359,18 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
                 text = transkribieren(f["audio_url"], cfg)
                 con.execute("UPDATE folgen SET transkript=? WHERE guid=?", (text, f["guid"]))
                 con.commit()
-            z = zusammenfassen(f, text, cfg)
+            themen = zusammenfassen(f, text, cfg)
+            con.execute("DELETE FROM themen WHERE guid=?", (f["guid"],))
+            for nr, t in enumerate(themen, 1):
+                con.execute(
+                    "INSERT INTO themen (guid, nr, titel, kernaussage, zusammenfassung, fachgebiet, schlagworte) "
+                    "VALUES (?,?,?,?,?,?,?)",
+                    (f["guid"], nr, t.get("titel", ""), t.get("kernaussage", ""), t.get("zusammenfassung", ""),
+                     t["fachgebiet"], json.dumps(t.get("schlagworte", []), ensure_ascii=False)))
+            print(f"   {len(themen)} Themen")
             con.execute(
-                "UPDATE folgen SET kernaussage=?, zusammenfassung=?, fachgebiet=?, schlagworte=?, "
-                "quelle=?, status='fertig', fehler=NULL, verarbeitet_am=? WHERE guid=?",
-                (z.get("kernaussage", ""), z.get("zusammenfassung", ""), z["fachgebiet"],
-                 json.dumps(z.get("schlagworte", []), ensure_ascii=False),
-                 cfg.get("llm", {}).get("anbieter", "github"),
+                "UPDATE folgen SET quelle=?, status='fertig', fehler=NULL, verarbeitet_am=? WHERE guid=?",
+                (cfg.get("llm", {}).get("anbieter", "github"),
                  datetime.now().isoformat(timespec="seconds"), f["guid"]))
             if not transkripte_behalten:
                 con.execute("UPDATE folgen SET transkript=NULL WHERE guid=?", (f["guid"],))
@@ -302,7 +391,10 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
 # --------------------------------------------------------------------------- Buch erzeugen
 def eintraege(con: sqlite3.Connection) -> dict[str, list[sqlite3.Row]]:
     kapitel: dict[str, list] = {g: [] for g in FACHGEBIETE}
-    for r in con.execute("SELECT * FROM folgen WHERE status='fertig' ORDER BY datum DESC"):
+    for r in con.execute(
+            "SELECT t.titel, t.kernaussage, t.zusammenfassung, t.fachgebiet, t.schlagworte, "
+            "f.datum, f.link, f.titel AS sendung FROM themen t JOIN folgen f ON f.guid = t.guid "
+            "WHERE f.status='fertig' ORDER BY f.datum DESC, t.nr"):
         kapitel.setdefault(r["fachgebiet"] or "Sonstiges", []).append(r)
     return {k: v for k, v in kapitel.items() if v}
 
@@ -477,7 +569,22 @@ def buch_bauen(con: sqlite3.Connection) -> None:
     buch_markdown(kapitel, ordner / "forschungsbuch.md")
     buch_html(kapitel, ordner / "forschungsbuch.html")
     buch_pdf(kapitel, ordner / "forschungsbuch.pdf")
+    status_schreiben(con, ordner / "status.md")
     print(f"Buch aktualisiert: {ordner / 'forschungsbuch.pdf'}  ({sum(map(len, kapitel.values()))} Einträge)")
+
+
+def status_schreiben(con: sqlite3.Connection, ziel: Path) -> None:
+    z = [f"# Verarbeitungsstand ({datetime.now():%d.%m.%Y %H:%M})\n"]
+    for r in con.execute("SELECT status, COUNT(*) n, MIN(datum) von, MAX(datum) bis FROM folgen GROUP BY status"):
+        z.append(f"- **{r['status']}**: {r['n']} Sendungen ({(r['von'] or '')[:10]} bis {(r['bis'] or '')[:10]})")
+    n = con.execute("SELECT COUNT(*) FROM themen").fetchone()[0]
+    z.append(f"- **Themen im Buch**: {n}\n")
+    fehler = con.execute("SELECT datum, titel, fehler FROM folgen WHERE status='fehler' "
+                         "ORDER BY datum DESC LIMIT 10").fetchall()
+    if fehler:
+        z.append("## Letzte Fehler\n")
+        z += [f"- {r['datum'][:10]} {r['titel']}: `{(r['fehler'] or '')[:200]}`" for r in fehler]
+    ziel.write_text("\n".join(z) + "\n", encoding="utf-8")
 
 
 # --------------------------------------------------------------------------- main
@@ -495,7 +602,7 @@ def main() -> None:
 
     if args.liste:
         status = {r["guid"]: r["status"] for r in con.execute("SELECT guid, status FROM folgen")}
-        for f in feed_lesen(feed_url_ermitteln(cfg)):
+        for f in sorted(alle_folgen(cfg), key=lambda f: f["datum"]):
             print(f"{status.get(f['guid'], '-'):7} {f['datum']}  {f['titel']}")
         return
     if not args.nur_buch:
