@@ -258,7 +258,8 @@ Antworte NUR mit JSON in genau diesem Format:
     }}
   ]
 }}
-Keine wörtlichen Zitate, nichts erfinden, was nicht im Transkript steht."""
+Die Zusammenfassung enthält nur den Inhalt – Fachgebiet und Schlagworte gehören ausschließlich in
+ihre eigenen Felder. Keine wörtlichen Zitate, nichts erfinden, was nicht im Transkript steht."""
 
 
 def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
@@ -329,6 +330,9 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
         raise RuntimeError(f"Kein gültiges JSON ({ex}): {antwort[:300]!r}")
     themen = daten.get("themen", [daten] if "kernaussage" in daten else [])
     for t in themen:
+        # Kleine Modelle hängen gern „Das Fachgebiet ist … Schlagworte: …“ an – entfernen
+        t["zusammenfassung"] = re.sub(r"\s*(Das )?Fachgebiet( ist)?:?\s.*$", "",
+                                      t.get("zusammenfassung", ""), flags=re.S).strip()
         if t.get("fachgebiet") not in FACHGEBIETE:
             t["fachgebiet"] = "Sonstiges"
     return themen
