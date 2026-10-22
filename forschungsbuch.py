@@ -265,7 +265,7 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
     llm = cfg.get("llm", {})
     prompt = PROMPT.format(
         titel=folge["titel"], datum=folge["datum"],
-        text=text[: llm.get("max_zeichen", 22000)], gebiete=", ".join(FACHGEBIETE),
+        text=text[: llm.get("max_zeichen", 18000)], gebiete=", ".join(FACHGEBIETE),
     )
     anbieter = llm.get("anbieter", "github")
     if anbieter == "github":
@@ -279,8 +279,8 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
                 headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
                 json={"model": llm.get("modell", "openai/gpt-4o-mini"),
                       "messages": [{"role": "user", "content": prompt}],
-                      "response_format": {"type": "json_object"},
-                      "temperature": 0.2},
+                      "temperature": 0.2,
+                      "max_tokens": 3000},
                 timeout=120,
             )
             if r.status_code == 429:
@@ -293,7 +293,12 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
             break
         else:
             raise TageslimitErreicht("Anfragen werden dauerhaft begrenzt (429)")
-        antwort = r.json()["choices"][0]["message"]["content"]
+        try:
+            antwort = r.json()["choices"][0]["message"].get("content") or ""
+        except Exception:
+            raise RuntimeError(f"Unerwartete Antwort (HTTP {r.status_code}): {r.text[:300]!r}")
+        if not antwort.strip():
+            raise RuntimeError(f"Leere Antwort vom Modell: {r.text[:300]!r}")
         time.sleep(llm.get("pause_sekunden", 7))  # Minutenlimit einhalten
     elif anbieter == "claude":
         import anthropic
@@ -317,7 +322,10 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
         raise ValueError(f"Unbekannter LLM-Anbieter: {anbieter}")
 
     m = re.search(r"\{.*\}", antwort, re.S)
-    daten = json.loads(m.group(0) if m else antwort)
+    try:
+        daten = json.loads(m.group(0) if m else antwort)
+    except json.JSONDecodeError as ex:
+        raise RuntimeError(f"Kein gültiges JSON ({ex}): {antwort[:300]!r}")
     themen = daten.get("themen", [daten] if "kernaussage" in daten else [])
     for t in themen:
         if t.get("fachgebiet") not in FACHGEBIETE:
