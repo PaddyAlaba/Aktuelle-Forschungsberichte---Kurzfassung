@@ -1,0 +1,25 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Forschungsbuch</title>
+<style>
+:root{--bg:#faf8f4;--fg:#222;--muted:#777;--card:#fff;--line:#e4dfd6;--acc:#1d5c63}
+@media (prefers-color-scheme:dark){:root{--bg:#16181a;--fg:#e6e6e6;--muted:#999;--card:#1f2225;--line:#33373b;--acc:#6fc0c8}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif}
+header{padding:24px 16px 8px;max-width:820px;margin:auto}
+h1{margin:0;font-size:2rem} header p{color:var(--muted);margin:.3em 0}
+input{width:100%;box-sizing:border-box;padding:10px 12px;font-size:1rem;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);margin:12px 0}
+nav{display:flex;flex-wrap:wrap;gap:6px} nav a{font:13px system-ui;padding:4px 10px;border:1px solid var(--line);border-radius:99px;color:var(--fg);text-decoration:none}
+nav span{color:var(--muted)}
+main{max-width:820px;margin:auto;padding:0 16px 60px}
+h2{border-bottom:2px solid var(--acc);padding-bottom:4px;margin-top:2em}
+article{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+h3{margin:.2em 0 .4em;font-size:1.1rem} .meta{font:12px system-ui;color:var(--muted)} .meta a{color:var(--acc)}
+.kern{font-weight:bold} .tags em{font:12px system-ui;font-style:normal;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:4px}
+</style></head><body>
+<header><h1>Forschungsbuch</h1>
+<p>Kurzfassungen aus „Forschung aktuell" (Deutschlandfunk) · 0 Einträge · Stand 22.10.2026</p>
+<input id="q" placeholder="Durchsuchen …" oninput="suche(this.value)"><nav></nav></header>
+<main></main>
+<script>
+function suche(q){q=q.toLowerCase();document.querySelectorAll('article').forEach(a=>{a.style.display=a.textContent.toLowerCase().includes(q)?'':'none'});
+document.querySelectorAll('section').forEach(s=>{s.style.display=[...s.querySelectorAll('article')].some(a=>a.style.display!=='none')?'':'none'})}
+</script></body></html>
