@@ -1,0 +1,22 @@
+# Einstellungen für das Forschungsbuch.
+# Der API-Schlüssel steht NICHT hier, sondern als GitHub-Secret ANTHROPIC_API_KEY.
+
+[feed]
+# Leer lassen = automatisch über die iTunes-Suche ermitteln.
+url = ""
+
+[whisper]
+# tiny / base / small / medium / large-v3  (small ist ein guter Kompromiss auf CPU)
+modell = "small"
+device = "cpu"
+compute_type = "int8"
+
+[llm]
+# "claude" (API) – in GitHub Actions die einzige sinnvolle Wahl.
+# Lokal geht auch "ollama" mit modell = "qwen2.5:14b" und ollama_url = "http://localhost:11434".
+anbieter = "claude"
+modell = "claude-haiku-5-5"
+
+[speicher]
+# Vollständige Transkripte NICHT im Repo ablegen (urheberrechtlich geschützte Sendungstexte).
+transkripte = false
