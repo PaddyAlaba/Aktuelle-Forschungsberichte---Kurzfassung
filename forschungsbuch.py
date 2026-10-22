@@ -267,7 +267,7 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
         titel=folge["titel"], datum=folge["datum"],
         text=text[: llm.get("max_zeichen", 18000)], gebiete=", ".join(FACHGEBIETE),
     )
-    anbieter = llm.get("anbieter", "github")
+    anbieter = llm.get("anbieter", "ollama")
     if anbieter == "github":
         import os
         token = os.environ.get("GITHUB_TOKEN")
@@ -312,9 +312,10 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
     elif anbieter == "ollama":
         r = requests.post(
             llm.get("ollama_url", "http://localhost:11434") + "/api/generate",
-            json={"model": llm.get("modell", "qwen2.5:14b"), "prompt": prompt,
-                  "stream": False, "format": "json"},
-            timeout=600,
+            json={"model": llm.get("modell", "qwen2.5:7b"), "prompt": prompt,
+                  "stream": False, "format": "json",
+                  "options": {"num_ctx": llm.get("kontext", 8192), "temperature": 0.2}},
+            timeout=1800,
         )
         r.raise_for_status()
         antwort = r.json()["response"]
@@ -378,7 +379,7 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
             print(f"   {len(themen)} Themen")
             con.execute(
                 "UPDATE folgen SET quelle=?, status='fertig', fehler=NULL, verarbeitet_am=? WHERE guid=?",
-                (cfg.get("llm", {}).get("anbieter", "github"),
+                (cfg.get("llm", {}).get("anbieter", "ollama"),
                  datetime.now().isoformat(timespec="seconds"), f["guid"]))
             if not transkripte_behalten:
                 con.execute("UPDATE folgen SET transkript=NULL WHERE guid=?", (f["guid"],))

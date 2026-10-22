@@ -21,7 +21,6 @@ on:
 
 permissions:
   contents: write
-  models: read
 
 concurrency:
   group: forschungsbuch
@@ -48,12 +47,28 @@ jobs:
           path: ~/.cache/huggingface
           key: whisper-small-v1
 
+      - name: KI-Modell zwischenspeichern
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-qwen2.5-7b-v1
+
+      - name: Ollama starten
+        env:
+          OLLAMA_MODELS: /home/runner/.ollama/models
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          sudo systemctl stop ollama 2>/dev/null || true
+          mkdir -p "$OLLAMA_MODELS"
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do curl -s http://localhost:11434/api/tags >/dev/null && break; sleep 2; done
+          ollama pull qwen2.5:7b
+
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
       - name: Neue Folgen verarbeiten und Buch bauen
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AB: ${{ inputs.ab }}
           LIMIT: ${{ inputs.limit || '0' }}
