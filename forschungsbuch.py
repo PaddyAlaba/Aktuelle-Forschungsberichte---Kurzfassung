@@ -6,7 +6,7 @@ Ablauf pro Lauf:
   1. RSS-Feed abrufen (URL aus config, sonst automatisch über die iTunes-Suche ermittelt)
   2. Neue Folgen erkennen (bereits verarbeitete stehen in der SQLite-DB)
   3. Audio laden -> lokal mit faster-whisper transkribieren
-  4. Zusammenfassung + Fachgebiet + Schlagworte per LLM (Claude-API oder lokal via Ollama)
+  4. Zusammenfassung + Fachgebiet + Schlagworte per LLM (GitHub Models, Claude-API oder Ollama)
   5. Buch neu erzeugen: buch/forschungsbuch.pdf (+ .html und .md)
 
 Aufruf:
@@ -156,6 +156,10 @@ def transkribieren(audio_url: str, cfg: dict) -> str:
 
 
 # --------------------------------------------------------------------------- Zusammenfassung
+class TageslimitErreicht(Exception):
+    """Das kostenlose Kontingent von GitHub Models ist für heute aufgebraucht."""
+
+
 PROMPT = """Du erstellst Einträge für ein persönliches Wissensbuch über aktuelle Forschung.
 Hier ist das Transkript eines kurzen Radiobeitrags aus „Forschung aktuell" (Deutschlandfunk).
 
@@ -181,8 +185,35 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
         titel=folge["titel"], datum=folge["datum"],
         text=text[:30000], gebiete=", ".join(FACHGEBIETE),
     )
-    anbieter = llm.get("anbieter", "claude")
-    if anbieter == "claude":
+    anbieter = llm.get("anbieter", "github")
+    if anbieter == "github":
+        import os
+        token = os.environ.get("GITHUB_TOKEN")
+        if not token:
+            raise RuntimeError("GITHUB_TOKEN fehlt (läuft nur in GitHub Actions oder mit eigenem Token).")
+        for versuch in range(3):
+            r = requests.post(
+                "https://models.github.ai/inference/chat/completions",
+                headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+                json={"model": llm.get("modell", "openai/gpt-4o-mini"),
+                      "messages": [{"role": "user", "content": prompt}],
+                      "response_format": {"type": "json_object"},
+                      "temperature": 0.2},
+                timeout=120,
+            )
+            if r.status_code == 429:
+                warten = int(r.headers.get("retry-after", "60") or 60)
+                if warten > 120:  # langes Warten = Tageslimit
+                    raise TageslimitErreicht(f"Limit erreicht, wieder frei in ca. {warten // 60} min")
+                time.sleep(warten)
+                continue
+            r.raise_for_status()
+            break
+        else:
+            raise TageslimitErreicht("Anfragen werden dauerhaft begrenzt (429)")
+        antwort = r.json()["choices"][0]["message"]["content"]
+        time.sleep(llm.get("pause_sekunden", 7))  # Minutenlimit einhalten
+    elif anbieter == "claude":
         import anthropic
         client = anthropic.Anthropic(api_key=llm.get("api_key") or None)  # sonst ANTHROPIC_API_KEY
         msg = client.messages.create(
@@ -250,11 +281,16 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
                 "quelle=?, status='fertig', fehler=NULL, verarbeitet_am=? WHERE guid=?",
                 (z.get("kernaussage", ""), z.get("zusammenfassung", ""), z["fachgebiet"],
                  json.dumps(z.get("schlagworte", []), ensure_ascii=False),
-                 cfg.get("llm", {}).get("anbieter", "claude"),
+                 cfg.get("llm", {}).get("anbieter", "github"),
                  datetime.now().isoformat(timespec="seconds"), f["guid"]))
             if not transkripte_behalten:
                 con.execute("UPDATE folgen SET transkript=NULL WHERE guid=?", (f["guid"],))
             neu += 1
+        except TageslimitErreicht as ex:
+            print(f"   {ex} – Rest folgt beim nächsten Lauf.")
+            con.execute("UPDATE folgen SET status='neu' WHERE guid=?", (f["guid"],))
+            con.commit()
+            break
         except Exception as ex:  # Fehler merken, beim nächsten Lauf erneut versuchen
             print(f"   Fehler: {ex}")
             con.execute("UPDATE folgen SET status='fehler', fehler=? WHERE guid=?", (str(ex), f["guid"]))

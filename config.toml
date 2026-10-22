@@ -1,5 +1,5 @@
 # Einstellungen für das Forschungsbuch.
-# Der API-Schlüssel steht NICHT hier, sondern als GitHub-Secret ANTHROPIC_API_KEY.
+# Standard: GitHub Models – kostenlos, kein eigener API-Schlüssel nötig.
 
 [feed]
 # Leer lassen = automatisch über die iTunes-Suche ermitteln.
@@ -12,10 +12,12 @@ device = "cpu"
 compute_type = "int8"
 
 [llm]
-# "claude" (API) – in GitHub Actions die einzige sinnvolle Wahl.
-# Lokal geht auch "ollama" mit modell = "qwen2.5:14b" und ollama_url = "http://localhost:11434".
-anbieter = "claude"
-modell = "claude-haiku-5-5"
+# "github": GitHub Models, nutzt das eingebaute Token des Workflows (Tageslimit, siehe README)
+# "claude": Anthropic-API, braucht das Secret ANTHROPIC_API_KEY, modell = "claude-haiku-5-5"
+# "ollama": lokal, modell = "qwen2.5:14b", ollama_url = "http://localhost:11434"
+anbieter = "github"
+modell = "openai/gpt-4o-mini"
+pause_sekunden = 7   # Abstand zwischen Anfragen (Minutenlimit)
 
 [speicher]
 # Vollständige Transkripte NICHT im Repo ablegen (urheberrechtlich geschützte Sendungstexte).

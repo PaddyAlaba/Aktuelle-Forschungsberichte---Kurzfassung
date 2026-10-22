@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 concurrency:
   group: forschungsbuch
@@ -48,14 +49,11 @@ jobs:
 
       - name: Neue Folgen verarbeiten und Buch bauen
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           AB: ${{ inputs.ab }}
           LIMIT: ${{ inputs.limit || '0' }}
         run: |
-          if [ -z "$ANTHROPIC_API_KEY" ]; then
-            echo "::error::Secret ANTHROPIC_API_KEY fehlt (Settings → Secrets and variables → Actions)."
-            exit 1
-          fi
           ARGS="--limit $LIMIT --max-minuten 300"
           if [ -n "$AB" ]; then ARGS="$ARGS --ab $AB"; fi
           python forschungsbuch.py $ARGS

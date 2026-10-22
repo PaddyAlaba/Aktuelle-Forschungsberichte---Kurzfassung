@@ -1,7 +1,7 @@
 # Forschungsbuch – Kurzfassungen aus „Forschung aktuell“
 
 Ein GitHub-Workflow verarbeitet jeden Abend die neuen Beiträge des Deutschlandfunk-Podcasts
-„Forschung aktuell“: Audio laden, lokal mit Whisper transkribieren, mit Claude zusammenfassen und
+„Forschung aktuell“: Audio laden, lokal mit Whisper transkribieren, mit einem KI-Modell über GitHub Models zusammenfassen (kostenlos, kein API-Schlüssel nötig) und
 nach Fachgebiet einsortieren. Daraus entsteht ein wachsendes Buch:
 
 - **`buch/forschungsbuch.pdf`** – Format A5, gut lesbar auf dem Handy, mit Lesezeichen je Kapitel
@@ -12,15 +12,16 @@ Jeder Eintrag enthält Kernaussage, Zusammenfassung, Schlagworte und einen Link 
 
 ## Einrichtung (einmalig)
 
-1. **API-Schlüssel hinterlegen:** *Settings → Secrets and variables → Actions → New repository secret*
-   Name: `ANTHROPIC_API_KEY`, Wert: dein Schlüssel von console.anthropic.com
-2. **Rückwirkend für 2026 starten:** *Actions → Forschungsbuch aktualisieren → Run workflow*
+Kein API-Schlüssel nötig: Der Workflow nutzt GitHub Models mit dem eingebauten Token.
+
+1. **Rückwirkend für 2026 starten:** *Actions → Forschungsbuch aktualisieren → Run workflow*
    - `ab`: `2026-01-01`
    - `limit`: `0`
 
-   Ein Lauf arbeitet höchstens ~5 Stunden und speichert dann den Zwischenstand. Wenn der Lauf
-   meldet „Zeitbudget erreicht“, einfach noch einmal starten – Fertiges wird übersprungen.
-3. Danach läuft alles automatisch jeden Abend um 19:17 UTC.
+   GitHub Models hat ein kostenloses Tageslimit (laut Nutzerberichten ca. 150 Anfragen/Tag).
+   Ist es erreicht, speichert der Lauf den Zwischenstand und der tägliche Lauf macht am nächsten
+   Abend weiter. Das Nachholen von 2026 verteilt sich so auf etwa eine Woche – ohne dein Zutun.
+2. Danach läuft alles automatisch jeden Abend um 19:17 UTC.
 
 ## Lesen auf dem Handy
 
@@ -30,15 +31,18 @@ Direktlink zum aktuellen Stand:
 
 ## Einstellungen
 
-`config.toml`: Feed-URL (leer = automatisch suchen), Whisper-Modell, Claude-Modell und ob
+`config.toml`: Feed-URL (leer = automatisch suchen), Whisper-Modell, KI-Anbieter und ob
 Transkripte gespeichert werden (Standard: nein).
+
+Alternativ zu GitHub Models: `anbieter = "claude"` (Secret `ANTHROPIC_API_KEY` anlegen) oder lokal
+`anbieter = "ollama"`.
 
 ## Lokal ausführen
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
+export GITHUB_TOKEN=...   # Personal Access Token mit Berechtigung „Models: read“
 python forschungsbuch.py --liste                     # Folgen im Feed + Status
 python forschungsbuch.py                             # neue Folgen (max. 10)
 python forschungsbuch.py --ab 2026-01-01 --limit 0   # rückwirkend
