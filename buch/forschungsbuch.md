@@ -1,27 +1,107 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 151 Einträge, Stand 23.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 203 Einträge, Stand 24.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
-- [Medizin & Gesundheit](#medizin-gesundheit) (30)
-- [Biologie & Evolution](#biologie-evolution) (15)
-- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (20)
-- [Klima & Atmosphäre](#klima-atmosphäre) (11)
-- [Geowissenschaften](#geowissenschaften) (9)
-- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (9)
+- [Medizin & Gesundheit](#medizin-gesundheit) (40)
+- [Biologie & Evolution](#biologie-evolution) (22)
+- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (26)
+- [Klima & Atmosphäre](#klima-atmosphäre) (17)
+- [Geowissenschaften](#geowissenschaften) (13)
+- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (14)
 - [Physik](#physik) (7)
-- [Chemie & Materialien](#chemie-materialien) (7)
-- [Energie](#energie) (2)
-- [Technik & Informatik](#technik-informatik) (17)
-- [Künstliche Intelligenz](#künstliche-intelligenz) (7)
-- [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (4)
+- [Chemie & Materialien](#chemie-materialien) (8)
+- [Energie](#energie) (4)
+- [Technik & Informatik](#technik-informatik) (22)
+- [Künstliche Intelligenz](#künstliche-intelligenz) (9)
+- [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (6)
 - [Archäologie & Anthropologie](#archäologie-anthropologie) (3)
 - [Landwirtschaft & Ernährung](#landwirtschaft-ernährung) (2)
 - [Wissenschaftspolitik](#wissenschaftspolitik) (3)
-- [Sonstiges](#sonstiges) (5)
+- [Sonstiges](#sonstiges) (7)
 
 ## Medizin & Gesundheit
+
+### Impfung gegen Gürtelrose und Herzprobleme
+
+*2026-08-26* · [Originalbeitrag](https://www.deutschlandfunk.de/landtagswahlkampf-impfungen-und-herzerkrankungen-epilepsie-100.html) · Impfung, Herzprobleme, Gürtelrose, Studie, Infektionen
+
+**Die Gürtelrose-Impfung kann das Risiko für Herzkrankheiten um etwa 10% reduzieren.**
+
+Eine Studie mit Daten von 36.000 Menschen zeigte, dass die Impfung gegen das Herbst-Zoster-Virus das Risiko für Herzprobleme reduziert. Die Studie verglich einen älteren Lebendimpfstoff mit einem Todimpfstoff mit Immunverstärker, der beide in verschiedenen Phasen der Impfung verwendet wurde. Dieses besondere Design ermöglichte es, viele Verzerrungsfaktoren zu eliminieren. Die Studie fand, dass der neue Impfstoff, der einen Immunverstärker enthält, noch protektiver war und mehr Herz-Kreislauf-Komplikationen verhinderte. Diese Erkenntnisse sind relevant, da sie den Zusammenhang zwischen Infektionen und Herz-Kreislauf-Erkrankungen weiter veranschaulichen und Impfungen als mögliche Maßnahmen zur Prävention von Herzproblemen hervorheben. Es ist jedoch wichtig zu beachten, dass weitere klinische Studien erforderlich sind, um die Wirksamkeit des Impfstoffs zu bestätigen und die Dauer des Effekts zu bestimmen. Die Studie wurde von der Universität Klinik Jena durchgeführt.
+
+### Epilepsie: Erste Ergebnisse der Gentherapie
+
+*2026-08-26* · [Originalbeitrag](https://www.deutschlandfunk.de/landtagswahlkampf-impfungen-und-herzerkrankungen-epilepsie-100.html) · Gentherapie, Epilepsie, Ionenkanal, Hypo-Campus, Klinische Studie
+
+**Eine Gentherapie zur Behandlung von Epilepsie hat bei einigen Patienten zu einer Reduzierung der Anfälle geführt.**
+
+Eine Forschungsteam aus dem Französischen Nationalinstitut für Gesundheit und Medizinische Forschung (INSERM) in Marseille hat die Gentherapie zur Behandlung einer häufigen Form der Epilepsie entwickelt. Die sogenannte messiale Temporallappenepilepsie entsteht im Hypo-Campus und ist durch eine Übererregbarkeit verursacht, die von der Fehlplatzierung des Ionenkanals verursacht wird. Das Team hat in den letzten fünf Jahren eine Gentherapie entwickelt, die darauf abzielt, den fehlplatzierten Ionenkanal lokal zu korrigieren. Die erste klinische Studie zeigte, dass 3 von 6 Patienten gar keine oder deutlich weniger Anfälle hatten. Für die anderen 3 Patienten ergab sich aus der Gentherapie kein Nutzen, aber auch kein Schaden. Dies ist ein wichtiger Schritt, da es eine neue Art von Gentherapie ist, die direkt die Ursache der Epilepsie anspricht und nicht den ganzen Körper betroffen ist. Die Studie wird mit Interesse verfolgt, da sie die Möglichkeit eröffnet, auch nicht-genetische Epilepsie-Formen zu behandeln und eine höhere Sicherheit zu bieten. Die Studie wurde von der Medizinischen Universität Innsbruck mit Interesse verfolgt.
+
+### mRNA-Impfung gegen Krebs
+
+*2026-08-20* · [Originalbeitrag](https://www.deutschlandfunk.de/mrna-impfung-gegen-krebs-u10-untersuchung-baeume-lassen-ozon-entstehen-100.html) · mRNA, Impfstoff, Krebs, Schwarzhautkrebs, Klinische Studie
+
+**Eine klinische Studie zeigte, dass mRNA-Impfstoffe gegen Schwarzhautkrebs wirksam sind.**
+
+Eine klinische Phase 3-Studie von Moderna zeigte, dass mRNA-Impfstoffe gegen Schwarzhautkrebs wirksam sind. Die Studie umfasste 1.137 Melanom-Patienten und zeigte, dass die Behandlung Teil einer umfassenden Krebstherapie ist, die aus Operation, Immuntherapie und mRNA-Behandlung besteht. Diese Ergebnisse sind erwartungsgemäß und ermutigen die Entwicklung von mRNA-Impfstoffen zur Prävention von Krebsrückfällen. Die Studie wurde durch das Biotechnologieunternehmen Moderna durchgeführt. Obwohl es sich um eine Schutzimpfung handelt, ist sie Teil einer umfassenden Therapie. Es gibt jedoch noch keine Zulassung, da weitere Studien notwendig sind.
+
+### U10-Untersuchung
+
+*2026-08-20* · [Originalbeitrag](https://www.deutschlandfunk.de/mrna-impfung-gegen-krebs-u10-untersuchung-baeume-lassen-ozon-entstehen-100.html) · U10, Untersuchung, Kinderarzt, Vorsorge, Digitalisierung
+
+**Die U10-Untersuchung soll die Lücke zwischen der U9-Untersuchung und der ersten Jugenduntersuchung schließen.**
+
+Der gemeinsame Bundesausschuss hat beschlossen, die U10-Untersuchung einzuführen, um die Lücke zwischen der U9-Untersuchung und der ersten Jugenduntersuchung zu schließen. Diese Untersuchung soll Kinder im Alter von 9 bis 10 Jahren überprüfen, ob sie zu Übergewicht neigen, wie viele Medien sie konsumieren, ob sie ausreichend geimpft sind und ob sie psychische Probleme haben. Ursula Felderhoff-Müser, Präsidentin der Deutschen Gesellschaft für Kinder und Jugendmedizin, schätzt das Angebot grundsätzlich positiv ein. Wieland Kies, ehemaliger Direktor der Kinder- und Jugendklinik in Leipzig, sieht jedoch keinen medizinischen Nutzen und plädiert stattdessen für eine Reform und Digitalisierung des bestehenden Vorsorgesystems. Die U10-Untersuchung soll auch in sozial benachteiligten Familien besser erreicht werden, um Fälle von Kindesholgefährdung frühzeitig zu erkennen.
+
+### Neurologische Absenzen: Eine Funktionelle Störung
+
+*2026-08-19* · [Originalbeitrag](https://www.deutschlandfunk.de/neurologische-absencen-arktisexpedition-tara-bessere-alpenwettervorhersage-100.html) · Absenzen, Neurologie, Stress, Therapie
+
+**Neurologische Absenzen sind kurzfristige, bewusstseinsbedingte Störungen, die oft ohne sichtbare Anzeichen im Gehirn aufgetreten sind.**
+
+Neurologische Absenzen sind kürzere, bewusstseinsbedingte Störungen, die bei Patienten auftreten können. Sie werden oft mit Epilepsie verglichen, aber in manchen Fällen sind keine Anzeichen im Gehirn zu finden. Die Ursachen sind vielfältig, mit einem hohen Stresstypus als Hauptfaktor. Therapie-Ensätze, wie Physiotherapie und Psychotherapie, können helfen. Die Deutschen Hirnstiftung betont, dass es sich hier um ein Softwareproblem im Gehirn handelt, nicht um ein psychosomatisches Problem. Forschungen konzentrieren sich auf die genetische Komponente und den Einfluss von Stress.
+
+### Historische Pestepidemie auf Mallorca
+
+*2026-08-18* · [Originalbeitrag](https://www.deutschlandfunk.de/moorbrand-im-hohen-venn-drohnenabwehr-historische-pestepidemie-auf-mallorca-100.html) · Pest, Mallorca, Epidemiologie, Historische Übertragung
+
+**Die Pest auf Mallorca im Jahr 1820 war wahrscheinlich eine Mensch-zum-Mensch-Übertragung, nicht von Ratten.**
+
+Die Pest auf Mallorca im Jahr 1820 wurde von Joanna Pujá de Smora, Historikerin der offenen Universität Catalonians in Barcelona, neu untersucht. Sie fand heraus, dass der Pestausbruch wahrscheinlich durch menschliche Übertragung stattfand, nicht durch Ratten, wie lange verbreitet geglaubt wurde. Der Arzt Shame Eskalas berichtete über den ersten Fall, der von einem Schiff aus Tanga kam. Die Daten des Gesundheitsamts der Balearen und der Mathematiker Pedro Poch zeigten, dass die Ansteckungsperiode nur zwei oder drei Tage betrug und die Fallsterblichkeit um 78% war. Diese Daten passten nicht zu der Beulenpest, sondern deuten darauf hin, dass die Pest durch menschliche Übertragung, wie durch Flöhe, Läuse oder ausgehustete Tröpfchen, verbreitet wurde. Die Pest auf Mallorca führte zur Entwicklung des öffentlichen Gesundheitsdienstes und zur höheren Lebenserwartung auf der Insel.
+
+### West-Nil-Virus: Eine zunehmende Bedrohung in Deutschland
+
+*2026-08-14* · [Originalbeitrag](https://www.deutschlandfunk.de/flug-ins-feuergewitter-gedaechtnis-im-winterschlaf-west-nil-virus-100.html) · West-Nil-Virus, Stechmücken, Infektionen, Gesundheitsbedrohung
+
+**Das West-Nil-Virus breitet sich in Deutschland aus, und es gibt neue Forschungen, um seine Auswirkungen besser zu verstehen.**
+
+Das West-Nil-Virus, ein Erreger, der durch Stechmücken übertragen wird, breitet sich in Deutschland aus. In den vergangenen Jahren haben Forscher, wie der Institut für Tropenmedizin in Hamburg, mehrere tote Vögel untersucht, um den Erreger zu identifizieren. Die Untersuchungen haben gezeigt, dass das Virus in Deutschland in den letzten Jahren zunehmend aktiviert ist. Die meisten Menschen, die das Virus anstecken werden, merken es nicht, aber Menschen mit schwachem Immunsystem oder über 50 Jahren können schwer erkranken. In Griechenland sind bereits Menschen an Gehirnentzündungen gestorben. Die Behörden rufen Ärzte auf, bei Fällen von Gehirnentzündungen oder Fiebererkrankungen mit unklarer Ursache an West-Nil-Virus-Infektionen zu denken. Die Forschungen werden weitergeführt, um die Ausbreitung des Erregers in Deutschland besser zu verstehen.
+
+### Qualitätsstandards bei Meinungsumfragen
+
+*2026-08-13* · [Originalbeitrag](https://www.deutschlandfunk.de/schlecht-gemachte-meinungsumfragen-natur-und-staatsfinanzen-schwarze-loecher-100.html) · Meinungsumfragen, Qualitätsstandards, Online-Umfragen, Zufallsstichprobe
+
+**Online-Umfragen können erhebliche Fehler begehen, da sie keine Zufallsstichprobe ermöglichen.**
+
+Die European Survey Research Association (Esra) hat eine Warnung gegen schlecht durchgeführte Meinungsumfragen veröffentlicht. Ulrich Kohler, Professor für Methoden der empirischen Sozialforschung an der Universität Potsdam, betont, dass Online-Umfragen, da sie keine Zufallsstichprobe ermöglichen, sehr ungenau sein können. Eine Studie zeigte, dass bei einer Online-Umfrage mit einer 5%igen Anteilswert-Annahme eine maximale Abweichung von 40% möglich ist. Dies kann politische und gesellschaftliche Konsequenzen haben. Esra richtet sich mit diesem Statement an Multiplikatoren, um die Qualität von Umfragen einschätzen zu können.
+
+### Unfallrisiken bei E-Scooter-Fahrten
+
+*2026-08-07* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-designt-viren-risiko-flussvertiefung-e-scooter-schneckenschleim-100.html) · E-Scooter, Unfälle, Verletzungen, Helme
+
+**Unfälle mit E-Scootern führen zu hohen Verletzungs- und Todesrisiken, insbesondere bei Frauen und Kindern.**
+
+Eine Studie von David Bodensky, angestellt am Chelsea and Westminster Hospital in London, hat gezeigt, dass E-Scooterfahrer ein dreieinhalbmal höheres Risiko für Kopfverletzungen haben als Motorradfahrer. Nur 6% der Unfallopfer trugen Helme. Frauen und Kinder haben ein höheres Verletzungsrisiko als Männer, da sie weniger Fahrerfahrung haben und den Lenker auf einer zu hohen Höhe erreichen. Die Studie verwendet Daten aus einem nationalen Traumaregister und Daten von einem E-Scooterverleih. Maßnahmen zur Reduzierung der Unfallrisiken könnten das Design der E-Scooter, die Verordnung von Helmen und bessere Radwege umfassen.
+
+### Hochverarbeitete Lebensmittel: Gesundheitliche Auswirkungen
+
+*2026-07-30* · [Originalbeitrag](https://www.deutschlandfunk.de/feuergewitter-infrarot-sehen-hochverarbeitete-lebensmittel-100.html) · Hochverarbeitete Lebensmittel, Ernährung, Gesundheit, Nährstoffe, Krankheitsrisiko
+
+**Hochverarbeitete Lebensmittel können gesundheitliche Vorteile bieten, wenn sie gesunde Nährstoffe enthalten.**
+
+Eine neue Studie untersucht die gesundheitlichen Auswirkungen hochverarbeiteter Lebensmittel. Hochverarbeitete Lebensmittel enthalten oft viel Zucker, Salz und raffinierte Kohlenhydrate. Die Studie zeigt, dass Lebensmittelverarbeitung und Nährwertqualität getrennt betrachtet werden sollten. Hochverarbeitete Lebensmittel wie zuckerhaltige Getränke und verarbeitetes Fleisch sind ungesund, während andere Lebensmittel wie Vollkorn, Frühstück-Serialien, angereicherte pflanzliche Milch oder Bohnen aus der Dose gesunde Nährstoffe liefern können. Die Studie zeigt, dass Menschen, die mehr gesunde Nährstoffe zu sich nehmen, ein geringeres Risiko haben, Diabetes oder Herzkreislauf Erkrankungen zu bekommen. Die Ernährung sollte auf der Nährstoffqualität und nicht nur auf der Verarbeitung basieren.
 
 ### Gentherapie: Risiken und Fortschritte
 
@@ -266,6 +346,62 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 ## Biologie & Evolution
 
+### Früheste Symbiose in der Evolution
+
+*2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Symbiose, Konotubus, Fossilien, Evolution
+
+**Bakterien lebten in einer Symbiose mit Konotubus, einem Ringelwurm, vor 500 Millionen Jahren.**
+
+Bakterien lebten in einer Symbiose mit Konotubus, einem Ringelwurm, vor 500 Millionen Jahren. Dies wurde von Shuhai Xiao, Geochemiker an der Virginia Tech Universität, in einer neuen Studie in den Proceedings of the National Academy of Sciences veröffentlicht. Xiao und sein Team analysierten fossile Fossilien von Konotubus und fanden heraus, dass sie viel mehr leichte Isotope von Molybden enthielten, was darauf hindeutet, dass sie Bakterien in einer Symbiose hatten. Diese Bakterien lebten auf dem Meeresgrund und konnten Schwefel oxidieren, um Energie zu gewinnen. Ihre Enzyme enthalten Molybden, und zwar vor allem die leichten Isotope. Diese Symbiose ist ein Beispiel für die Evolution durch Kooperation und zeigt, dass schon die ersten Tierformen in einer Symbiose lebten.
+
+### Hitzeanpassung von Zebrafinken
+
+*2026-08-21* · [Originalbeitrag](https://www.deutschlandfunk.de/brueckenreparatur-per-3d-algenblueten-in-der-ostsee-swift-teleskop-100.html) · Zebrafinken, Hitzeanpassung, akustische Signale, Embryonen
+
+**Akustische Signale der Elterntiere können Embryonen von Zebrafinken vor Hitzeanpassungen vorbereiten.**
+
+Akustische Signale der Elterntiere können Embryonen von Zebrafinken vor Hitzeanpassungen vorbereiten. Die Verhaltensökologin Milaine Mariette untersuchte die Kommunikation zwischen brütenen Elterntieren und ihren Eiern. Sie fand heraus, dass die Elterntiere im Ei akustische Signale ausstoßen, die die Embryonen auf die Umweltbedingungen vorbereiten. Die Forscher konnten zeigen, dass diese Signale die Embryonen auf die Hitze vorbereiten, indem sie die Blutherrenschranke lockern, was die Tiere besser an die Hitze anpassen lässt. Die Ergebnisse könnten eine neue Strategie zur Hitzeanpassung bei Vögeln und möglicherweise auch bei anderen Tieren bieten.
+
+### Schnecken-Schleim: Vielseitiges Material
+
+*2026-08-07* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-designt-viren-risiko-flussvertiefung-e-scooter-schneckenschleim-100.html) · Schnecken-Schleim, Collagen, Calcium, Verteidigung
+
+**Schnecken-Schleim dient der Fortbewegung, Festkleben, Verteidigung und Winterüberdauerung.**
+
+Forschungen von Max-Planck-Institut für Koloid- und Grenzflächenforschung untersuchen die Vielseitigkeit von Schnecken-Schleim. Franziska Jehle untersucht verschiedene Schleimtypen, die verschiedene Funktionen erfüllen, wie Fortbewegung, Festkleben, Verteidigung und Winterüberdauerung. Das Hauptbestandteil des Schleims ist Collagen Nummer 6, das normalerweise in Muskeln vorkommt. Calcium wird aktiv mit dem Schleim zusammen sekretiert, um verschiedene Strukturen zu bilden. Diese Studien helfen, die Funktionsweise des Schnecken-Schleims besser zu verstehen.
+
+### Buckelwale und ihre Musik
+
+*2026-08-06* · [Originalbeitrag](https://www.deutschlandfunk.de/zivile-drohnenabwehr-buckelwalgesaenge-weltraumrecht-100.html) · Buckelwale, Musik, Tauchtiefe, Sauerstoff, Verhalten
+
+**Buckelwale verfügen über eine komplex strukturierte Musik, die sich mit der Tauchtiefe verändert.**
+
+Wissenschaftler aus Syracuse University haben festgestellt, dass Buckelwale ihre Musik an Tauchtiefe anpassen, um mehr Sauerstoff zu sparen. Dabei ändern sie die Frequenz und Dauer der Töne je nach Tauchtiefe. Diese Studie wurde durch Messungen und Beobachtungen von 16 Tieren um die Welt durchgeführt. Sie ist relevant, da sie die Verhaltensmuster dieser Tiere in ihrer natürlichen Umgebung besser verstehen lässt. Eine Beschränkung ist, dass das Henne-Eye-Problem, also die Frage, ob der Tauchvorgang das Timing des Songs diktiert oder umgekehrt, noch nicht geklärt ist.
+
+### Fleischfressende Pflanzen in der Alpenregion
+
+*2026-08-05* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-loest-matheraetsel-darwins-fleischfressende-pflanze-kuehlende-keramik-100.html) · Steinbrechpflanze, Fleischfressende Pflanzen, Alpenregion, Insektenfutterung, Genomanalyse
+
+**Steinbrechpflanzen in der Alpenregion werden als Fleischfresser identifiziert.**
+
+Eine Studie des Instituts für Biologie der Peking-Universität hat gezeigt, dass Steinbrechpflanzen in der Alpenregion tatsächlich Fleischfresser sind. Die Forscher haben die Pflanzen in Glasbehälter gesetzt und gezählt, wie viele Insekten an ihnen festkleben. Sie haben auch nachgewiesen, dass die Pflanzen Nährstoffe aus den Insekten aufnehmen. Diese Erkenntnis verändert die bisherige Sichtweise von Fleischfressenden Pflanzen und zeigt, dass sie in nährstoffarmen Umgebungen eine wichtige Rolle spielen können. Die Methode der Forschung basiert auf der Analyse von Genomdaten und der Bestätigung durch chemische und physiologische Tests. Diese Entdeckung hat wissenschaftliche und ökologische Implikationen, da sie die Vielfalt von Fleischfressenden Pflanzen in der Natur verändert.
+
+### Vibrionen in der Ostsee
+
+*2026-08-04* · [Originalbeitrag](https://www.deutschlandfunk.de/hitze-und-kraftwerksbetrieb-vibrionen-soziale-medien-und-lernleistung-100.html) · Vibrionen, Ostsee, Krankheit, Frühwarnsystem, Drohnen, Künstliche Intelligenz
+
+**Ein Frühwarnsystem mit Drohnen und KI wird entwickelt, um Risiken von Vibrioneninfektionen in der Ostsee zu minimieren.**
+
+Ein Team des Leibniz-Instituts für Ostsee-Forschung arbeitet an einem Frühwarnsystem für Vibrioneninfektionen in der Ostsee. Das System verwendet Spezialkameras, um die Konzentration von Zioanobakterien zu messen, die als Frühwarnindikatoren dienen, da sie die Nahrung für Vibrionen sind. Die Daten werden mit künstlicher Intelligenz analysiert, um Risiken vorzubeuten. Das Pilotprojekt ist in diesem Jahr und soll in der nächsten Saison praktisch eingesetzt werden. Das Frühwarnsystem könnte Menschen, insbesondere ältere und immungeschwächte, vor Infektionen warnen.
+
+### Pocken in Südamerika
+
+*2026-07-31* · [Originalbeitrag](https://www.deutschlandfunk.de/waldbraende-in-europa-pocken-in-suedamerika-swift-rettungsmission-im-all-100.html) · Pocken, Mumien, Geschichte, Kolonialzeit, Südamerika
+
+**Zwei Mumien aus Chile deuten darauf hin, dass die Pocken in der frühen Kolonialzeit in Südamerika durch indigene Gemeinschaften ausgebreitet wurden.**
+
+Archäogenetiker haben von zwei Mumien aus Chile, die vor etwa einem halben Jahrtausend bestattet worden sind, Proben genommen, um das Ausbreitungsmodell der Pocken in Südamerika zu untersuchen. Die Mumien stammen aus einer kleinen indigenen Gemeinschaft im Einflussbereich der Inka und wurden zwischen 1492 und 1631 bestattet. Das Pockenvirus wurde in den Mumien rekonstruiert, was die Geschichte der Ausbreitung der Pocken in Südamerika neu beleuchtet.
+
 ### Detox im Boden: Biologische Zerstreuung von Giftstoffen
 
 *2026-07-29* · [Originalbeitrag](https://www.deutschlandfunk.de/mangrovenwaelder-tiefseebergbau-gluehende-blaetter-detox-im-boden-100.html) · Affla-Toxine, Bakterien, Biogärtung, Bodengefüge
@@ -388,6 +524,54 @@ Die Bakteriophagen, also Bakterienfresser, können als alternative Therapiemitte
 
 
 ## Ökologie & Artenvielfalt
+
+### Algenblüten in der Ostsee
+
+*2026-08-21* · [Originalbeitrag](https://www.deutschlandfunk.de/brueckenreparatur-per-3d-algenblueten-in-der-ostsee-swift-teleskop-100.html) · Algenblüten, Ostsee, Cyanobakterien, Dinoflageladen
+
+**Algenblüten in der Ostsee, insbesondere Cyanobakterien und Dinoflageladen, könnten zunehmen, da sie sich an Erwärmung und Nährstoffüberschuss anpassen.**
+
+Algenblüten in der Ostsee, insbesondere Cyanobakterien und Dinoflageladen, könnten zunehmen, da sie sich an Erwärmung und Nährstoffüberschuss anpassen. Die Forscher untersuchen Sedimentproben, um zukünftige Algenblüten zu identifizieren. Cyanobakterien, auch als Blaualge bezeichnet, sind photosynthesebetreibende Bakterien, die in den letzten Jahren in den deutschen Gewässern stark vermehrt haben. Dinoflageladen, winzige Mikroalgen, produzieren Gifte, die für Fische und andere Meeresorganismen tödlich sein können. Die Forscher untersuchen, wie diese Algenblüten sich im künftigen Klima verhalten und welche Bedrohungen sie für das Meeresleben darstellen könnten.
+
+### Amphibien- und Libellenbestände in Berlin sinken dramatisch
+
+*2026-08-19* · [Originalbeitrag](https://www.deutschlandfunk.de/neurologische-absencen-arktisexpedition-tara-bessere-alpenwettervorhersage-100.html) · Amphibien, Libellen, Klimawandel, Biodiversität
+
+**Amphibien und Libellen bestehen in Berlin um 76% und 50% zurückgegangen, was einen starken Rückgang der Artenvielfalt in Städten zeigt.**
+
+In Berlin sind Amphibien und Libellen in den letzten 40 Jahren um 76% und 50% zurückgegangen. Diese Arten sind besonders stark von Lebensraumverlust und Klimawandel betroffen. Amphibien haben Probleme, neue Gewässer zu entdecken, während Libellen sich leichter bewegen können. Die Trockenheit und die Eindringung von invasive Arten beeinträchtigen die Bestände. Diese Zahlen sind ein Beispiel für den generellen Artenschwund in Städten und zeigen, dass das Leben für Tiere und Pflanzen in Städten schwieriger geworden ist. Die Forschung betont, dass dies ein allgemeiner Trend ist, der durch den Klimawandel und den Bau von Infrastruktur beschleunigt wird.
+
+### Moorbrand im Hohen Venn
+
+*2026-08-18* · [Originalbeitrag](https://www.deutschlandfunk.de/moorbrand-im-hohen-venn-drohnenabwehr-historische-pestepidemie-auf-mallorca-100.html) · Moorbrand, Entwässerung, Kohlenstoff, Schwellbrände
+
+**Moorbrennungen treten auf trockenen Moorketten auf, da hier viel Kohlenstoff im Torf vorhanden ist.**
+
+Moorbrennungen im Hohen Venn entstehen, wenn das Moor trocken wird, was durch Entwässerung verursacht wird. Dominic Jacques, Professor für Gewässerökologie an der Universität von Orhus, erklärt, dass der Moor-Wasserstand abgesenkt ist und der obere Moor-Körper austrocknet. Dies führt zu einem hohen Kohlenstoffgehalt im Torf, der sich gut entzünden kann. Schwellbrände, die in den unteren Bereichen stattfinden, sind besonders schwierig zu bekämpfen, da sie unter Sauerstoffmangel stattfinden. Diese Brände können über Monate andauern und Klimagase freisetzen, was eine gesundheitliche Belastung für die Helfer darstellt. Forschungsmethoden zur Erkennung von Schwellbränden sind noch in der Entwicklung.
+
+### Natur und Staatsfinanzen
+
+*2026-08-13* · [Originalbeitrag](https://www.deutschlandfunk.de/schlecht-gemachte-meinungsumfragen-natur-und-staatsfinanzen-schwarze-loecher-100.html) · Naturzerstörung, Staatsfinanzen, Ökosystemdienstleistungen, Rating-Agenturen
+
+**Die Zerstörung der Natur könnte Staatsfinanzen erheblich schädigen, insbesondere in Schwellenländern.**
+
+Eine Studie in Nature Ecology and Evolution untersucht den Zusammenhang zwischen Naturzerstörung und Staatsfinanzen. Ulrich Volz von der Source University of London hat mit der Weltbank zusammengearbeitet, um zu modellieren, dass eine Zerstörung von Dienstleistungen der Natur, wie Bestäubung, Tropenholzproduktion und Fischerei-Erträge, die Kreditkosten von Staaten stark erhöhen könnte. Beispielsweise würde Malaysia in einem solchen Rating um sechs Notches heruntergesetzt werden, was ein riesiger Sprung ist. Dies deutet darauf hin, dass die Natur eine wichtige Rolle bei der Kreditwürdigkeit von Staaten spielt und dass bisher diese Risiken von Rating-Agenturen kaum berücksichtigt werden.
+
+### Kokolithophorider und Ozeanwärme
+
+*2026-08-13* · [Originalbeitrag](https://www.deutschlandfunk.de/schlecht-gemachte-meinungsumfragen-natur-und-staatsfinanzen-schwarze-loecher-100.html) · Kokolithophorider, Kalkflagelaten, Ozeanwärme, Klimawandel
+
+**Kokolithophorider, winzige Algen, können sich durch Hitze und Klimawandel anpassen, indem sie ihre Gestalt verändern.**
+
+Philipp Lehmmerich berichtet über die Fähigkeiten von Kokolithophorider, winzigen Algen, die Kalkflagelaten genannt werden. Diese Algen bilden filigrane Kalkplättchen und sind wichtig für das Leben im Meer, da sie die organische Substanz erzeugen, die Fische fressen. Trotz der Ozeanwärme haben Beaufort und sein Team bisher keine negativen Auswirkungen der Hitze auf die Algen gefunden. Allerdings gibt es Hinweise darauf, dass Kalkflagelaten sich durch einen veränderten Erbgut reagieren könnten. Die Forschung zeigt, dass Kokolithophorider in der Lage sind, sich durch Hitze und Klimawandel anpassen zu können, indem sie ihre Gestalt verändern, um in kühlere Wasserschichten zu tauchen. Dies könnte zuversichtlich machen, dass die Algen im heißen Meer weiterleben könnten, wenn der Ozean in Ruhe gelassen wird.
+
+### Katzen und Hunde: Einfluss auf Wildtiere
+
+*2026-07-30* · [Originalbeitrag](https://www.deutschlandfunk.de/feuergewitter-infrarot-sehen-hochverarbeitete-lebensmittel-100.html) · Katzen, Hunde, Wildtiere, Ökologie, Artenvielfalt
+
+**Katzen haben einen größeren Einfluss auf Wildtiere als Hunde, indem sie sie aus ihren Lebensräumen vertreiben.**
+
+Zwei Studien untersuchen den Einfluss von Haustieren auf Wildtiere. Katzen sind extrem effiziente Jäger und töten in den USA jedes Jahr mehrere Milliarden kleiner Tiere. Katzen haben einen größeren Einfluss als Hunde, die meist in der Wildnis nicht allein und meist angeleint sind. Katzen verdrängen Füchse, Koyoten, Eichhörnchen und Hörsche aus ihren Lebensräumen. Diese Tiere mieden die Gegend, was möglicherweise ihre Überlebenschancen beeinträchtigt. Die Studie von Citalbutatokia zeigt, dass kleine Tiere unterschiedliche Verteidigungsstrategien anwenden, um Katzen zu entkommen. Die Ergebnisse weisen darauf hin, dass Katzen in Städten und Naturschutzgebieten die Umwelt beeinträchtigen können.
 
 ### Mangrovenwälder: Wachsende Erholung oder nur Flächenwachstum?
 
@@ -552,6 +736,54 @@ Ein Forschungsteam unter der Leitung von Alex D. Greenwood vom Leibniz-Institut 
 
 ## Klima & Atmosphäre
 
+### Bäume und Ozonbildung
+
+*2026-08-20* · [Originalbeitrag](https://www.deutschlandfunk.de/mrna-impfung-gegen-krebs-u10-untersuchung-baeume-lassen-ozon-entstehen-100.html) · Bäume, Ozon, Isopren, Megastädte, Peking
+
+**Bäume in Megastädten können maßgeblich zur Ozonbildung beitragen.**
+
+Eine Studie aus Peking zeigte, dass Bäume in Megastädten wie Beijing maßgeblich zur Ozonbildung beitragen. Isoprene, ein einfacher Kohlenwasserstoff, der in der Vegetation vorkommt, spielt eine wichtige Rolle in der Ozonbildung. Die Studie untersuchte über 700 organische Substanzen und fand heraus, dass die Vegetation die Hauptquelle für Isoprene ist. In Beijing werden viele schnellwachsende Bäume, wie Weiden und Pappeln, gepflanzt, die viel Isopren abgeben. Dies kann zu erhöhten Ozonwerten führen, insbesondere in Hitzetagen. Es wird empfohlen, Baumarten mit niedrigem Isoprenprofil zu pflanzen, um die Ozonbildung zu reduzieren.
+
+### Arktisexpedition Tara: Dokumentation von Klimawandel
+
+*2026-08-19* · [Originalbeitrag](https://www.deutschlandfunk.de/neurologische-absencen-arktisexpedition-tara-bessere-alpenwettervorhersage-100.html) · Arktis, Klimawandel, Forscher, Daten
+
+**Die Arktisexpedition Tara wird 20 Jahre Daten sammeln, um die rasante Veränderung der Arktis zu dokumentieren, einschließlich der Biologie und der Klimawirkungen.**
+
+Die Arktisexpedition Tara startet mit dem Ziel, 20 Jahre lang Daten zu sammeln, um die rasante Veränderung der Arktis zu dokumentieren. Die Forschenden werden im Pack-Eis einfrieren und im eisigen Winter im Nordpolarmeer arbeiten. Sie werden Eiskerne, Luftproben und Wasserproben sammeln, um die Biologie und Klimawirkungen zu untersuchen. Die Expedition wird 12 ForscherInnen auf einer eingeschlossenen Station auf engstem Raum beherbergen, was psychologische Herausforderungen mit sich bringt. Die Ergebnisse sollen die Mosaik-Expedition ergänzen, die 2019-2020 stattgefunden hat.
+
+### Bessere Wettervorhersage in den Alpen durch Messkampagne
+
+*2026-08-19* · [Originalbeitrag](https://www.deutschlandfunk.de/neurologische-absencen-arktisexpedition-tara-bessere-alpenwettervorhersage-100.html) · Alpen, Wettervorhersage, Messkampagne, Daten
+
+**Eine neue Messkampagne in den Alpen soll die Wettervorhersage verbessern, indem sie Daten zu Wind, Temperatur und Feuchtigkeit sammelt.**
+
+Die Team X-Kampagne, koordiniert von der Universität Innsbruck, sammelt Daten zu Wind, Temperatur und Feuchtigkeit in den Alpen. Messstationen und Flugmessungen sammeln Informationen über die räumliche Struktur der Atmosphäre. Die Messkampagne umfasst fast 40 Institutionen und verwendet Drohnen, Wetterbalans und Bodenstationen. Die Daten werden in Hochalpine Gebiete eingesetzt, um die Wettervorhersage zu verbessern und Leben zu retten. Die Messkampagne findet alle 25 Jahre statt und ist ein wichtiger Schritt zur Verbesserung der Wettervorhersage in Gebirgsregionen.
+
+### Feuergewitterwolken: Ein neues Forschungsprojekt
+
+*2026-08-14* · [Originalbeitrag](https://www.deutschlandfunk.de/flug-ins-feuergewitter-gedaechtnis-im-winterschlaf-west-nil-virus-100.html) · Feuergewitterwolken, Pyrokumulonimbus, Waldbrände, Klimawandel
+
+**Ein neuer Forschungsflug in Feuergewitterwolken wurde gestartet, um ihre Gefahren und Wetterwirkungen besser zu verstehen.**
+
+Ein neuer US-amerikanisches Forschungsprojekt startete, um Feuergewitterwolken, auch Pyrokumulonimbus genannt, besser zu verstehen. Diese Wolken entstehen durch heftige Waldbrände und versterken die Brände zusätzlich. Die Forscher nutzen Vorhersagemodell, um Flugzeuge in die richtige Richtung zu senden, um so viele Feuergewitterwolken wie möglich zu beobachten. Sie sammeln Daten und Proben, um die Zusammensetzung der Rauchwolken und deren Wetterwirkungen zu untersuchen. Dies ist besonders wichtig, da Feuergewitterwolken das Klima beeinflussen können. Das Forschungsprojekt wird helfen, die Gefahren und Wetterwirkungen dieser Wolken besser zu verstehen, was die Feuerbekämpfung verbessern kann. Die Forscher arbeiten mit dem Naval Research Lab in Washington DC und der NOAA zusammen.
+
+### Waldbrandrisiko in Südeuropa
+
+*2026-07-31* · [Originalbeitrag](https://www.deutschlandfunk.de/waldbraende-in-europa-pocken-in-suedamerika-swift-rettungsmission-im-all-100.html) · Waldbrand, Klimawandel, Südeuropa, Megafeuer
+
+**Das Risiko von Waldbränden in Südeuropa ist gestiegen, obwohl die Anzahl der Brände und der zerstörten Fläche zurückgegangen ist.**
+
+Eine Studie der Universität Groningen zeigt, dass das Risiko von Waldbränden in Südeuropa seit den 1980er Jahren gestiegen ist, während die Anzahl der Brände und der zerstörten Fläche zurückgegangen ist. Dies liegt daran, dass die EU und die Länder Südeuropas viel Geld in die Bekämpfung von Bränden investiert haben, was nun seine Wirkung verloren hat. Die Forscher warnen, dass Europa in eine neue Ära katastrophaler Brände eintreten könnte, und dass die Länder ihre Strategien zur Prävention von Waldbränden neu ausrichten müssen.
+
+### Feuergewitter: Ein neues Phänomen in Europa
+
+*2026-07-30* · [Originalbeitrag](https://www.deutschlandfunk.de/feuergewitter-infrarot-sehen-hochverarbeitete-lebensmittel-100.html) · Feuergewitter, Klimawandel, Atmosphäre, Brände, Wetterphänomene
+
+**Feuergewitter entstehen durch extreme Brände und können das Brandgeschehen weiter anfachen.**
+
+Feuergewitter sind riesige Wolkentürme, die durch extreme Brände entstehen und die Atmosphäre bis zu 12 Kilometer hoch steigen lassen. Diese Phänomene sind in Europa bisher selten, aber durch Klimaerwärmung und zunehmende Trockenheit könnten sie zukünftig häufiger auftreten. Forscher wie Bernd Heinold untersuchen die Ursachen und Auswirkungen dieser Gewitter. Es ist jedoch noch nicht klar, ob das Phänomen durch Klimawandel verstärkt wird. Studien zur Klimafolge und Prognose sind noch in der Frühphase.
+
 ### Hitzewelle im Juni 2026
 
 *2026-07-17* · [Originalbeitrag](https://www.deutschlandfunk.de/hitzewelle-im-juni-geoengineering-gegen-el-ni-o-erdaehnlicher-exoplanet-100.html) · Hitzewelle, Klimawandel, Energiesystem, Wetterlage, Solarkraft, Windkraft
@@ -643,6 +875,38 @@ Eine Studie hat gezeigt, dass weltweit 10% der anthropogenen Treibhausgasemissio
 
 ## Geowissenschaften
 
+### Sturzflut im Himalaya: Ursachen und Folgen
+
+*2026-08-27* · [Originalbeitrag](https://www.deutschlandfunk.de/sturzflut-in-nepal-opfer-der-hitzewelle-rost-durch-regen-100.html) · Sturzflut, Gletscherseen, Klimawandel, Frühwarnsysteme
+
+**Sturzfluten im Himalaya werden durch das Zusammenbruch von Gletscherseen und der daraus resultierenden Energiekonzentration verursacht.**
+
+Forscher vom Helmholtz-Zentrum für Geowissenschaften in Potsdam untersuchten die Sturzflut im Himalaya, die mindestens 350 Menschen das Leben gekostet hat. Sie identifizierten den Zusammenbruch von Gletscherseen als Hauptursache, wobei die Energiekonzentration und die Geschwindigkeit der Flusswasser eine katastrophale Auswirkung hatten. Diese Ereignisse werden durch den Klimawandel verschärft, was zu mehr und schlimmeren Sturzfluten führen könnte. Frühwarnsysteme könnten helfen, solche Ereignisse zukünftig vorherzusagen, indem sie Seismometer nutzen, um Massenbewegungen zu erkennen.
+
+### Gesperrte Eishöhle Schellenberger
+
+*2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Eishöhle, Klimawandel, Sicherheit, Tourismus
+
+**Die Schellenberger Eishöhle in der Schellenberger Eishöhle ist geschlossen, da die Eisbrücke gefährlich ist.**
+
+Die Schellenberger Eishöhle in der Schellenberger Eishöhle ist geschlossen, da die Eisbrücke gefährlich ist. Dies wurde von Andreas Plitsch, Leiter der Arbeitsgruppe Klimatologie extremer Standorte an der Ruhr-Universität Bochum, berichtet. Die Eishöhle wurde geschlossen, da in den letzten Jahren eine große Schmelze des Eises aufgetreten ist und eine Eisbrücke gebildet hat, die über den Führungsweg geht. Es besteht die Gefahr, dass diese Eisbrücke in sich zusammenbricht, wenn Touristen unter ihr herabgehen. Die Eishöhle wird in diesem Jahr geschlossen bleiben, da es nicht sicher ist, die Eisbrücke zu sichern. Die Eishöhle wird wieder geöffnet, wenn die Eisbrücke einbricht und keine Gefahr mehr darstellt. Die Eishöhle ist stark von Klimawandel beeinflusst, da der Eisverlust in der Höhle stark ist.
+
+### Donnerbeben zur Erdkunde
+
+*2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Donnerbeben, Erdkunde, Seismologie, Gewitter
+
+**Donnerbeben können verwendet werden, um den Untergrund zu erforschen.**
+
+Donnerbeben können verwendet werden, um den Untergrund zu erforschen. Dies wurde von Tai Wen Zhu, Geophysiker an der Pennsylvania State University, in einer Studie in Science Advances veröffentlicht. Zhu und sein Team nutzten Daten von Erdbebensensoren, die während eines Gewitters analysiert wurden, um zu entdecken, dass Donnerschläge seismische Wellen erzeugen, die sich im Gestein ausbreiten und mit Seismometern messen ließen. Diese Donnerbeben können verwendet werden, um den Untergrund zu kartieren und gefährliche Senklöcher zu identifizieren. Diese Methode könnte eine einfache Alternative zu traditionellen seismischen Messungen sein, da sie nicht auf Erdbeben warten muss. Allerdings sind die Messdaten derzeit noch begrenzt, da sie nur mit modernerer Technik effektiv ausgewertet werden können.
+
+### Flussvertiefung und Binnenschifffahrt
+
+*2026-08-07* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-designt-viren-risiko-flussvertiefung-e-scooter-schneckenschleim-100.html) · Flussvertiefung, Binnenschifffahrt, Ökologie, Wasserstraßen
+
+**Flussvertiefung durch Ausbau von Fahrrinnen sorgt nicht für eine höhere Wassermenge, sondern für eine höhere Fließgeschwindigkeit.**
+
+Bundesverkehrsminister Steffen Bilger hat Maßnahmen zur Flussvertiefung angenommen, um Binnenschifffahrt zu unterstützen. Diese Maßnahmen umfassen die Entfernung von Felsspitzen und die Stützung des Wasserspiegels durch wasserbauliche Maßnahmen. Die Vertiefung führt nicht zu einem höheren Wasserspiegel, sondern zu einer höheren Fließgeschwindigkeit. Neben der Binnenschifffahrt werden auch ökologische Maßnahmen durchgeführt, um das Flussökosystem zu schützen. Die Maßnahmen sind Teil einer umfassenden Planung, um Flüsse in Zukunft befahrbarer zu halten.
+
 ### Grafit als kritischer Rohstoff
 
 *2026-07-23* · [Originalbeitrag](https://www.deutschlandfunk.de/cybersicherheit-rare-ressourcen-10-graphit-evolution-der-schlangen-100.html) · Grafit, Rohstoffe, Recycling, Elektromobilität, Kritische Rohstoffe
@@ -717,6 +981,46 @@ Am 15. August 2025, um 3:00 Uhr, löste ein Erdrutsch im Tracy Arm Fjord von Ala
 
 
 ## Astronomie & Raumfahrt
+
+### Rettungsmission für das Weltraumteleskop Swift
+
+*2026-08-21* · [Originalbeitrag](https://www.deutschlandfunk.de/brueckenreparatur-per-3d-algenblueten-in-der-ostsee-swift-teleskop-100.html) · Swift-Teleskop, Rettungsmission, Weltraumteleskop, Raumfahrt
+
+**Die Rettungsmission für das Weltraumteleskop Swift scheiterte, da die Rettungssonde von der NASA nicht ausreichend finanziert wurde.**
+
+Die Rettungsmission für das Weltraumteleskop Swift scheiterte, da die Rettungssonde von der NASA nicht ausreichend finanziert wurde. Das Unternehmen, das die Rettungssonde entwickelt hat, war ein Start-up mit wenig Erfahrung in der Raumfahrt. Die NASA entschied sich, den Rettungsversuch mit einer günstigeren, aber unzuverlässigen Rettungssonde durchzuführen. Dies führte zu Fehlern, die die Mission zum Scheitern verurteilten. Die NASA ist nun gezwungen, ähnliche Rettungsmissionen für andere Weltraumteleskope wie Hubble zu überdenken, da auch diese in Gefahr geraten könnten, wenn sie nicht mehr gepflegt werden können.
+
+### Rätsel um frühe Schwarze Löcher
+
+*2026-08-13* · [Originalbeitrag](https://www.deutschlandfunk.de/schlecht-gemachte-meinungsumfragen-natur-und-staatsfinanzen-schwarze-loecher-100.html) · Schwarze Löcher, James Webb Weltraumteleskop, Kosmologie, Ozeanwärme
+
+**Ein außergewöhnliches Schwarzes Loch, entdeckt mit dem James Webb Weltraumteleskop, könnte die Entwicklung von Schwarzen Löchern im frühen Universum erklären.**
+
+Ein Forschungsteam hat mit dem James Webb Weltraumteleskop ein außergewöhnliches Schwarzes Loch im frühen Universum entdeckt, das bereits gigantisch war, obwohl es nach den gängigen Vorstellungen nicht so schnell wachsen sollte. Rohan Naidoo, Professor an der University of Hawaii, hat mit dem Team gearbeitet, um die Entstehung von Schwarzen Löchern im frühen Universum zu verstehen. Die Ergebnisse zeigten, dass das Schwarze Loch von einer dichten Gashülle umgeben war, was die schnelle Wachstumsmöglichkeit erklärt. Dies könnte die Entwicklung von Schwarzen Löchern im frühen Universum erklären, da es normalerweise eine starke Strahlung gibt, die den Nachschub von Materie zurückdrängt. Die Entdeckung könnte das Rätsel um die schnelle Entwicklung von Schwarzen Löchern im frühen Universum lösen.
+
+### Sonnenfinsternis als Forschungsmöglichkeit
+
+*2026-08-12* · [Originalbeitrag](https://www.deutschlandfunk.de/sonnenfinsternis-erleben-und-erforschen-100.html) · Sonnenfinsternis, Exoplaneten, Radialgeschwindigkeitsmethode, Modellierung, Sonnensystem
+
+**Die Sonnenfinsternis bietet ein einzigartiges Experimentumfeld für die Entwicklung von Modellen zur Suche nach Exoplaneten.**
+
+Prof. Ansgar Reiners und sein Team nutzen die Sonnenfinsternis, um ihre Methode zur Radialgeschwindigkeitsmethode zu testen und zu verbessern. Sie messen das Verhalten der Sonne, als der Mond vorbeiläuft, um die Genauigkeit ihrer Modelle zu überprüfen und zu optimieren. Dies ermöglicht es ihnen, bessere Vorhersagen für die Suche nach Exoplaneten zu treffen. Die Messungen werden mit einem 50-cm-Sonnenteleskop und einem Spektrometer durchgeführt. Obwohl die Sonnenfinsternis in Deutschland nur partiell ist, bietet sie dennoch wertvolle Daten, um ihre Methodik zu verbessern. Die Forschung ist relevant, da es hilft, die Methodik für die Suche nach Exoplaneten zu verfeinern, aber es gibt noch Lücken in den Modellen, die durch detaillierte Messungen im Sonnensystem aufgeklärt werden können.
+
+### Weltraumrecht und Raumfahrtabfall
+
+*2026-08-06* · [Originalbeitrag](https://www.deutschlandfunk.de/zivile-drohnenabwehr-buckelwalgesaenge-weltraumrecht-100.html) · Weltraumrecht, Raumfahrt, Mond, Abfall, Regelungen
+
+**Das Weltraumrecht gibt keine klaren Regeln für den Abfall von Raumfahrtgegenständen auf dem Mond.**
+
+Professor Markus Schladebach von der Universität Potsdam erläutert, dass das Weltraumrecht keine klaren Regeln für den Abfall von Raumfahrtgegenständen auf dem Mond vorsieht. Es gibt nur wenige Verträge, die diese Angelegenheit behandeln. Das Unternehmen SpaceX hat unkontrolliert eine Raketenoberstufe auf dem Mond abladen lassen, was möglicherweise rechtliche Konsequenzen haben könnte. Es ist wichtig, dass zukünftig klarere Regeln für Raumfahrtaktivitäten auf dem Mond definiert werden, um Unfälle zu vermeiden. Die Beschränkung liegt in der aktuellen Mangel an rechtlichen Regelungen.
+
+### Rettungsmission für SWIFT
+
+*2026-07-31* · [Originalbeitrag](https://www.deutschlandfunk.de/waldbraende-in-europa-pocken-in-suedamerika-swift-rettungsmission-im-all-100.html) · SWIFT, Rettungsmission, Raumfahrt, Observatorium, Gamma-Strahlen
+
+**Die NASA startet eine Rettungsmission für das SWIFT-Observatorium, das Gefahr läuft, in die Erdatmosphäre zu sinken.**
+
+Das SWIFT-Observatorium, ein Teleskop mit einzigartigen Fähigkeiten für die Astrophysik, sinkt mit acht Kilometern pro Monat in die Erdatmosphäre. Die NASA hat eine Rettungsmission gestartet, um das Observatorium auf eine höhere Umlaufbahn zu bringen. Der Service-Satellit Link soll andocken und SWIFT abschleppen. Allerdings hat Link technische Probleme und steht selbst in Gefahr. Die NASA hofft, SWIFT bis Ende des Jahres wieder in Betrieb zu bringen.
 
 ### Bäume leuchten bei Gewittern: Beweis aus der Natur
 
@@ -852,6 +1156,14 @@ Ein Forschungsteam am CERN hat zum ersten Mal Antiprotonen kontrolliert von eine
 
 ## Chemie & Materialien
 
+### Elektrisch geladene Regentropfen und Korrosion
+
+*2026-08-27* · [Originalbeitrag](https://www.deutschlandfunk.de/sturzflut-in-nepal-opfer-der-hitzewelle-rost-durch-regen-100.html) · Regentropfen, Korrosion, Elektrische Ladung, Schutzschichten
+
+**Regentropfen können sich stark elektrisch aufladen, was zu einer neuen Form von Korrosion führen kann.**
+
+Forscher vom Max-Planck-Institut für Polymerforschung in Mainz entdeckten, dass rutschende Regentropfen auf Kunststoffoberflächen elektrisch geladen werden können. Nach 2 cm Gleitweg erreichen sie eine Ladung von Nanokulump, was zu einer Spannung von etwa 1000 Volt führt. Diese Ladung kann zu elektrochemischen Prozessen in Schutzschichten und Metallen führen, was zu einer neuen Form von Korrosion führen kann. Um Korrosion zu vermeiden, müssten Schutzschichten elektrisch leidend gemacht werden, um die Aufladung der Tropfen zu verhindern.
+
 ### Zink: Technologisches Metall mit kritischer Versorgungslage
 
 *2026-07-14* · [Originalbeitrag](https://www.deutschlandfunk.de/rare-ressourcen-07-zinn-hitzestress-im-mueggelsee-heizwaerme-aus-dem-see-100.html) · Zink, Lötzinn, Elektronik, Versorgungslage, Rohstoffe
@@ -911,6 +1223,22 @@ Wissenschaftler aus der Korea University haben Reispapier chemisch verändert, u
 
 ## Energie
 
+### Schwimmende Photovoltaikanlage
+
+*2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Photovoltaik, Schwimmende Anlage, Sauerstoffgehalt, Wasser
+
+**Eine schwimmende Photovoltaikanlage auf dem Philips See kann den See als Lebensraum verbessern.**
+
+Eine schwimmende Photovoltaikanlage auf dem Philips See kann den See als Lebensraum verbessern. Dies wurde von Ines Rutschmann in einer Berichterstattung für Deutschlandfunk veröffentlicht. Die Anlage bedeckt 15 Megawatt und ist stabil und effizient. Sie bietet Schutz vor Schmutz und Vogelkot und bietet Lebensraum für Pflanzen und Tiere. Die Anlage kann auch den Sauerstoffgehalt des Wassers verbessern, da sie durch Wind und Wasser gekühlt wird. Die Wissenschaftler messen den Sauerstoffgehalt und die Temperatur des Wassers, um zu sehen, ob sich die Anlage negativ auf den See auswirkt. Die Anlage soll mindestens 25 Jahre in Betrieb bleiben.
+
+### Hitze und Kraftwerksbetrieb
+
+*2026-08-04* · [Originalbeitrag](https://www.deutschlandfunk.de/hitze-und-kraftwerksbetrieb-vibrionen-soziale-medien-und-lernleistung-100.html) · Kraftwerke, Hitze, Klimawandel, Kühlwasser, Wasserstand
+
+**Die Hitze und niedrige Pegelstände beeinträchtigen den Betrieb von Kraftwerken in ganz Europa.**
+
+Die Hitze und niedrige Pegelstände in Flüssen und Meeren beeinträchtigen den Betrieb von Kraftwerken in Europa. In Österreich, Frankreich, der Schweiz, Rumänien und Ungarn mussten Atomkraftwerke und andere Kraftwerke drosseln oder abgeschaltet werden. Die Ursache ist der hohe Kühlwasserbedarf, den alle Kraftwerke haben, um den Wirkungsgrad zu erhalten. Die Situation wird durch den Klimawandel verschärft, da Sommer länger und früher anfangen. Erneuerbare Energien und Batteriespeicher könnten langfristig helfen, die Abhängigkeit von fossilen Kraftwerken zu reduzieren.
+
 ### Seethermie als Heizwärmequelle
 
 *2026-07-14* · [Originalbeitrag](https://www.deutschlandfunk.de/rare-ressourcen-07-zinn-hitzestress-im-mueggelsee-heizwaerme-aus-dem-see-100.html) · Seethermie, Heizwärme, Nachhaltigkeit, Wärmepumpe, Klimawandel
@@ -929,6 +1257,46 @@ Ein Forschungsteam der RWTH Aachen untersuchte Natrium-Akku-Technologie und fand
 
 
 ## Technik & Informatik
+
+### 3D-Druck für Brückenreparatur
+
+*2026-08-21* · [Originalbeitrag](https://www.deutschlandfunk.de/brueckenreparatur-per-3d-algenblueten-in-der-ostsee-swift-teleskop-100.html) · 3D-Druck, Brückenreparatur, Stahlplatten, Materialforschung
+
+**Stahlbrücken können mit 3D-Druck repariert werden, um ihre Lebensdauer zu verlängern.**
+
+Wissenschaftler aus der Eidgenössischen Materialprüfungs- und Forschungsanstalt in der Schweiz experimentieren mit 3D-Drucktechniken zur Reparatur von Stahlbrücken. Sie verwenden den Drucker, um Risse in Stahlplatten zu flicken, indem sie Metallmaterial direkt aus der Platte selbst extrahieren und neu formen. Obwohl die Technik noch in der Forschung befindet, könnte sie in Zukunft dazu beitragen, die Lebensdauer betagter Brücken zu verlängern. Die Methode ist jedoch noch nicht vollständig entwickelt und benötigt weitere Tests und praktische Anwendungen, insbesondere für mobile Roboter, die die Reparaturen vor Ort durchführen könnten.
+
+### Drohnenabwehr in Sachsen-Anhalt
+
+*2026-08-18* · [Originalbeitrag](https://www.deutschlandfunk.de/moorbrand-im-hohen-venn-drohnenabwehr-historische-pestepidemie-auf-mallorca-100.html) · Drohnen, Abwehr, Testzentrum, Sicherheit
+
+**Neue Techniken zur Drohnenabwehr werden in Kochstedt erprobt, um die Sicherheit der Flughäfen zu verbessern.**
+
+Das Drohnentestzentrum in Kochstedt, Sachsen-Anhalt, wurde eröffnet und soll zur dritten Säule der Drohnenabwehr werden. Es wird von der Bundespolizei und dem gemeinsamen Drohnenabwehrzentrum unterstützt. Das Zentrum bietet einzigartige Testbedingungen, da es zwischen Magdeburg und Harz so dünn besiedelt ist. Es soll Drohnen in verschiedenen Phasen der Abwehr testen, einschließlich Detektion, Klassifikation und Bekämpfung. Neben staatlichen Tests werden auch Tests durch die Drohnenindustrie durchgeführt. Kochstedt wird zentral für die Sicherheitsarchitektur gegenüber hybriden Drohnenbedrohungen. Das Zentrum wird mit 10 Millionen Euro ausgestattet und wird 25 weitere Wissenschaftler und Techniker einstellen. Drohnenabwehr umfasst die Detektion, Klassifikation und Bekämpfung von Drohnen.
+
+### Drohnenabwehr an Flughäfen
+
+*2026-08-06* · [Originalbeitrag](https://www.deutschlandfunk.de/zivile-drohnenabwehr-buckelwalgesaenge-weltraumrecht-100.html) · Drohnen, Flughafen, Abwehr, Netze, Erkennung
+
+**Forscher entwickeln innovative Methoden zur Effektiven Erkennung und Abwehr von Drohnen an Flughäfen.**
+
+Ein Forschungsprojekt der Universität Würzburg namens Idaas untersucht innovative Methoden zur Drohnenabwehr. Es geht um die Erkennung von Drohnen, die in verschiedenen Umgebungen fliegen, und um die Entwicklung von Netzen, die Drohnen in der Luft fangen, um Schäden an Flugzeugen zu vermeiden. Die Herausforderung liegt in der Erkennung kleiner Drohnen, die schnell fliegen. Das Projekt ist relevant, da es die Sicherheit an Flughäfen verbessern kann. Es gibt noch keine vollständige Umsetzung der Technologien in den Flughäfen.
+
+### Kühlende Keramik für städtische Hitzeinseln
+
+*2026-08-05* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-loest-matheraetsel-darwins-fleischfressende-pflanze-kuehlende-keramik-100.html) · 3D-Druck, Kühlwände, Keramik, Hitzeinseln, Nachhaltigkeit
+
+**3D-Drucktechnologie wird zur Entwicklung von Kühlwänden mit Keramik-Würfeln eingesetzt, um Hitzeinseln in Städten zu reduzieren.**
+
+Forscher der Technischen Universität Graz haben 3D-Drucktechnologie zur Erstellung von Keramik-Würfeln eingesetzt, um Hitzeinseln in Städten zu reduzieren. Diese Würfel sind porös und speichern Wasser, das durch Verdunstung die Umgebung kühlst. Die Würfel werden zu einer Kühlwand zusammengebaut, die ohne Energieversorgung funktioniert, bis hin zu einer kleinen Wasserkumpe. Die Tests haben gezeigt, dass die Kühlwirkung signifikant ist, und die Gesamtenergiebilanz ist günstiger als konventionelle Klimaanlagen. Diese Technologie bietet eine nachhaltige Lösung für die Klimaerwärmung in städtischen Umgebungen.
+
+### Infrarot-Sehen: Neue Technologie für Farbige Bilder
+
+*2026-07-30* · [Originalbeitrag](https://www.deutschlandfunk.de/feuergewitter-infrarot-sehen-hochverarbeitete-lebensmittel-100.html) · Infrarot, Farbige Bilder, Wärmebildkameras, Technologie, Forschung
+
+**Ein Team aus China entwickelt einen Wandler, der Infrarot-Szenen in Farbe übersetzt.**
+
+Ein Team aus China hat einen Wandler entwickelt, der Infrarot-Szenen in Farbige Bilder übersetzt. Diese Technologie ermöglicht es, Wärmelex an Gebäuden und andere Infrarot-Signale in Farbe zu sehen. Die Wärmebildkameras liefern bisher keine echten Farbaufnahmen, sondern sogenannte Falschfarbenbilder. Das neue Bauteil verwandelt das Infrarot-Licht in elektrische Signale, die je nach Wellenlänge unterschiedlich leuchten. Dies ermöglicht es, Infrarot-Szenen in Farbe zu sehen. Die Technik könnte Anwendungen wie Infrarot-Brillen, bessere Nachtsichtgeräte und Netzhaut-Prothesen für erblindete Menschen ermöglichen. Die Technik ist jedoch noch nicht empfindlich genug und muss weiter verbessert werden, bevor sie praktikabel ist.
 
 ### Cybersicherheit und KI-Agenten
 
@@ -1069,6 +1437,22 @@ Am 6. Mai 2026, um 14:35 Uhr, berichtete Deutschlandfunk über einen Ausfall von
 
 ## Künstliche Intelligenz
 
+### Künstliche Viren durch KI entworfen
+
+*2026-08-07* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-designt-viren-risiko-flussvertiefung-e-scooter-schneckenschleim-100.html) · Künstliche Intelligenz, Bakteriophagen, Antibiotikaresistenz, Genomdesign
+
+**Künstliche Bakteriophagen wurden durch KI entworfen und erfolgreich in Bakterien infiziert und getötet.**
+
+Forscher aus Kalifornien haben mit Hilfe von KI zwei neue Bakteriophagen-Typen entworfen, die bisher nicht in der Natur existieren. Die Modelle Evo 1 und Evo 2 wurden mit Genomdaten trainiert, um funktionierende Genomsequenzen zu vorschlagen. 16 der 300 entworfenen Bakteriophagen waren lebensfähig und konnten Bakterien infizieren und abtöten. Diese Technik könnte als Alternative zu Antibiotika dienen, insbesondere bei resistenten Bakterienstämmen. Die Forschung ist noch in der Anfangsphase und weitere Sicherheitsmaßnahmen sind erforderlich. Die Erkenntnisse sind veröffentlicht worden.
+
+### Künstliche Intelligenz löst mathematische Rätsel
+
+*2026-08-05* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-loest-matheraetsel-darwins-fleischfressende-pflanze-kuehlende-keramik-100.html) · Künstliche Intelligenz, Mathematik, Beweisproduktion, Kultur der Mathematik, Terence Tao
+
+**Künstliche Intelligenz kann komplexe mathematische Probleme lösen, die bisher nur von Menschen beherrscht wurden.**
+
+Das KI-Modell Astra von OpenAI hat 10 neue Beweise für knifflige mathematische Probleme veröffentlicht, die sich über zehn Jahre lang angesammelt hatten. Dies hat die Diskussion über die Rolle von KI in der Mathematik angestoßen. Mathematiker wie Terence Tao sehen die Zukunft der Mathematik in einer KI-basierten Beweisproduktion, während sie gleichzeitig die Bedeutung des menschlichen Verständnisses und der Kultur der Disziplin betonen. Eine Erklärung wurde von Mathematikern und KI-Skeptikern akzeptiert, die KI-Beweise in wissenschaftlichen Standards zu überprüfen und die Nutzung von KI in mathematischen Arbeiten zu dokumentieren. Diese Entwicklung hat wissenschaftliche und kulturelle Implikationen und wird die Zukunft der Mathematik verändern.
+
 ### Cyberangriff durch KI-System
 
 *2026-07-22* · [Originalbeitrag](https://www.deutschlandfunk.de/cyberangriff-durch-ki-risiko-fuer-leihmuetter-hirnalterung-100.html) · Künstliche Intelligenz, Cyberangriffe, Sicherheit, Kontrollverlust
@@ -1127,6 +1511,22 @@ Eine Studie im Fachmagazin Science zeigte, dass Reasoning-Modelle der KI bei der
 
 
 ## Psychologie & Neurowissenschaft
+
+### Gedächtnis im Winterschlaf: Eine neue Studie
+
+*2026-08-14* · [Originalbeitrag](https://www.deutschlandfunk.de/flug-ins-feuergewitter-gedaechtnis-im-winterschlaf-west-nil-virus-100.html) · Gedächtnis, Winterschlaf, Synapsen, Neurobiologie
+
+**Eine Studie hat gezeigt, dass das Gedächtnis während des Winterschlafs intakt bleibt, obwohl die Synapsen stark reduziert werden.**
+
+Eine neue Studie hat gezeigt, dass das Gedächtnis während des Winterschlafs intakt bleibt, obwohl die Synapsen stark reduziert werden. Die Forscher haben bei Mäusen, die künstlich in einen Winterschlaf versetzt wurden, festgestellt, dass die Hälfte der Synapsen verschwindet, während sie schlafen. Nach dem Aufwachen sind die Erinnerungen der Mäuse unverändert. Die Forscher haben auch herausgefunden, dass die übrig bleibenden Synapsen nahe beieinander liegen, was die Erinnerung stabilisiert. Diese Erkenntnisse könnten die Verbindung zwischen Gedächtnis und Schlaf weiter verständlich machen. Die Studie wurde im
+
+### Soziale Medien und Lernleistung
+
+*2026-08-04* · [Originalbeitrag](https://www.deutschlandfunk.de/hitze-und-kraftwerksbetrieb-vibrionen-soziale-medien-und-lernleistung-100.html) · Social Media, Lernleistung, Kinder, Jugendliche, Methode, Altersbeschränkung
+
+**Soziale Medien können die Lernleistung von Schülerinnen und Schülern beeinträchtigen, insbesondere wenn sie früh eingesetzt werden.**
+
+Eine Studie der Universität Meiland hat gezeigt, dass Schüler, die in der 6. Klasse ihr erstes Social Media Account hatten, in der 9. Klasse schlechter in Mathe und italienisch abschneiden, was etwa ein halbes Jahr Lernrückstand bedeutet. Die Forscher haben eine quasi-experimentelle Methode angewendet, um eine Ursache-Wirkungszusammenhang zu etablieren. Die Studie ist von Experten als interessant bewertet, obwohl sie keinen definitiven Beweis für eine Ursache-Wirkungszusammenhang liefert. Die Ergebnisse könnten die Debatte über Altersbeschränkungen für Social Media Nutzung beeinflussen.
 
 ### Kinder- und Jugendschutz in der digitalen Welt
 
@@ -1235,6 +1635,22 @@ Ein internationales Forschungsteam hat untersucht, welche Auswirkungen die abrup
 
 
 ## Sonstiges
+
+### Kosten des Klimawandels: Hitzewellen und ihre Auswirkungen
+
+*2026-08-27* · [Originalbeitrag](https://www.deutschlandfunk.de/sturzflut-in-nepal-opfer-der-hitzewelle-rost-durch-regen-100.html) · Klimawandel, Hitzewellen, Kosten, Produktivität
+
+**Hitzewellen führen zu wirtschaftlichen Verlusten durch Produktivitätsniedrigkeiten, Ernterückgänge und Gesundheitskosten, die sich in Milliarden von Euro messen lassen.**
+
+Die Wissenschaftsjournalistin Thomas Schröder untersuchte die Kosten des Klimawandels, insbesondere durch Hitzewellen. Sie fand, dass Hitzetage in Deutschland zu Verlusten von etwa 11 Milliarden Euro führen, wenn man die Produktivitätsniedrigkeiten, Ernterückgänge und Gesundheitskosten berücksichtigt. Diese Zahlen sind jedoch unsicher und unvollständig, da sie nicht alle möglichen Folgen des Klimawandels berücksichtigen. Trotz der Unsicherheiten sind solche Zahlen wichtig, um das Klimaschutzbedürfnis zu verdeutlichen.
+
+### Tiefe Geothermie-Bohrung bei Ozzorn
+
+*2026-08-11* · [Originalbeitrag](https://www.deutschlandfunk.de/prognose-von-extremwetter-isolationsexperiment-solis100-tiefe-geothermie-100.html) · 
+
+**Eine tiefe Geothermie-Bohrung in Ozzorn soll die Fehler des Baseler Projekts vermeiden.**
+
+Ein neues Geothermie-Projekt in Ozzorn, Kanton Jura, versucht, die Fehler des Baseler Projekts zu vermeiden, das 2006 unter Erdbeben eingestellt wurde. Die geothermische Bohrung soll trockenes Gestein durch Wasser durchdringen und Wärme produzieren. Die Methode besteht darin, das Bohrloch horizontal abzulegen und es in kleinere Abschnitte zu unterteilen, um die seismische Belastung zu reduzieren. Ein adaptives Ampelsystem wird eingesetzt, um kritische Werte in Echtzeit zu überwachen. Die Teststimulationen waren erfolgreich, und das Projekt könnte eine Blaupause für neue Geothermikraftwerke weltweit werden. Leitung: Falko Betmann von Geo Energy Swiss.
 
 ### Fields-Medaille 2026
 

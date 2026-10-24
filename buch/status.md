@@ -1,8 +1,8 @@
-# Verarbeitungsstand (23.10.2026 03:34)
+# Verarbeitungsstand (24.10.2026 03:16)
 
-- **fehler**: 51 Sendungen (2026-07-30 bis 2026-10-21)
-- **fertig**: 48 Sendungen (2026-05-06 bis 2026-07-29)
-- **Themen im Buch**: 151
+- **fehler**: 34 Sendungen (2026-08-28 bis 2026-10-21)
+- **fertig**: 65 Sendungen (2026-05-06 bis 2026-08-27)
+- **Themen im Buch**: 203
 
 ## Letzte Fehler
 
