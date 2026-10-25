@@ -1,19 +1,19 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 304 Einträge, Stand 25.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 321 Einträge, Stand 25.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
-- [Medizin & Gesundheit](#medizin-gesundheit) (62)
-- [Biologie & Evolution](#biologie-evolution) (32)
-- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (33)
-- [Klima & Atmosphäre](#klima-atmosphäre) (29)
+- [Medizin & Gesundheit](#medizin-gesundheit) (64)
+- [Biologie & Evolution](#biologie-evolution) (38)
+- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (35)
+- [Klima & Atmosphäre](#klima-atmosphäre) (30)
 - [Geowissenschaften](#geowissenschaften) (17)
-- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (21)
+- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (22)
 - [Physik](#physik) (11)
 - [Chemie & Materialien](#chemie-materialien) (13)
-- [Energie](#energie) (9)
-- [Technik & Informatik](#technik-informatik) (35)
+- [Energie](#energie) (10)
+- [Technik & Informatik](#technik-informatik) (39)
 - [Künstliche Intelligenz](#künstliche-intelligenz) (14)
 - [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (9)
 - [Archäologie & Anthropologie](#archäologie-anthropologie) (6)
@@ -22,6 +22,22 @@
 - [Sonstiges](#sonstiges) (8)
 
 ## Medizin & Gesundheit
+
+### Katalysator zur Blutzuckerregulierung
+
+*2026-10-23* · [Originalbeitrag](https://www.deutschlandfunk.de/hitzetote-in-europa-katalysator-bei-diabetes-bienentricks-100.html) · Blutzucker, Katalysator, Diabetes, Medikamente
+
+**Ein neuer Ansatz zur Blutzuckerregulierung ohne Medikamente nutzt einen elektrisch steuerbaren Katalysator, der Glucose in Gluconat umwandelt.**
+
+Forscher aus Zürich haben einen neuen Ansatz zur Blutzuckerregulierung vorgestellt, der auf einem elektrisch steuerbaren Katalysator basiert. Dieser Katalysator kann Glucose in Gluconat umwandeln, das der Mensch nicht verstoffwechselt und daher einfach ausgeschieden wird. Die Methode wurde in einem Experiment mit diabetischen Mäusen getestet, bei dem der Blutzucker nach Mahlzeiten schnell normalisiert wurde, ohne dass Nebenwirkungen auftraten. Die Forscher sehen den Ansatz als interessant, insbesondere für Menschen, die Medikamente nicht regelmäßig einnehmen können. Allerdings wird noch einige Zeit vergehen, bis der Ansatz in der Praxis eingesetzt werden kann.
+
+### Hirnfressende Amöben in Mexiko
+
+*2026-10-16* · [Originalbeitrag](https://www.deutschlandfunk.de/bio-hybrid-computer-lernt-brailleschrift-energieeffizienter-vogelflug-amoeben-100.html) · Hirnfressende Amöben, Negleria fowleri, Infektionen, Gehirnentzündungen, Wasserhygiene
+
+**Hirnfressende Amöben in Mexiko bedrohen Menschen, insbesondere in künstlich angelegten Sehen.**
+
+In Mexiko sind Hirnfressende Amöben in künstlich angelegten Sehen nachgewiesen worden, die in den letzten Jahren mehrere Todesfälle verursacht haben. Diese Amöben, wissenschaftlich als Negleria fowleri bezeichnet, können durch die Nase in das Gehirn gelangen und dort eine tödliche Entzündung auslösen. Die Amöben bevorzugen warmes Wasser zwischen 30 und 45 Grad Celsius, was in Mexiko häufig anzutreffen ist. Die Erkenntnisse könnten zur Verbesserung der Prävention und Behandlung von Infektionen führen, insbesondere in Gebieten mit hohem Risiko.
 
 ### Zucker und Krebs: Einfluss früher Ernährung
 
@@ -522,6 +538,54 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 ## Biologie & Evolution
 
+### Evolution der Dorsche
+
+*2026-10-23* · [Originalbeitrag](https://www.deutschlandfunk.de/hitzetote-in-europa-katalysator-bei-diabetes-bienentricks-100.html) · Dorsche, Evolution, Fischerei, Klimawandel
+
+**Die Dorsche in der Ostsee haben sich durch ihre Evolution an den Druck des Fischfangs angepasst, indem sie kleiner geworden sind.**
+
+Eine Studie des Geomar Forschungszentrums in Kiel hat gezeigt, dass die Dorsche in der Ostsee in den letzten 30 Jahren durch die Evolution kleiner geworden sind. Die Größe der Dorsche, sowohl bei Weibchen als auch bei Männchen, ist um mehr als die Hälfte gesunken, was zu einem erheblichen Gewichtsverlust geführt hat. Die Forscher konnten mit Hilfe von Erbgutanalysen nachweisen, dass die Dorsche durch die Veränderung ihres Genoms an die kleineren Größen angepasst wurden, um durch die Fischernetze zu schlüpfen und so ihre Überlebenschancen zu erhöhen. Die Evolution der Dorsche ist ein Beispiel für die Anpassung von Lebewesen an äußere Druckfaktoren, aber die Zukunft der Art ist ungewiss, da sie auch durch den Klimawandel bedroht sein könnte.
+
+### Moskitostiche: Ein Detailstudie der Stechstrategie
+
+*2026-10-22* · [Originalbeitrag](https://www.deutschlandfunk.de/co2-quelle-amazonas-sicherheitsrisiko-php-stichstrategie-von-moskitos-100.html) · Moskitos, Stiche, Steckmücken, Stichstrategie, High-Speed-Videokameras
+
+**Wissenschaftler haben die komplexen Stechstrategien von Moskitos in Detail untersucht.**
+
+Ein Team von Wissenschaftlern an der Johns Hopkins Malaria Forschungsinstitut hat die Stechstrategie von Moskitos in einem umfangreichen Experiment untersucht. Joanna Konopka, eine weibliche Biologin, wurde mehrere hundert Mal von Moskitos gestochen, um die Stechstrategie zu beobachten. High-Speed-Videokameras und elektrische Messungen haben gezeigt, dass die Moskitos in fünf Phasen stechen: Stich, Suche nach einem Blutgefäß, Saugen, Rückzug und Abflug. Die Forscher planen, weitere Experimente durchzuführen, um zu ergründen, ob und wie das Stechen vom Menschen beeinflusst werden kann.
+
+### Orcas nutzen Köpfchen bei der Jagd
+
+*2026-10-21* · [Originalbeitrag](https://www.deutschlandfunk.de/wasserstoffspeicher-jagdtrick-der-orcas-autonome-shuttles-100.html) · 
+
+**Orcas im Golf von Kalifornien stellen ihre Beute ruhig, indem sie sie auf den Rücken drehen, um die Leber zu fressen, ohne sich selbst zu gefährden.**
+
+Orcas im Golf von Kalifornien haben eine ausgeklügelte Jagdstrategie, bei der sie ihre Beute ruhig stellen, indem sie sie auf den Rücken drehen. Dies löst bei den Fischen eine Starre aus, die die Orcas ermöglicht, die Leber zu fressen, ohne sich selbst zu gefährden. Die Leber ist eine wichtige Nahrungsquelle, da sie ausgesprochen nahhaft und reich an Protein ist. Diese Jagdstrategie ist Teil der Kultur und der sozialen Lernprozesse der Orca-Gruppen. Schlagworte: Orcas, Jagdstrategie, Kultur, soziales Lernen, Leber, Nahrungsquelle.
+
+### CO2-Erhöhung verändert Weizenproteine
+
+*2026-10-21* · [Originalbeitrag](https://www.deutschlandfunk.de/wasserstoffspeicher-jagdtrick-der-orcas-autonome-shuttles-100.html) · 
+
+**CO2-Erhöhung verändert die Proteinsammlung im Weizen, was möglicherweise die Verdrecklichkeit für Menschen mit Weizensensitivität verringern könnte.**
+
+Eine Studie des Leibniz-Instituts für Lebensmittelsystembiologie untersucht, wie CO2-Erhöhung die Proteinsammlung im Weizen beeinflusst. Es wurde festgestellt, dass bestimmte Proteine, die mit Weizenallergien und Zyliakie in Verbindung stehen, in höheren CO2-Konzentrationen weniger häufig vorkommen. Andere Proteine, die mit Zyliakie in Verbindung stehen, ändern sich weniger. Die Ergebnisse deuten darauf hin, dass der Weizen weniger verdrecklich sein könnte für Menschen, die unter Weizensensitivität leiden. Es wird weiter untersucht, ob bestimmte Weizensorten besser mit erhöhtem CO2 zurechtkommen. Schlagworte: CO2, Weizen, Proteine, Zyliakie, Allergie, Lebensmittelchemie.
+
+### Nachtfalter trinkt Vogel-Tränen
+
+*2026-10-20* · [Originalbeitrag](https://www.deutschlandfunk.de/marsmond-phobos-nachtfalter-trinkt-traenen-autonomes-transformer-auto-100.html) · Nachtfalter, Tränentrinker, Vögel, Madagaskar, Salz
+
+**Ein Nachtfalter in Madagaskar trinkt Tränen von schlafenden Vögeln.**
+
+Nachtfalter in Madagaskar trinken Tränen von schlafenden Vögeln, um Salze und eventuell Proteine zu erhaschen. Diese ungewöhnliche Nahrungsquelle wurde von Roland Hilgartner entdeckt und durch spezielle Mikroskopien bestätigt. Die Tränentrinker sind selten bei Vögeln, was diese Art von Insekten besonders interessant macht. Die Forschung kann Einblicke in die Evolution und Nahrungsaufnahme von Insekten geben und mögliche Medikamente zur Verfügung stellen, die Salze in tropischen Wäldern besser absorben können.
+
+### Amöben erheben neue Rekordtemperaturen
+
+*2026-10-16* · [Originalbeitrag](https://www.deutschlandfunk.de/bio-hybrid-computer-lernt-brailleschrift-energieeffizienter-vogelflug-amoeben-100.html) · Amöben, Temperaturen, Eiweißstabilisierung, CRISPR-Cas, Genom
+
+**Eine Art von Amöben überlebt Temperaturen bis zu 63 Grad Celsius, sprengend die bisherige Theorie.**
+
+Ein Forschungsteam aus der Syracuse University in New York hat eine Art von Amöben entdeckt, die bei Temperaturen bis zu 63 Grad Celsius überleben kann. Dies sprengt die bisherige Theorie, dass Eukaryoten, also Organismen mit komplexeren Zellen, bei Temperaturen über 62 Grad Celsius nicht überleben können. Die Amöben kugeln sich zu einer Züste zusammen, um ihre Eiweiße stabil zu halten. Die Forscher fanden, dass bei hohen Temperaturen mehr Gene für die Stabilisierung von Eiweißen aktiviert werden. Diese Erkenntnisse könnten zu neuen Verständnissen über die Anpassung von Organismen an extreme Temperaturen führen.
+
 ### Entdeckung des Kanalrodopsins in Algen und Bakterien
 
 *2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Kanalrodopsin, Algen, Bakterien, Eizellen, Krallenfrösche, Nervenzellen
@@ -780,6 +844,22 @@ Die Bakteriophagen, also Bakterienfresser, können als alternative Therapiemitte
 
 
 ## Ökologie & Artenvielfalt
+
+### Amazonas-Regenwälder: CO2-Senkung statt CO2-Speicher
+
+*2026-10-22* · [Originalbeitrag](https://www.deutschlandfunk.de/co2-quelle-amazonas-sicherheitsrisiko-php-stichstrategie-von-moskitos-100.html) · Amazonas, Klimawandel, CO2-Emissionen, Abholzung, Brände
+
+**Die Amazonas-Regenwälder sorgen nun mehr für CO2-Emissionen als sie aufnehmen.**
+
+Eine Studie des National Institute for Space Research in São Paulo hat gezeigt, dass die Amazonas-Regenwälder seit 2010 mehr CO2 freisetzen als aufnehmen. Im Extremjahr 2024 wurden fast 3 Milliarden Tonnen CO2 freigesetzt, was 7% der weltweiten jährlichen CO2-Emissionen entspricht. Die Hauptursache sind menschliche Aktivitäten, insbesondere Abholzung und Brände. Hitze und Trockenheit reduzieren die CO2-Aufnahme des Waldes, während sie die Emissionen erhöhen. Die Forscher empfehlen, menschliche Eingriffe zu reduzieren, um den Amazonas als CO2-Senke zu erhalten und den Wald großflächig wiederherzustellen.
+
+### Vögel optimieren ihren Energieverbrauch beim Fliegen
+
+*2026-10-16* · [Originalbeitrag](https://www.deutschlandfunk.de/bio-hybrid-computer-lernt-brailleschrift-energieeffizienter-vogelflug-amoeben-100.html) · Vögel, Energieeffizienz, Flugtechnik, Klimawandel, Biologie
+
+**Forscher haben gezeigt, dass Vögel ihre Flugtechniken anpassen können, um den Energieverbrauch zu minimieren.**
+
+Ein internationaler Forscherteam hat über acht Jahre lang die Flugtechniken von Störchen, Geiern und Fledermäusen untersucht, um ihre Energieeffizienz zu verstehen. Sie fanden heraus, dass Vögel, die auf thermische Aufwinde segeln, viel weniger Energie verbrauchen als Vögel, die mit den Flügeln schlagen. Der Andenkondor, zum Beispiel, schlägt nur während eines Prozents seiner Flugzeit mit den Flügeln und benötigt dafür 80% weniger Energie als der Schwarn, der fast ununterbrochen mit den Flügeln arbeitet. Diese Erkenntnisse könnten die Zukunft der Flugtechnik und Energieeffizienz beeinflussen, insbesondere im Kontext des Klimawandels.
 
 ### Steigendes Meeresspiegel: Eingeschleppte Arten
 
@@ -1047,6 +1127,14 @@ Ein Forschungsteam unter der Leitung von Alex D. Greenwood vom Leibniz-Institut 
 
 
 ## Klima & Atmosphäre
+
+### Hitze-Tote in Europa
+
+*2026-10-23* · [Originalbeitrag](https://www.deutschlandfunk.de/hitzetote-in-europa-katalysator-bei-diabetes-bienentricks-100.html) · Hitze-Tote, Klimawandel, Todesfälle, Statistik
+
+**Der Sommer 2026 war der heißeste in Europa seit Beginn der Aufzeichnungen und führte zu einem Rekordhoch an Todesfällen durch extreme Hitze.**
+
+Zwei Studien eines Londoner Forschungsteams haben gezeigt, dass der Sommer 2026 in Europa den bisherigen Rekord für Todesfälle durch extreme Hitze brach. Die Zahlen wurden anhand statistischer Methoden abgeschätzt, basierend auf Daten von über 850 europäischen Städten. Die Studien fanden heraus, dass die meisten Todesfälle bei Menschen mit Vorerkrankungen auftraten, und dass der Klimawandel für etwa zwei Drittel dieser Todesfälle verantwortlich war. Italien, Frankreich und Spanien wurden als die am stärksten betroffenen Länder identifiziert. Die Erkenntnisse sind eine Warnung für die Zukunft, da die Sommertemperaturen in Europa durch den Klimawandel weiter steigen werden.
 
 ### Klimapolitischer Konsens in Deutschland
 
@@ -1422,6 +1510,14 @@ Am 15. August 2025, um 3:00 Uhr, löste ein Erdrutsch im Tracy Arm Fjord von Ala
 
 ## Astronomie & Raumfahrt
 
+### DLR-Entwicklter Rover für Fobos
+
+*2026-10-20* · [Originalbeitrag](https://www.deutschlandfunk.de/marsmond-phobos-nachtfalter-trinkt-traenen-autonomes-transformer-auto-100.html) · DLR, Fobos, Rover, Mars, Raumfahrt
+
+**Der deutsche Rover Idefix wird als erstes Fahrzeug auf dem Marsmond Fobos landen.**
+
+Der deutsche Rover Idefix wird von der Japanischen Raumfahrtagentur JAXA zur Landung auf dem Marsmond Fobos geschickt. Er wird mit Aufgaben wie der Untersuchung der Oberflächenbeschaffenheit und der Analyse von Staubkernen von Fobos ausgestattet. Das Projekt ist ein gemeinsames Unterfangen des Deutschen Zentrums für Luft- und Raumfahrt (DLR) und der französischen Weltraumagentur. Ziel ist es, die Zusammensetzung des Mondes und die Geschichte des Mars zu klären. Die Landung erfolgt unter hohem Schweregrad, was die Fähigkeiten des Rovers bei der Bewegung und Messung beeinträchtigt.
+
 ### Der historische Atlas des Weltalls
 
 *2026-10-09* · [Originalbeitrag](https://www.deutschlandfunk.de/auslese-von-der-frankfurter-buchmesse-comics-karten-und-atlanten-100.html) · Atlas, Weltall, Karten, Infografiken, Historische Entwicklung, Christian Grataloup, Pierre-Lenard
@@ -1791,6 +1887,14 @@ Wissenschaftler aus der Korea University haben Reispapier chemisch verändert, u
 
 ## Energie
 
+### Wasserstoffkavernen als Energielager
+
+*2026-10-21* · [Originalbeitrag](https://www.deutschlandfunk.de/wasserstoffspeicher-jagdtrick-der-orcas-autonome-shuttles-100.html) · 
+
+**Erste Ergebnisse zeigen, dass Wasserstoff in Erdgaskavernen gespeichert werden kann, obwohl Schwefelwasserstoff ein Problem darstellen könnte.**
+
+Ein Pilotprojekt in Niedersachsen untersucht, ob Erdgaskavernen für Wasserstoffkavernen umzurobust sind. Es wurde bereits nachgewiesen, dass die Dichtigkeit der Kavernen ausreichend ist. Der Helmholtz-Centrum für Umweltforschung in Leipzig untersucht, ob Mikroben, die Schwefelwasserstoff bilden, in den Kavernen aktiv werden. Die Studie ist bis 2028 geplant, um zu klären, ob Wasserstoff in Salzstöcken lagern kann und wie teuer das ist. Schlagworte: Wasserstoff, Erdgas, Kavernen, Schwefelwasserstoff, Umweltforschung.
+
 ### Erneuerbare Energien und Einkommen
 
 *2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · Erneuerbare Energien, Einkommen, Studie, Umweltsoziologie
@@ -1865,6 +1969,38 @@ Ein Forschungsteam der RWTH Aachen untersuchte Natrium-Akku-Technologie und fand
 
 
 ## Technik & Informatik
+
+### PHP-Sicherheitslücken: KI-Tools als Entdecker
+
+*2026-10-22* · [Originalbeitrag](https://www.deutschlandfunk.de/co2-quelle-amazonas-sicherheitsrisiko-php-stichstrategie-von-moskitos-100.html) · PHP, Sicherheit, Künstliche Intelligenz, Webseiten, Sicherheitslücken
+
+**Künstliche Intelligenz-Tools haben kritische Sicherheitslücken in PHP-Webseiten entdeckt.**
+
+Web-Server, die PHP verwenden, haben seit gestern Sicherheitslücken, die weltweit sieben von zehn Internetseiten betreffen. Das Bundesamt für Sicherheit in der Informationstechnik empfiehlt, Webseiten vorsorglich offline zu nehmen, bis der Sicherheitspatch installiert ist. KI-Tools, wie GPT-Soll 5.6 von OpenAI, haben diese Lücken entdeckt. Das zeigt, dass KI-Tools in der Zukunft eine wichtige Rolle bei der Erkennung von Sicherheitslücken spielen könnten. Es bleibt jedoch zu sehen, wie man die Gefahr von KI-Tools nutzen, um neue Angriffsmethoden zu entwickeln, verhindern kann.
+
+### Autonome Shuttles in Thüringen
+
+*2026-10-21* · [Originalbeitrag](https://www.deutschlandfunk.de/wasserstoffspeicher-jagdtrick-der-orcas-autonome-shuttles-100.html) · 
+
+**Autonome Shuttles könnten in ländlichen Gebieten den ÖPNV ergänzen, aber noch viele technische und ethische Herausforderungen bestehen.**
+
+Die Technische Universität Ilmenau testet autonome Shuttles in Thüringen, um Lücken im ÖPNV-Netz zu schließen. Das Auto fährt autonom auf einer vorherkartierten Strecke, aber es gibt noch viele technische und ethische Herausforderungen. Die Forscher müssen das System umprogrammieren, um es zu verbessern, und es gibt auch Bedenken bezüglich der Verkehrs- und Datensicherheit. Trotzdem sind 43% der Thüringer bereit, fahrerlose Busse zu nutzen. Schlagworte: Autonome Shuttles, ÖPNV, Verkehrs- und Datensicherheit, Technologie, Ethik.
+
+### Transformer-Auto U-Shift
+
+*2026-10-20* · [Originalbeitrag](https://www.deutschlandfunk.de/marsmond-phobos-nachtfalter-trinkt-traenen-autonomes-transformer-auto-100.html) · U-Shift, Transformer-Auto, Autonomes Fahrzeug, Flexibilität, Nachhaltigkeit
+
+**Ein autonomes Fahrzeug mit wechselbarer Funktion wird in Braunschweig getestet.**
+
+Das autonom mobile Fahrzeug U-Shift, entwickelt vom Deutschen Zentrum für Luft- und Raumfahrt (DLR) und mehreren Universitäten, kann seine Aufgabenstellungen ändern. Es kann als Bus oder Lastkraftwagen fungieren und wird in Braunschweig getestet, um die Flexibilität und Effizienz von autonomen Fahrzeugen in der Praxis zu bewerten. Das U-Shift soll nachhaltigere Transportlösungen ermöglichen, indem es die Ressourcen in Fahrzeugen effizienter nutzt. Die Forschung bezieht sich auf die Automatisierung im Verkehrssektor und die Entwicklung von flexiblen, autonomem Transport.
+
+### Biohybrid-Computer lernen Brailleschrift
+
+*2026-10-16* · [Originalbeitrag](https://www.deutschlandfunk.de/bio-hybrid-computer-lernt-brailleschrift-energieeffizienter-vogelflug-amoeben-100.html) · Biohybrid-Computer, Gehirnorganoide, Brailleschrift, Künstliche Intelligenz, Robotik
+
+**Wissenschaftler haben Gehirnorganoide dazu gebracht, Brailleschrift zu entziffern.**
+
+Ein Team aus der Universität Bristol hat es geschafft, Gehirnorganoide, also winzige Strukturen aus Nervenzellen, dazu zu bringen, Brailleschrift zu entziffern. Dies wurde durch den Einsatz von Mikro-Elektroden-Arrays und Robotersensoren ermöglicht, die die Tastspitzen der Amöben in elektrische Signale umwandeln. Die Forscher konnten die Organoide zu einem Leser für Brailleschrift ausbilden, was einen wichtigen Schritt in Richtung Biohybrid-Computing darstellt. Obwohl der aktuelle Leser成功率仅为61%，研究团队已经将这一比例提高到了83%，未来的研究可能会进一步优化这一过程。这项技术的潜在应用包括为机器人赋予触觉感知能力。
 
 ### Optogenetik: Licht als Schalter für Gehör
 
