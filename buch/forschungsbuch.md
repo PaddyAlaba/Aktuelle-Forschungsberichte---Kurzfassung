@@ -1,27 +1,203 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 203 Einträge, Stand 24.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 304 Einträge, Stand 25.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
-- [Medizin & Gesundheit](#medizin-gesundheit) (40)
-- [Biologie & Evolution](#biologie-evolution) (22)
-- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (26)
-- [Klima & Atmosphäre](#klima-atmosphäre) (17)
-- [Geowissenschaften](#geowissenschaften) (13)
-- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (14)
-- [Physik](#physik) (7)
-- [Chemie & Materialien](#chemie-materialien) (8)
-- [Energie](#energie) (4)
-- [Technik & Informatik](#technik-informatik) (22)
-- [Künstliche Intelligenz](#künstliche-intelligenz) (9)
-- [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (6)
-- [Archäologie & Anthropologie](#archäologie-anthropologie) (3)
+- [Medizin & Gesundheit](#medizin-gesundheit) (62)
+- [Biologie & Evolution](#biologie-evolution) (32)
+- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (33)
+- [Klima & Atmosphäre](#klima-atmosphäre) (29)
+- [Geowissenschaften](#geowissenschaften) (17)
+- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (21)
+- [Physik](#physik) (11)
+- [Chemie & Materialien](#chemie-materialien) (13)
+- [Energie](#energie) (9)
+- [Technik & Informatik](#technik-informatik) (35)
+- [Künstliche Intelligenz](#künstliche-intelligenz) (14)
+- [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (9)
+- [Archäologie & Anthropologie](#archäologie-anthropologie) (6)
 - [Landwirtschaft & Ernährung](#landwirtschaft-ernährung) (2)
 - [Wissenschaftspolitik](#wissenschaftspolitik) (3)
-- [Sonstiges](#sonstiges) (7)
+- [Sonstiges](#sonstiges) (8)
 
 ## Medizin & Gesundheit
+
+### Zucker und Krebs: Einfluss früher Ernährung
+
+*2026-10-15* · [Originalbeitrag](https://www.deutschlandfunk.de/zucker-und-krebs-schaltsekunde-hoeren-mit-optogenetik-ungleichheit-100.html) · Zucker, Krebs, Ernährung, Kinder, Darmkrebs
+
+**Eine Studie zeigte, dass eine frühe Ernährung ohne Zucker zu einem geringeren Krebsrisiko im Erwachsenenalter führt.**
+
+Eine Studie untersuchte die Krebsrisiken von Menschen, die im Kindesalter und im Mutterleib keinen Zucker abbekommen hatten, im Vergleich zu denen, die einen normalen Zuckerkonsum hatten. Es wurde festgestellt, dass die Gruppe ohne Zucker im Erwachsenenalter 40% weniger an Krebs erkrankt war, insbesondere an Darmkrebs. Die Forscher, unter ihnen Prof. Tillmann Kühn, schließen, dass der Zucker eine wichtige Rolle bei der Erhöhung des Krebsrisikos spielt, insbesondere in frühen Lebensphasen. Die Studie wurde im Fachmagazin PNAS veröffentlicht.
+
+### Zuckersteuer und Zuckerkonsum
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/unbeabsichtigte-folgen-der-zuckersteuer-keine-polarisierung-von-klimaeinstellung-100.html) · Zuckersteuer, Süßstoffe, Herzgesundheit, Darmbakterien, Psylid
+
+**Die Zuckersteuer reduziert den Zuckergehalt in Getränken, aber Süßstoffe können gesundheitliche Risiken mit sich bringen.**
+
+Eine Zuckersteuer, wie sie in Großbritannien eingeführt wurde, reduzierte den Zuckergehalt in Getränken um ein Drittel. Dies führte zu einem erhöhten Verzehr von Süßstoffen, die möglicherweise die Zusammensetzung der Darmbakterien verändern und zu einem erhöhten Risiko für Diabetes führen können. Eine Studie zeigte, dass höhere Konzentrationen von Psylid, einem Zucker-Austausstoff, mit einer 80-prozentigen Steigerung für ein Herzkreislauf-Event in der Beobachtungszeit von drei Jahren assoziiert waren. Diese Erkenntnisse stammen von Marco Witkowski, Kardiologe am deutschen Herzzentrum der Charité, und wurden in einer Studie mit US-amerikanischen Forschern publiziert.
+
+### Wechseljahre: Physiologische Veränderungen und Hormonmangel
+
+*2026-10-13* · [Originalbeitrag](https://www.deutschlandfunk.de/absinkende-metropolen-gruende-fuer-wechseljahrbeschwerden-schlafmangel-100.html) · Wechseljahre, Menopause, Östrogen, Stoffwechselprozesse, Gesundheitsrisiken
+
+**Die Wechseljahre verursachen tiefgreifende physiologische Veränderungen, insbesondere einen dramatischen Abfall der Östrogenkonzentration.**
+
+Eine umfassende Studie analysierte die Gesundheitsdaten von mehr als einer Million Frauen und fand, dass die Wechseljahre viele Stoffwechselprozesse im Körper deutlich verändern. Insbesondere nach der Menopause, also der letzten Regelblutung, sinkt die Östrogenkonzentration, was zu einem erhöhten Risiko für bestimmte Erkrankungen wie Atritis, Gicht, Herzkreislauferkrankungen und Osteoporose führt. Die Forscherinnen, die von der Technischen Universität München und anderen Institutionen stammen, haben Laborwerte ausgewertet, um die physiologischen Veränderungen zu dokumentieren. Diese Studie unterstreicht die Bedeutung von Hormonpräparaten zur Verhinderung oder Minimierung dieser Veränderungen, obwohl sie auch Risiken mit sich bringen können. Die Ergebnisse sind relevant für die Gesundheitsversorgung von Frauen in der Wechseljahresphase.
+
+### Schlafmangel: Physiologische Ursachen und Auswirkungen
+
+*2026-10-13* · [Originalbeitrag](https://www.deutschlandfunk.de/absinkende-metropolen-gruende-fuer-wechseljahrbeschwerden-schlafmangel-100.html) · Schlafmangel, Hormonhaushalt, Temperaturregulation, Gesundheitsrisiken, Lebensqualität
+
+**Schlafmangel kann durch physiologische Veränderungen im Hormonhaushalt und Temperaturregulation verursacht werden und hat vielfältige gesundheitliche Auswirkungen.**
+
+Die Schlafforscherin Dr. Karoline Mann von der Universitätsklinik Mainz erläuterte, dass in den Wechseljahren der Hormonhaushalt verändert wird, was zu einer unterschiedlichen Temperaturregulation und Schlafstörungen führt. Diese Veränderungen können auch das Stressempfinden und die Schlafqualität beeinträchtigen. Schlafmangel hat viele negative Auswirkungen, darunter eine gestörte Lebensqualität, erhöhtes Risiko für Infektionserkrankungen, schwächeres Immunsystem und erhöhtes Risiko für Herz-Kreislauf-Erkrankungen. Die Forscherin betont, dass Schlafmangel nicht nur eine Frage der Leistungsfähigkeit ist, sondern auch eine wichtige Gesundheitsfrage, die ernst genommen werden sollte. Die Studie unterstreicht die Notwendigkeit, individuelle Schlafprobleme zu erkennen und zu behandeln.
+
+### Lungenpest in einem russischen Forschungslabor
+
+*2026-10-08* · [Originalbeitrag](https://www.deutschlandfunk.de/pest-in-russland-wissenschaft-und-demokratie-fliegende-messroboter-100.html) · Pest, Lungenentzündung, Labor Sicherheit, Antibiotika
+
+**Eine Mitarbeiterin in einem russischen Pestforschungslabor starb an Lungenentzündung, die möglicherweise auf Lungenpest zurückzuführen ist, obwohl es keine eindeutigen Beweise dafür gibt.**
+
+Eine 28-jährige Laborantin in einem russischen Pestforschungslabor starb an einer Lungenentzündung, die möglicherweise auf Lungenpest zurückzuführen ist. Die Behörden geben jedoch keine eindeutigen Beweise dafür. Es wird spekuliert, dass das Reagenzglas, in dem das Pestbakterium sich befand, zerbrochen sein könnte, was ungewöhnlich wäre, da modernes Laborgerät aus Plastik besteht. Die Pest ist die gefährlichste Variante der Pest und kann direkt von Mensch zu Mensch übertragen. Die Weltgesundheitsorganisation und die Europäische Seuchenschutzbehörde sehen kein großes Risiko, da keine Übertragungen von Mensch zu Mensch gemeldet wurden. Forscher betonen die Notwendigkeit strenger Sicherheitsmaßnahmen und der Bedeutung von Antibiotika in der Behandlung.
+
+### Reizdarm-Syndrom bei Frauen
+
+*2026-10-08* · [Originalbeitrag](https://www.deutschlandfunk.de/pest-in-russland-wissenschaft-und-demokratie-fliegende-messroboter-100.html) · Reizdarm-Syndrom, Oestrogen, Enterochromafinen Zellen, Schmerzsignalisierung
+
+**Frauen sind dreimal häufiger als Männer betroffen durch Reizdarm-Syndrom, und Forscher haben einen zellulären Mechanismus identifiziert, der diese Symptome verursacht.**
+
+Frauen, vor allem junge Frauen, sind dreimal häufiger als Männer betroffen durch Reizdarm-Syndrom. Forscher haben herausgefunden, dass Oestrogen in der Enterochromafinen Zellen aktiviert wird, was zu Schmerzsignalen führt. Dieser Mechanismus wurde in Zellkulturen und einem Mausmodell untersucht. Die Ergebnisse geben einen Einblick in mögliche medikamentöse Behandlungen und könnten zu einer effektiveren Therapie führen. Die Forscher betonen die Notwendigkeit weiterer klinischer Studien, um die Ergebnisse auf Menschen zu übertragen.
+
+### Optogenetik: Lichtgesteuerte Kontrolle von Nervenzellen
+
+*2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Optogenetik, Nervenzellen, Lichtschalter, Fadenwürmer, Krankheiten, Tierversuche
+
+**Die Nobelpreisträger haben Lichtschalter in Nervenzellen eingebaut, um sie zu aktivieren und deaktivieren zu können.**
+
+Die drei Nobelpreisträger, Karl Deiseroth, Peter Hegemann und Jörg Nagel, haben Lichtschalter in Nervenzellen eingebaut, um diese zu aktivieren und deaktivieren zu können. Diese Methode, genannt Optogenetik, wurde in Eizellen der afrikanischen Krallenfrösche und Fadenwürmern entwickelt. Die Forschung hat gezeigt, dass man mit Licht bestimmte Verhaltensweisen von Tieren steuern kann, was die Möglichkeit für klinische Anwendungen in der Medizin bietet. Die Arbeit wurde in den USA und Deutschland durchgeführt, und die Methode hat die Neurowissenschaft revolutioniert. Eine Beschränkung besteht darin, dass die Methode noch nicht direkt auf den menschlichen Gehirn in Anwendung gebracht wurde.
+
+### Optogenetik: Einfluss auf das menschliche Gehirn
+
+*2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Optogenetik, Nervenzellen, Gehirn, Verhalten, Tierversuche, Krankheiten
+
+**Karl Deiseroth hat Optogenetik angewendet, um das menschliche Gehirn zu verstehen und mögliche klinische Anwendungen zu ermöglichen.**
+
+Karl Deiseroth hat Optogenetik angewendet, um das menschliche Gehirn zu verstehen und mögliche klinische Anwendungen zu ermöglichen. Er hat gezeigt, dass man mit Licht bestimmte Nervenzellen in Mäusen aktivieren und deaktivieren kann, um das Verhalten der Tiere zu beeinflussen. Die Methode wurde in den USA entwickelt und hat die Möglichkeit gezeigt, klinische Anwendungen in der Medizin zu ermöglichen. Eine Beschränkung besteht darin, dass die Methode noch nicht direkt auf den menschlichen Gehirn in Anwendung gebracht wurde.
+
+### Gen-Scheren-Therapie bei Blutkrankheiten
+
+*2026-10-02* · [Originalbeitrag](https://www.deutschlandfunk.de/bilanz-des-hitzesommers-rekord-el-ni-o-erfolgreiche-genscheren-therapie-100.html) · CRISPR-Cas, Gentherapie, Stammzellen, Beta-Talassimie
+
+**Ein Patient wurde erfolgreich mit CRISPR-Cas genetisch veränderten Stammzellen behandelt.**
+
+Die Berliner Universitätsklinik Charité hat einen wichtigen Schritt bei der Anwendung moderner Gentherapien erzielt. Ein 19-jähriger Patient mit Beta-Talassimie wurde erfolgreich behandelt, indem ihm Stammzellen mit der Gen-Schere CRISPR-Cas verändert wurden. Die Stammzellen produzieren nun ein anderes Hemoglobin, das den Sauerstofftransport verbessert. Die Therapie ist komplex und hat Risiken, aber sie ist ein Durchbruch in der Behandlung von genetischen Erkrankungen. Diese Studie wurde durch die Berliner Universitätsklinik Charité durchgeführt.
+
+### Long-Covid: Neue Empfehlungen für Forschung und Versorgung
+
+*2026-10-01* · [Originalbeitrag](https://www.deutschlandfunk.de/long-covid-gletscherschwund-altersforschung-100.html) · Long-Covid, Leopoldina, Forschung, Versorgung, Biomarker
+
+**Die Leopoldina hat Empfehlungen für die Bekämpfung von Long-Covid vorgelegt, unter anderem zur Verbesserung der Datenbanken und der Versorgung.**
+
+Die Leopoldina, eine nationale Akademie der Wissenschaften, hat eine Stellungnahme zur Bekämpfung von Long-Covid veröffentlicht. In ihr wurden 30 Empfehlungen zur Verbesserung der Forschung und Versorgung zusammengefasst. Besonders betont wurden die Forderungen nach besseren Bedingungen für wissenschaftliche Datenbanken, die freiwillige anonyme Verknüpfung der elektronischen Patientenakte mit sozialen Aspekten und die Bedeutung von Biomarker zur Diagnostik. Die Stellungnahme betont auch die Notwendigkeit der Prävention durch z.B. Impfungen. Es wurde jedoch auch betont, dass die Umsetzung der Empfehlungen dringend erforderlich ist. Die Stellungnahme wurde von der Vizepräsidentin der Leopoldina, Regina Rippan, vorgelegt.
+
+### Energydrinks: Jugendliche Konsumtrend
+
+*2026-09-30* · [Originalbeitrag](https://www.deutschlandfunk.de/energydrinks-schutz-von-schmetterlingen-schnellladesaeulen-und-stromnetz-100.html) · Energydrinks, Jugendliche, Koffein, Gesundheit, Regulierung
+
+**Jugendliche in Deutschland trinken zunehmend Energydrinks, was gesundheitliche Risiken mit sich bringt.**
+
+Eine Studie des Instituts für Therapie und Gesundheitsforschung in Kiel zeigte, dass in Deutschland der Konsum von Energydrinks bei Jugendlichen in den letzten sechs Jahren stark angestiegen ist. Mehr als 70% der Befragten tranken Energydrinks häufig, während nur 6% täglich tranken. Die Studie basiert auf Daten von 100.000 Befragten und wurde im deutschen Ärzteblatt veröffentlicht. Obwohl die Energydrinks in den meisten Fällen Koffein und Zucker enthalten, wurden die genauen Inhaltsstoffe nicht erfasst. Gesundheitliche Risiken wie Herzprobleme und Übergewicht sind bekannt, aber die Studie weist darauf hin, dass weitere wissenschaftliche Begleituntersuchungen notwendig sind, um effektive Maßnahmen zu entwickeln.
+
+### Kürzungen der Cochrane-Stiftung
+
+*2026-09-29* · [Originalbeitrag](https://www.deutschlandfunk.de/cochrane-stiftung-kernenergie-report-fleischfressende-pflanzen-100.html) · Cochran-Stiftung, Forschungsgelder, Öffentlichkeitsarbeit, Gesundheitsministerium
+
+**Die Cochrane-Stiftung, ein Netzwerk von Fachleuten, das systematische Übersichtsarbeiten in der Medizin durchführt, könnte aufgrund von Kürzungen des Bundesgesundheitsministeriums ihre Öffentlichkeitsarbeit und Forschungsgelder verlieren.**
+
+Das Bundesgesundheitsministerium hat die Förderung der Cochrane-Stiftung eingestellt, was die Stiftung in der Zukunft auf die Suche nach alternativen Fördermöglichkeiten treiben könnte. Die Stiftung, ein internationales Netzwerk, das systematische Übersichtsarbeiten in der Medizin durchführt, hat bisher 10 Jahre lang jährlich eine Million Euro an Fördermitteln erhalten. Die Kürzungen bedrohen die Stiftung, da sie nicht nur Öffentlichkeitsarbeit, sondern auch Forschungsgelder betreffen. Experten sehen in dieser Entscheidung eine katastrophale Entwicklung, da die Stiftung wichtige Dienste wie unabhängige Informationsangebote für Ärzte und Wissenschaftsjournalisten leistet.
+
+### Verjüngung des Immunsystems
+
+*2026-09-24* · [Originalbeitrag](https://www.deutschlandfunk.de/aufruestung-im-orbit-schwimmende-windraeder-verjuengung-des-immunsystems-100.html) · Immunsystem, Verjüngung, Labormäuse, Forschung
+
+**Forscher konnten das Immunsystem von Labormäusen gezielt verjüngen, indem sie Zellen beeinflussten, die die Lungenbläschen auskleiden.**
+
+Forscher konnten das Immunsystem von Labormäusen gezielt verjüngen, indem sie Zellen beeinflussten, die die Lungenbläschen auskleiden. Diese Zellen orchestrieren die Immunantwort in der Lunge und produzieren Interferon. Die Forscher fanden eine Substanz, die die Interferonbildung ankurbelt, und kombinierten sie mit Mangan-Salzen, um den Prozess zu verstärken. Sie testeten die Substanz in Versuchen mit 20 Monaten alten Mäusen, die ein fortgeschrittenes Alter haben. Nach der Behandlung zeigten die alten Lungen eine Immunantwort, die der junger Mäuse nach einer Grippeimpfung entsprach. Dieser Beitrag gehört zum
+
+### PICE - Postinfektiöse Symptome nach Atemwegsinfektionen
+
+*2026-09-23* · [Originalbeitrag](https://www.deutschlandfunk.de/pod-extremwetter-kongress-atemwegsinfektionen-beginn-des-lebens-100.html) · PICE, Atemwegsinfektionen, Langanhaltende Symptome, Post-Covid
+
+**16 bis 18 Prozent der Menschen, die eine Atemwegsinfektion hatten, erleben langanhaltende Symptome.**
+
+Eine Studie der Universität Hallewittenberg fand heraus, dass 16 bis 18 Prozent der Menschen, die eine Atemwegsinfektion hatten, langanhaltende Symptome erleben. Diese Symptome können von Erschöpfung bis zu Geschmacks- und Geruchsstörungen reichen. Die Studie basiert auf einer Online-Befragung und selbstgemachten Angaben. Das Risiko für solche Symptome steigt mit dem Alter und bei schweren Erkrankungen. Es ist noch nicht klar, ob diese Symptome nach verschiedenen Infektionen unterschiedlich häufig auftreten. Diese Erkenntnisse sind relevant, da sie die Nachfolgen von Atemwegsinfektionen in der Bevölkerung beleuchten und mögliche Maßnahmen zur Prävention und Behandlung diskutieren können.
+
+### Bakteriophagen in der Medizin
+
+*2026-09-22* · [Originalbeitrag](https://www.deutschlandfunk.de/planetary-health-check-leitlinie-phagentherapie-klimafreundlichere-luftfahrt-100.html) · Bakteriophagen, Leitlinie, Antibiotika, Fagentherapie
+
+**Eine neue Leitlinie für die Bakteriophagentherapie wurde veröffentlicht, um die Anwendung in der Medizin zu standardisieren.**
+
+Ein internationales Team veröffentlichte in der Zeitschrift Nature eine Leitlinie für Bakteriophagentherapie. Die Leitlinie wurde von Sylvia Würstle und anderen Experten erstellt und empfiehlt, Bakteriophagen nur dann einzusetzen, wenn Antibiotika nicht mehr wirken. Sie fordert auch eine bessere Dokumentation von Therapiefällen, um Erfahrungen zu sammeln. Die Leitlinie ist wichtig, da sie Klarheit über die Anwendung von Bakteriophagen in der Medizin verschafft und den klinischen Einsatz verbessern soll. Es gibt noch viel Arbeit zu tun, um Bakteriophagen in die klinische Praxis zu bringen.
+
+### Malaria in Frankfurt
+
+*2026-09-18* · [Originalbeitrag](https://www.deutschlandfunk.de/malaria-in-frankfurt-erdbeben-durch-atomtests-aussterben-der-neandertaler-100.html) · Malaria, Flughafen, Klimawandel, Mücken, Epidemiologie
+
+**Eine Studie liefert neue Erkenntnisse über die Ausbreitung von Malaria in Frankfurt.**
+
+Eine Studie untersucht die Ausbreitung von Malaria in Frankfurt, wo in den vergangenen Monaten mehrere Fälle aufgetreten sind. Es wird vermutet, dass infizierte Mücken durch Flugzeuge in den Stadtteil Schwanheim eingeschleppt wurden. Der Bernard-Nocht-Institut für Tropenmedizin und das Uniklinikum Hamburg-Eppendorf haben die Untersuchungen durchgeführt. Es wird untersucht, ob die Fälle zusammenhängen und ob die Mücken in Deutschland überleben und sich vermehren könnten. Die Studie ist relevant, da sie die Auswirkungen von Klimawandel und Reisegewohnheiten auf die Malaria in Deutschland untersucht. Es gibt jedoch keine genauen Statistiken über die Anzahl von Mücken in Flugzeugen.
+
+### Biologisches Alter und Wechseljahre
+
+*2026-09-16* · [Originalbeitrag](https://www.deutschlandfunk.de/weltraum-muell-us-waffen-im-all-schattenflotte-100.html) · Menopause, Altersuhr, biologisches Alter, Sterblichkeit, Hormone, Wechseljahre
+
+**Forscher haben festgestellt, dass Frauen mit früherer Menopause biologisch schneller altern und eine höhere Sterblichkeit haben, was möglicherweise mit der Länge der fruchtbaren Phase und Hormonproduktionen zusammenhängt.**
+
+Laura Edsel von der Duke University hat mit der Altersuhr, einem Werkzeug, das das biologische Alter von Zellen misst, die Wechseljahre untersucht. Es wurde herausgefunden, dass Frauen mit früherer Menopause im Schnitt auch biologisch schneller altern und eine höhere Sterblichkeit haben. Diese Erkenntnisse wurden von The Herder Radio und ihrem Team bestätigt, die ebenfalls feststellten, dass eine frühe Menopause mit beschleunigtem biologischen Alter einhergeht. Die Forscher vermuten, dass Hormone, insbesondere Östrogene, den Alterungsprozess steuern. Ersatzhormone können die biologische Alterung verlangsamen, aber ihre Wirksamkeit ist noch nicht vollständig geklärt. Diese Forschung ist relevant, da sie die Verbindung zwischen biologischem Alter und Menopause erörtert und mögliche Wege zur Verzögerung des Alters durch Hormontherapie aufzeigt.
+
+### Ebola-Impfstoffe für DR Kongo
+
+*2026-09-11* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-veraendert-die-mathematik-ebola-impfstoffe-fuer-die-dr-kongo-reerdigung-100.html) · Ebola, Impfstoffe, DR Kongo, Vektor-Impfstoff, Bundy-Budyovirus
+
+**Der Vektor-Impfstoff Rwebo wird in der DR Kongo eingesetzt, um den Ebola-Ausbruch zu bekämpfen.**
+
+Der Ebola-Ausbruch in der Demokratischen Republik Kongo ist der größte und am schnellsten fortschreitende in der Geschichte. Der Vektor-Impfstoff Rwebo, der gegen ein anderes Ebola-Virus entwickelt wurde, wird in der DR Kongo eingesetzt, um den Ausbruch in den Griff zu bekommen. Es gibt noch keine Hinweise, dass dieser Impfstoff auch gegen das Bundy-Budyovirus wirkt, aber es gibt positive Indikationen aus Tiermodellen und Serumuntersuchungen. Neben Rwebo werden auch spezifische Impfstoffe gegen Bundy-Bugio entwickelt und getestet. Ein Impfstoff, der auf einem viralen Vektor basiert, wird in Ägypten in die Testphase gehen. Die Entwicklung der spezifischen Impfstoffe ist rasant, aber es wird noch einige Monate dauern, bis sie in der DR Kongo einsatzbereit sind. Die wichtigsten Maßnahmen zur Bekämpfung des Ausbruchs sind das Nachverfolgen von Kontakten und Isolieren.
+
+### Verbindung zwischen heißen Getränken und Speiseröhrenkrebs
+
+*2026-09-10* · [Originalbeitrag](https://www.deutschlandfunk.de/erdbeobachtung-aus-der-stratosphaere-heisse-getraenke-und-krebs-denisova-100.html) · Speiseröhrenkrebs, heiße Getränke, Kausalzusammenhang, Gesundheitsstudie
+
+**Eine neue Studie legt einen Kausalzusammenhang zwischen dem Trinken von heißen Getränken und Speiseröhrenkrebs nahe, basierend auf einer breiten Datenbasis aus Großbritannien.**
+
+Eine neue Studie in der internationalen Fachzeitschrift für Krebs legt einen Kausalzusammenhang zwischen dem Trinken von heißen Getränken und Speiseröhrenkrebs nahe. Die Studie basiert auf knapp einer Million Gesundheitsdaten aus Großbritannien, die über die Temperatur von Getränken und andere Gesundheitsaspekte verfolgt wurden. 2300 Menschen wurden im Laufe der Jahre an Speiseröhrenkrebs erkrankt. Die Studie zeigt, dass Temperaturen über 65 Grad Celsius schlecht sind, aber auch Temperaturen darunter das Risiko erhöhen können. Es wird vorgeschlagen, dass heißes Getränke trinken, besonders täglich mehr als sechs sehr heiße Getränke, das Risiko für Krebs erhöhen kann. Diese Erkenntnisse könnten dazu beitragen, die Prävention von Speiseröhrenkrebs zu verbessern.
+
+### KI-Assistent in der Notaufnahme
+
+*2026-09-09* · [Originalbeitrag](https://www.deutschlandfunk.de/kampf-gegen-geisternetze-ki-helfer-im-krankenhaus-gehirn-in-der-menopause-100.html) · KI-Assistent, Notaufnahme, Vitalparameter, Entlastung
+
+**Ein KI-Assistent in der Notaufnahme hilft medizinischem Personal, Vitalparameter zu messen, was die Zeit für den Personal besser nutzbar macht.**
+
+Die Uniklinik Kiel testet eine automatisierte Messkabine namens Medicubics, die Vitalparameter von Patienten erfasst. Die Kabine ist Teil eines Pilotprojekts, das medizinisches Personal in der Notaufnahme entlasten soll, insbesondere während Stoßzeiten. Die Messkabine kann die Arbeit von Pflegekräften und Ärzten erleichtern, indem sie Blutdruck, Puls, Sauerstoffsättigung und Elektrokardiogramm automatisiert misst. Die Forscher hoffen, dass dies die Zeit für den medizinischen Personal verbessert und sie mehr Zeit für die Patienten haben. Es ist ein Pilotprojekt, das noch nicht abgeschlossen ist, aber es zeigte bereits positive Ergebnisse.
+
+### Xenotransplantation: Neuer Fortschritt mit Schweinenieren
+
+*2026-09-04* · [Originalbeitrag](https://www.deutschlandfunk.de/xenotransplantation-psilocybin-artenvielfalt-in-den-alpen-100.html) · Xenotransplantation, Schweinenieren, Genetik, Immunologie
+
+**Ein Patient hat 9 Monate mit einer gentechnisch veränderten Schweineniere überlebt, ohne auf Dialyse angewiesen zu sein.**
+
+Ein Patient in den USA hat 9 Monate mit einer gentechnisch veränderten Schweineniere überlebt, ohne auf Dialyse angewiesen zu sein. Dies ist der erste Fall, in dem eine solche Niere das menschliche Immunsystem nicht abstoßen konnte, während der Patient eine menschliche Spenderniere erhalten hat. Die Forschung wird fortgesetzt, um Schweineorgane als vollständige Ersatzorgane zu realisieren. Die Nieren wurden durch 69 genetische Veränderungen optimiert, um sie für das menschliche Immunsystem passend zu machen. Diese Methode könnte in Zukunft als Alternative zu menschlichen Spenderorgane dienen, obwohl es noch Probleme mit langfristiger Abstoßung gibt. (Medizin & Gesundheit) [Xenotransplantation, Schweinenieren, Genetik, Immunologie]
+
+### Psilocybin schützt vor Chemotherapie-induzierter Periphera neuropathie
+
+*2026-09-04* · [Originalbeitrag](https://www.deutschlandfunk.de/xenotransplantation-psilocybin-artenvielfalt-in-den-alpen-100.html) · Psilocybin, Chemotherapie, Nervenzellen, Mikrotubuli
+
+**Psilocybin schützt Mäuse vor Chemotherapie-induzierter Periphera neuropathie, indem es Mikrotubuli in Nervenzellen schützt.**
+
+Psilocybin, ein psychoaktiver Wirkstoff in Magic Mushrooms, schützt Mäuse vor Chemotherapie-induzierter Periphera neuropathie. Studienautor Moran Amit und seine Kollegen fanden heraus, dass Psilocybin bestimmte Serotonin-Rezeptoren aktiviert, die die Zerstörung von Mikrotubuli verhindern und den Transport von Mitochondrien aufrechterhalten. Dies schützt Nervenzellen vor Schädigungen durch Chemotherapie. Die Forschung wird in einer klinischen Phase 2-Studie fortgesetzt, um die Wirksamkeit bei Menschen zu bestätigen. (Medizin & Gesundheit) [Psilocybin, Chemotherapie, Nervenzellen, Mikrotubuli]
 
 ### Impfung gegen Gürtelrose und Herzprobleme
 
@@ -346,6 +522,86 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 ## Biologie & Evolution
 
+### Entdeckung des Kanalrodopsins in Algen und Bakterien
+
+*2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Kanalrodopsin, Algen, Bakterien, Eizellen, Krallenfrösche, Nervenzellen
+
+**Peter Hegemann und seine Arbeitsgruppe haben das Kanalrodopsin in Algen und Bakterien untersucht und es in Eizellen der afrikanischen Krallenfrösche eingebaut.**
+
+Peter Hegemann und seine Arbeitsgruppe haben das Kanalrodopsin in Algen und Bakterien untersucht und es in Eizellen der afrikanischen Krallenfrösche eingebaut. Dieses Protein bildet eine Röhre, durch die geladene Teilchen von außen nach innen oder von innen nach außen gelangen. Die Methode wurde in den USA und Deutschland entwickelt und hat die Möglichkeit gezeigt, bestimmte Nervenzellen zu aktivieren und deaktivieren zu können. Die Entdeckung hat die Neurowissenschaft revolutioniert und ermöglichte die Steuerung von Tieren mit Licht. Eine Beschränkung besteht darin, dass die Methode noch nicht direkt auf den menschlichen Gehirn in Anwendung gebracht wurde.
+
+### Optogenetik in Fadenwürmern: Grundlagen der Neurobiologie
+
+*2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Fadenwürmer, Optogenetik, Verhalten, Nervenzellen, Tierversuche, Krankheiten
+
+**Karl Deiseroth hat Optogenetik in Fadenwürmern angewendet, um das Verhalten von Tieren mit Licht zu steuern.**
+
+Karl Deiseroth hat Optogenetik in Fadenwürmern angewendet, um das Verhalten von Tieren mit Licht zu steuern. Er hat gezeigt, dass man bestimmte Nervenzellen aktivieren und deaktivieren kann, um das Verhalten von Tieren zu beeinflussen. Die Methode wurde in den USA entwickelt und hat die Möglichkeit gezeigt, klinische Anwendungen in der Medizin zu ermöglichen. Eine Beschränkung besteht darin, dass die Methode noch nicht direkt auf den menschlichen Gehirn in Anwendung gebracht wurde.
+
+### Optogenetik in Mäusen: Studien zur Neurobiologie
+
+*2026-10-05* · [Originalbeitrag](https://www.deutschlandfunk.de/optogenetik-medizin-nobelpreis-geht-nach-deutschland-100.html) · Mäuse, Optogenetik, Nervenzellen, Verhalten, Tierversuche, Krankheiten
+
+**Karl Deiseroth hat Optogenetik in Mäusen angewendet, um bestimmte Nervenzellen zu aktivieren und deaktivieren zu können.**
+
+Karl Deiseroth hat Optogenetik in Mäusen angewendet, um bestimmte Nervenzellen zu aktivieren und deaktivieren zu können. Er hat gezeigt, dass man mit Licht bestimmte Nervenzellen in Mäusen aktivieren und deaktivieren kann, um das Verhalten der Tiere zu beeinflussen. Die Methode wurde in den USA entwickelt und hat die Möglichkeit gezeigt, klinische Anwendungen in der Medizin zu ermöglichen. Eine Beschränkung besteht darin, dass die Methode noch nicht direkt auf den menschlichen Gehirn in Anwendung gebracht wurde.
+
+### Schmetterlinge: Schönheit und Naturschutz
+
+*2026-09-30* · [Originalbeitrag](https://www.deutschlandfunk.de/energydrinks-schutz-von-schmetterlingen-schnellladesaeulen-und-stromnetz-100.html) · Schmetterlinge, Schönheit, Naturschutz, Forschung, Attraktivität
+
+**Schöne Schmetterlinge werden in der Öffentlichkeit und in der Wissenschaft besser untersucht und geschützt als unscheinbare Arten.**
+
+Eine Studie im Fachmagazin Current Biology untersuchte, welche Schmetterlinge in der Öffentlichkeit und in der Wissenschaft am meisten ankommen. Es wurde festgestellt, dass farbenfrohere, blau- und gelbfarbige Arten mit Strukturen und starken Farbkontrasten besonders beliebt sind. Diese Arten werden auch in der Wissenschaft besser untersucht und mehr Gensequenzen durchgeführt. Im Naturschutzrecht gibt es eine Schieflage, da schöner Arten im Europäischen Naturschutzrecht und der Berner Konvention bevorzugt sind, während rote Listen objektivere Kriterien verwenden. Es wird vorgeschlagen, dass Naturschutzprojekte alle Arten, unabhängig von ihrer Schönheit, gründlich untersuchen sollten, um eine faire Behandlung aller Arten zu gewährleisten.
+
+### Resistenzen durch Medikamente
+
+*2026-09-29* · [Originalbeitrag](https://www.deutschlandfunk.de/cochrane-stiftung-kernenergie-report-fleischfressende-pflanzen-100.html) · Resistenzen, Mycophenolsäure, Pilze, Mutationen
+
+**Ein Medikament, das Mycophenolsäure (MPA) heißt, kann nicht nur das Immunsystem herunterregulieren, sondern auch einen pathogenen Pilz verändern, was zu Resistenzen führen kann.**
+
+Eine Studie hat gezeigt, dass das Medikament Mycophenolsäure (MPA) nicht nur das Immunsystem herunterreguliert, sondern auch einen pathogenen Pilz verändert, was zu Resistenzen führen kann. Diese Veränderungen sind durch eine Selektionsdruck-Mechanik verursacht, die durch MPA ausgelöst wird. Die Forscher haben in verschiedenen Pilzstämmen sechs Mutationen in einem wichtigen Enzym gefunden, die sich unabhängig voneinander in elf verschiedenen Pneumocystis-Stämmen weltweit entwickelt haben. Diese Erkenntnisse könnten für die klinische Forschung interessant sein, aber ob sie für die Leitlinie der Behandlung bei Organtransplantierten Auswirkungen haben, ist noch nicht klar.
+
+### Mechanismus der Fleischfressenden Pflanzen
+
+*2026-09-29* · [Originalbeitrag](https://www.deutschlandfunk.de/cochrane-stiftung-kernenergie-report-fleischfressende-pflanzen-100.html) · Sonnentau, Fleischfressende Pflanzen, Glutadion, Reaktion
+
+**Forschende haben herausgefunden, dass die Fleischfressende Pflanze Sonnentau Glutadion produziert, um zu unterscheiden, ob es sich um ein Insekt oder um Regentropfen handelt.**
+
+Forschende haben herausgefunden, dass die Fleischfressende Pflanze Sonnentau Glutadion produziert, um zu unterscheiden, ob es sich um ein Insekt oder um Regentropfen handelt. Die Pflanze reagiert auf Insekten, aber nicht auf Regentropfen, indem sie ihre Tentakel krümmt. Die Forschenden haben mit einem ausgeklügelten Versuchdesign gezeigt, dass der Sonnentau eine ausgeklügelte Strategie entwickelt hat, um Ressourcen zu sparen. Wenn die Pflanze ein Insekt fängt, steigt der Glutadion-Gehalt in den Bereichen des Blattes an, die sich später bewegen. Wenn die Forschenden die Bildung von Glutadion im Blatt blockierten, reagierte die Pflanze kaum noch auf echte Insekten. Diese Erkenntnisse könnten für die Verständnis der evolutionären Mechanismen bei Fleischfressenden Pflanzen relevant sein.
+
+### Die Entstehung des Lebens auf der Erde
+
+*2026-09-23* · [Originalbeitrag](https://www.deutschlandfunk.de/pod-extremwetter-kongress-atemwegsinfektionen-beginn-des-lebens-100.html) · Lebensentstehung, Zirkon-Kristalle, Hydrothermalersysteme, Geochemische Zeitkapseln
+
+**Die Erde wurde vor 4,3 Milliarden Jahren bewohnbar.**
+
+Eine neue Studie legt den Zeitpunkt der Entstehung des Lebens auf der Erde auf etwa 4,3 Milliarden Jahre vor. Forscher haben dies durch Computermodelle und Untersuchungen an Zirkon-Kristallen bestimmt. Diese Kristalle funktionieren wie geochemische Zeitkapseln, die die Bedingungen auf der frühen Erde rekonstruieren lassen. Die Erde wurde vor 4,4 Milliarden Jahren ruhiger und kühler, was die Entstehung von Leben ermöglichte. Hydrothermalersysteme, die wie chemische Reaktoren funktionieren, könnten wie eine Art Brutkasten für das Leben gewesen sein. Diese Erkenntnisse sind relevant, da sie die Entstehung des Lebens auf der Erde beleuchten und mögliche Wege zur Prävention und Behandlung von Krankheiten durch Biomoleküle diskutieren können.
+
+### Neandertaler ausgestorben
+
+*2026-09-18* · [Originalbeitrag](https://www.deutschlandfunk.de/malaria-in-frankfurt-erdbeben-durch-atomtests-aussterben-der-neandertaler-100.html) · Neandertaler, Klimaschwankungen, Homo sapiens, Artenvielfalt, Evolution
+
+**Eine Studie zeigt, dass Klimaschwankungen und Konkurrenz mit Homo sapiens zusammenwirkten, um zu dem Aussterben der Neandertaler zu führen.**
+
+Eine Studie präsentiert neue Erkenntnisse über das Aussterben der Neandertaler. Es wird gezeigt, dass Klimaschwankungen während der letzten Eiszeit und die Konkurrenz mit Homo sapiens zusammenwirkten, um zu dem Aussterben der Neandertaler zu führen. Die Forschung basiert auf Daten eines großen EU-Forschungsprojekts und Computer simulations. Es wird vermutet, dass die Klimaschwankungen zu weniger Nahrung führten, was die Neanderthaler-Gruppen kleiner und weniger machte. Die Ankunft von Homo sapiens beschleunigte und verstärkte den Prozess. Die Studie ist relevant, da sie die Auswirkungen von Klimawandel und Konkurrenz auf Artenvielfalt untersucht. Es gibt jedoch keine direkte Beweis dafür, dass Homo sapiens besser an die Lebensbedingungen angepasst waren.
+
+### T. Rex war ein Warmblüter
+
+*2026-09-17* · [Originalbeitrag](https://www.deutschlandfunk.de/t-rex-war-warmblueter-frankenstein-maeuse-forschungsschiff-modularis-100.html) · Tyrannosaurus Rex, Warmblüter, Körpertemperatur, Isotopenanalyse
+
+**Tyrannosaurus Rex hatte eine Körpertemperatur von etwa 36 Grad Celsius, was darauf hindeutet, dass er ein Warmblüter war.**
+
+Forscher analysierten Zahnschmelzen von Tyrannosaurus Rex, um seine Körpertemperatur zu bestimmen. Sie untersuchten Zähne von zwei T. Rexen, die in der Hell Creek Formation gefunden wurden. Durch Isotopenmessungen konnten sie herausfinden, dass die Körpertemperatur von T. Rex etwa 36 Grad Celsius betrug, was deutlich über der Umwelttemperatur lag. Dies deutet darauf hin, dass T. Rex eine Warmblüter war, ähnlich wie heutige Säugetiere oder Vögel. Die Forschung wurde im Fachmagazin Science Advances veröffentlicht. Ob T. Rex tatsächlich einen hohen Stoffwechsel hatte, um diese Temperatur zu erreichen, ist noch nicht sicher.
+
+### Mäuse mit menschlichem Hirngewebe
+
+*2026-09-17* · [Originalbeitrag](https://www.deutschlandfunk.de/t-rex-war-warmblueter-frankenstein-maeuse-forschungsschiff-modularis-100.html) · Mäuse, Hirngewebe, Organoide, Transplantation
+
+**Forscher haben menschliches Hirngewebe in den Köpfen von Mäusen verpflanzt, um zu untersuchen, wie sich die Neuronen im Kopf vernetzen und ob das Verhalten der Tiere verändert.**
+
+Forscher aus Kalifornien haben menschliches Hirngewebe in den Köpfen von Mäusen verpflanzt, um zu untersuchen, wie sich die Neuronen im Kopf vernetzen und ob das Verhalten der Tiere verändert. Diese Experimente wurden im Fachmagazin Nature veröffentlicht. Die Forschung begann an der Universität Stanford vor 18 Jahren, aber die Methoden waren damals noch nicht so ausgefeilt. Erst 2022 konnte eine Arbeitsgruppe menschliche Zellen mit tierischen Zellen verknüpfen. In den Mäusen wurden Organoide, also kleine Miniorgane, in das Gehirn implantiert. Die Organoide wuchsen und füllten einen Hohlraum im Gehirn aus. Die Mäuse verhielten sich extrem verändert, konnten sich nicht richtig bewegen und erfüllten bestimmte Aufgaben nicht. Die Forschung hat gezeigt, dass menschliche Zellen in tierischem Gehirn integriert werden können, was zu neuen Erkenntnissen über die Entwicklung von Gehirnen führen könnte. Ob dies zu einem echten Mäusegehirn führt, ist noch nicht klar.
+
 ### Früheste Symbiose in der Evolution
 
 *2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Symbiose, Konotubus, Fossilien, Evolution
@@ -524,6 +780,62 @@ Die Bakteriophagen, also Bakterienfresser, können als alternative Therapiemitte
 
 
 ## Ökologie & Artenvielfalt
+
+### Steigendes Meeresspiegel: Eingeschleppte Arten
+
+*2026-09-30* · [Originalbeitrag](https://www.deutschlandfunk.de/energydrinks-schutz-von-schmetterlingen-schnellladesaeulen-und-stromnetz-100.html) · Steigendes Meeresspiegel, Eingeschleppte Arten, Ökosystem, Modellierung, Verbreitung
+
+**Steigendes Meeresspiegel könnte eingeschleppte Arten in neue Lebensräume vorrücken, was ökologische Veränderungen bewirken könnte.**
+
+Ein chinesisch geführtes Forschungsteam untersuchte, wie sich eingeschleppte Arten im steigenden Meeresspiegel ausbreiten könnten. Die Studie, veröffentlicht im Fachmagazin Nature Ecology and Evolution, modellierte, dass bis 2050 und 2100 neue Lebensräume für eingeschleppte Arten entstehen könnten, insbesondere in Flussmündungen. Es wird jedoch betont, dass in Gebieten mit Deichen, wie in der Nordsee, diese Prozesse nicht so wirksam sind. Die Forscher warnen davor, dass man eingeschleppte Arten nicht automatisch als schädlich einstufen sollte, da sie oft neue Interaktionen mit heimischen Arten schaffen. Die Studie liefert wichtige Erkenntnisse über die möglichen ökologischen Veränderungen, die mit dem steigenden Meeresspiegel einhergehen könnten.
+
+### Hitze beeinträchtigt Hummelentwicklung
+
+*2026-09-25* · [Originalbeitrag](https://www.deutschlandfunk.de/hummeln-im-hitzestress-anfeuern-beim-marathon-nanoschaum-mit-gedaechtnis-100.html) · Hummel, Klimawandel, Entwicklung, Hitze
+
+**Hitze im Sommer kann die Entwicklung von Hummeln stark beeinträchtigen.**
+
+Eine Studie an der Universität Regensburg untersuchte, wie Hitze die Entwicklung von Hummeln im Sommer beeinträchtigt. Die Forscher stellten fest, dass zyklischer Hitze-Stress, bei dem es tagsüber bis zu 38°C heiß wird und nachts auf 34°C abkühlt, zu einem Rückgang der Hummelpopulation von bis zu 30% führt. Die erwachsenen Hummeln, die überleben, haben ein erhöhtes Sterberisiko und können Missbildungen entwickeln. Diese Ergebnisse sind besonders relevant, da Klimawandel zu zunehmenden Hitzeereignissen führt. Die Studie wurde durch die Universität Regensburg durchgeführt und war ein Versuch, die Auswirkungen von Klimawandel auf Hummeln zu verstehen. Eine Beschränkung der Studie ist, dass sie im Labor unter kontrollierten Bedingungen durchgeführt wurde und die Ergebnisse auf freilandige Umweltbedingungen übertragen werden müssen.
+
+### Planetary Health Check 2026
+
+*2026-09-22* · [Originalbeitrag](https://www.deutschlandfunk.de/planetary-health-check-leitlinie-phagentherapie-klimafreundlichere-luftfahrt-100.html) · Planetary Health Check, Umweltbewusstsein, Ökosystem, Klimawandel
+
+**Die dritte jährliche Gesundheitsuntersuchung der Erde zeigte, dass sie sieben von neun Planetarengrenzen bereits überschritten hat.**
+
+Das Potsdam-Institut für Klimafolgenforschung veröffentlichte den dritten Planetary Health Check, der 60 Fachleute mitwirkten. Die Untersuchung zeigte, dass sieben von neun Planetarengrenzen überschritten sind, wobei vier bereits im roten Bereich liegen. Besonders bedroht sind die Biosphäre, biogeochemische Kreisläufe, neue Stoffe und der Klimawandel. Die Unsicherheiten bei der Biosphäreintegrität sind besonders groß. Die Verzweiflung der Betroffenen zeigt, dass die Situation dringend bedenkenswert ist. Diese wissenschaftliche Erkenntnis ist relevant, da sie die Notwendigkeit einer dringenden Umweltbewusstsein und -handlung betont.
+
+### FLEX-Satellit für Pflanzenbeobachtung
+
+*2026-09-15* · [Originalbeitrag](https://www.deutschlandfunk.de/esa-satellit-flex-ki-und-kontrollverlust-elefantenschaedel-und-kolonialismus-100.html) · FLEX-Satellit, Fotosynthese, Klimawandel, Vegetation, Umweltbeobachtung
+
+**Der FLEX-Satellit der ESA misst die Fotosyntheseaktivität von Pflanzen mit hoher Genauigkeit.**
+
+Der FLEX-Satellit der Europäischen Weltraumagentur (ESA) wurde erfolgreich in den Orbit geschossen und soll die Fotosyntheseaktivität von Pflanzen vermessen. Das Ziel ist es, die Auswirkungen des Klimawandels auf die Vegetation zu verstehen. Der Satellit misst das Flohreszenzlicht, das von chlorophyllhaltigen Blättern abgestrahlt wird, und erlaubt es, den Zustand der Vegetation auf der Erde zu beobachten. Die räumliche Auflösung beträgt 300 Meter, was es ermöglicht, größere Areale wie Wälder und Felder zu beobachten. Der Satellit wird alle 27 Tage über denselben Punkt fliegen, um den Zustand der Vegetation zu aktualisieren. Die Messungen werden über mehrere Jahre hinweg durchgeführt, um mehrere Vegetationszyklen abzudecken. Die Forscher hoffen, dass diese Daten neue Einblicke in die globalen Veränderungen der Vegetation liefern, insbesondere in Bezug auf den Klimawandel.
+
+### Mathematisches Modell für Mückenflugmanöver
+
+*2026-09-10* · [Originalbeitrag](https://www.deutschlandfunk.de/erdbeobachtung-aus-der-stratosphaere-heisse-getraenke-und-krebs-denisova-100.html) · Mücken, Flugmanöver, Mathematisches Modell, Insect Behavior
+
+**Ein mathematisches Modell hat gezeigt, dass Mücken ihre Beute durch verschiedene typische Flugmuster anfliegen, je nach äußeren Reizen.**
+
+Ein mathematisches Modell hat gezeigt, dass Mücken ihre Beute durch verschiedene typische Flugmuster anfliegen, je nach äußeren Reizen. Jörn Dunkel vom Massachusetts Institute of Technology hat ein Modell entwickelt, das die Flugbahnen von Stechmücken der Art Aedes Egipti analysiert. Die Mücken folgen verschiedenen typischen Flugmustern, je nachdem, welchen äußeren Reize sie einzeln oder in Kombination ausgesetzt sind. Optische Reize, wie Farbkontraste, führen dazu, dass die Mücken vor diesem hin und her fliegen, um einen Landepunkt zu finden. Chemische Reize, wie CO2 aus der Atemluft, führen dazu, dass die Mücken wiederholt auf den Körper zu und wieder weg, bis sie darauf landen. Diese Erkenntnisse könnten helfen, das Design und die Wirkungsweise von Mückenfallen auf solche Verhaltensmuster hin zu optimieren.
+
+### Artenvielfalt in den Alpen: Veränderungen durch Klimawandel
+
+*2026-09-04* · [Originalbeitrag](https://www.deutschlandfunk.de/xenotransplantation-psilocybin-artenvielfalt-in-den-alpen-100.html) · Klimawandel, Artenverschiebung, Alpen, Biodiversität
+
+**Die Artenvielfalt in den Alpen nimmt zu, da Pflanzen aus niedrigeren Lagen in höhere Regionen vorstoßen, was die Biodiversität insgesamt reduziert.**
+
+Die Artenvielfalt in den Alpen nimmt zu, da Pflanzen aus niedrigeren Lagen in höhere Regionen vorstoßen. Dies wird durch Klimawandel verursacht, der die Bedingungen in den Alpen verändert. Arten, die früher nur in höheren Regionen vorkamen, verschwinden, während Arten, die in niedrigeren Regionen weit verbreitet sind, in höhere Regionen vorstoßen. Dies führt zu einer Reduzierung der Biodiversität im Alpenraum. Die Verschiebungen wurden seit 2001 beobachtet, und es wird vermutet, dass sie sich in den letzten Jahren beschleunigt haben. (Ökologie & Artenvielfalt) [Klimawandel, Artenverschiebung, Alpen, Biodiversität]
+
+### Klimawandel und Seegraswiesen
+
+*2026-09-03* · [Originalbeitrag](https://www.deutschlandfunk.de/schutz-kritischer-infrastruktur-mann-ueber-bord-seegraswiesen-100.html) · Seegraswiesen, Kohlenstoff, Klimawandel, Wasser
+
+**Seegraswiesen speichern weniger CO2 in wärmeren Wassern, was negative Auswirkungen auf den Kohlenstoffhaushalt der Ozeane hat.**
+
+Forscher haben festgestellt, dass Seegraswiesen in wärmeren Wassern weniger CO2 speichern, was negative Auswirkungen auf den Kohlenstoffhaushalt der Ozeane hat. Hauke Reuter vom Leibniz-Zentrum für Marine Tropenforschung hat gezeigt, dass die Anteile an langlebigen Kohlenstoffverbindungen in Seegraswiesen zurückgegangen sind, wenn sie höheren Temperaturen ausgesetzt sind. Dies bedeutet, dass Seegraswiesen in Zukunft weniger Kohlenstoff speichern werden, was negative Folgen für den Klimawandel haben kann. Die Studie unterstreicht die Notwendigkeit, diese Effekte in Klimamodellen berücksichtigt zu haben.
 
 ### Algenblüten in der Ostsee
 
@@ -736,6 +1048,102 @@ Ein Forschungsteam unter der Leitung von Alex D. Greenwood vom Leibniz-Institut 
 
 ## Klima & Atmosphäre
 
+### Klimapolitischer Konsens in Deutschland
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · Klimawandel, Umweltsoziologie, Polarisation, Deutschland, Studie
+
+**Die Mehrheit der Deutschen glaubt an den Klimawandel und unterstützt klimafreundliche Ziele.**
+
+Eine neue Langzeitstudie des deutschen Umweltpendels Glenn, geleitet von Andreas Diegmann, zeigt, dass die Mehrheit der Deutschen an den Klimawandel glaubt und klimafreundliche Ziele unterstützen. Diese Studie, die über viele Jahre hinweg durchgeführt wird, untersucht Einstellungen und Verhaltensweisen der Bevölkerung. Die Daten wurden durch wiederholte Befragungen erhoben, um die Veränderungen über die Zeit zu verfolgen. Diese Forschung ist relevant, da sie die politische Konsensbildung und die Umsetzung von Klimapolitik in Deutschland beeinflusst. Eine Beschränkung der Studie besteht darin, dass sie die Polarisierung auf der Parteienebene untersucht, aber nicht die Einstellungen der Wählerinnen und Wähler.
+
+### Klimapolitischer Konsens und Zielkonflikte
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · Klimapolitik, Zielkonflikte, Pullmaßnahmen, Belastungen, Studie
+
+**Zielkonflikte bestehen, wenn klimafreundliche Maßnahmen auch Belastungen mit sich bringen.**
+
+Die Studie des deutschen Umweltpendels Glenn zeigt, dass Zielkonflikte in der Klimapolitik bestehen, wenn klimafreundliche Maßnahmen auch Belastungen mit sich bringen. Zum Beispiel haben die meisten Menschen hohe Zustimmung für sogenannte Pullmaßnahmen wie mehr Radwege und Grünflächen, aber die Zustimmung sinkt, wenn es um Belastungen wie CO2-Steuer oder Verbrennerverbot geht. Diese Erkenntnisse sind relevant, da sie die politische Planung und Umsetzung von Klimapolitik beeinflussen. Die Daten wurden durch wiederholte Befragungen erhoben, um die Veränderungen über die Zeit zu verfolgen. Eine Beschränkung der Studie besteht darin, dass sie die Einstellungen der Wählerinnen und Wähler untersucht, aber nicht die Polarisierung auf der Parteienebene.
+
+### CO2-Fußabdruck und Einkommen in Deutschland
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · CO2-Fußabdruck, Einkommen, Studie, Umweltsoziologie
+
+**Der CO2-Fußabdruck in Deutschland ist stark mit dem Einkommen verbunden, aber es gibt auch große individuelle Unterschiede.**
+
+Die Studie des deutschen Umweltpendels Glenn zeigt, dass der CO2-Fußabdruck in Deutschland stark mit dem Einkommen verbunden ist, aber es gibt auch große individuelle Unterschiede. Die Daten wurden durch wiederholte Befragungen erhoben, um den CO2-Fußabdruck in verschiedenen Bereichen wie Mobilität, Wohnen, Konsum und Ernährung zu ermitteln. Diese Erkenntnisse sind relevant, da sie die politische Planung und Umsetzung von Klimapolitik beeinflussen. Eine Beschränkung der Studie besteht darin, dass sie den CO2-Fußabdruck in verschiedenen Bereichen untersucht, aber nicht die Polarisierung auf der Parteienebene.
+
+### Polarisation in der AfD
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · AfD, Polarisation, Klimawandel, Studie
+
+**Die AfD zeigt eine ungewöhnliche Polarisierung in Bezug auf den Klimawandel.**
+
+Die Studie des deutschen Umweltpendels Glenn zeigt, dass die AfD eine ungewöhnliche Polarisierung in Bezug auf den Klimawandel zeigt. Die AfD hat den höchsten Anteil Klimaskeptiker in ihren Reihen, aber es gibt auch AfD-Wähler, die die wissenschaftlichen Belege für den Klimawandel für glaubwürdig halten. Diese Erkenntnisse sind relevant, da sie die politische Konsensbildung und die Umsetzung von Klimapolitik beeinflussen. Die Daten wurden durch wiederholte Befragungen erhoben, um die Veränderungen über die Zeit zu verfolgen. Eine Beschränkung der Studie besteht darin, dass sie die Polarisierung auf der Parteienebene untersucht, aber nicht die Einstellungen der Wählerinnen und Wähler.
+
+### Polarisierung der Klimaeinstellungen in Deutschland
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/unbeabsichtigte-folgen-der-zuckersteuer-keine-polarisierung-von-klimaeinstellung-100.html) · Klimaeinstellungen, Umweltpanel, CO2-Fußabdruck, Grüne, AfD
+
+**Die Polarisierung der Klimaeinstellungen in Deutschland ist weniger stark als in den USA, aber die Grünen haben einen hohen CO2-Fußabdruck, was im Widerspruch zu ihrem Umweltbewusstsein steht.**
+
+Die Studie des deutschen Umweltpanels Glenn zeigte, dass die Polarisierung der Klimaeinstellungen in Deutschland weniger stark ausgeprägt ist als in den USA. Die Mehrheit der Bevölkerung akzeptiert die wissenschaftlichen Belege für den Klimawandel, aber die AfD zeigt eine extrem hohe Klimaskepsis. Die Grünen, obwohl sie als klimafreundlich wahrgenommen werden, haben einen CO2-Fußabdruck, der im Vergleich zur Bevölkerung im Durchschnitt um 10% niedriger ist. Dies wurde durch eine umfangreiche Langzeitstudie mit dem CO2-Fußabdruck in verschiedenen Bereichen wie Mobilität, Wohnen, Konsum und Ernährung bestätigt. Die Studie wurde von Andreas Dieckmann, Co-Direktor des deutschen Umweltpanels Glenn an der Universität Konstanz, durchgeführt.
+
+### Bilanz des Hitzesommers 2026
+
+*2026-10-02* · [Originalbeitrag](https://www.deutschlandfunk.de/bilanz-des-hitzesommers-rekord-el-ni-o-erfolgreiche-genscheren-therapie-100.html) · Klimawandel, Wetterextreme, Gesundheitsrisiken, Wasserressourcen
+
+**Der Sommer 2026 in Europa war der wärmste seit Beginn der Wetteraufzeichnung.**
+
+Der EU-Klimadienst Copernicus hat eine Bilanz des außergewöhnlichen Sommers 2026 in Europa veröffentlicht. Der Sommer war der wärmste seit Beginn der Wetteraufzeichnung, mit einer Durchschnittstemperatur von knapp 22 Grad Celsius, 2,5 Grad über dem Vergleichswert der Jahre 1991 bis 2020. Hitze und Trockenheit führten zu Rekordtiefständen in Flüssen, schweren Waldbränden und erhöhten Gesundheitsrisiken. Diese Ereignisse unterstreichen die Notwendigkeit, Widerstandsfähigkeit gegenüber zunehmenden Klimaextremen aufzubauen. Die Studie wurde durch den EU-Klimadienst Copernicus durchgeführt.
+
+### Rekord-El Niño
+
+*2026-10-02* · [Originalbeitrag](https://www.deutschlandfunk.de/bilanz-des-hitzesommers-rekord-el-ni-o-erfolgreiche-genscheren-therapie-100.html) · El Niño, Wetterextreme, Klimawandel, Pazifik
+
+**Der aktuelle El Niño ist der stärkste seit 2015-2016.**
+
+Der aktuelle El Niño ist der stärkste seit 2015-2016 und hat bereits Rekordmarken erreicht. Modellierungen deuten darauf hin, dass die Wirkungen des El Niño auch in den kommenden Monaten weiterhin stark sein werden. Dürre in Südamerika, starke Stürme im Pazifik und ausgefallene Hurrikansaison im Atlantik sind bereits zu beobachten. Die Kombination von Klimawandel und El Niño führt zu extremen Wetterereignissen. Diese Studie wurde durch das Max-Planck-Institut für Meteorologie durchgeführt.
+
+### Gletscherschwund in den Alpen: Neue Daten und Prognosen
+
+*2026-10-01* · [Originalbeitrag](https://www.deutschlandfunk.de/long-covid-gletscherschwund-altersforschung-100.html) · Gletscher, Gletschermessnetzwerk Glamos, Klimawandel, Wasserspeicher, Schweizer Alpen
+
+**Gletscher in den Schweizer Alpen haben in den vergangenen 3 Monaten 6 Meter Eis verloren, was den Schwund von 2022 übertrifft.**
+
+Die Schweizer Alpen haben in den vergangenen 3 Monaten 6 Meter Eis verloren, was den Schwund von 2022 übertrifft. Dies wurde durch das Gletschermessnetzwerk Glamos dokumentiert. Dr. Matthias Hus, Glatziologe an der ETH Zürich und Leiter von Glamos, berichtete über die Beobachtungen. Die Daten zeigten, dass im vergangenen Jahr über 5% des verbleibenden Eisvolumens verloren gegangen sind. Die Ursachen sind eine Kombination von trockenen Wintern und heißen Sommer. Die Prognosen deuten darauf hin, dass bis 2100 nur noch Reste der Gletscher in der Schweiz oder in Alpen allgemein vorfinden werden, wenn das Klima nicht stabilisiert wird. Die Gletscher dienen als Indikatoren für den Klimawandel und sind wichtige Wasserspeicher. Die Zukunft der Gletscher in den Alpen ist somit eng mit der Klimakrise verknüpft.
+
+### Klimawandel und Meerestemperaturen
+
+*2026-09-23* · [Originalbeitrag](https://www.deutschlandfunk.de/pod-extremwetter-kongress-atemwegsinfektionen-beginn-des-lebens-100.html) · Klimawandel, El Nino, Meerestemperaturen, Wetterklimatologie
+
+**Seit Juni 2026 sind die Meerestemperaturen auf einem neuen Rekordhoch.**
+
+Die Meerestemperaturen erreichten im Juni 2026 einen neuen Rekordhoch, was auf ein starkes El Nino Ereignis hinweist. Diese Erkenntnis stammt vom Deutschen Wetterdienst. Die Datenlage in den Ozeanen ist noch nicht ausreichend, um komplexe Zusammenhänge zu ableiten, da die Messungen erst seit 30-40 Jahren regulär durchgeführt werden. Trotzdem können Wärmemuster im Ozean bereits zuverlässig vorhersagen, dass ein El Nino Ereignis bevorsteht. Die Auswirkungen auf die Regenwälder, Südostasien, Australien und die südamerikanische Westküste sind gut verhersprechbar, während Europa nur indirekt betroffen ist. Diese Erkenntnisse sind relevant, da sie die globale Wetterklimatologie beeinflussen und mögliche ökologische Desastereventen vorhersagen können.
+
+### Kondensstreifen in der Luftfahrt
+
+*2026-09-22* · [Originalbeitrag](https://www.deutschlandfunk.de/planetary-health-check-leitlinie-phagentherapie-klimafreundlichere-luftfahrt-100.html) · Kondensstreifen, Magerverbrennung, Nachhaltigkeit, Luftfahrt
+
+**Forschung zeigte, dass spezielle Triebwerksmodi und nachhaltige Treibstoffe die Bildung von klimaschädlichen Kondensstreifen reduzieren können.**
+
+Ein Forschungsteam untersuchte, wie Kondensstreifen in der Luftfahrt reduziert werden können. Sie führten spektakuläre Flugtests durch, um die Effekte von Magerverbrennungstriebwerken und nachhaltigen Treibstoffen zu untersuchen. Ergebnisse wurden in der Zeitschrift Science Advances veröffentlicht. Es zeigte sich, dass durch Magerverbrennungstriebwerke und nachhaltige Treibstoffe Ruhspartikel um den Faktor tausend reduziert werden können. Dies könnte die Luftfahrt ein Stück weit weniger klimaschädlich machen. Die Herausforderung besteht nun darin, die richtige Balance zwischen verschiedenen Abgaskomponenten zu finden. Weitere Messungen werden geplant, um die Effekte zu bestätigen.
+
+### Klimawandel im Himalaya
+
+*2026-08-28* · [Originalbeitrag](https://www.deutschlandfunk.de/klimawandel-im-himalaya-el-ni-o-und-klimawandel-roman-weltraumteleskop-100.html) · Klimawandel, Himalaya, Sturzfluten, Gletscher, Permafrost
+
+**Der Klimawandel kann die Stabilität des Untergrunds im Himalaya beeinträchtigen, was zu Sturzfluten führen kann.**
+
+Eine Klimaforscherin, Antje Schwalb, erklärt, dass der Himalaya als dritter Pol der Erde mit gigantischen Eismassen und schneller Wärmeentwicklung bekannt ist. Sie beobachtet, dass Gletscher und Permafrost schmelzen, was die Stabilität des Untergrunds beeinträchtigen kann. Dies führt zu Sturzfluten, wie im Grenzgebiet zwischen China und Nepal beobachtet. Diese Ereignisse werden in Zukunft häufiger sein, da sie durch den Klimawandel verstärkt werden. Die Forscherin betont, dass es auch in Europa solche Sturzfluten gibt, zum Beispiel im Bodensee. Die Auswirkungen des Klimawandels auf die Ökologie und die Lebensweise der Menschen im Tibetischen Plateau werden ebenfalls diskutiert.
+
+### El Niño und Klimawandel
+
+*2026-08-28* · [Originalbeitrag](https://www.deutschlandfunk.de/klimawandel-im-himalaya-el-ni-o-und-klimawandel-roman-weltraumteleskop-100.html) · El Niño, Klimawandel, Korallen, Wetterereignisse, Ökonomische Schäden
+
+**El Niño wird durch den Klimawandel verstärkt, was zu weitreichenden globalen Wetterereignissen führen kann.**
+
+Eine Studie im Fachmagazin Science zeigt, dass El Niño seit den 1980er Jahren stärker ist als in vorendertreibungszeit. Julia Kohl, Paläoklimatologin an der Universität von Michigan, führt eine Untersuchung durch, die auf geochemischen Untersuchungen an lebenden und fossilen Steinkorallen basiert. Diese Studie unterstützt die These, dass El Niño durch den Klimawandel verstärkt wird. Die Forscherin betont, dass El Niño parallel zur globalen Erwärmung intensiviert wird. Dies hat weitreichende Folgen für Öko- und Wirtschaftssysteme, insbesondere für Korallenriffe in großen Teilen des tropischen Pazifiks. El Niño kann auch zu dörrenen Kornkammern in verschiedenen Regionen der Welt führen, was zu wirtschaftlichen Schäden führen kann. Allerdings ist der Einfluss von El Niño in Europa eher schwach ausgeprägt.
+
 ### Bäume und Ozonbildung
 
 *2026-08-20* · [Originalbeitrag](https://www.deutschlandfunk.de/mrna-impfung-gegen-krebs-u10-untersuchung-baeume-lassen-ozon-entstehen-100.html) · Bäume, Ozon, Isopren, Megastädte, Peking
@@ -875,6 +1283,38 @@ Eine Studie hat gezeigt, dass weltweit 10% der anthropogenen Treibhausgasemissio
 
 ## Geowissenschaften
 
+### Absinkende Metropolen: Grundwasserentnahme als Hauptursache
+
+*2026-10-13* · [Originalbeitrag](https://www.deutschlandfunk.de/absinkende-metropolen-gruende-fuer-wechseljahrbeschwerden-schlafmangel-100.html) · Absenkung, Metropolen, Grundwasserentnahme, Satellitendaten, Bodenbewegungen
+
+**Die Absenkung von Millionenstädten, insbesondere in Nordamerika und Asien, wird durch starke Grundwasserentnahme verursacht.**
+
+Eine Studie untersuchte 465 Millionenstädte in 107 Ländern und fand, dass starke Grundwasserentnahme die Hauptursache für die Absenkung der Böden ist. Insbesondere in Südostasien, Iran und Mexiko-Stadt sind die Böden stark abgesunken. Die Forscher analysierten Radar-Daten von europäischen Satelliten von 2014 bis 2023. Während in einigen Regionen die Entnahme von Grundwasser reduziert wurde und das Absinken verlangsamt wurde, sind in anderen Regionen die Böden weiterhin abzusinken. Die Studie, die von der Universität Houston und anderen Institutionen durchgeführt wurde, unterstreicht die Notwendigkeit, die Grundwasserreserven sorgfältig zu verwalten, um die Stabilität der Böden zu gewährleisten.
+
+### Die Bibliothek der vergessenen Karten
+
+*2026-10-09* · [Originalbeitrag](https://www.deutschlandfunk.de/auslese-von-der-frankfurter-buchmesse-comics-karten-und-atlanten-100.html) · Kartografie, Geoinformatik, Wissenschaftsgeschichte, Historische Karten, James Cheshire
+
+**James Cheshire, Professor für Geoinformatik, entdeckt und beschreibt eine vergessene Kartensammlung, die wertvolle historische Informationen enthält.**
+
+Das Buch 'Die Bibliothek der vergessenen Karten' von James Cheshire, Professor für Geoinformatik, beschreibt eine vergessene Kartensammlung, die wertvolle historische Informationen über die Entwicklung der Kartografie enthält. Cheshire rekonstruiert die Geschichte der Karten und zeigt, wie sie politisch genutzt wurden. Das Buch ist eine faszinierende Reise durch die Geschichte der Kartografie und hat eine besondere Bedeutung für Wissenschaftsgeschichte. Es erschien bei Hanse Verlag.
+
+### Seismische Effekte von Atomtests
+
+*2026-09-18* · [Originalbeitrag](https://www.deutschlandfunk.de/malaria-in-frankfurt-erdbeben-durch-atomtests-aussterben-der-neandertaler-100.html) · Atomtests, Erdbeben, Seismologie, Gestein, Spannungsfelder
+
+**Ein Forschungsteam untersucht die langfristigen seismischen Effekte von Atomtests.**
+
+Ein Forschungsteam untersucht die langfristigen seismischen Effekte von Atomtests anhand von Daten zum nordkoreanischen Berg Mantab. Sechs Atomtests wurden über einen Zeitraum von mehr als 10 Jahren durchgeführt. Die Studie zeigt, dass die Zahl der Beben und ihre Stärke nicht abnahm, sondern weiter zu. Es wird vermutet, dass die Atomtests in das Gestein eingeschlagen und in das Spannungsfeld gestört haben. Die Forschung ist relevant, da sie die Auswirkungen von Atomtests auf die Erdbebenaktivität untersucht. Es gibt jedoch keine direkte Beweis dafür, dass die Störungen durch die Atomtests verursacht wurden.
+
+### Hubschrauberbasierte Rohstofferkundung im Erzgebirge
+
+*2026-09-02* · [Originalbeitrag](https://www.deutschlandfunk.de/social-media-und-wahlerfolg-rohstoff-suche-im-erzgebirge-rembrandt-100.html) · Rohstofferkundung, Hubschrauber, Elektromagnetik, Erzgebirge, Lagerstätten
+
+**Hubschrauberbasierte Rohstofferkundung ermöglicht tiefer liegende Lagerstättenuntersuchungen.**
+
+Das Verbundprojekt DESMEX nutzt das Semi-Airborne-Elektromagnetik-Verfahren, um tiefer liegende Rohstofflagerstätten im Erzgebirge zu erkunden. Die Methode, die von der Bundesanstalt für Geowissenschaften und Rohstoffe entwickelt wurde, ermöglicht die Erfassung der elektrischen Leitfähigkeit bis zu 1000 Meter Tiefe. Diese Technik wird in verschiedenen Lagerstätten angewendet, um Zinn, Kupfer, Wismut, Silber und Antimonen zu finden. Die Methode spielt eine wichtige Rolle bei der deutschen Rohstoffstrategie, da sie tiefer liegende Rohstoffe zukünftig erforschen und fördern kann. Die Forscher haben bereits erfolgreich in verschiedenen Lagerstätten gearbeitet, darunter die Eisenerz-Lagerstätte in Kiruna, Schweden, und die Grafit-Lagerstätte in Bayern.
+
 ### Sturzflut im Himalaya: Ursachen und Folgen
 
 *2026-08-27* · [Originalbeitrag](https://www.deutschlandfunk.de/sturzflut-in-nepal-opfer-der-hitzewelle-rost-durch-regen-100.html) · Sturzflut, Gletscherseen, Klimawandel, Frühwarnsysteme
@@ -981,6 +1421,62 @@ Am 15. August 2025, um 3:00 Uhr, löste ein Erdrutsch im Tracy Arm Fjord von Ala
 
 
 ## Astronomie & Raumfahrt
+
+### Der historische Atlas des Weltalls
+
+*2026-10-09* · [Originalbeitrag](https://www.deutschlandfunk.de/auslese-von-der-frankfurter-buchmesse-comics-karten-und-atlanten-100.html) · Atlas, Weltall, Karten, Infografiken, Historische Entwicklung, Christian Grataloup, Pierre-Lenard
+
+**Christian Grataloup und Pierre-Lenard erstellen einen historischen Atlas des Weltalls, der Karten und Infografiken über fünf Zeitalter des Weltraums bietet.**
+
+Der historische Atlas des Weltalls von Christian Grataloup und Pierre-Lenard bietet eine umfangreiche Sammlung von Karten und Infografiken, die den historischen und zukünftigen Zustand des Weltalls darstellen. Die Karten sind historisch geordnet und bieten einen Überblick über die Entwicklung der Astronomie und Raumfahrt. Das Buch ist ein visuell geprägtes Nachschlagewerk, das für alle Interessierten geeignet ist, die sich mit der Geschichte des Weltalls auseinandersetzen möchten. Es erschien bei C.H. Beck.
+
+### Neutrinos – Geisterteilchen des Alls
+
+*2026-10-06* · [Originalbeitrag](https://www.deutschlandfunk.de/nobelpreis-physik-100.html) · Neutrinos, Ice Cube, Neutrinoastronomie, Supernova, Schwarze Löcher
+
+**Neutrinos sind fast unsichtbare Teilchen, die durch das Universum reisen und neue kosmische Informationen liefern.**
+
+Neutrinos sind elektrisch ungeladene Teilchen ohne Masse, die durch das All rasen und sich leicht mit Materie wechselseitig beeinflussen. Sie werden von verschiedenen kosmischen Prozessen wie Supernova und Schwarzen Löchern emittiert. Der Ice Cube Neutrino-Observatorium hat Neutrinos aus der Umgebung riesiger schwarzer Löcher und aus der Nachbarschaft von Galaxien entdeckt. Diese Entdeckungen erlauben eine neue Art von Astronomie, die Neutrinoastronomie, und bieten Einblicke in krasseste kosmische Vorgänge.
+
+### Neutrinos – Geister aus dem All
+
+*2026-10-06* · [Originalbeitrag](https://www.deutschlandfunk.de/nobelpreis-physik-100.html) · Neutrinos, Ice Cube, Neutrinoastronomie, Supernova, Schwarze Löcher
+
+**Neutrinos sind Teilchen, die durch das Universum reisen und wichtige kosmische Informationen liefern können.**
+
+Neutrinos sind Teilchen, die durch das Universum reisen und wichtige kosmische Informationen liefern können. Sie entstehen in verschiedenen kosmischen Prozessen wie Supernova und Schwarzen Löchern. Der Ice Cube Neutrino-Observatorium hat Neutrinos aus der Umgebung riesiger schwarzer Löcher und aus der Nachbarschaft von Galaxien entdeckt. Diese Entdeckungen erlauben eine neue Art von Astronomie, die Neutrinoastronomie, und bieten Einblicke in krasseste kosmische Vorgänge.
+
+### Anti-Satellitenwaffen im Erdorbit
+
+*2026-09-24* · [Originalbeitrag](https://www.deutschlandfunk.de/aufruestung-im-orbit-schwimmende-windraeder-verjuengung-des-immunsystems-100.html) · Satelliten, Weltraum, Abwehrwaffen, Forschung
+
+**Die USA haben offiziell Anti-Satellitenwaffen im Erdorbit stationiert, um ihre Streitkräfte zu schützen.**
+
+Die USA haben offiziell Anti-Satellitenwaffen im Erdorbit stationiert, um ihre Streitkräfte zu schützen. Diese Waffen sind Teil der Bemühungen, Satelliten vor Angriffen zu schützen, die seit Jahren unterm Radar der Öffentlichkeit lagen. Experten sehen in dieser Ankündigung eine Eskalation, die aufklärt und deeskalieren soll. Forscher arbeiten an Technologien, um gefährliche Situationen im All zu entschärfen, aber es fehlen noch Teleskope und Radarstationen, um die Annäherung gegnerischer Satelliten lückenlos feststellen zu können. Europäische Staaten planen ebenfalls Abwehrwaffen im All, um ihre eigenen Satelliten zu schützen. Dieser Beitrag gehört zum
+
+### Erdbeobachtung aus der Stratosphäre
+
+*2026-09-10* · [Originalbeitrag](https://www.deutschlandfunk.de/erdbeobachtung-aus-der-stratosphaere-heisse-getraenke-und-krebs-denisova-100.html) · Stratosphäre, Erdbeobachtung, DLR, HAPS
+
+**Das Deutsche Zentrum für Luft- und Raumfahrt (DLR) hat einen Flieger entwickelt, der in der Stratosphäre beobachten kann, um bessere Auflösung zu ermöglichen.**
+
+Das DLR hat einen Flieger namens HAP Alpha entwickelt, der in der Stratosphäre beobachten kann, um bessere Auflösung zu ermöglichen. Der Flieger, der als HAPS (High Altitude Platform Station) bezeichnet wird, wird mit Radar und optischen Kameras ausgestattet. Die Stratosphäre ist 20 Kilometer hoch und ermöglicht es, wesentlich bessere Auflösung zu erzielen als Satelliten in Erdumlaufbahn. Der Flieger wird in Sachsen-Anhalt getestet und soll in der Zukunft mehr als 100 Mal so hoch fliegen wie normale Flugzeuge. Dieser Ansatz kann zu kostengünstigeren und effektiveren Beobachtungen führen, insbesondere in Regionen, die von Satelliten nicht gut abgedeckt werden.
+
+### Erster Erfolg der ESA Aerospace mit der Spectrum-Rakete
+
+*2026-09-08* · [Originalbeitrag](https://www.deutschlandfunk.de/isar-aerospace-dunkle-materie-lsd-ohne-halluziationen-100.html) · ESA Aerospace, Spectrum-Rakete, Raumfahrt, Start-up, Satelliten
+
+**Die Spectrum-Rakete von ESA Aerospace hat erfolgreich ihren ersten Flug absolviert.**
+
+Die Spectrum-Rakete von ESA Aerospace, einem Start-up-Unternehmen, hat am 8. September 2026 ihren ersten erfolgreichen Flug von der Insel Andøya in Norwegen absolviert. Die Rakete, die nur eine Tonne in den niedrigen Erdorbit transportieren kann, zeigte sich in der Lage, die Satelliten auszusetzen, die an Bord waren. Obwohl sie klein ist, ist sie ein wichtiger Schritt für das Unternehmen, das Pläne hat, bis zu 40 Raketen pro Jahr zu bauen. Die Rakete ist besonders auf militärische Kunden ausgerichtet, da die Bundeswehr Pläne hat, bis 2029 300 Kleinsatelliten zu fliegen, um von US-Anbietern unabhängiger zu werden. Dieser Erfolg zeigt, dass es in Deutschland eine alternative Raumfahrtindustrie gibt, die bereit ist, mit etablierten Raketenkonstruktionen zu konkurrieren.
+
+### Nancy-Grace-Roman-Weltraum-Teleskop
+
+*2026-08-28* · [Originalbeitrag](https://www.deutschlandfunk.de/klimawandel-im-himalaya-el-ni-o-und-klimawandel-roman-weltraumteleskop-100.html) · Nancy-Grace-Roman, Weltraum-Teleskop, Supernovae, Exoplaneten, Kosmologie
+
+**Das Nancy-Grace-Roman-Weltraum-Teleskop wird ins All gestartet, um die Expansionsgeschichte des Universums und die Suche nach Exoplaneten zu fördern.**
+
+Das Nancy-Grace-Roman-Weltraum-Teleskop, das zum ersten Mal von einer Frau geleitet wird, wird am Sonntag ins All gestartet. Oliver Krause vom Max-Planck-Institut für Astronomie in Heidelberg erläutert, dass das Teleskop zwei Hauptziele hat: die Expansionsgeschichte des Universums zu erforschen und Exoplaneten zu entdecken. Das Teleskop wird mit einer Kamera mit 300 Millionen Pixeln und einem Coronograph starten, um Supernovae zu beobachten und Helligkeitsunterschiede zu reduzieren. Das Coronograph ist eine neue Technologie, die zum ersten Mal im Weltraum eingesetzt wird. Die Forscher betonen, dass das Teleskop wichtige Beiträge zu den kosmologischen Fragen leisten wird, insbesondere zur Beschleunigung der kosmischen Expansion und zur Suche nach Exoplaneten.
 
 ### Rettungsmission für das Weltraumteleskop Swift
 
@@ -1097,6 +1593,38 @@ Firmen aus Deutschland und den USA arbeiten an Satelliten, die zur Erde zurückk
 
 ## Physik
 
+### Schaltsekunde: Der Versuch, Zeit zu vereinheitlichen
+
+*2026-10-15* · [Originalbeitrag](https://www.deutschlandfunk.de/zucker-und-krebs-schaltsekunde-hoeren-mit-optogenetik-ungleichheit-100.html) · Schaltsekunde, Atomzeit, Alltagszeit, Zeitkorrektur
+
+**Die Schaltsekunde soll entfernt werden, um die Übereinstimmung zwischen Atomzeit und Alltagszeit zu verbessern.**
+
+Die Generalkonferenz für Maß und Gewicht hat beschlossen, die Schaltsekunde ab 2035 zu entfernen, um die Übereinstimmung zwischen Atomzeit und Alltagszeit zu verbessern. Die Schaltsekunde wurde bisher 27 Mal eingefügt, um die Erdrotation zu korrigieren. Die Entfernung der Schaltsekunde soll verhindern, dass negative Schaltsekunden in der Zukunft notwendig werden, die Systeme schwerer testen. Die Forscher, unter ihnen Andreas Bauch, betonen, dass die Schaltsekunde entfernt werden soll, um die Zukunft zu erleichtern, obwohl spätere Generationen die Folgen ausbaden müssen.
+
+### Der Ice Cube Neutrino-Observatorium
+
+*2026-10-06* · [Originalbeitrag](https://www.deutschlandfunk.de/nobelpreis-physik-100.html) · Ice Cube, Neutrinoastronomie, Antarktis, Eispanzer
+
+**Der Ice Cube Neutrino-Observatorium nutzt den Antarktis-Eispanzer, um Neutrinos aus dem All aufzuspüren.**
+
+Der Ice Cube Neutrino-Observatorium ist ein riesiger Detektor, der im Antarktis-Eis installiert ist. Er besteht aus mehr als 5000 Basketballgroßen Glaskugeln, die Lichtsensoren enthalten. Wenn ein Neutrino mit einem Atomkern kollidiert, entsteht ein schwacher Lichtblitz, der im Eis ausbreitet und durch die Glaskugeln aufgefangen wird. Dies ermöglicht es den Forschern, Neutrinos aus dem Kosmos zu identifizieren und ihre Richtung und Energie zu bestimmen. Der Ice Cube Neutrino-Observatorium hat bereits 28 Neutrinos aus dem Kosmos aufgespürt und liefert wichtige Informationen zur Neutrinoastronomie.
+
+### Francis Halson – Visionär der Neutrinoastronomie
+
+*2026-10-06* · [Originalbeitrag](https://www.deutschlandfunk.de/nobelpreis-physik-100.html) · Francis Halson, Ice Cube, Neutrinoastronomie
+
+**Francis Halson ist der Visionär, der den Ice Cube Neutrino-Observatorium ins Leben gerufen hat.**
+
+Francis Halson, ein belgischer Physiker, ist der Visionär, der den Ice Cube Neutrino-Observatorium ins Leben gerufen hat. Er hat die Idee zur Erstellung eines riesigen Eiswürfels aus mehr als 5000 Glaskugeln im Antarktis-Eis gehabt, um Neutrinos aus dem Kosmos aufzuspüren. Obwohl die Idee kritisch war, hat Halson durchgehalten und das Projekt zu einem Erfolg gemacht. Der Ice Cube Neutrino-Observatorium hat bereits 28 Neutrinos aus dem Kosmos aufgespürt und liefert wichtige Informationen zur Neutrinoastronomie.
+
+### Untersuchung des Signals in dem Xenon-Tank für dunkle Materie
+
+*2026-09-08* · [Originalbeitrag](https://www.deutschlandfunk.de/isar-aerospace-dunkle-materie-lsd-ohne-halluziationen-100.html) · dunkle Materie, Xenon-Tank, Lux Zeppelin, Physik
+
+**Ein Experiment in den USA hat ein Signal aufgefangen, das möglicherweise von dunkler Materie stammen könnte.**
+
+Ein Experiment namens Lux Zeppelin, das in einer alten Goldmine in South Dakota durchgeführt wird, hat ein Signal aufgefangen, das möglicherweise von dunkler Materie stammen könnte. Das Experiment verwendet einen Tank mit sieben Tonnen flüssigem Xenon, um winzige Zusammenstöße mit dunklen Materie-Teilchen zu messen. Bislang wurde nur ein einzelnes Ereignis festgestellt, und die Forscher betonen die Notwendigkeit von weiteren Messungen, um die Wahrscheinlichkeit eines Störsignals zu bestimmen. Das Ergebnis könnte die Fachwelt in der Physik weiterbringen, wenn es bestätigt wird, indem es neue Erkenntnisse über die dunkle Materie liefert.
+
 ### Bewegung und Gehirnalterung
 
 *2026-07-22* · [Originalbeitrag](https://www.deutschlandfunk.de/cyberangriff-durch-ki-risiko-fuer-leihmuetter-hirnalterung-100.html) · Bewegung, Gehirnalterung, G-Einheiten, Gesundheit
@@ -1155,6 +1683,46 @@ Ein Forschungsteam am CERN hat zum ersten Mal Antiprotonen kontrolliert von eine
 
 
 ## Chemie & Materialien
+
+### Asymmetrische Katalyse in der organischen Synthese
+
+*2026-10-07* · [Originalbeitrag](https://www.deutschlandfunk.de/chemienobelpreis-spiegelbild-molekuele-fuer-die-medizin-100.html) · Nobelpreis, Katalyse, Chirale Moleküle, Pharmazie, Synthese
+
+**Henri Cagón und Kenzo Sorai wurden für ihre Entdeckungen in der asymmetrischen Katalyse mit dem Chemie-Nobelpreis ausgezeichnet.**
+
+Henri Cagón und Kenzo Sorai erhielten den Chemie-Nobelpreis für ihre Entdeckungen in der asymmetrischen Katalyse. Diese Methode ermöglicht es Chemikern, Moleküle in eine bestimmte Form zu synthetisieren, was besonders in der Pharmazie relevant ist. Ihre Arbeit basiert auf der Verwendung von Katalysatoren, die selbst chirale Strukturen haben, um eine Überherrschung einer der beiden Spiegelformen herzustellen. Diese Methode wurde bereits Anfang des 20. Jahrhunderts von Willi Markwald entdeckt, der jedoch nur einen geringen Überschuss erreichen konnte. Cagón und Sorai konnten diese Methode weiterentwickeln und optimieren, um höhere Ausbeute zu erzielen. Ihre Arbeit ist von großer Bedeutung für die Pharmaforschung und die Entwicklung von Arzneimitteln, die nur eine bestimmte Form des Moleküls benötigen.
+
+### Chiralität und die Natur
+
+*2026-10-07* · [Originalbeitrag](https://www.deutschlandfunk.de/chemienobelpreis-spiegelbild-molekuele-fuer-die-medizin-100.html) · Chiralität, Natur, Organische Chemie, Pharmazie, Katalyse
+
+**Die Chiralität von Molekülen ist ein fundamentales Phänomen in der Natur, das auch in der organischen Chemie eine wichtige Rolle spielt.**
+
+Chiralität, das Phänomen, bei dem Moleküle in zwei Spiegelformen existieren, ist ein grundlegendes Merkmal in der Natur. In der Biologie kommen Moleküle wie Aminosäuren und Zucker in einer bestimmten Form vor, während in der Chemie Moleküle in Gemische aus beiden Formen synthetisiert werden. Diese Chiralität hat wichtige Auswirkungen auf die Funktion von Molekülen, insbesondere in der Pharmazie, wo die Form des Moleküls die Wirksamkeit beeinflusst. Chemiker haben entwickelt, wie sie asymmetrische Katalyse einsetzen können, um eine Überherrschung einer der beiden Formen herzustellen. Diese Methode ist von großer Bedeutung für die Entwicklung von Arzneimitteln, die nur eine bestimmte Form benötigen.
+
+### Asymmetrische Katalyse und die Entwicklung von Arzneimitteln
+
+*2026-10-07* · [Originalbeitrag](https://www.deutschlandfunk.de/chemienobelpreis-spiegelbild-molekuele-fuer-die-medizin-100.html) · Arzneimittel, Katalyse, Chirale Moleküle, Pharmazie, Synthese
+
+**Asymmetrische Katalyse ermöglicht es Chemikern, Arzneimittel in einer bestimmten Form zu synthetisieren, was ihre Wirksamkeit und Sicherheit erhöht.**
+
+Asymmetrische Katalyse ist ein wichtiger Prozess in der organischen Chemie, der es ermöglicht, Moleküle in eine bestimmte Form zu synthetisieren. Dies ist besonders relevant in der Pharmazie, da die Form eines Moleküls die Wirksamkeit und Sicherheit eines Arzneimittels beeinflusst. Chemiker wie Benjamin List und Karsten Bölling haben entwickelt, wie asymmetrische Katalyse eingesetzt werden kann, um eine Überherrschung einer der beiden Spiegelformen herzustellen. Diese Methode ist von großer Bedeutung für die Entwicklung von Arzneimitteln, die nur eine bestimmte Form benötigen, was ihre Wirksamkeit und Sicherheit erhöht. Diese Methode wurde 2021 mit dem Nobelpreis für Chemie ausgezeichnet.
+
+### Die Rolle von Katalysatoren in der asymmetrischen Synthese
+
+*2026-10-07* · [Originalbeitrag](https://www.deutschlandfunk.de/chemienobelpreis-spiegelbild-molekuele-fuer-die-medizin-100.html) · Katalyse, Chirale Moleküle, Pharmazie, Synthese, Nobelpreis
+
+**Katalysatoren sind Schlüsselkomponenten in der asymmetrischen Synthese, die es ermöglichen, Moleküle in eine bestimmte Form zu synthetisieren.**
+
+Katalysatoren sind Schlüsselkomponenten in der asymmetrischen Synthese, die es ermöglichen, Moleküle in eine bestimmte Form zu synthetisieren. Henri Cagón und Kenzo Sorai haben entwickelt, wie Katalysatoren eingesetzt werden können, um eine Überherrschung einer der beiden Spiegelformen herzustellen. Diese Methode basiert auf der Verwendung von Katalysatoren, die selbst chirale Strukturen haben, um eine Überherrschung einer der beiden Formen herzustellen. Diese Methode ist von großer Bedeutung für die Entwicklung von Arzneimitteln, die nur eine bestimmte Form benötigen. Diese Methode wurde 2026 mit dem Chemie-Nobelpreis ausgezeichnet.
+
+### Nanoschaum mit Gedächtnis
+
+*2026-09-25* · [Originalbeitrag](https://www.deutschlandfunk.de/hummeln-im-hitzestress-anfeuern-beim-marathon-nanoschaum-mit-gedaechtnis-100.html) · Nanoschaum, Gedächtnis, Kohlenstoff, Helme
+
+**Ein Nanoschaum mit Gedächtnis wurde entdeckt, der sich nach Druck wieder in seine ursprüngliche Form zurückbildet.**
+
+Ein Forschungsteam aus den USA untersuchte Nanoschaum und entdeckte eine bisher unbekannte Eigenschaft: mechanisches Gedächtnis. Der Nanoschaum, der aus winzigen Kohlenstoffröhrchen besteht, kann sich nach Druck wieder in seine ursprüngliche Form zurückbildet, unabhängig davon, ob der Druck langsam oder schnell erfolgt. Dieses Verhalten unterscheidet sich von dem eines Kunststoffschaums, der nach langem Druck seine Form verliert. Die Forscher sind begeistert und sehen potenzielle Anwendungen in Helmen, die sich nach einem Stoß gezielt verteilen können. Die Studie wurde durch die University of Wisconsin-Madison durchgeführt und könnte in Zukunft zu sichereren Helmen führen. Eine Beschränkung der Studie ist, dass sie im Labor durchgeführt wurde und die Anwendung in praxisrelevante Bedingungen noch zu überprüfen ist.
 
 ### Elektrisch geladene Regentropfen und Korrosion
 
@@ -1223,6 +1791,46 @@ Wissenschaftler aus der Korea University haben Reispapier chemisch verändert, u
 
 ## Energie
 
+### Erneuerbare Energien und Einkommen
+
+*2026-10-14* · [Originalbeitrag](https://www.deutschlandfunk.de/deutsches-umwelt-panel-keine-polarisierung-bei-klimaeinstellungen-100.html) · Erneuerbare Energien, Einkommen, Studie, Umweltsoziologie
+
+**Die Bereitschaft, erneuerbare Energien zu nutzen, ist stark mit dem Einkommen verbunden.**
+
+Die Studie des deutschen Umweltpendels Glenn zeigt, dass die Bereitschaft, erneuerbare Energien zu nutzen, stark mit dem Einkommen verbunden ist. Die Daten wurden durch wiederholte Befragungen erhoben, um die Verwendung von E-Autos, Wärmepumpen und Solaranlagen zu untersuchen. Diese Erkenntnisse sind relevant, da sie die politische Planung und Umsetzung von Klimapolitik beeinflussen. Eine Beschränkung der Studie besteht darin, dass sie die Verwendung von erneuerbaren Energien in verschiedenen Bereichen untersucht, aber nicht die Polarisierung auf der Parteienebene.
+
+### Schnellladesäulen und Stromnetzstabilität
+
+*2026-09-30* · [Originalbeitrag](https://www.deutschlandfunk.de/energydrinks-schutz-von-schmetterlingen-schnellladesaeulen-und-stromnetz-100.html) · Blindleistung, Ladesäulen, Stromnetz, Elektroautos, Netzstabilität
+
+**Schnellladesäulen könnten helfen, die Blindleistung im Stromnetz zu regulieren und die Netzstabilität zu verbessern.**
+
+Eine Studie in Hamburg untersuchte, ob Ladesäulen für Elektroautos die Blindleistung im Stromnetz regulieren und die Netzstabilität verbessern könnten. Blindleistung, das Schmiermittel im Stromsystem, entsteht durch elektromagnetische Felder, die ständig Energie im Netz hin und her pendeln. Bastian Fahre veranschaulichte das mit einem Glas Bier, wobei die Flüssigkeit die Wirkleistung und der Schaum die Blindleistung repräsentiert. In Hamburg wurden Ladesäulen getestet, um zu sehen, ob sie die Blindleistung regulieren können. Die Studie liefert wichtige Erkenntnisse über die Zukunft der Stromnetzstabilität und die Integration von Elektroautos in das Energiesystem.
+
+### Atomkraft: Renaissance oder Realität?
+
+*2026-09-29* · [Originalbeitrag](https://www.deutschlandfunk.de/cochrane-stiftung-kernenergie-report-fleischfressende-pflanzen-100.html) · Atomkraft, SMRs, Reaktoren, Wind- und Solaranlagen
+
+**Die Atomkraft ist in vielen Ländern wieder im Gespräch, aber die tatsächlichen Stückzahlen der Kernenergie sind eher stagnierend und werden von Wind- und Solaranlagen übertroffen.**
+
+Ein Weltatomindustrie-Report zeigt, dass die Atomkraft in vielen Ländern wieder im Gespräch ist, aber die tatsächlichen Stückzahlen der Kernenergie stagnieren. 2025 haben die Kernkraftwerke so viel Strom produziert wie nie zuvor, aber der Anteil der Kernenergie relativ sank auf 8,8%. Die Atomkraft ist in China besonders stark, wo mehr als 60 Reaktoren laufen und 9 von 12 weltweiten Neubau-Projekten in China sind. Russland ist der wichtigste Exporteur von Reaktoren, aber auch China baut solche SMR. Die westliche Welt hat ihren ersten SMR im Bau, aber die Serienfertigung ist noch am Anfang. Die realen Stückzahlen der Kernenergie sind eher stagnierend und werden von Wind- und Solaranlagen übertroffen. Die Zukunft der Atomkraft hängt von der Entwicklung kleiner modularer Reaktoren (SMRs) ab, die billiger und schneller zu bauen sind.
+
+### Schwimmende Windräder
+
+*2026-09-24* · [Originalbeitrag](https://www.deutschlandfunk.de/aufruestung-im-orbit-schwimmende-windraeder-verjuengung-des-immunsystems-100.html) · Windenergie, Schwimmende Windräder, Technologie, Forschung
+
+**Schwimmende Windräder könnten neue Standorte für Windenergie erschließen, obwohl sie noch teurer sind als konventionelle Offshore-Windparks.**
+
+Schwimmende Windräder könnten neue Standorte für Windenergie erschließen, obwohl sie noch teurer sind als konventionelle Offshore-Windparks. Diese Bojen mit Windrädern, die so hoch sind wie der Eifelturm, werden in tiefem Wasser platziert, wo das Meer zu tief ist, um die Windräder am Boden zu verankern. Forscher testen verschiedene Lösungen, um die Schwimmkörper der Anlagen zu stabilisieren. Die Schwimmkörper sind aus Beton und können sich um einen Punkt drehen, um nach dem Wind auszurichten. Die ersten Pilotprojekte wurden auf der Messe Wind Force in Hamburg vorgestellt. Die Schwimmkörper sind groß und teuer, aber die Kosten könnten sinken, wenn die Technologie in großer Stückzahl produziert wird. Dieser Beitrag gehört zum
+
+### Kernfusion: Das Konzept von Commonwealth Fusion Systems
+
+*2026-09-02* · [Originalbeitrag](https://www.deutschlandfunk.de/social-media-und-wahlerfolg-rohstoff-suche-im-erzgebirge-rembrandt-100.html) · Kernfusion, Fusionsreaktor, ARC, Commonwealth Fusion Systems, Magnetkäfig
+
+**Commonwealth Fusion Systems plant einen Fusionsreaktor, der in den frühen 2030er-Jahren Strom liefern soll.**
+
+Commonwealth Fusion Systems, eine US-amerikanische Firma, plant einen Fusionsreaktor namens ARC, der 400 Megawatt Leistung liefern soll und in den frühen 2030er-Jahren in Betrieb genommen werden soll. Das Konzept basiert auf einer neuen Magnet-Technologie, die wesentlich stärkere Magnetfelder erzeugen kann. Das Unternehmen hat mehrere Fachartikel veröffentlicht, in denen es das Konzept offenlegt und es mit staatlich geförderten Forschungseinrichtungen zusammenarbeitet. Ob der Fusionsreaktor tatsächlich in den frühen 2030er-Jahren in Betrieb genommen werden kann, ist noch nicht klar, da die Technologie noch nicht vollständig entwickelt ist. Die größte Herausforderung besteht darin, dass alle Teile gut zusammenarbeiten müssen. Ob Commonwealth Fusion Systems geeignete Reaktor-Materialien entwickeln und eine Technik finden kann, mit der Tritium erzeugt wird, bleibt noch zu sehen.
+
 ### Schwimmende Photovoltaikanlage
 
 *2026-08-25* · [Originalbeitrag](https://www.deutschlandfunk.de/gesperrte-eishoehle-fruehe-symbiose-donnerbeben-photovoltaik-100.html) · Photovoltaik, Schwimmende Anlage, Sauerstoffgehalt, Wasser
@@ -1257,6 +1865,110 @@ Ein Forschungsteam der RWTH Aachen untersuchte Natrium-Akku-Technologie und fand
 
 
 ## Technik & Informatik
+
+### Optogenetik: Licht als Schalter für Gehör
+
+*2026-10-15* · [Originalbeitrag](https://www.deutschlandfunk.de/zucker-und-krebs-schaltsekunde-hoeren-mit-optogenetik-ungleichheit-100.html) · Optogenetik, Cochlea-Implantat, Gehör, Neurotechnologie
+
+**Optogenetik ermöglicht es, Nervenzellen mit Licht zu steuern, was die Entwicklung von besseren Cochlea-Implantaten für Gehörlose fördert.**
+
+Die Nobelpreisträger in Medizin haben Optogenetik entdeckt, eine Technik, die es ermöglicht, Nervenzellen mit Licht zu steuern. In Göttingen arbeitet Tobias Moser an der Entwicklung eines Cochlea-Implantats 2.0, das mit Optogenetik verbunden ist. Das Team hat bereits in Meusen und Fadenwürmern Nervenzellen mit Lichtschaltern versehen und versucht, diese in menschlichen Cochlea-Implantaten einzubauen. Ziel ist es, die Sensibilität und Detailgenauigkeit der Hörprothese zu verbessern. Die Forschung ist noch in der Frühphase, aber sie hoffen, bis 2029 einen ersten Sicherheitstest mit menschlichen Probanden durchzuführen.
+
+### Fliegende Messroboter inspiriert durch Ahornsamen
+
+*2026-10-08* · [Originalbeitrag](https://www.deutschlandfunk.de/pest-in-russland-wissenschaft-und-demokratie-fliegende-messroboter-100.html) · Messroboter, Ahornsamen, Ölkatastrophen, Wetterbeobachtung
+
+**Ein Prototyp von fliegenden Messrobotern, inspiriert durch Ahornsamen, wurde entwickelt, um Ölgepässe zu erforschen und Messdaten zu sammeln.**
+
+Ein Team aus Singapur hat den Prototyp eines fliegenden Messroboters namens Albatros entwickelt, der inspiriert ist durch die Form von Ahornsamen. Der Roboter kann sanft auf dem Wasser aufschlagen und sich dann autonom mit dem Wind bewegen. Er wird für die Überwachung von Ölgepässe und Messungen im Meer genutzt. Der Roboter ist noch im Entwicklungsstadium und muss verbessert werden, um starken Seegang und Salzwasserstand zu bewältigen. Er könnte in Zukunft zur Überwachung von Ölkatastrophen und zur Verbesserung von Wettervorhersagen eingesetzt werden.
+
+### Modularis - Flexibles Forschungsschiff
+
+*2026-09-17* · [Originalbeitrag](https://www.deutschlandfunk.de/t-rex-war-warmblueter-frankenstein-maeuse-forschungsschiff-modularis-100.html) · Modularis, Forschungsschiff, Klimafreundliche Antriebe, Automatisierung
+
+**Das Forschungsschiff Modularis wird innovative Technologien für die Schiffer in der Praxis erproben, einschließlich klimafreundlicher Antriebe und Automatisierung.**
+
+Das Forschungsschiff Modularis wurde in Flensburg vom Stapel gelassen und wird von dem Deutschen Zentrum für Luft und Raumfahrt betrieben. Es ist 48 Meter lang und 11,5 Meter breit, mit Platz für 20 Personen. Modularis ist flexibel und kann verschiedene Technologien, wie alternative Kraftstoffe, Energiekonverter, Drohnen und Batteriesysteme, in den operativen Betrieb nehmen. Es wird in Nord- und Ostsee sowie im Mittelmeer eingesetzt. Die Forschungsschiff hat einen Extratestmaschinenraum und eine zweite Brücke für die Erprobung neuer Technologien. Der Schwerpunkt liegt auf klimafreundlichen Antrieben und Kraftstoffen. Das Schiff wird im Herbst 2027 fertig sein und einen Preis von 36 Millionen Euro kosten.
+
+### Klimaschutz durch Satellitenaufnahmen
+
+*2026-09-16* · [Originalbeitrag](https://www.deutschlandfunk.de/weltraum-muell-us-waffen-im-all-schattenflotte-100.html) · Satelliten, Infrarotkameras, Klimaschutz, Schattenflotte, Waldbrände, Landwirtschaft
+
+**Klein-Satelliten mit feinen Wärmebildsensoren ermöglichen die Überwachung von Schiffsaktivitäten, einschließlich der Schattenflotte, und können in Zukunft Klimaschutzmaßnahmen verbessern.**
+
+Das Münchner Raumfahrts-Start-up Constella hat entwickelt, kleinere Satelliten mit hochpräzisen Infrarotkameras, die Wärmeinseleffekte auf der Erdoberfläche mit einer Auflösung von 30 Metern und einer Temperaturgenauigkeit von einem Zehntel Grad erfassen können. Dies ermöglicht es, Schiffe, einschließlich der Schattenflotte, zu verfolgen und ihre Aktivitäten zu dokumentieren. Die Technologie könnte zukünftig auch zur Überwachung von Waldbränden und Landwirtschaft verwendet werden, um Frühwarnungen und verbesserte Ertragsprognosen zu ermöglichen. Die Forschung wurde durch Max Gulde, Gründer von Constella, und Lucian Haas, Journalist, vorgestellt.
+
+### Infrarot-Converter für praxisrelevante Anwendungen
+
+*2026-09-09* · [Originalbeitrag](https://www.deutschlandfunk.de/kampf-gegen-geisternetze-ki-helfer-im-krankenhaus-gehirn-in-der-menopause-100.html) · Infrarot-Converter, Sichtbare Strahlung, Heilungsprozesse, Gasleitungen
+
+**Ein neuer Infrarot-Converter ermöglicht es, Infrarot-Strahlung in sichtbares Licht umzuwandeln, was zu praktischen Anwendungen wie der Überwachung von Gasleitungen oder der Moniterung von Heilungsprozessen führen könnte.**
+
+Forscher in Belgien haben einen neuen Infrarot-Converter entwickelt, der Infrarot-Strahlung in sichtbares Licht umwandelt. Das Bauteil besteht aus einer komplexen Sandwichstruktur und ist hundertmal dünner als ein menschliches Haar. Es kann Infrarot-Strahlung in Elektrizität umwandeln und diese in ein sichtbares Bild umwandeln. Die Tests zeigten, dass das Bauteil ohne Stromversorgung funktionieren kann und in praxisrelevante Anwendungen wie die Überwachung von Gasleitungen oder die Moniterung von Heilungsprozessen eingesetzt werden könnte. Das neue Bauteil ist empfindlicher als bisherige Versionen und könnte in der Zukunft in verschiedenen Bereichen eingesetzt werden, wie z.B. in der Medizin.
+
+### Schutz kritischer Infrastruktur durch Drohnen
+
+*2026-09-03* · [Originalbeitrag](https://www.deutschlandfunk.de/schutz-kritischer-infrastruktur-mann-ueber-bord-seegraswiesen-100.html) · Drohnen, Stromnetz, Resilienz, Netzwerksicherheit
+
+**Die Implementierung von Drohnen zur Abwehr von Angriffen auf Umspannwerke kann nicht vollständig den Schutz bieten, da sie teuer und komplex zu betreiben sind.**
+
+Die Expertin Michelle Knott betont, dass der Schutz von kritischer Infrastruktur, insbesondere Stromnetzen, durch Drohnen nicht realistisch ist, da sie zu teuer und komplex sind, um sie flächendeckend zu betreiben. Stattdessen wird ein Fokus auf die Erhöhung der Resilienz des Stromnetzes und die schnelle Reparatur von Schäden gelegt. Die Ukraine bietet als Beispiel an, wie schnelle Reparatur und standardisierte Komponenten helfen können, Netze unter Kriegsbedingungen zu stabilisieren. Obwohl es Gespräche gibt, um diese Richtung zu verfolgen, ist die Umsetzung noch in den Anfängen.
+
+### Neue Techniken zur Rettung von Überbordgegangenen
+
+*2026-09-03* · [Originalbeitrag](https://www.deutschlandfunk.de/schutz-kritischer-infrastruktur-mann-ueber-bord-seegraswiesen-100.html) · Künstliche Intelligenz, Drohnen, Rettung, Seefahrtsicherheit
+
+**Künstliche Intelligenz und Drohnen können die Rettung von Überbordgegangenen bei Schiffen effizienter und schneller machen.**
+
+Die Firma Selim hat ein System entwickelt, das durch KI und Drohnen über Bord gegangene Personen schneller und effizienter retten kann. Das System besteht aus Kameras, die bei Tag und Nacht funktionieren, und einer KI-basierten Software, die Personen im Wasser erkennt. Drohnen können die Position der Person im Wasser bestimmen und Gegenstände abwerfen, um die Überlebenschancen zu erhöhen. Die Tests zeigten eine Erkennungsrate von 98,6%. Allerdings erzeugt das System auch Fehlalarme. Die Drohnen sind in Entwicklung und werden bald an Bord von Fähren installiert. Dies kann auch anderen Notfallsituationen dienen, wie der Rettung von Seglern.
+
+### Social Media und Wahlentscheidungen
+
+*2026-09-02* · [Originalbeitrag](https://www.deutschlandfunk.de/social-media-und-wahlerfolg-rohstoff-suche-im-erzgebirge-rembrandt-100.html) · Social Media, Wahlentscheidungen, AfD, Algorithmen, Polarisierung
+
+**Social Media hat einen indirekten Einfluss auf Wahlentscheidungen, besonders für die AfD.**
+
+Eine Studie der Kommunikationswissenschaftler Etta Humbrecht und Jakob Öhme zeigte, dass Social Media Präsenz bei der AfD nicht direkt zu besseren Wahlergebnissen führt. Stattdessen profitiert die Partei von den Algorithmen, die polarisierende Inhalte fördern. Die AfD-Videos wurden im Durchschnitt sechs Mal häufiger aufgerufen und 40 Mal häufiger geliked als die der CDU. Dies deutet darauf hin, dass Social Media eher die politische Diskussion in der Gesellschaft beeinflusst, als direkt Wahlentscheidungen zu beeinflussen. Die Forscher haben dies anhand öffentlicher Daten beobachtet, die sie über eine Schnittstelle von TikTok abgegriffen haben. Ein großer Datensatz ist jedoch nicht verfügbar, da nur bestimmte Menschen freiwillig Daten spenden.
+
+### Autonomie in Drohnen: Innovationswettbewerb Fully Autonomous Flight 2.0
+
+*2026-09-01* · [Originalbeitrag](https://www.deutschlandfunk.de/sprind-wettbewerb-fuer-autonome-drohnen-detektion-von-drohnen-100.html) · Autonomie, Drohnen, Innovationswettbewerb, Fully Autonomous Flight 2.0, Such-und-Rettungsoperationen
+
+**Autonome Drohnen zeigten erstaunliche Fähigkeiten, komplexe Aufgaben ohne GPS und menschliche Steuerung zu meistern.**
+
+Das Innovationswettbewerb Fully Autonomous Flight 2.0, organisiert von der Bundesagentur für Sprunginnovation, zeigte, dass Teams aus Europa autonom fliegende Systeme entwickeln konnten, die komplexe Aufgaben wie Paketlieferung und Such-und-Rettungsoperationen ohne GPS und menschliche Steuerung bewältigen. Die Tests fanden auf einem Fliegerhorst in Erding statt, wo sieben Teams ihre Drohnen in vier Missionen unter Beweis stellten. Die Forschung konzentrierte sich auf die Entwicklung von Algorithmen und Sensoren, die es ermöglichen, Drohnen in dynamischen Umgebungen zu navigieren und zu handeln. Diese Ergebnisse sind relevant, da sie die Zukunft von autonomer Luftfahrt und deren Einsatz in verschiedenen Bereichen wie Last-Mile-Delivery und Notfalloperationen vorhersagen. Einige Herausforderungen bestanden darin, dass Drohnen sich selbstständig in der Umgebung orientieren und sichere Wege finden mussten, ohne GPS-Signale.
+
+### Autonomie in Drohnenflugsystemen
+
+*2026-09-01* · [Originalbeitrag](https://www.deutschlandfunk.de/drohnen-im-fokus-autonomie-und-detektion-unbemannter-fluggeraete-100.html) · Autonomie, Drohnen, Kognition, Tracking, Positionierung
+
+**Autonome Drohnen können komplexe Aufgaben ohne GPS und menschliche Steuerung meistern.**
+
+Das Bundesamt für Sprunginnovation führte einen Innovationswettbewerb durch, bei dem Teams autonom fliegende Drohnen entwickelten, die ohne GPS und menschliche Steuerung operieren können. Die Teilnehmer mussten Drohnen in verschiedenen Szenarien autonom Missionen erfüllen, wie das Finden und Abliefern von Paketen oder die Suche nach Personen. Die Teams zeigten kreative und unkonventionelle Ansätze, was zu lernfähigen Ergebnissen führte. Die Herausforderungen lagen in der Positionierung und dem Tracking der Drohnen, die ohne GPS selbstständig eine Karte der Umgebung erstellen mussten. Die Ergebnisse sind relevant für zivile Anwendungen wie Paketlieferdienste und Notfalloperationen, aber auch für militärische Anwendungen. Die Ergebnisse wurden durch den Wettbewerb Fully Autonomous Flight 2.0 in Erding, Deutschland, erreicht.
+
+### Tracking-Techniken für autonome Drohnen
+
+*2026-09-01* · [Originalbeitrag](https://www.deutschlandfunk.de/sprind-wettbewerb-fuer-autonome-drohnen-detektion-von-drohnen-100.html) · Autonomie, Drohnen, Tracking, Laser Scannern, semantische Netze
+
+**Autonome Drohnen zeigten erstaunliche Fähigkeiten, komplexe Aufgaben ohne GPS und menschliche Steuerung zu meistern.**
+
+Die Technische Universität Berlin und ihr Team Uberswarm zeigten bei dem Innovationswettbewerb Fully Autonomous Flight 2.0, wie autonom fliegende Drohnen komplexe Aufgaben wie das Tracking von Zielen ohne GPS-Signale bewältigen. Dabei mussten die Drohnen eine stabile Navigation und eine effektive Zielerkennung entwickeln, um in dynamischen Umgebungen zu operieren. Die Forschung konzentrierte sich auf die Integration von Laser Scannern und semantischen Netzen, um eine genaue Positionierung und eine robuste Zielerkennung zu ermöglichen. Diese Techniken sind relevant, da sie die Zukunft von autonomer Luftfahrt und deren Einsatz in verschiedenen Bereichen wie Last-Mile-Delivery und Notfalloperationen vorhersagen. Einige Herausforderungen bestanden darin, dass Drohnen sich selbstständig in der Umgebung orientieren und sichere Wege finden mussten, ohne GPS-Signale.
+
+### Einsatzbereiche für autonome Drohnen
+
+*2026-09-01* · [Originalbeitrag](https://www.deutschlandfunk.de/sprind-wettbewerb-fuer-autonome-drohnen-detektion-von-drohnen-100.html) · Autonomie, Drohnen, Einsatzbereiche, Last-Mile-Delivery, Such-und-Rettungsoperationen
+
+**Autonome Drohnen zeigten erstaunliche Fähigkeiten, komplexe Aufgaben ohne GPS und menschliche Steuerung zu meistern.**
+
+Die Zukunft von autonomer Luftfahrt wurde im Innovationswettbewerb Fully Autonomous Flight 2.0 deutlich, bei dem Teams aus Europa autonom fliegende Systeme entwickeln konnten, die komplexe Aufgaben wie Paketlieferung und Such-und-Rettungsoperationen ohne GPS und menschliche Steuerung bewältigen. Die Tests fanden auf einem Fliegerhorst in Erding statt, wo sieben Teams ihre Drohnen in vier Missionen unter Beweis stellten. Diese Ergebnisse sind relevant, da sie die Zukunft von autonomer Luftfahrt und deren Einsatz in verschiedenen Bereichen wie Last-Mile-Delivery und Notfalloperationen vorhersagen. Einige Einsatzbereiche, die bereits in Betracht gezogen wurden, sind der Transport von Medikamenten in entlegenen Regionen und die Last-Mile-Delivery von Paketen. Die Herausforderungen bestanden darin, dass Drohnen sich selbstständig in der Umgebung orientieren und sichere Wege finden mussten, ohne GPS-Signale.
+
+### Detektion illegaler Drohnen durch Radar- und Funkpeilungssysteme
+
+*2026-09-01* · [Originalbeitrag](https://www.deutschlandfunk.de/sprind-wettbewerb-fuer-autonome-drohnen-detektion-von-drohnen-100.html) · Drohnen, Detektion, Radar, Funkpeilung, Geräusche
+
+**Frauenhofer-Forscher präsentierten einen alternativen Ansatz zur Detektion illegaler Drohnen.**
+
+Frauenhofer-Forscher präsentierten auf der Drohnfachmesse Drone Days einen alternativen Ansatz zur Detektion illegaler Drohnen. Dabei konzentrierten sie sich auf das Verfolgen verräterischer Geräusche, um illegale Drohnen zu identifizieren. Dieser Ansatz könnte eine Ergänzung zu den bisherigen Radar- und Funkpeilungssystemen sein, die primär zur Detektion illegaler Drohnen eingesetzt werden. Die Forschung konzentrierte sich auf die Entwicklung von Algorithmen, die es ermöglichen, illegale Drohnen aufzuspüren, basierend auf verräterischen Geräuschen. Diese Techniken sind relevant, da sie die Zukunft der Drohnenüberwachung und -kontrolle vorhersagen. Einige Herausforderungen bestanden darin, dass illegale Drohnen oft in komplexen Umgebungen operieren und sich nicht leicht zu erkennen geben.
 
 ### 3D-Druck für Brückenreparatur
 
@@ -1437,6 +2149,46 @@ Am 6. Mai 2026, um 14:35 Uhr, berichtete Deutschlandfunk über einen Ausfall von
 
 ## Künstliche Intelligenz
 
+### Sprache als Indikator für biologisches Alter und kognitive Gesundheit
+
+*2026-10-01* · [Originalbeitrag](https://www.deutschlandfunk.de/long-covid-gletscherschwund-altersforschung-100.html) · Sprache, Alter, Kognition, Biomarker, Alzheimer
+
+**Eine Studie hat gezeigt, dass man durch Analyse der Sprache das Alter des Sprechenden einschätzen kann, was kognitive Erkrankungen vorhersagen kann.**
+
+Ein internationales Forschungsteam hat untersucht, ob man durch Analyse der Sprache das Alter des Sprechenden einschätzen kann. Die Studie wurde durch Christine Ebernes vom Global Brain Health Institute am Trinity College Dublin und sein Team durchgeführt. Sie haben mithilfe von KI aus Sprachaufnahmen von fast 3000 Probanden, die aus fünf lateinamerikanischen Ländern stammten und alle spanisch sprachen, ein Sprechalter berechnet. Die Untersuchung zeigte, dass der Sprechalter-Algorithmus bei gesunden und Menschen mit kognitiver Einschränkung deutlich unterscheidet. Menschen mit beschleunigtem Alterungsprozess oder solchen, die älter wirken als ihr chronologisches Alter, zeigten häufig kognitive Erkrankungen. Die Untersuchung kann helfen, Menschen zu identifizieren, bei denen sich womöglich eine neurodegenerative Erkrankung anbahnt, obwohl sie noch keine Symptome zeigen.
+
+### Künstliche Intelligenz und Kontrollverlust
+
+*2026-09-15* · [Originalbeitrag](https://www.deutschlandfunk.de/esa-satellit-flex-ki-und-kontrollverlust-elefantenschaedel-und-kolonialismus-100.html) · Künstliche Intelligenz, Kontrollverlust, Sicherheitsrisiken, Misalignment, Kolonialgeschichte
+
+**Künstliche Intelligenz könnte bald unkontrollierbar werden, was zu Sicherheitsrisiken führen könnte.**
+
+Die KI-Unternehmer sind besorgt, dass künstliche Intelligenz bald unkontrollierbar werden könnte. Dario Amodei von Anthropic fordert, dass KI-Firmen das Tempo der Entwicklung drosseln, um Sicherheitsrisiken besser untersuchen und kontrollieren zu können. Andere KI-Unternehmen wie OpenAI stimmen in der Notwendigkeit einer Überwachung ein, aber es gibt Fragen bezüglich der Umsetzung. Es wird besprochen, dass KI-Modelle in Zukunft möglicherweise selbstständig Angriffe durchführen könnten, was zu katastrophalen wirtschaftlichen Unfällen führen könnte. Es wird auch betont, dass böswillige Akteure KI-Modelle für Cyberangriffe nutzen könnten. Die Debatte um die Kontrolle von KI-Modellen wird weiterhin im UN-Sicherheitsrat diskutiert. Fachleute sehen das Risiko eines Auslöschens der Menschheit als eher unwahrscheinlich, aber es gibt besorgniserregende Formen von Misalignment, bei denen Modelle nicht so verhalten, wie ihre Entwickler intendiert haben. Die Debatte um die Kontrolle von KI-Modellen wird weiterhin im UN-Sicherheitsrat diskutiert.
+
+### Künstliche Intelligenz löst Millennium-Problemsatz
+
+*2026-09-11* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-veraendert-die-mathematik-ebola-impfstoffe-fuer-die-dr-kongo-reerdigung-100.html) · Künstliche Intelligenz, Mathematik, Millennium-Probleme, Nelvia Stokes-Gleichungen
+
+**OpenAI hat mit KI 10.000 Agenten innerhalb von fünf Tagen das Nelvia Stokes-Problem gelöst.**
+
+OpenAI hat das Nelvia Stokes-Problem, eines der sogenannten Millennium-Probleme, erfolgreich gelöst, indem sie 10.000 künstliche Intelligenz-Agenten einsetzte. Dieses Problem beschreibt die Strömungseigenschaften von Flüssigkeiten und Gasen, was die Vorhersage des Wetters und das Fahrverhalten von Rennwagen ermöglicht. Die Lösung wurde durch die Arbeit von Tristan Buckmaster und Levent Alpöge unterstützt, die sich langsam dem Problem näherten. OpenAI hat dabei einen Rechenaufwand von mehr als 20 Millionen Dollar angesetzt. Die Mathematik-Community muss nun darüber nachdenken, wie sie mit dem neuen Werkzeug KI umgeht, und ob der Mensch weiterhin die führende Rolle spielt oder ob KI-Beweise in der Zukunft die Mathematik beeinflussen werden.
+
+### Reerdigung: Eine neue Bestattungsart
+
+*2026-09-11* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-veraendert-die-mathematik-ebola-impfstoffe-fuer-die-dr-kongo-reerdigung-100.html) · Reerdigung, Bestattungsart, Knochenmühle, Klinische Sicherheit, Wissenschaftliche Begleitung
+
+**Die Reerdigung, eine neue Bestattungsart, verwandelt den Leichnam innerhalb von 40 Tagen zu Erde.**
+
+Die Reerdigung ist eine neue Bestattungsart, bei der der Leichnam in einem Kokon innerhalb von 40 Tagen zu Erde zersetzt wird. Das Norddeutsche Bundesland hat die Methode im Bestattungsgesetz verankert, während andere Bundesländer wie NRW und Bayern sie abgelehnt haben. Die Methode ist wissenschaftlich begleitet, um sicherzustellen, dass sie klimaschonend und umweltfreundlich ist. Die Knochen werden in einer Knochenmühle zermahlen. Die Reerdigung ist klinisch sicher und hat keine Nachteile im Vergleich zu Kremation. Es gibt noch viele Fragen, wie zum Beispiel, ob menschliche DNA vorhanden ist und ob Giftstoffe entstehen. Die Forschung wird weitergeführt, um evidenzbasierte Daten zu erzielen.
+
+### KI-Analyse von Rembrandt-Gemälden
+
+*2026-09-02* · [Originalbeitrag](https://www.deutschlandfunk.de/social-media-und-wahlerfolg-rohstoff-suche-im-erzgebirge-rembrandt-100.html) · Rembrandt, Künstliche Intelligenz, Gemäldeanalyse, Authentizität, Quadrate
+
+**Eine KI-Analyse hat den Mann mit dem Goldhelm als wahrscheinlich echten Rembrandt eingestuft.**
+
+Andrea Frank und ihr Mann Steven Frank haben einen Algorithmus entwickelt, der KI-Methoden verwendet, um Gemälde ihren Schöpfern zuzuordnen. Sie haben das Bild des Mannes mit dem Goldhelm mit KI-Methoden untersucht und es mit 96%iger Wahrscheinlichkeit als authentisch einstufen lassen. Obwohl Andrea Frank und Steven Frank ihre Analyse mit KI-Methoden durchgeführt haben, ist Katja Kleinert, die stellvertretende Direktorin der Berliner Gemäldegalerie, sehr skeptisch. Sie argumentiert, dass KI-Methoden nicht in der Lage sind, die dreidimensionalen Komplexitäten von Gemälden zu berücksichtigen. Die Analyse der KI basiert auf der Zerlegung von Bildern in Quadrate und der Kodierung von Informationen, die über die einzelnen Teile hinausgehen. Obwohl die Analyse sehr genau ist, gibt es immer noch Zweifel, ob das Bild tatsächlich von Rembrandt stammt.
+
 ### Künstliche Viren durch KI entworfen
 
 *2026-08-07* · [Originalbeitrag](https://www.deutschlandfunk.de/ki-designt-viren-risiko-flussvertiefung-e-scooter-schneckenschleim-100.html) · Künstliche Intelligenz, Bakteriophagen, Antibiotikaresistenz, Genomdesign
@@ -1512,6 +2264,30 @@ Eine Studie im Fachmagazin Science zeigte, dass Reasoning-Modelle der KI bei der
 
 ## Psychologie & Neurowissenschaft
 
+### Anfeuern im Marathon
+
+*2026-09-25* · [Originalbeitrag](https://www.deutschlandfunk.de/hummeln-im-hitzestress-anfeuern-beim-marathon-nanoschaum-mit-gedaechtnis-100.html) · Marathon, Anfeuern, Sprachwissenschaft, Motivation
+
+**Das Anfeuern im Marathon folgt bestimmten Mustern, die systematisch untersucht wurden.**
+
+Ein Team aus dem Berliner Leibnizzentrum Allgemeine Sprachwissenschaft untersuchte, wie Anfeuern im Marathon funktioniert. Sie fanden heraus, dass spontane Motivationsrufe vier akustische Mustern folgen: getrennte Wiederholungen, längere Pausen, längere Vokale, ein silbisches Anfeuen und eine Mischform. Diese Mustern unterscheiden sich deutlich von normaler Sprache und sind durch höhere Tonhöhe, größere Tonhöhenvariation und lautere Stimme gekennzeichnet. Die Sprechgeschwindigkeit ist in der Regel langsamer, da Vokale gedehnt oder Pausen zwischen Silben eingefügt werden. Diese Ergebnisse sind relevant, da sie den Mechanismus des Anfeuerns in der Gruppe erläutern. Die Studie wurde durch das Berliner Leibnizzentrum Allgemeine Sprachwissenschaft durchgeführt.
+
+### Gehirnveränderungen während der Menopause
+
+*2026-09-09* · [Originalbeitrag](https://www.deutschlandfunk.de/kampf-gegen-geisternetze-ki-helfer-im-krankenhaus-gehirn-in-der-menopause-100.html) · Menopause, Gehirn, Wechseljahre, Hormone
+
+**Die Gehirnstruktur von Frauen in der Menopause verändert sich nicht, was neue Einsichten in die Veränderungen während der Wechseljahre liefert.**
+
+Eine Studie im Fachmagazin Nature Communications untersucht, ob die Hormonveränderungen während der Menopause das Gehirn beeinflussen. Sophie van Hoff vom Amsterdam University Medical Center untersuchte das Gehirn von Frauen, die gerade die Menopause durchmachten, und verglich es mit den Gehirnen von Frauen, die entweder vor der Menopause standen oder bereits durch den Klimakterium gegangen waren. Sie fand heraus, dass das Gehirnvolumen während der Menopause nicht verändert wurde, was neue Erkenntnisse über die Veränderungen während der Wechseljahre liefert. Die Forscherin betont, dass weitere Studien notwendig sind, um die Auswirkungen dieser Veränderungen auf kognitive Funktionen zu verstehen.
+
+### Untersuchung von LSD ohne Halluzinationen
+
+*2026-09-08* · [Originalbeitrag](https://www.deutschlandfunk.de/isar-aerospace-dunkle-materie-lsd-ohne-halluziationen-100.html) · LSD, Halluzinationen, Psychotherapie, Medikamente
+
+**Forscher haben untersucht, welche chemischen Gruppen am LSD-Molekül für Halluzinationen verantwortlich sind, um bessere Medikamente zu entwickeln.**
+
+Ein Forschungsteam hat untersucht, welche chemischen Gruppen am LSD-Molekül für Halluzinationen verantwortlich sind, um bessere Medikamente für die psychedelisch assistierte Psychotherapie zu entwickeln. Durch das Entfernen bestimmter chemischer Gruppen und die Synthese neuer Variante von LSD haben die Forscher herausgefunden, welche Struktur für die Halluzinationen verantwortlich ist. Dies ermöglicht es Chemikern, neue Medikamente zu entwickeln, die die therapeutischen Vorteile von LSD bieten, ohne die Halluzinationen zu verursachen. Die Forscher betonen, dass dies die Therapie sicherer und ihre Effekte planbarer machen könnte, aber einige Kritiker sehen in dieser Forschung finanzielle Interessen.
+
 ### Gedächtnis im Winterschlaf: Eine neue Studie
 
 *2026-08-14* · [Originalbeitrag](https://www.deutschlandfunk.de/flug-ins-feuergewitter-gedaechtnis-im-winterschlaf-west-nil-virus-100.html) · Gedächtnis, Winterschlaf, Synapsen, Neurobiologie
@@ -1562,6 +2338,30 @@ Ein Forschungsprojekt auf der Concordia Polar Station in der Antarktis hat gezei
 
 
 ## Archäologie & Anthropologie
+
+### Ungleichheit: Eine lange Geschichte
+
+*2026-10-15* · [Originalbeitrag](https://www.deutschlandfunk.de/zucker-und-krebs-schaltsekunde-hoeren-mit-optogenetik-ungleichheit-100.html) · Ungleichheit, Archäologie, China, Gesellschaft, Geschichte
+
+**Archäologische Studien zeigen, dass Ungleichheit in der Geschichte nicht immer stark ausgeprägt war.**
+
+Archäologen haben in der Zentralen Ebene Chinas mehr als 2300 prähistorische Bestattungen analysiert und fanden, dass Ungleichheit in dieser Region nicht immer stark ausgeprägt war. In verschiedenen Friedhöfen fanden sich Gräber mit sehr gleichartigen Gegenständen und andere mit herausragenden Bestattungen. Diese Ergebnisse unterstreichen, dass Ungleichheit nicht immer eine unvermeidliche Folge der Entwicklung von Gesellschaften ist, sondern dass es auch in früheren Zeiten eher gleichmäßige Gesellschaften gab. Die Forscher, unter ihnen Martin Fuhrholt, analysierten Faktoren wie Zugang zur proteinreiche Ernährung, Landwirtschaft und Viehhaltung, aber fanden nur einen geringen Einfluss auf Ungleichheit.
+
+### Kolonialgeschichte in der Naturkundemuseumausstellung
+
+*2026-09-15* · [Originalbeitrag](https://www.deutschlandfunk.de/esa-satellit-flex-ki-und-kontrollverlust-elefantenschaedel-und-kolonialismus-100.html) · Naturkundemuseum, Kolonialgeschichte, Säugetierschädel, Kontext, Forschungssammlungen
+
+**Die Ausstellung in der Naturkundemuseum in Berlin integriert kritische Einblicke in die Kolonialgeschichte.**
+
+Die Naturkundemuseum in Berlin präsentiert eine umfangreiche Sammlung von Säugetierschädeln, die kritische Einblicke in die Kolonialgeschichte bietet. Die Ausstellungskoratoren haben mit Forschenden mit afrikanischem Hintergrund zusammengearbeitet, um die Geschichten der Objekte zu erzählen. Die Sammlung umfasst 30 Millionen Objekte, darunter Schädel von Tieren, die in verschiedenen Kontexten gesammelt wurden. Ein Beispiel ist der Schädel eines Waldelefanten, der von einem deutschen Kolonialoffizier in Kamerun gefangen und an den Zoo Berlin geschickt wurde. Die Ausstellung zeigt, dass die Sammlungen nicht nur wissenschaftliche Interessen verfolgen, sondern auch koloniale Gewalt und Verflechtungen enthalten. Die Ausstellungskoratoren haben bewusst versucht, die Geschichten der Objekte zu erzählen, um die Vielfalt der Geschichten zu reflektieren, die an diesen Objekten hängen. Die Ausstellung bietet eine einzigartige Möglichkeit, die Geschichte der Naturkundemuseumobjekte in einem neuen Kontext zu betrachten.
+
+### Denisovana: Frühe Menschen in Ostasien
+
+*2026-09-10* · [Originalbeitrag](https://www.deutschlandfunk.de/erdbeobachtung-aus-der-stratosphaere-heisse-getraenke-und-krebs-denisova-100.html) · Denisovahner, Bianfuhöhle, Ostasien, Jägerleben
+
+**Eine neue Studie in China hat gezeigt, dass die Denisovahner in der Bianfuhöhle über längere Zeiträume gelebt haben und Rinder und Hirsche gejagt haben.**
+
+Eine neue Studie in China hat gezeigt, dass die Denisovahner in der Bianfuhöhle im Südwesten Chinas über längere Zeiträume gelebt haben und Rinder und Hirsche gejagt haben. Die Forschenden haben in der Höhle Zähne und Teile von Schädelknochen sowie Tierknochen und Steinbergzeugen ausgegraben. Die ältesten Knochen stammen von vor fast 160.000 Jahren und die jüngsten von vor gut 130.000 Jahren. Die menschlichen Fossilien in dieser Höhle wurden direkt mit Steinbergzeugen und Tierknochen gefunden, was darauf hindeutet, dass die Denisovahner Jäger waren, die sich Werkzeuge für ihre Jagd herstellten. Diese Erkenntnisse könnten dazu beitragen, die Geschichte der frühen Menschen in Ostasien zu verstehen und zu erweitern.
 
 ### Genetische Analyse der Skythen
 
@@ -1635,6 +2435,14 @@ Ein internationales Forschungsteam hat untersucht, welche Auswirkungen die abrup
 
 
 ## Sonstiges
+
+### Sapiens, die Zauberlehrlinge
+
+*2026-10-09* · [Originalbeitrag](https://www.deutschlandfunk.de/auslese-von-der-frankfurter-buchmesse-comics-karten-und-atlanten-100.html) · Graphic Novel, Sachbuch, Wissenschaftsgeschichte, Technologie, Juval Harari
+
+**Sachbuchautor Juval Harari präsentiert in einer Graphic Novel die Geschichte der Menschheit, mit besonderem Fokus auf Wissenschaft und Technologie.**
+
+Die Graphic Novel 'Sapiens, die Zauberlehrlinge' von Juval Harari, Daniel Casanoff und David Van der Möhre bietet eine kurze, verständliche Darstellung der menschlichen Geschichte, mit besonderem Fokus auf Wissenschaft und Technologie. Es basiert auf Hararis erfolgreichen Sachbüchern und wurde in Zusammenarbeit mit Comic-Künstlern erstellt. Das Buch ist ein interessantes Einstiegsliteratur für Anhänger Hararis, bietet aber keine komplexe Handlung und ist eher ein Thesen-Comic. Es wurde veröffentlicht bei C.R. Beck.
 
 ### Kosten des Klimawandels: Hitzewellen und ihre Auswirkungen
 
