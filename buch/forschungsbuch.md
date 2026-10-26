@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 321 Einträge, Stand 25.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 321 Einträge, Stand 26.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
