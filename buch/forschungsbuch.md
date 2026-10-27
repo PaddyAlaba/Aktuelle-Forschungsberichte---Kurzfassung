@@ -1,14 +1,14 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 321 Einträge, Stand 26.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 324 Einträge, Stand 27.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
 - [Medizin & Gesundheit](#medizin-gesundheit) (64)
 - [Biologie & Evolution](#biologie-evolution) (38)
-- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (35)
-- [Klima & Atmosphäre](#klima-atmosphäre) (30)
-- [Geowissenschaften](#geowissenschaften) (17)
+- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (36)
+- [Klima & Atmosphäre](#klima-atmosphäre) (31)
+- [Geowissenschaften](#geowissenschaften) (18)
 - [Astronomie & Raumfahrt](#astronomie-raumfahrt) (22)
 - [Physik](#physik) (11)
 - [Chemie & Materialien](#chemie-materialien) (13)
@@ -845,6 +845,14 @@ Die Bakteriophagen, also Bakterienfresser, können als alternative Therapiemitte
 
 ## Ökologie & Artenvielfalt
 
+### Kiefernprachtkäfer und Waldbrände
+
+*2026-10-27* · [Originalbeitrag](https://www.deutschlandfunk.de/endlagersuche-treibhausgase-kiefernprachtkaefer-100.html) · Kiefernprachtkäfer, Waldbrände, Ökosysteme, Fortpflanzung, Anpassung
+
+**Kiefernprachtkäfer haben eine spezielle Fähigkeit, Waldbrände zu erkennen und sich darauf zu bewegen, was ihre Rolle in der Ökosysteme betont.**
+
+Kiefernprachtkäfer haben eine eingebaute Fähigkeit, Waldbrände zu erkennen und sich darauf zu bewegen. Diese Fähigkeit ermöglicht es ihnen, frisch durch Feuer abgetötete Bäume zu finden, wo sie ihre Eier legen können. Dies ist eine strategische Anpassung, die ihre Fortpflanzungsstrategie unterstützt. Die Käfer nutzen das verkohlte Holz als Kinderstube, da es den Bäumen, die noch lebendig sind, vor der Larvenfresserei schützt. Die Kiefernprachtkäfer sind auf Brandflächen angewiesen, da sie helfen, das Totholz zu zersetzen und neue Pflanzen zu ermöglichen. Ihre Anpassung an Waldbrände zeigt, dass sie eine wichtige Rolle in den Ökosystemen spielen, indem sie das Totholz zersetzen und neue Pflanzen fördern.
+
 ### Amazonas-Regenwälder: CO2-Senkung statt CO2-Speicher
 
 *2026-10-22* · [Originalbeitrag](https://www.deutschlandfunk.de/co2-quelle-amazonas-sicherheitsrisiko-php-stichstrategie-von-moskitos-100.html) · Amazonas, Klimawandel, CO2-Emissionen, Abholzung, Brände
@@ -1128,6 +1136,14 @@ Ein Forschungsteam unter der Leitung von Alex D. Greenwood vom Leibniz-Institut 
 
 ## Klima & Atmosphäre
 
+### Treibhausgaskonzentration und SF6
+
+*2026-10-27* · [Originalbeitrag](https://www.deutschlandfunk.de/endlagersuche-treibhausgase-kiefernprachtkaefer-100.html) · SF6, Treibhausgase, Klimawandel, Atmosphäre, Energiewende
+
+**Die Konzentration von SF6 in der Atmosphäre hat sich verdreifacht, was einen weiteren klimaschädlichen Faktor hervorhebt.**
+
+Die Konzentration von Schwefel-Hexafluorid (SF6) in der Atmosphäre hat sich in den letzten 30 Jahren verdreifacht. Dieses Gas ist das stärkste bekannte Treibhausgas und jedes einzelne SF6-Molekül erwärmt die Luft 24.000 mal so stark wie ein Molekül Kohlendioxid (CO2). Die WMO berichtet, dass SF6 zunehmend in der Energiewende eingesetzt wird, was zu einem stärkeren Anstieg der Konzentration führt. Die Konzentration von SF6 in der Atmosphäre hat sich im vergangenen Jahr sogar noch weiter erhöht. Alternativen zu SF6 existieren, aber ihre Umsetzung ist noch nicht weit fortgeschritten. Die Erhöhung der SF6-Konzentration unterstreicht die Notwendigkeit, alle Treibhausgase zu reduzieren, um den Klimawandel zu bekämpfen.
+
 ### Hitze-Tote in Europa
 
 *2026-10-23* · [Originalbeitrag](https://www.deutschlandfunk.de/hitzetote-in-europa-katalysator-bei-diabetes-bienentricks-100.html) · Hitze-Tote, Klimawandel, Todesfälle, Statistik
@@ -1370,6 +1386,14 @@ Eine Studie hat gezeigt, dass weltweit 10% der anthropogenen Treibhausgasemissio
 
 
 ## Geowissenschaften
+
+### Endlagersuche für radioaktiven Müll in Deutschland
+
+*2026-10-27* · [Originalbeitrag](https://www.deutschlandfunk.de/endlagersuche-treibhausgase-kiefernprachtkaefer-100.html) · radioaktiver Müll, Endlagerung, Geologie, Sicherheit, Deutschland
+
+**Die Suche nach geeigneten Standorten für radioaktiven Müll wurde eingegrenzt, was mehr Klarheit schafft.**
+
+Die Bundesgesellschaft für Endlagerung (BGE) hat die Suche nach geeigneten Standorten für radioaktiven Müll in Deutschland eingegrenzt. Nach der Veröffentlichung einer aktualisierten Karte sind nur noch weniger als fünf Prozent der Fläche Deutschlands in Betracht gezogen. Die Auswahl basiert auf geologischen Kriterien wie Stohn, Steinsalz oder Kristallin. Die BGE arbeitet weiter mit vorhandenen Daten und Modellierungen, um sicherzustellen, dass die ausgewählten Gebiete geeignet sind, radioaktiven Abfälle für eine Million Jahre sicher zu lagern. Diese Suche ist Teil eines sehr langen Verfahrens, das noch viele Jahre dauern wird, bevor ein Endlager vorgeschlagen und akzeptiert wird.
 
 ### Absinkende Metropolen: Grundwasserentnahme als Hauptursache
 
