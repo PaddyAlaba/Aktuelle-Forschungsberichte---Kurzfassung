@@ -1,11 +1,11 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 324 Einträge, Stand 27.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 327 Einträge, Stand 28.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
 - [Medizin & Gesundheit](#medizin-gesundheit) (64)
-- [Biologie & Evolution](#biologie-evolution) (38)
+- [Biologie & Evolution](#biologie-evolution) (39)
 - [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (36)
 - [Klima & Atmosphäre](#klima-atmosphäre) (31)
 - [Geowissenschaften](#geowissenschaften) (18)
@@ -19,7 +19,7 @@
 - [Archäologie & Anthropologie](#archäologie-anthropologie) (6)
 - [Landwirtschaft & Ernährung](#landwirtschaft-ernährung) (2)
 - [Wissenschaftspolitik](#wissenschaftspolitik) (3)
-- [Sonstiges](#sonstiges) (8)
+- [Sonstiges](#sonstiges) (10)
 
 ## Medizin & Gesundheit
 
@@ -537,6 +537,14 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 
 ## Biologie & Evolution
+
+### Abstimmung per Niesen bei Wildhunden
+
+*2026-10-28* · [Originalbeitrag](https://www.deutschlandfunk.de/abhoersicher-quantenkommunikation-abstimmen-per-niesen-20-jahre-stern-bericht-100.html) · Wildhunde, Niesen, Soziale Kommunikation
+
+**Wildhunde nutzen das Niesen, um gemeinsame Entscheidungen zu treffen, was ein interessantes Beispiel für soziale Kommunikation in der Tierwelt ist.**
+
+Wildhunde in Afrika nutzen das Niesen, um gemeinsame Entscheidungen zu treffen, wie zum Beispiel, ob sie ausgeruht bleiben oder jagen gehen. Dieses Verhalten wird durch das Stoßweises Ausatmen durch die Nase durchgeführt, und es gibt eine Unterschiedliche Reaktion je nach Rangordnung im Rudel. Dominante Tiere brauchen weniger Nieser, um eine Entscheidung zu treffen, als untere Tiere. Dieses Verhalten ist ein interessantes Beispiel für soziale Kommunikation in der Tierwelt und zeigt, wie komplexe soziale Systeme in der Natur funktionieren können.
 
 ### Evolution der Dorsche
 
@@ -2595,6 +2603,22 @@ Ein internationales Forschungsteam hat untersucht, welche Auswirkungen die abrup
 
 
 ## Sonstiges
+
+### Abhörsicher Quantenkommunikation
+
+*2026-10-28* · [Originalbeitrag](https://www.deutschlandfunk.de/abhoersicher-quantenkommunikation-abstimmen-per-niesen-20-jahre-stern-bericht-100.html) · Quantenkommunikation, Abhörsicherheit, Glasfaserkabel, Quantencomputer
+
+**Drei regionale Quantennetze in Bayern, Berlin und Thüringen wurden miteinander verbunden, um eine abhörsichere Kommunikation zu ermöglichen.**
+
+Die Bundesforschungsministerin Dorothee Baer und weitere Politikprominente waren anwesend, als drei regionale Quantennetze in Bayern, Berlin und Thüringen zu einem größeren Forschungsnetz verbunden wurden. Dieser Schritt zielt darauf ab, eine abhörsichere Kommunikation zu ermöglichen, die auf Naturgesetzen der Quantenphysik basiert. Die Reichweite der Technologie ist jedoch noch begrenzt, da Lichtteichen in Glasfaserkabeln nach etwa 100 Kilometern verloren gehen. Forscher arbeiten an Lösungen, um diese Reichweite zu erhöhen, was eine flächendeckende Nutzung ermöglichen würde. Die Quantenkommunikation könnte eine zusätzliche Sicherheit bieten, um Nachrichten vor potenziellen Verschlüsselungsangriffen durch codebrechende Quantencomputer zu schützen.
+
+### Klimaschutz und Klimapolitik
+
+*2026-10-28* · [Originalbeitrag](https://www.deutschlandfunk.de/abhoersicher-quantenkommunikation-abstimmen-per-niesen-20-jahre-stern-bericht-100.html) · Klimaschutz, Klimapolitik, Klimafolgekosten, CO2-Abgabe
+
+**Der Stern-Report von 2006 hat die Klimapolitik in den Kontext der Wirtschaftspolitik gestellt und gezeigt, dass Klimaschutz viel günstiger ist als der ungebremste Klimawandel.**
+
+Der Stern-Report, veröffentlicht 2006, hat gezeigt, dass die Kosten des Klimaschutzes weitaus geringer sind als die finanziellen Schäden durch einen ungebremsten Klimawandel. Der Bericht hat das Thema Klimawandel und Klimapolitik in den Kontext der Wirtschaftspolitik gestellt und gezeigt, dass Klimaschutz eine Art Selbstläufer sein müsste. Trotzdem steigen die Emissionen, da der Markt nicht in der Lage ist, externe Effekte wie Klimafolgekosten zu bereitstellen. Die Politik muss diese Kosten tragen, und die Umsetzungslücke zwischen Wissen und Handeln ist immer noch vorhanden. Die EU hat ein Modell für eine CO2-Abgabe, aber es fehlen international belastbare Kooperationen, um die 1,5-Grad- oder 2-Grad-Grenze zu erreichen.
 
 ### Sapiens, die Zauberlehrlinge
 
