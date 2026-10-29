@@ -1,19 +1,19 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 327 Einträge, Stand 28.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 331 Einträge, Stand 29.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
 - [Medizin & Gesundheit](#medizin-gesundheit) (64)
-- [Biologie & Evolution](#biologie-evolution) (39)
+- [Biologie & Evolution](#biologie-evolution) (40)
 - [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (36)
-- [Klima & Atmosphäre](#klima-atmosphäre) (31)
+- [Klima & Atmosphäre](#klima-atmosphäre) (32)
 - [Geowissenschaften](#geowissenschaften) (18)
-- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (22)
+- [Astronomie & Raumfahrt](#astronomie-raumfahrt) (23)
 - [Physik](#physik) (11)
 - [Chemie & Materialien](#chemie-materialien) (13)
 - [Energie](#energie) (10)
-- [Technik & Informatik](#technik-informatik) (39)
+- [Technik & Informatik](#technik-informatik) (40)
 - [Künstliche Intelligenz](#künstliche-intelligenz) (14)
 - [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (9)
 - [Archäologie & Anthropologie](#archäologie-anthropologie) (6)
@@ -537,6 +537,14 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 
 ## Biologie & Evolution
+
+### Halk-Mauer-Eidechse: Evolutionäre Neuheit
+
+*2026-10-29* · [Originalbeitrag](https://www.deutschlandfunk.de/hochwasser-zwergplanet-hulk-eidechse-100.html) · Halk-Mauer-Eidechse, Evolution, Aggressivität, Farben, Toskana
+
+**Die Halk-Mauer-Eidechse ist eine evolutionäre Neuheit, die sich von der normalen Mauer-Eidechse durch ihre leuchtende grüne Farbe und aggressivere Aggressivität unterscheidet.**
+
+Die Halk-Mauer-Eidechse ist eine evolutionäre Neuheit, die sich von der normalen Mauer-Eidechse durch ihre leuchtende grüne Farbe und aggressivere Aggressivität unterscheidet. Sie ist größer als die normale Mauer-Eidechse, hat eine leuchtende grüne Rückenfarbe und schwarze Grundfarbe, sowie leuchtende blaue Punkte an ihren Flanken. Die Halk-Mauer-Eidechse ist aggressiver als der Grundtyp, wendet sich hauptsächlich gegen andere Männchen und hat Kampfeslust bei den Weibchen. Die Aggressivität der Halk-Mauer-Eidechse ist nicht unattraktiv, sondern anziehend für die Weibchen. Sie kämpfen untereinander um Territorien, und das stärkste, aggressivste Männchen erhält den Zugang zu den meisten Weibchen. Die Halk-Mauer-Eidechse ist in der Toskana weit verbreitet, aber vollkommen durchsetzen konnte sie sich bislang nicht. Biologen können mit ihr die Evolution in Aktion erforschen.
 
 ### Abstimmung per Niesen bei Wildhunden
 
@@ -1144,6 +1152,14 @@ Ein Forschungsteam unter der Leitung von Alex D. Greenwood vom Leibniz-Institut 
 
 ## Klima & Atmosphäre
 
+### Klimawandel verstärkt Hochwasserpegel
+
+*2026-10-29* · [Originalbeitrag](https://www.deutschlandfunk.de/hochwasser-zwergplanet-hulk-eidechse-100.html) · Klimawandel, Hochwasser, Niederschläge, Modellierung, Umweltforschung
+
+**Der Klimawandel führt zu einem überproportionalen Anstieg der Hochwasserpegel, obwohl die Niederschlagsmengen nur leicht erhöht sind.**
+
+Eine Studie des Helmholtz-Zentrums für Umweltforschung in Leipzig hat gezeigt, dass der Klimawandel den Hochwasserpegel in Flüssen stark verstärken kann, obwohl die Niederschlagsmengen nur um 6 bis 9 Prozent steigen. Die Forscher haben das Wetterextreme Annett im Jahr 2024 untersucht, indem sie Klima- und hydrologische Modelle unter den heutigen und den Klimabedingungen ohne zusätzliche Treibhausgase simulierten. Sie fanden heraus, dass der Boden seine nützliche Funktion als Speicher verliert, wenn er voll ist, und dass jeder zusätzliche Regen direkt in den Fluss fließt. Dies führt zu einem starken Anstieg der Hochwasserpegel, der mehr als doppelt so stark ist wie der Anstieg der Niederschlagsmengen. Diese Erkenntnis ist wichtig, um das Bewusstsein dafür zu schärfen, dass der Klimawandel Hochwasserpegel viel stärker verstärken kann, als man nach den Niederschlagsmengen annehmen würde.
+
 ### Treibhausgaskonzentration und SF6
 
 *2026-10-27* · [Originalbeitrag](https://www.deutschlandfunk.de/endlagersuche-treibhausgase-kiefernprachtkaefer-100.html) · SF6, Treibhausgase, Klimawandel, Atmosphäre, Energiewende
@@ -1541,6 +1557,14 @@ Am 15. August 2025, um 3:00 Uhr, löste ein Erdrutsch im Tracy Arm Fjord von Ala
 
 
 ## Astronomie & Raumfahrt
+
+### Neuer Zwergplanet in unserem Sonnensystem
+
+*2026-10-29* · [Originalbeitrag](https://www.deutschlandfunk.de/hochwasser-zwergplanet-hulk-eidechse-100.html) · Zwergplanet, Sonnensystem, Entdeckung, Kosmos, Rubin-Observatorium
+
+**2026 ED138 könnte der sechste bekannte Zwergplanet unseres Sonnensystems sein, obwohl es sich noch um einen Zwergplanetenkandidaten handelt.**
+
+Ein Himmelskörper namens 2026 ED138 könnte der sechste bekannte Zwergplanet unseres Sonnensystems sein, obwohl es sich noch um einen Zwergplanetenkandidaten handelt. Er wurde von einem Forscher am Rubin-Observatorium in Schiedegesicht entdeckt. Das Objekt ist ein Trans-Neptun-Objekt, also jenseits des letzten großen Planeten Neptune um die Sonne. Es hat einen Durchmesser von etwa 600 bis 1500 Kilometern und ist deutlich kleiner als Pluto. Es wurde erst 2016 aufgenommen, aber damals übersehen. Die Definition eines Zwergplaneten ist unglücklich und unpraktisch, da es sich um ein Objekt handelt, das um die Sonne kreist und groß genug ist, dass seine Materie sich zu einer Kugel formt. Es ist wichtig, um die Anzahl der bekannten Objekte im Sonnensystem und um die Evolution des Planetensystems zu verstehen. Die Rubin-Team ist unter Druck, um eine große Entdeckung zu machen, und hofft, mehr über dieses Objekt zu erfahren, wenn es mit dem Web-Teleskop beobachtet wird.
 
 ### DLR-Entwicklter Rover für Fobos
 
@@ -2001,6 +2025,14 @@ Ein Forschungsteam der RWTH Aachen untersuchte Natrium-Akku-Technologie und fand
 
 
 ## Technik & Informatik
+
+### Forschung zur Rückkehrkapsel des Internationalsen Raumstations
+
+*2026-10-29* · [Originalbeitrag](https://www.deutschlandfunk.de/hochwasser-zwergplanet-hulk-eidechse-100.html) · Rückkehrkapsel, ISS, Hitzeschilde, Raumfahrt, Forschung
+
+**Ein deutsches Forschungsteam hat die Rückkehrkapsel des Internationalsen Raumstationsystems (ISS) genau beobachtet, um Hitzeschilde für künftige, größere Rückkehrkapseln zu verbessern.**
+
+Ein deutsches Forschungsteam hat die Rückkehrkapsel des Internationalsen Raumstationsystems (ISS) genau beobachtet, um Hitzeschilde für künftige, größere Rückkehrkapseln zu verbessern. Am 11. April startete eine Falcon 9-Rakete mit einem Zygnus-Container, der eine kleine Rückkehrkapsel aus Baden-Württemberg enthielt. Die Astronauten bereiteten den Container vor, um ihn von der ISS zu lösen und in der Erdatmosphäre zu vergelühen. Das Ingenieurteam aus Stuttgart beobachtete den Vorgang von einem Forschungsflugzeug und sammelte Daten über die Temperatur und den Druck der Kapsel. Mit 19 Kameras an Bord haben die Wissenschaftler das Himmelsspektakel aufgezeichnet, das von einem auseinanderfallenden Container begleitet wurde. Die gesammelten Daten können zur Verbesserung von Hitzeschilden für künftige, größere Rückkehrkapseln verwendet werden. Die Forscher planen, den Versuch im kommenden Jahr wiederholen, um die Daten zu überprüfen und zu optimieren.
 
 ### PHP-Sicherheitslücken: KI-Tools als Entdecker
 
