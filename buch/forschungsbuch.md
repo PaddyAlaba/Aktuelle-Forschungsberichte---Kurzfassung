@@ -1,19 +1,19 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 331 Einträge, Stand 29.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – 335 Einträge, Stand 30.10.2026. Private Notizen, maschinell erstellt; Details immer im Originalbeitrag prüfen.*
 
 ## Inhalt
 
 - [Medizin & Gesundheit](#medizin-gesundheit) (64)
-- [Biologie & Evolution](#biologie-evolution) (40)
-- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (36)
+- [Biologie & Evolution](#biologie-evolution) (41)
+- [Ökologie & Artenvielfalt](#ökologie-artenvielfalt) (37)
 - [Klima & Atmosphäre](#klima-atmosphäre) (32)
 - [Geowissenschaften](#geowissenschaften) (18)
 - [Astronomie & Raumfahrt](#astronomie-raumfahrt) (23)
 - [Physik](#physik) (11)
 - [Chemie & Materialien](#chemie-materialien) (13)
 - [Energie](#energie) (10)
-- [Technik & Informatik](#technik-informatik) (40)
+- [Technik & Informatik](#technik-informatik) (42)
 - [Künstliche Intelligenz](#künstliche-intelligenz) (14)
 - [Psychologie & Neurowissenschaft](#psychologie-neurowissenschaft) (9)
 - [Archäologie & Anthropologie](#archäologie-anthropologie) (6)
@@ -538,6 +538,14 @@ Die Gesundheitsbehörden CDC und die Medikamentenbehörde FDA haben Studien zur 
 
 ## Biologie & Evolution
 
+### Kommunikation von Wasseramseln
+
+*2026-10-30* · [Originalbeitrag](https://www.deutschlandfunk.de/zugunglueck-in-spanien-hackerangriff-auf-kryptoboerse-fazit-weltnaturkonferenz-100.html) · Wasseramseln, Kommunikation, Blinzeln, Lärm, Naturtalente
+
+**Wasseramseln nutzen Blinzeln, um sich an den Lärm anzupassen und sich an Paarungspartner oder Rivalen zu richten.**
+
+Wasseramseln nutzen Blinzeln, um sich an den Lärm anzupassen und sich an Paarungspartner oder Rivalen zu richten. Die Vögel blinzeln häufiger, wenn sie leiser singen, um Aufmerksamkeit zu erregen. Sie tauchen unter Wasser in schnell fließenden Gebirgsbächen, um Insektenlarven zu fangen. Dies ist eine Anpassung an ihren Lebensraum, der laut ist. Das Blinzeln ist ein positives Zeichen für den Zustand der Natur, da es zeigt, dass das Wasser sauber und reich an Sauerstoff ist. Die Kommunikation der Wasseramseln ist ein Beispiel für Naturtalente, die sie an ihrem Lebensraum anpassen.
+
 ### Halk-Mauer-Eidechse: Evolutionäre Neuheit
 
 *2026-10-29* · [Originalbeitrag](https://www.deutschlandfunk.de/hochwasser-zwergplanet-hulk-eidechse-100.html) · Halk-Mauer-Eidechse, Evolution, Aggressivität, Farben, Toskana
@@ -860,6 +868,14 @@ Die Bakteriophagen, also Bakterienfresser, können als alternative Therapiemitte
 
 
 ## Ökologie & Artenvielfalt
+
+### Artenvielfalt und Naturkonferenz
+
+*2026-10-30* · [Originalbeitrag](https://www.deutschlandfunk.de/zugunglueck-in-spanien-hackerangriff-auf-kryptoboerse-fazit-weltnaturkonferenz-100.html) · Artenvielfalt, Naturkonferenz, Biodiversität, Indigene Gemeinschaften, 30 mal 30-Ziel
+
+**Die 17. Weltnaturgipfel in Armenien hat sich auf Artenvielfalt konzentriert, aber die Umsetzung der Ziele bis 2030 ist noch nicht gewährleistet.**
+
+Die 17. Weltnaturgipfel in Armenien hat sich auf Artenvielfalt konzentriert, aber die Umsetzung der Ziele bis 2030 ist noch nicht gewährleistet. Es gibt 23 globale Ziele bis 2030, die im UN-Weltnaturvertrag 2022 formuliert wurden. Viele Länder haben neue Ziele ausgewiesen, aber eine Trendumkehr kann noch nicht beobachtet werden. Ein positives Beispiel ist das 30 mal 30-Ziel, das vorsieht, bis 2030 mindestens 30 Prozent der globalen Landes- und Meeresflächenunterschutz zu stellen. Die Konferenz hat das Mitspracherecht von indigenen Gemeinschaften und lokalen Minderheiten angestoßen. Die Beteiligung dieser Gruppen ist wichtig, da sie oft in Gebieten mit vielfältiger Artenvielfalt leben.
 
 ### Kiefernprachtkäfer und Waldbrände
 
@@ -2025,6 +2041,22 @@ Ein Forschungsteam der RWTH Aachen untersuchte Natrium-Akku-Technologie und fand
 
 
 ## Technik & Informatik
+
+### Automatische Sicherungssysteme in der Bahn
+
+*2026-10-30* · [Originalbeitrag](https://www.deutschlandfunk.de/zugunglueck-in-spanien-hackerangriff-auf-kryptoboerse-fazit-weltnaturkonferenz-100.html) · Bahn, Automatisierung, Sicherheit, LZB, ETCS
+
+**Automatische Sicherungssysteme in der Bahn können trotz hohem Zuverlässigkeitsebenen Ausfälle haben, die zu Unfällen führen können.**
+
+Automatische Sicherungssysteme wie das LZB in Spanien und das ETCS in Deutschland helfen, Bahnunfälle zu verhindern, indem sie Züge überwachen und bei Fehlern bremsen. In Spanien war das LZB auf der Unfallstrecke nicht aktuell, was zu einem schweren Zugunglück führte. Das System ist seit 1992 in Betrieb, aber seine aktuelle Zuverlässigkeit ist nicht bekannt. In Deutschland sind Züge mit LZB oder ETCS ausgerüstet, und es gibt Sicherheitsprotokolle für Ausfälle. Die Bahnunfälle sind im Vergleich zu anderen Verkehrsmitteln relativ sicher, aber es gibt immer noch Risiken.
+
+### Hackerangriff auf Kryptobörse
+
+*2026-10-30* · [Originalbeitrag](https://www.deutschlandfunk.de/zugunglueck-in-spanien-hackerangriff-auf-kryptoboerse-fazit-weltnaturkonferenz-100.html) · Kryptowährung, Hacking, Blockchain, Kriminelle Aktivitäten, Stablecoins
+
+**Hacker haben Zugriff auf Kryptobörse erlangt und Krypto-Gelder in großer Summe gestohlen, was durch Blockchain-Technologie nicht verhindert werden konnte.**
+
+Ein Hackerangriff auf die Kryptobörse Binance hat 6,4 Milliarden Dollar Krypto-Gelder gestohlen. Die Hacker haben wahrscheinlich Zugriff auf das Notebook eines Engineers erlangt und damit Zugang zu elektronischen Generalschlüsseln, mit denen Transaktionen genehmigt wurden. Blockchain-Technologie kann diese Transaktionen nicht verhindern, da sie nicht die Empfänger identifizieren kann. Die Kriminellen hinter dem Angriff sind wahrscheinlich Trader-Trader aus Nordkorea. Die Krypto-Gelder sind in verschiedenen elektronischen Währungen verwahrt, und die Verwalter konnten einige Stablecoins rechtzeitig sperren. Die Kryptowährungen sind oft in Zusammenhang mit Straftaten oder Spekulationen, aber auch in der Welt der Legitimität existieren sie.
 
 ### Forschung zur Rückkehrkapsel des Internationalsen Raumstations
 
