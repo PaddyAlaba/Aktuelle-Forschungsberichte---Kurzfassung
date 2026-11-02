@@ -4,11 +4,19 @@ Ein GitHub-Workflow verarbeitet jeden Abend die neuen Beiträge des Deutschlandf
 „Forschung aktuell“: Audio laden, lokal mit Whisper transkribieren, mit einem offenen KI-Modell (Qwen 2.5 über Ollama, läuft direkt im Workflow) zusammenfassen – kostenlos, ohne API-Schlüssel und
 nach Fachgebiet einsortieren. Daraus entsteht ein wachsendes Buch:
 
-- **`buch/forschungsbuch.pdf`** – Format A5, gut lesbar auf dem Handy, mit Lesezeichen je Kapitel
-- `buch/forschungsbuch.html` – durchsuchbare Fassung
+- **`buch/forschungsbuch.pdf`** – Format A5, gut lesbar auf dem Handy
+- `buch/forschungsbuch.html` – durchsuchbar, mit Filter nach Fachgebiet
 - `buch/forschungsbuch.md` – Textfassung
 
-Jeder Eintrag enthält Kernaussage, Zusammenfassung, Schlagworte und einen Link zum Originalbeitrag.
+## Aufbau des Buchs
+
+1. **Kurz & knapp** – merkfähige Fakten nach Fachgebiet („Sehr heiße Getränke erhöhen das Risiko
+   für Speiseröhrenkrebs.“), jeweils mit Link zum Beitrag
+2. **Chronik** – nach Monat und Sendungstag sortiert (neueste zuerst), je Thema: Fachgebiet,
+   Kernaussage, Zusammenfassung, „Merke“-Fakt, Schlagworte, Link zur Sendung
+3. **Register nach Fachgebiet** – alle Themen mit Datum, anklickbar
+
+Das PDF hat Lesezeichen für Monate und Sendungstage.
 
 ## Einrichtung (einmalig)
 
@@ -32,8 +40,13 @@ Direktlink zum aktuellen Stand:
 
 ## Einstellungen
 
-`config.toml`: Feed-URL (leer = automatisch suchen), Whisper-Modell, KI-Anbieter und ob
-Transkripte gespeichert werden (Standard: nein).
+`config.toml`: Feed-URL (leer = automatisch suchen), Whisper-Modell, KI-Anbieter, ob Transkripte
+gespeichert werden (Standard: nein) und die Reihenfolge im Buch (`[buch] reihenfolge =
+"neueste_zuerst"` oder `"aelteste_zuerst"`).
+
+`glossar.toml`: Korrekturen für typische Hörfehler der Spracherkennung (z. B. „Kanälenzucht“ →
+„Garnelenzucht“). Neue Einträge wirken beim nächsten Lauf auf das ganze Buch. Die Fachbegriffe unter
+`[whisper]` bekommt die Spracherkennung als Schreibhilfe.
 
 Bessere, schnellere Zusammenfassungen gegen kleines Geld: `anbieter = "claude"` und das Secret
 `ANTHROPIC_API_KEY` anlegen. (GitHub Models wurde von GitHub eingestellt.)

@@ -7,7 +7,7 @@ Ablauf pro Lauf:
   2. Neue Folgen erkennen (bereits verarbeitete stehen in der SQLite-DB)
   3. Audio laden -> lokal mit faster-whisper transkribieren
   4. Zusammenfassung + Fachgebiet + Schlagworte per LLM (GitHub Models, Claude-API oder Ollama)
-  5. Buch neu erzeugen: buch/forschungsbuch.pdf (+ .html und .md)
+  5. Buch neu erzeugen: buch/forschungsbuch.pdf (+ .html und .md), chronologisch mit Fakten-Kapitel
 
 Aufruf:
   python forschungsbuch.py                 # neue Folgen verarbeiten (Standard: max. 10)
@@ -19,6 +19,8 @@ Aufruf:
 from __future__ import annotations
 
 import argparse
+import difflib
+import hashlib
 import html
 import json
 import re
@@ -46,7 +48,7 @@ FACHGEBIETE = [
     "Physik", "Chemie & Materialien", "Energie", "Technik & Informatik",
     "Künstliche Intelligenz", "Psychologie & Neurowissenschaft",
     "Archäologie & Anthropologie", "Landwirtschaft & Ernährung",
-    "Wissenschaftspolitik", "Sonstiges",
+    "Gesellschaft & Politik", "Sonstiges",
 ]
 
 
@@ -92,6 +94,12 @@ def db_oeffnen() -> sqlite3.Connection:
             schlagworte TEXT,
             PRIMARY KEY (guid, nr)
         )""")
+    spalten = {r[1] for r in con.execute("PRAGMA table_info(themen)")}
+    if "fakten" not in spalten:
+        con.execute("ALTER TABLE themen ADD COLUMN fakten TEXT")
+    if "ausblenden" not in spalten:
+        con.execute("ALTER TABLE themen ADD COLUMN ausblenden INTEGER DEFAULT 0")
+    con.execute("UPDATE themen SET fachgebiet='Gesellschaft & Politik' WHERE fachgebiet='Wissenschaftspolitik'")
     con.commit()
     return con
 
@@ -226,7 +234,9 @@ def transkribieren(audio_url: str, cfg: dict) -> str:
             for chunk in r.iter_content(1 << 16):
                 tmp.write(chunk)
         tmp.flush()
-        segmente, _ = _whisper.transcribe(tmp.name, language="de", vad_filter=True)
+        begriffe = lade_glossar().get("whisper", {}).get("begriffe", [])
+        hinweis = ("Forschung aktuell im Deutschlandfunk. " + ", ".join(begriffe) + ".") if begriffe else None
+        segmente, _ = _whisper.transcribe(tmp.name, language="de", vad_filter=True, initial_prompt=hinweis)
         return " ".join(s.text.strip() for s in segmente)
 
 
@@ -254,10 +264,12 @@ Antworte NUR mit JSON in genau diesem Format:
       "kernaussage": "Ein Satz: die wichtigste wissenschaftliche Erkenntnis.",
       "zusammenfassung": "3–6 Sätze in eigenen Worten: Was wurde herausgefunden, von wem (Institution), wie (Methode), warum ist es relevant, welche Einschränkungen gibt es?",
       "fachgebiet": "genau eines aus: {gebiete}",
-      "schlagworte": ["3 bis 6 kurze Schlagworte"]
+      "schlagworte": ["3 bis 6 kurze Schlagworte"],
+      "fakten": ["0 bis 2 kurze, merkfähige Fakten (höchstens 15 Wörter), z. B. 'Sehr heiße Getränke erhöhen das Risiko für Speiseröhrenkrebs.' – nur eindeutig belegte Aussagen, sonst leere Liste"]
     }}
   ]
 }}
+Fasse jeden Beitrag nur EINMAL zusammen – auch wenn er im Transkript mehrfach angesprochen wird.
 Die Zusammenfassung enthält nur den Inhalt – Fachgebiet und Schlagworte gehören ausschließlich in
 ihre eigenen Felder. Keine wörtlichen Zitate, nichts erfinden, was nicht im Transkript steht."""
 
@@ -329,7 +341,15 @@ def zusammenfassen(folge: dict, text: str, cfg: dict) -> dict:
     except json.JSONDecodeError as ex:
         raise RuntimeError(f"Kein gültiges JSON ({ex}): {antwort[:300]!r}")
     themen = daten.get("themen", [daten] if "kernaussage" in daten else [])
+    # Doppelte Themen (kleine Modelle wiederholen sich gern) entfernen
+    eindeutig = []
     for t in themen:
+        if not any(difflib.SequenceMatcher(None, t.get("zusammenfassung", ""), u.get("zusammenfassung", "")).ratio() > 0.8
+                   for u in eindeutig):
+            eindeutig.append(t)
+    themen = eindeutig
+    for t in themen:
+        t["fakten"] = [f.strip() for f in t.get("fakten", []) if isinstance(f, str) and 10 < len(f.strip()) < 160]
         # Kleine Modelle hängen gern „Das Fachgebiet ist … Schlagworte: …“ an – entfernen
         t["zusammenfassung"] = re.sub(r"\s*(Das )?Fachgebiet( ist)?:?\s.*$", "",
                                       t.get("zusammenfassung", ""), flags=re.S).strip()
@@ -376,10 +396,11 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
             con.execute("DELETE FROM themen WHERE guid=?", (f["guid"],))
             for nr, t in enumerate(themen, 1):
                 con.execute(
-                    "INSERT INTO themen (guid, nr, titel, kernaussage, zusammenfassung, fachgebiet, schlagworte) "
-                    "VALUES (?,?,?,?,?,?,?)",
+                    "INSERT INTO themen (guid, nr, titel, kernaussage, zusammenfassung, fachgebiet, schlagworte, fakten) "
+                    "VALUES (?,?,?,?,?,?,?,?)",
                     (f["guid"], nr, t.get("titel", ""), t.get("kernaussage", ""), t.get("zusammenfassung", ""),
-                     t["fachgebiet"], json.dumps(t.get("schlagworte", []), ensure_ascii=False)))
+                     t["fachgebiet"], json.dumps(t.get("schlagworte", []), ensure_ascii=False),
+                     json.dumps(t.get("fakten", []), ensure_ascii=False)))
             print(f"   {len(themen)} Themen")
             con.execute(
                 "UPDATE folgen SET quelle=?, status='fertig', fehler=NULL, verarbeitet_am=? WHERE guid=?",
@@ -402,196 +423,388 @@ def verarbeiten(con: sqlite3.Connection, cfg: dict, limit: int, ab: str = "", ma
 
 
 # --------------------------------------------------------------------------- Buch erzeugen
-def eintraege(con: sqlite3.Connection) -> dict[str, list[sqlite3.Row]]:
-    kapitel: dict[str, list] = {g: [] for g in FACHGEBIETE}
-    for r in con.execute(
-            "SELECT t.titel, t.kernaussage, t.zusammenfassung, t.fachgebiet, t.schlagworte, "
-            "f.datum, f.link, f.titel AS sendung FROM themen t JOIN folgen f ON f.guid = t.guid "
-            "WHERE f.status='fertig' ORDER BY f.datum DESC, t.nr"):
-        kapitel.setdefault(r["fachgebiet"] or "Sonstiges", []).append(r)
-    return {k: v for k, v in kapitel.items() if v}
+WOCHENTAGE = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September",
+          "Oktober", "November", "Dezember"]
+
+FARBEN = {  # eine Farbe je Fachgebiet (Etiketten in PDF und HTML)
+    "Medizin & Gesundheit": "#c0392b", "Biologie & Evolution": "#2e7d32",
+    "Ökologie & Artenvielfalt": "#558b2f", "Klima & Atmosphäre": "#0277bd",
+    "Geowissenschaften": "#795548", "Astronomie & Raumfahrt": "#283593",
+    "Physik": "#5e35b1", "Chemie & Materialien": "#00838f", "Energie": "#ef6c00",
+    "Technik & Informatik": "#455a64", "Künstliche Intelligenz": "#6a1b9a",
+    "Psychologie & Neurowissenschaft": "#ad1457", "Archäologie & Anthropologie": "#8d6e63",
+    "Landwirtschaft & Ernährung": "#9e9d24", "Gesellschaft & Politik": "#37474f",
+    "Sonstiges": "#757575",
+}
 
 
-def buch_markdown(kapitel: dict, ziel: Path) -> None:
-    gesamt = sum(len(v) for v in kapitel.values())
-    z = [f"# Forschungsbuch\n",
-         f"*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) – {gesamt} Einträge, "
-         f"Stand {datetime.now():%d.%m.%Y}. Private Notizen, maschinell erstellt; "
-         f"Details immer im Originalbeitrag prüfen.*\n",
-         "## Inhalt\n"]
-    for k, v in kapitel.items():
-        anker = re.sub(r"[^\w]+", "-", k.lower()).strip("-")
-        z.append(f"- [{k}](#{anker}) ({len(v)})")
-    for k, v in kapitel.items():
-        z.append(f"\n## {k}\n")
-        for r in v:
-            tags = ", ".join(json.loads(r["schlagworte"] or "[]"))
-            z.append(f"### {r['titel']}\n")
-            z.append(f"*{r['datum'][:10]}* · [Originalbeitrag]({r['link']}) · {tags}\n")
-            z.append(f"**{r['kernaussage']}**\n")
-            z.append(f"{r['zusammenfassung']}\n")
+def datum_lang(d: str) -> str:
+    t = datetime.strptime(d[:10], "%Y-%m-%d")
+    return f"{WOCHENTAGE[t.weekday()]}, {t.day}. {MONATE[t.month - 1]} {t.year}"
+
+
+def datum_kurz(d: str) -> str:
+    t = datetime.strptime(d[:10], "%Y-%m-%d")
+    return f"{t.day}.{t.month}.{t.year}"
+
+
+def monat_name(d: str) -> str:
+    return f"{MONATE[int(d[5:7]) - 1]} {d[:4]}"
+
+
+def lade_glossar() -> dict:
+    pfad = BASIS / "glossar.toml"
+    if not pfad.exists():
+        return {}
+    with open(pfad, "rb") as f:
+        return tomllib.load(f)
+
+
+def korrigieren(text: str, korrekturen: dict) -> str:
+    for falsch, richtig in korrekturen.items():
+        text = text.replace(falsch, richtig)
+    return text
+
+
+def buch_daten(con: sqlite3.Connection, cfg: dict) -> dict:
+    """Alle sichtbaren Themen, korrigiert und sortiert, gruppiert nach Monat und Sendung."""
+    korr = lade_glossar().get("korrekturen", {})
+    neueste_zuerst = cfg.get("buch", {}).get("reihenfolge", "neueste_zuerst") == "neueste_zuerst"
+    zeilen = con.execute(
+        "SELECT t.guid, t.nr, t.titel, t.kernaussage, t.zusammenfassung, t.fachgebiet, t.schlagworte, "
+        "t.fakten, f.datum, f.link, f.titel AS sendung FROM themen t JOIN folgen f ON f.guid = t.guid "
+        "WHERE f.status='fertig' AND COALESCE(t.ausblenden, 0) = 0 "
+        "ORDER BY f.datum, f.guid, t.nr").fetchall()
+    eintraege = []
+    for r in zeilen:
+        k = lambda s: korrigieren(s or "", korr)
+        eintraege.append({
+            "id": "e" + hashlib.sha1(f"{r['guid']}#{r['nr']}".encode()).hexdigest()[:10],
+            "guid": r["guid"], "datum": r["datum"], "link": r["link"] or "",
+            "sendung": k(r["sendung"]), "titel": k(r["titel"]), "kern": k(r["kernaussage"]),
+            "text": k(r["zusammenfassung"]), "gebiet": r["fachgebiet"] or "Sonstiges",
+            "tags": [k(t) for t in json.loads(r["schlagworte"] or "[]")],
+            "fakten": [k(t) for t in json.loads(r["fakten"] or "[]")],
+        })
+    if neueste_zuerst:
+        eintraege.sort(key=lambda e: e["datum"], reverse=True)  # stabil: Themenfolge bleibt erhalten
+
+    monate: list[dict] = []
+    for e in eintraege:
+        mk = e["datum"][:7]
+        if not monate or monate[-1]["key"] != mk:
+            monate.append({"key": mk, "name": monat_name(e["datum"]), "sendungen": []})
+        sendungen = monate[-1]["sendungen"]
+        if not sendungen or sendungen[-1]["guid"] != e["guid"]:
+            sendungen.append({"guid": e["guid"], "datum": e["datum"], "titel": e["sendung"],
+                              "link": e["link"], "themen": []})
+        sendungen[-1]["themen"].append(e)
+
+    gebiete: dict[str, list] = {g: [] for g in FACHGEBIETE}
+    for e in eintraege:
+        gebiete.setdefault(e["gebiet"], []).append(e)
+    gebiete = {g: v for g, v in gebiete.items() if v}
+
+    fakten = {g: [(f, e) for e in v for f in e["fakten"]] for g, v in gebiete.items()}
+    fakten = {g: v for g, v in fakten.items() if v}
+
+    datums = [e["datum"] for e in eintraege]
+    return {
+        "eintraege": eintraege, "monate": monate, "gebiete": gebiete, "fakten": fakten,
+        "n_sendungen": len({e["guid"] for e in eintraege}), "n_themen": len(eintraege),
+        "n_fakten": sum(len(v) for v in fakten.values()),
+        "von": min(datums) if datums else "", "bis": max(datums) if datums else "",
+        "neueste_zuerst": neueste_zuerst,
+    }
+
+
+def buch_markdown(b: dict, ziel: Path) -> None:
+    z = ["# Forschungsbuch\n",
+         f"*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · {b['n_themen']} Themen aus "
+         f"{b['n_sendungen']} Sendungen · Stand {datetime.now():%d.%m.%Y}. Maschinell erstellt – "
+         f"Details bitte im Originalbeitrag prüfen.*\n"]
+    if b["fakten"]:
+        z.append("## Kurz & knapp\n")
+        for g, liste in b["fakten"].items():
+            z.append(f"### {g}\n")
+            z += [f"- {f} *({datum_kurz(e['datum'])})*" for f, e in liste]
+            z.append("")
+    for m in b["monate"]:
+        z.append(f"## {m['name']}\n")
+        for s in m["sendungen"]:
+            link = f" · [Sendung anhören]({s['link']})" if s["link"] else ""
+            z.append(f"### {datum_lang(s['datum'])}\n")
+            z.append(f"*{s['titel']}*{link}\n")
+            for e in s["themen"]:
+                z.append(f"#### {e['titel']}\n")
+                z.append(f"`{e['gebiet']}` **{e['kern']}**\n")
+                z.append(f"{e['text']}\n")
+                for f in e["fakten"]:
+                    z.append(f"> **Merke:** {f}\n")
+                if e["tags"]:
+                    z.append(f"*{' · '.join(e['tags'])}*\n")
     ziel.write_text("\n".join(z), encoding="utf-8")
 
 
-def buch_html(kapitel: dict, ziel: Path) -> None:
-    e = html.escape
-    gesamt = sum(len(v) for v in kapitel.values())
-    nav, inhalt = [], []
-    for k, v in kapitel.items():
-        anker = re.sub(r"[^\w]+", "-", k.lower()).strip("-")
-        nav.append(f'<a href="#{anker}">{e(k)} <span>{len(v)}</span></a>')
-        karten = []
-        for r in v:
-            tags = "".join(f"<em>{e(t)}</em>" for t in json.loads(r["schlagworte"] or "[]"))
-            karten.append(
-                f'<article><div class="meta">{e(r["datum"][:10])} · '
-                f'<a href="{e(r["link"])}" target="_blank" rel="noopener">Original</a></div>'
-                f'<h3>{e(r["titel"])}</h3><p class="kern">{e(r["kernaussage"] or "")}</p>'
-                f'<p>{e(r["zusammenfassung"] or "")}</p><div class="tags">{tags}</div></article>')
-        inhalt.append(f'<section id="{anker}"><h2>{e(k)}</h2>{"".join(karten)}</section>')
+def buch_html(b: dict, ziel: Path) -> None:
+    e_ = html.escape
+    chips = "".join(
+        f'<button class="chip" data-g="{e_(g)}" style="--c:{FARBEN.get(g, "#757575")}">{e_(g)} '
+        f'<span>{len(v)}</span></button>' for g, v in b["gebiete"].items())
+    monatsnav = "".join(f'<a href="#m{m["key"]}">{e_(m["name"])}</a>' for m in b["monate"])
+
+    fakten = []
+    for g, liste in b["fakten"].items():
+        punkte = "".join(f'<li>{e_(f)} <a href="#{e["id"]}">{datum_kurz(e["datum"])}</a></li>'
+                         for f, e in liste)
+        fakten.append(f'<h3 style="color:{FARBEN.get(g, "#757575")}">{e_(g)}</h3><ul>{punkte}</ul>')
+
+    teile = []
+    for m in b["monate"]:
+        teile.append(f'<h2 class="monat" id="m{m["key"]}">{e_(m["name"])}</h2>')
+        for s in m["sendungen"]:
+            link = (f' · <a href="{e_(s["link"])}" target="_blank" rel="noopener">anhören</a>'
+                    if s["link"] else "")
+            karten = []
+            for e in s["themen"]:
+                farbe = FARBEN.get(e["gebiet"], "#757575")
+                merke = "".join(f'<p class="merke"><b>Merke:</b> {e_(f)}</p>' for f in e["fakten"])
+                tags = "".join(f"<em>{e_(t)}</em>" for t in e["tags"])
+                karten.append(
+                    f'<article id="{e["id"]}" data-g="{e_(e["gebiet"])}" style="--c:{farbe}">'
+                    f'<div class="gebiet">{e_(e["gebiet"])}</div><h4>{e_(e["titel"])}</h4>'
+                    f'<p class="kern">{e_(e["kern"])}</p><p>{e_(e["text"])}</p>{merke}'
+                    f'<div class="tags">{tags}</div></article>')
+            teile.append(f'<section class="tag"><h3>{datum_lang(s["datum"])}</h3>'
+                         f'<div class="sendung">{e_(s["titel"])}{link}</div>{"".join(karten)}</section>')
 
     seite = f"""<!doctype html><html lang="de"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>Forschungsbuch</title>
 <style>
-:root{{--bg:#faf8f4;--fg:#222;--muted:#777;--card:#fff;--line:#e4dfd6;--acc:#1d5c63}}
-@media (prefers-color-scheme:dark){{:root{{--bg:#16181a;--fg:#e6e6e6;--muted:#999;--card:#1f2225;--line:#33373b;--acc:#6fc0c8}}}}
-body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif}}
-header{{padding:24px 16px 8px;max-width:820px;margin:auto}}
-h1{{margin:0;font-size:2rem}} header p{{color:var(--muted);margin:.3em 0}}
-input{{width:100%;box-sizing:border-box;padding:10px 12px;font-size:1rem;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);margin:12px 0}}
-nav{{display:flex;flex-wrap:wrap;gap:6px}} nav a{{font:13px system-ui;padding:4px 10px;border:1px solid var(--line);border-radius:99px;color:var(--fg);text-decoration:none}}
-nav span{{color:var(--muted)}}
-main{{max-width:820px;margin:auto;padding:0 16px 60px}}
-h2{{border-bottom:2px solid var(--acc);padding-bottom:4px;margin-top:2em}}
-article{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}}
-h3{{margin:.2em 0 .4em;font-size:1.1rem}} .meta{{font:12px system-ui;color:var(--muted)}} .meta a{{color:var(--acc)}}
-.kern{{font-weight:bold}} .tags em{{font:12px system-ui;font-style:normal;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:4px}}
+:root{{--bg:#faf8f4;--fg:#222;--muted:#6b6b6b;--card:#fff;--line:#e4dfd6;--acc:#1d5c63}}
+@media (prefers-color-scheme:dark){{:root{{--bg:#16181a;--fg:#e6e6e6;--muted:#9a9a9a;--card:#1f2225;--line:#33373b;--acc:#6fc0c8}}}}
+*{{box-sizing:border-box}} body{{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif}}
+header,main{{max-width:820px;margin:auto;padding:0 16px}} header{{padding-top:24px}}
+h1{{margin:0;font-size:2rem;color:var(--acc)}} .unter{{color:var(--muted);margin:.3em 0 1em}}
+input{{width:100%;padding:10px 12px;font-size:1rem;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}}
+.chips,.monate{{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}}
+.chip{{font:13px system-ui;padding:4px 10px;border:1px solid var(--c);border-radius:99px;background:none;color:var(--fg);cursor:pointer}}
+.chip span{{color:var(--muted)}} .chip.an{{background:var(--c);color:#fff}} .chip.an span{{color:#fff}}
+.monate a{{font:13px system-ui;color:var(--acc)}}
+details{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 16px;margin:16px 0}}
+summary{{font:600 1.05rem system-ui;cursor:pointer;color:var(--acc)}} details h3{{font:600 .95rem system-ui;margin:1em 0 .2em}}
+details li{{margin:.25em 0}} details li a{{font:12px system-ui;color:var(--muted)}}
+h2.monat{{border-bottom:2px solid var(--acc);padding-bottom:4px;margin-top:2em;color:var(--acc)}}
+section.tag h3{{font:600 1rem system-ui;margin:1.6em 0 0}} .sendung{{font:13px system-ui;color:var(--muted);margin-bottom:6px}}
+.sendung a{{color:var(--acc)}}
+article{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 16px;margin:10px 0}}
+.gebiet{{font:600 11px system-ui;letter-spacing:.04em;text-transform:uppercase;color:var(--c)}}
+h4{{margin:.15em 0 .35em;font-size:1.08rem}} .kern{{font-weight:bold}}
+.merke{{background:var(--bg);border-radius:6px;padding:6px 10px;font-size:.95rem}}
+.tags em{{font:12px system-ui;font-style:normal;color:var(--muted);margin-right:8px}}
+.versteckt{{display:none}}
 </style></head><body>
 <header><h1>Forschungsbuch</h1>
-<p>Kurzfassungen aus „Forschung aktuell" (Deutschlandfunk) · {gesamt} Einträge · Stand {datetime.now():%d.%m.%Y}</p>
-<input id="q" placeholder="Durchsuchen …" oninput="suche(this.value)"><nav>{"".join(nav)}</nav></header>
-<main>{"".join(inhalt)}</main>
+<p class="unter">Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · {b['n_themen']} Themen aus {b['n_sendungen']} Sendungen ·
+{b['n_fakten']} Fakten · Stand {datetime.now():%d.%m.%Y}</p>
+<input id="q" placeholder="Durchsuchen …" oninput="filtern()">
+<div class="chips">{chips}</div><div class="monate">{monatsnav}</div></header>
+<main>
+<details><summary>Kurz &amp; knapp – {b['n_fakten']} Fakten</summary>{"".join(fakten)}</details>
+{"".join(teile)}
+</main>
 <script>
-function suche(q){{q=q.toLowerCase();document.querySelectorAll('article').forEach(a=>{{a.style.display=a.textContent.toLowerCase().includes(q)?'':'none'}});
-document.querySelectorAll('section').forEach(s=>{{s.style.display=[...s.querySelectorAll('article')].some(a=>a.style.display!=='none')?'':'none'}})}}
+const aktiv=new Set();
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{{const g=c.dataset.g;
+  aktiv.has(g)?aktiv.delete(g):aktiv.add(g);c.classList.toggle('an');filtern()}});
+function filtern(){{const q=document.getElementById('q').value.toLowerCase();
+  document.querySelectorAll('article').forEach(a=>{{const ok=(!aktiv.size||aktiv.has(a.dataset.g))&&a.textContent.toLowerCase().includes(q);
+    a.classList.toggle('versteckt',!ok)}});
+  document.querySelectorAll('section.tag').forEach(s=>s.classList.toggle('versteckt',!s.querySelector('article:not(.versteckt)')));
+  document.querySelectorAll('h2.monat').forEach(h=>{{let n=h.nextElementSibling,sicht=false;
+    while(n&&!n.matches('h2.monat')){{if(!n.classList.contains('versteckt'))sicht=true;n=n.nextElementSibling}}
+    h.classList.toggle('versteckt',!sicht)}})}}
 </script></body></html>"""
     ziel.write_text(seite, encoding="utf-8")
 
 
-def _schriften() -> tuple[str, str]:
+def _schriften() -> tuple[str, str, str]:
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
-    kandidaten = [
-        "/usr/share/fonts/truetype/dejavu",            # Linux / GitHub Actions
-        "/Library/Fonts", str(Path.home() / "Library/Fonts"),  # macOS (falls DejaVu installiert)
-        "C:/Windows/Fonts",
-    ]
+    kandidaten = ["/usr/share/fonts/truetype/dejavu", "/Library/Fonts",
+                  str(Path.home() / "Library/Fonts"), "C:/Windows/Fonts"]
     for d in kandidaten:
+        n, b, s = (Path(d) / f for f in ("DejaVuSerif.ttf", "DejaVuSans-Bold.ttf", "DejaVuSans.ttf"))
+        if n.exists() and b.exists() and s.exists():
+            pdfmetrics.registerFont(TTFont("Text", str(n)))
+            pdfmetrics.registerFont(TTFont("Fett", str(b)))
+            pdfmetrics.registerFont(TTFont("Sans", str(s)))
+            return "Text", "Fett", "Sans"
         n, b = Path(d) / "DejaVuSans.ttf", Path(d) / "DejaVuSans-Bold.ttf"
         if n.exists() and b.exists():
-            pdfmetrics.registerFont(TTFont("Buch", str(n)))
-            pdfmetrics.registerFont(TTFont("Buch-Fett", str(b)))
-            return "Buch", "Buch-Fett"
-    return "Helvetica", "Helvetica-Bold"  # Fallback (ohne „“ und einige Sonderzeichen)
+            pdfmetrics.registerFont(TTFont("Text", str(n)))
+            pdfmetrics.registerFont(TTFont("Fett", str(b)))
+            return "Text", "Fett", "Text"
+    return "Helvetica", "Helvetica-Bold", "Helvetica"
 
 
-def buch_pdf(kapitel: dict, ziel: Path) -> None:
-    """Buch als PDF im Format A5 – gut lesbar auf dem Handy, mit Lesezeichen je Kapitel."""
+def buch_pdf(b: dict, ziel: Path) -> None:
+    """Buch als PDF im Format A5 – handyfreundlich, mit Lesezeichen und internen Links."""
     from reportlab.lib import colors
     from reportlab.lib.pagesizes import A5
     from reportlab.lib.styles import ParagraphStyle
     from reportlab.lib.units import mm
-    from reportlab.platypus import (KeepTogether, PageBreak, Paragraph, SimpleDocTemplate,
-                                    Spacer)
+    from reportlab.platypus import (CondPageBreak, KeepTogether, PageBreak, Paragraph,
+                                    SimpleDocTemplate, Spacer, Table, TableStyle)
 
-    normal, fett = _schriften()
-    akzent = colors.HexColor("#1d5c63")
-    grau = colors.HexColor("#777777")
+    text, fett, sans = _schriften()
+    akzent, grau = "#1d5c63", "#6b6b6b"
+    P = lambda name, **kw: ParagraphStyle(name, **kw)
     st = {
-        "titel": ParagraphStyle("titel", fontName=fett, fontSize=26, leading=30, textColor=akzent, spaceAfter=8),
-        "unter": ParagraphStyle("unter", fontName=normal, fontSize=10, leading=14, textColor=grau),
-        "inhalt": ParagraphStyle("inhalt", fontName=normal, fontSize=11, leading=18),
-        "kapitel": ParagraphStyle("kapitel", fontName=fett, fontSize=17, leading=21, textColor=akzent,
-                                  spaceAfter=8),
-        "eintrag": ParagraphStyle("eintrag", fontName=fett, fontSize=11.5, leading=14.5, spaceBefore=10,
-                                  spaceAfter=2),
-        "meta": ParagraphStyle("meta", fontName=normal, fontSize=8, leading=10, textColor=grau, spaceAfter=3),
-        "kern": ParagraphStyle("kern", fontName=fett, fontSize=9.5, leading=13, spaceAfter=3),
-        "text": ParagraphStyle("text", fontName=normal, fontSize=9.5, leading=13.5),
-        "tags": ParagraphStyle("tags", fontName=normal, fontSize=8, leading=10, textColor=akzent, spaceBefore=2),
+        "titel": P("titel", fontName=fett, fontSize=28, leading=32, textColor=akzent),
+        "unter": P("unter", fontName=sans, fontSize=10, leading=14, textColor=grau),
+        "zahl": P("zahl", fontName=fett, fontSize=18, leading=20, textColor=akzent, alignment=1),
+        "zahltext": P("zahltext", fontName=sans, fontSize=8, leading=10, textColor=grau, alignment=1),
+        "h1": P("h1", fontName=fett, fontSize=19, leading=23, textColor=akzent, spaceAfter=6),
+        "inhalt": P("inhalt", fontName=sans, fontSize=10.5, leading=17),
+        "tag": P("tag", fontName=fett, fontSize=11, leading=14, spaceBefore=10, textColor=akzent),
+        "sendung": P("sendung", fontName=sans, fontSize=7.5, leading=9.5, textColor=grau, spaceAfter=2),
+        "gebiet": P("gebiet", fontName=fett, fontSize=6.5, leading=8, spaceBefore=7),
+        "eintrag": P("eintrag", fontName=fett, fontSize=10.5, leading=13, spaceAfter=2),
+        "kern": P("kern", fontName=fett, fontSize=9, leading=12, spaceAfter=3),
+        "text": P("text", fontName=text, fontSize=8.8, leading=12.4),
+        "merke": P("merke", fontName=sans, fontSize=8.3, leading=11, leftIndent=6, borderPadding=(3, 4, 3, 4),
+                   backColor=colors.HexColor("#eef5f5"), spaceBefore=5, spaceAfter=1),
+        "tags": P("tags", fontName=sans, fontSize=7, leading=9, textColor=grau, spaceBefore=3),
+        "fgebiet": P("fgebiet", fontName=fett, fontSize=10, leading=13, spaceBefore=9, spaceAfter=2),
+        "fakt": P("fakt", fontName=sans, fontSize=8.6, leading=11.5, leftIndent=9, firstLineIndent=-9,
+                  spaceAfter=2.5),
+        "reg": P("reg", fontName=sans, fontSize=8.3, leading=11, leftIndent=34, firstLineIndent=-34),
     }
-    e = lambda t: html.escape(t or "", quote=True)
-    anker = lambda k: "k-" + re.sub(r"[^\w]+", "-", k.lower()).strip("-")
+    e_ = lambda t: html.escape(t or "", quote=True)
 
     class Buch(SimpleDocTemplate):
         def afterFlowable(self, fl):
-            key = getattr(fl, "_anker", None)
-            if key:
+            ziel_ = getattr(fl, "_lesezeichen", None)
+            if ziel_:
+                key, titel, ebene = ziel_
                 self.canv.bookmarkPage(key)
-                self.canv.addOutlineEntry(fl.getPlainText(), key, level=0)
+                self.canv.addOutlineEntry(titel, key, level=ebene, closed=ebene == 0)
 
-    def fusszeile(canv, doc):
+    def mit_lesezeichen(p, key, titel, ebene):
+        p._lesezeichen = (key, titel, ebene)
+        return p
+
+    def seitenrand(canv, doc):
         canv.saveState()
-        canv.setFont(normal, 8)
-        canv.setFillColor(grau)
-        canv.drawCentredString(A5[0] / 2, 8 * mm, f"– {doc.page} –")
+        canv.setFont(sans, 7)
+        canv.setFillColor(colors.HexColor(grau))
+        if doc.page > 1:
+            canv.drawString(12 * mm, 8 * mm, "Forschungsbuch")
+            canv.drawRightString(A5[0] - 12 * mm, 8 * mm, str(doc.page))
         canv.restoreState()
 
-    gesamt = sum(len(v) for v in kapitel.values())
-    story = [
-        Spacer(1, 30 * mm),
-        Paragraph("Forschungsbuch", st["titel"]),
-        Paragraph(f"Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk)<br/>"
-                  f"{gesamt} Einträge · Stand {datetime.now():%d.%m.%Y}", st["unter"]),
-        Spacer(1, 6 * mm),
-        Paragraph("Maschinell erstellte Zusammenfassungen. Details bitte im verlinkten "
-                  "Originalbeitrag prüfen.", st["unter"]),
-        Spacer(1, 12 * mm),
-        Paragraph("Inhalt", st["kapitel"]),
-    ]
-    for k, v in kapitel.items():
-        story.append(Paragraph(f'<a href="#{anker(k)}" color="#1d5c63">{e(k)}</a> '
-                               f'<font color="#777777">({len(v)})</font>', st["inhalt"]))
+    # Titelseite
+    zeitraum = f"{datum_kurz(b['von'])} – {datum_kurz(b['bis'])}" if b["von"] else ""
+    zahlen = Table([[Paragraph(str(b[k]), st["zahl"]) for k in ("n_sendungen", "n_themen", "n_fakten")],
+                    [Paragraph(t, st["zahltext"]) for t in ("Sendungen", "Themen", "Fakten")]],
+                   colWidths=[38 * mm] * 3)
+    zahlen.setStyle(TableStyle([("LINEABOVE", (0, 0), (-1, 0), 0.6, colors.HexColor(akzent)),
+                                ("TOPPADDING", (0, 0), (-1, 0), 8)]))
+    story = [Spacer(1, 32 * mm), Paragraph("Forschungsbuch", st["titel"]), Spacer(1, 3 * mm),
+             Paragraph("Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk)", st["unter"]),
+             Paragraph(f"{zeitraum} · Stand {datetime.now():%d.%m.%Y}", st["unter"]),
+             Spacer(1, 14 * mm), zahlen, Spacer(1, 16 * mm),
+             Paragraph("Maschinell erstellte Zusammenfassungen. Details bitte im verlinkten "
+                       "Originalbeitrag prüfen.", st["unter"]),
+             PageBreak()]
 
-    for k, v in kapitel.items():
-        story.append(PageBreak())
-        kopf = Paragraph(e(k), st["kapitel"])
-        kopf._anker = anker(k)
-        story.append(kopf)
-        for r in v:
-            tags = " · ".join(json.loads(r["schlagworte"] or "[]"))
-            link = f' · <a href="{e(r["link"])}" color="#1d5c63">Originalbeitrag</a>' if r["link"] else ""
-            story.append(KeepTogether([
-                Paragraph(e(r["titel"]), st["eintrag"]),
-                Paragraph(f'{e(r["datum"][:10])}{link}', st["meta"]),
-                Paragraph(e(r["kernaussage"]), st["kern"]),
-                Paragraph(e(r["zusammenfassung"]), st["text"]),
-                Paragraph(e(tags), st["tags"]),
-            ]))
+    # Inhalt
+    link = lambda ziel_, t, extra="": (f'<a href="#{ziel_}" color="{akzent}">{e_(t)}</a>'
+                                        f'<font color="{grau}">{extra}</font>')
+    story.append(mit_lesezeichen(Paragraph("Inhalt", st["h1"]), "inhalt", "Inhalt", 0))
+    if b["fakten"]:
+        story.append(Paragraph(link("fakten", "Kurz & knapp", f"  {b['n_fakten']} Fakten"), st["inhalt"]))
+    story.append(Spacer(1, 4))
+    for m in b["monate"]:
+        n = sum(len(s["themen"]) for s in m["sendungen"])
+        story.append(Paragraph(link(f"m{m['key']}", m["name"], f"  {len(m['sendungen'])} Sendungen · {n} Themen"),
+                               st["inhalt"]))
+    story += [Spacer(1, 4), Paragraph(link("register", "Register nach Fachgebiet"), st["inhalt"])]
+
+    # Kurz & knapp
+    if b["fakten"]:
+        story += [PageBreak(), mit_lesezeichen(Paragraph("Kurz &amp; knapp", st["h1"]), "fakten", "Kurz & knapp", 0)]
+        for g, liste in b["fakten"].items():
+            farbe = FARBEN.get(g, grau)
+            story.append(CondPageBreak(25 * mm))
+            story.append(Paragraph(f'<font color="{farbe}">■</font> {e_(g)}', st["fgebiet"]))
+            for f, e in liste:
+                story.append(Paragraph(
+                    f'<font color="{farbe}">•</font> {e_(f)} '
+                    f'<a href="#{e["id"]}" color="{grau}"><font size="6.5">{datum_kurz(e["datum"])}</font></a>',
+                    st["fakt"]))
+
+    # Chronik
+    for m in b["monate"]:
+        story += [PageBreak(), mit_lesezeichen(Paragraph(e_(m["name"]), st["h1"]), f"m{m['key']}", m["name"], 0)]
+        for s in m["sendungen"]:
+            anh = f' · <a href="{e_(s["link"])}" color="{akzent}">anhören</a>' if s["link"] else ""
+            kopf = [mit_lesezeichen(Paragraph(datum_lang(s["datum"]), st["tag"]),
+                                    "s" + hashlib.sha1(s["guid"].encode()).hexdigest()[:10],
+                                    datum_lang(s["datum"]), 1),
+                    Paragraph(f"{e_(s['titel'])}{anh}", st["sendung"])]
+            for i, e in enumerate(s["themen"]):
+                farbe = FARBEN.get(e["gebiet"], grau)
+                block = [Paragraph(f'<a name="{e["id"]}"/><font color="{farbe}">{e_(e["gebiet"]).upper()}</font>',
+                                   st["gebiet"]),
+                         Paragraph(e_(e["titel"]), st["eintrag"]),
+                         Paragraph(e_(e["kern"]), st["kern"]),
+                         Paragraph(e_(e["text"]), st["text"])]
+                block += [Paragraph(f"<b>Merke:</b> {e_(f)}", st["merke"]) for f in e["fakten"]]
+                if e["tags"]:
+                    block.append(Paragraph(e_(" · ".join(e["tags"])), st["tags"]))
+                story.append(KeepTogether((kopf if i == 0 else []) + block))
+
+    # Register
+    story += [PageBreak(), mit_lesezeichen(Paragraph("Register nach Fachgebiet", st["h1"]), "register",
+                                           "Register nach Fachgebiet", 0)]
+    for g, liste in b["gebiete"].items():
+        story.append(CondPageBreak(20 * mm))
+        story.append(Paragraph(f'<font color="{FARBEN.get(g, grau)}">■</font> {e_(g)} '
+                               f'<font color="{grau}" size="8">({len(liste)})</font>', st["fgebiet"]))
+        for e in sorted(liste, key=lambda e: e["datum"], reverse=b["neueste_zuerst"]):
+            story.append(Paragraph(f'<font color="{grau}">{datum_kurz(e["datum"])[:-5]}</font>&nbsp;&nbsp;'
+                                   f'<a href="#{e["id"]}" color="#222222">{e_(e["titel"])}</a>', st["reg"]))
 
     doc = Buch(str(ziel), pagesize=A5, leftMargin=12 * mm, rightMargin=12 * mm,
-               topMargin=14 * mm, bottomMargin=16 * mm, title="Forschungsbuch",
-               author="Forschungsbuch (automatisch)")
-    doc.build(story, onFirstPage=fusszeile, onLaterPages=fusszeile)
+               topMargin=13 * mm, bottomMargin=15 * mm, title="Forschungsbuch",
+               author="Forschungsbuch (automatisch)", subject="Kurzfassungen aus „Forschung aktuell“")
+    doc.build(story, onFirstPage=seitenrand, onLaterPages=seitenrand)
 
 
-def buch_bauen(con: sqlite3.Connection) -> None:
+def buch_bauen(con: sqlite3.Connection, cfg: dict | None = None) -> None:
     ordner = BASIS / "buch"
     ordner.mkdir(exist_ok=True)
-    kapitel = eintraege(con)
-    buch_markdown(kapitel, ordner / "forschungsbuch.md")
-    buch_html(kapitel, ordner / "forschungsbuch.html")
-    buch_pdf(kapitel, ordner / "forschungsbuch.pdf")
+    b = buch_daten(con, cfg or {})
+    buch_markdown(b, ordner / "forschungsbuch.md")
+    buch_html(b, ordner / "forschungsbuch.html")
+    buch_pdf(b, ordner / "forschungsbuch.pdf")
     status_schreiben(con, ordner / "status.md")
-    print(f"Buch aktualisiert: {ordner / 'forschungsbuch.pdf'}  ({sum(map(len, kapitel.values()))} Einträge)")
+    print(f"Buch aktualisiert: {ordner / 'forschungsbuch.pdf'}  "
+          f"({b['n_themen']} Themen, {b['n_fakten']} Fakten)")
 
 
 def status_schreiben(con: sqlite3.Connection, ziel: Path) -> None:
     z = [f"# Verarbeitungsstand ({datetime.now():%d.%m.%Y %H:%M})\n"]
     for r in con.execute("SELECT status, COUNT(*) n, MIN(datum) von, MAX(datum) bis FROM folgen GROUP BY status"):
         z.append(f"- **{r['status']}**: {r['n']} Sendungen ({(r['von'] or '')[:10]} bis {(r['bis'] or '')[:10]})")
-    n = con.execute("SELECT COUNT(*) FROM themen").fetchone()[0]
-    z.append(f"- **Themen im Buch**: {n}\n")
+    n = con.execute("SELECT COUNT(*) FROM themen WHERE COALESCE(ausblenden, 0) = 0").fetchone()[0]
+    nf = sum(len(json.loads(r[0] or "[]")) for r in
+             con.execute("SELECT fakten FROM themen WHERE COALESCE(ausblenden, 0) = 0"))
+    z.append(f"- **Themen im Buch**: {n}")
+    z.append(f"- **Fakten**: {nf}\n")
     fehler = con.execute("SELECT datum, titel, fehler FROM folgen WHERE status='fehler' "
                          "ORDER BY datum DESC LIMIT 10").fetchall()
     if fehler:
@@ -620,7 +833,7 @@ def main() -> None:
         return
     if not args.nur_buch:
         verarbeiten(con, cfg, args.limit, args.ab, args.max_minuten)
-    buch_bauen(con)
+    buch_bauen(con, cfg)
 
 
 if __name__ == "__main__":

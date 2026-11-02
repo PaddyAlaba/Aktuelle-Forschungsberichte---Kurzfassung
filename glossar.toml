@@ -1,0 +1,60 @@
+# Glossar für das Forschungsbuch
+#
+# [korrekturen]  Typische Hörfehler der automatischen Transkription. Sie werden beim Bauen des
+#                Buchs in allen Texten ersetzt (falsch = richtig). Neue Fehler einfach ergänzen –
+#                der nächste Lauf korrigiert auch alle älteren Einträge.
+# [whisper]      Fachbegriffe, die der Spracherkennung als Hinweis mitgegeben werden, damit sie
+#                künftig gleich richtig geschrieben werden.
+
+[korrekturen]
+"Kanälenzucht" = "Garnelenzucht"
+"Zucht von Kanälen" = "Zucht von Garnelen"
+"Hunter-Virus" = "Hantavirus"
+"Kornrohr" = "Gonorrhö"
+"Bundibugio" = "Bundibugyo"
+"Flussspart" = "Flussspat"
+"Leimutterschaft" = "Leihmutterschaft"
+"Leimütter" = "Leihmütter"
+"Kletscher" = "Gletscher"
+"Fobos" = "Phobos"
+"Frauenhofer" = "Fraunhofer"
+"Affla-Toxine" = "Aflatoxine"
+"Rwebo" = "Ervebo"
+"Glutadion" = "Glutathion"
+"Dinoflageladen" = "Dinoflagellaten"
+"Kokolithophorider" = "Kokkolithophoriden"
+"Denisovahner" = "Denisova-Menschen"
+"Juval Harari" = "Yuval Harari"
+"Steffensi" = "stephensi"
+"Karl Deiseroth" = "Karl Deisseroth"
+"Francis Halson" = "Francis Halzen"
+"Nelvia Stokes" = "Navier-Stokes"
+"ESA Aerospace" = "Isar Aerospace"
+"Genomsäquenzierung" = "Genomsequenzierung"
+"Zellertransplantation" = "Zelltransplantation"
+"Megazunami" = "Mega-Tsunami"
+"Internationalsen" = "Internationalen"
+"DNS-Sackverfahren" = "DNSSEC-Verfahren"
+"Verdrecklichkeit" = "Verträglichkeit"
+"Technologiemetal " = "Technologiemetall "
+"Moniterung" = "Überwachung"
+"Ice Cube" = "IceCube"
+"Chernobyl" = "Tschernobyl"
+"Fargentherapie" = "Phagentherapie"
+"Flimmerherchen" = "Flimmerhärchen"
+"Selten Erdmetalle" = "Seltene Erdmetalle"
+"gegen Schwarzhautkrebs" = "gegen schwarzen Hautkrebs"
+"schwarzem Hautkrebs" = "schwarzen Hautkrebs"
+"Möglsee" = "Müggelsee"
+"Buckelwahls" = "Buckelwals"
+"Anhold" = "Anholt"
+"künstlich angelegten Sehen" = "künstlich angelegten Seen"
+"Baseler" = "Basler"
+
+[whisper]
+begriffe = [
+  "Forschung aktuell", "Deutschlandfunk", "Fraunhofer", "Max-Planck-Institut", "Helmholtz",
+  "Leibniz-Institut", "DLR", "ESA", "NASA", "CERN", "Phagentherapie", "Gonorrhö", "Hantavirus",
+  "Ebola", "Tsunami", "Gletscher", "CRISPR", "mRNA", "Optogenetik", "Neutrinos", "IceCube",
+  "Isar Aerospace", "Leihmutterschaft", "Aflatoxine", "Glutathion",
+]

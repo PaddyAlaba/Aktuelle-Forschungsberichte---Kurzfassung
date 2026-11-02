@@ -24,3 +24,8 @@ max_zeichen = 18000   # so viel Transkript geht ans Modell
 [speicher]
 # Vollständige Transkripte NICHT im Repo ablegen (urheberrechtlich geschützte Sendungstexte).
 transkripte = false
+
+[buch]
+# "neueste_zuerst": aktuellste Sendung oben (praktisch fürs Handy)
+# "aelteste_zuerst": klassisch chronologisch wie ein Tagebuch
+reihenfolge = "neueste_zuerst"
