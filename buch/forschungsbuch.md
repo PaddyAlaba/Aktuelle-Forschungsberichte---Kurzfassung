@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 332 Themen aus 104 Sendungen · Stand 03.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 335 Themen aus 105 Sendungen · Stand 04.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -82,6 +82,7 @@
 
 ### Klima & Atmosphäre
 
+- Die Erwärmung über 1,5 Grad Celsius ist unumkehrbar für die Kryosphäre. *(3.11.2026)*
 - Der Klimawandel lässt Hochwasserpegel überproportional steigen, obwohl Niederschläge nur leicht zunehmen. *(29.10.2026)*
 - Der Stern-Report (2006) zeigte: Klimaschutz ist viel günstiger als ungebremster Klimawandel. *(28.10.2026)*
 - Die Konzentration des Treibhausgases SF6 in der Atmosphäre hat sich verdreifacht. *(27.10.2026)*
@@ -113,6 +114,7 @@
 
 ### Astronomie & Raumfahrt
 
+- Hera wird die Bahn des Morphos überprüfen, indem sie 30 Kilometer vor dem Asteroiden fliegt. *(3.11.2026)*
 - 2026 ED138 könnte der sechste bekannte Zwergplanet des Sonnensystems sein. *(29.10.2026)*
 - Der Rover Idefix soll als erstes Fahrzeug auf dem Marsmond Phobos fahren. *(20.10.2026)*
 - Physik-Nobelpreis 2026 für die Neutrinoforschung, u. a. mit dem IceCube-Observatorium in der Antarktis. *(6.10.2026)*
@@ -168,6 +170,7 @@
 
 ### Psychologie & Neurowissenschaft
 
+- Die Verbindung zwischen Führungsposition und Risikobereitschaft ist stärker bei Schimpansen als bei Menschen. *(3.11.2026)*
 - Forschende suchen nach LSD-Varianten, die ohne Halluzinationen wirken. *(8.9.2026)*
 - Im Winterschlaf bleibt das Gedächtnis erhalten, obwohl viele Synapsen abgebaut werden. *(14.8.2026)*
 - Frühe Social-Media-Nutzung kann die Lernleistung von Schülern verschlechtern. *(4.8.2026)*
@@ -194,6 +197,42 @@
 ### Sonstiges
 
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
+
+## November 2026
+
+### Dienstag, 3. November 2026
+
+*Kryosphäre / Raumsonde Hera / Führungspersonen und Risikobereitschaft* · [Sendung anhören](https://www.deutschlandfunk.de/kryosphaere-raumsonde-hera-fuehrungspersonen-und-risikobereitschaft-100.html)
+
+#### Kryosphäre und Klimawandel
+
+`Klima & Atmosphäre` **Die Kryosphäre reagiert besonders empfindlich auf den Klimawandel und verändert sich rasant.**
+
+Zwei Expertenberichte des Umweltprogramms der Vereinten Nationen und der internationalen Kryosphären Klimainitiative warnen vor den Auswirkungen des Klimawandels auf die Kryosphäre, einschließlich der Erwärmung über 1,5 Grad Celsius. Die Eisverluste auf Grönland und in der Antarktis erhöhen den Meeresspiegel, schwächen wichtige Meeresströmungssysteme und freisetzen Treibhausgase. Die Kryosphäre könnte 70% ihrer heutigen Gletschermasse verlieren, wenn die Erwärmung auf 2,8 Grad Celsius ansteigt. Experten fordern eine drastische Reduzierung von Treibhausgasemissionen und Technologien zur CO2-Entfernung.
+
+> **Merke:** Die Erwärmung über 1,5 Grad Celsius ist unumkehrbar für die Kryosphäre.
+
+*Kryosphäre · Klimawandel · Gletscher · Meeresspiegel · Treibhausgase*
+
+#### Raumsonde Hera und Asteroiden
+
+`Astronomie & Raumfahrt` **Die Raumsonde Hera untersucht die Auswirkungen des Einschlags auf den Asteroiden Morphos.**
+
+Die Raumsonde Hera untersucht den Asteroiden Morphos, um die Auswirkungen des Einschlags von DART zu bestimmen. Hera wird die Bahnveränderung des Morphos und die Zusammensetzung des Asteroiden untersuchen, um die Techniken zur Veränderung der Bahn von gefährlichen Asteroiden zu verbessern. Das Ziel ist, einen gefährlichen Asteroiden auf Kollisionskurs zur Erde von seinem Kurs abbringen zu können. Hera wird die Bahn des Morphos überprüfen, indem sie 30 Kilometer vor dem Asteroiden fliegt, und messen, wie stark der größere Dedimos mit seiner Anziehungskraft am kleineren die Morphos zieht.
+
+> **Merke:** Hera wird die Bahn des Morphos überprüfen, indem sie 30 Kilometer vor dem Asteroiden fliegt.
+
+*Raumsonde · Hera · DART · Asteroiden · Bahnveränderung*
+
+#### Führungskräfte und Risikobereitschaft
+
+`Psychologie & Neurowissenschaft` **Führungskräfte, sowohl menschliche als auch tierische, zeigen eine höhere Risikobereitschaft.**
+
+Eine Studie des Max-Planck-Instituts für Bildungsforschung hat gezeigt, dass Menschen und Schimpansen in Führungspositionen eine höhere Risikobereitschaft zeigen als Personen ohne Führungsaufgaben. Menschen mit Führungsverantwortung und Schimpansen mit hohem Rang sind risikofreudiger als ihre Untergebenen. Diese Parallele zwischen den beiden Arten könnte darauf hindeuten, dass die Verbindung zwischen Führungsposition und Risikobereitschaft tiefe, evolutionäre Wurzeln hat. Die Ergebnisse legen nahe, dass die Verbindung zwischen Führungsposition und Risikobereitschaft bei Schimpansen stärker ausgeprägt ist als bei Menschen. Dies könnte darauf hindeuten, dass moderne menschliche Gesellschaften neben individuellen Charakteristiken auch andere Faktoren wie Bildung und berufliche Qualifikationen in Betracht ziehen, um in eine Führungsposition zu kommen.
+
+> **Merke:** Die Verbindung zwischen Führungsposition und Risikobereitschaft ist stärker bei Schimpansen als bei Menschen.
+
+*Führungskräfte · Risikobereitschaft · Schimpansen · Evolution · Bildung*
 
 ## Oktober 2026
 

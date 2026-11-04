@@ -1,6 +1,6 @@
-# Verarbeitungsstand (03.11.2026 01:34)
+# Verarbeitungsstand (04.11.2026 00:20)
 
-- **fertig**: 105 Sendungen (2026-05-06 bis 2026-10-30)
-- **Themen im Buch**: 332
-- **Fakten**: 143
+- **fertig**: 106 Sendungen (2026-05-06 bis 2026-11-03)
+- **Themen im Buch**: 335
+- **Fakten**: 146
 
