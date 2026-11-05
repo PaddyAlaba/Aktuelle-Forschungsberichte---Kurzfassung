@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 335 Themen aus 105 Sendungen · Stand 04.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 338 Themen aus 106 Sendungen · Stand 05.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -38,6 +38,7 @@
 
 ### Biologie & Evolution
 
+- 52 von 356 Schwangerschaften endeten in Fehlgeburten (ca. 7%). *(4.11.2026)*
 - Wasseramseln verständigen sich an lauten Bächen per Blinzeln. *(30.10.2026)*
 - Afrikanische Wildhunde treffen Gruppenentscheidungen per Niesen. *(28.10.2026)*
 - Ostsee-Dorsche sind durch den Fischereidruck evolutionär kleiner geworden. *(23.10.2026)*
@@ -151,6 +152,7 @@
 
 ### Technik & Informatik
 
+- Die Angriffe wurden durch schwache Passwörter ermöglicht. *(4.11.2026)*
 - KI-Werkzeuge haben kritische Sicherheitslücken in PHP-Webseiten aufgespürt. *(22.10.2026)*
 - Gehirnorganoide konnten lernen, Brailleschrift zu entziffern. *(16.10.2026)*
 - Community Notes auf X funktionieren vor allem bei wenig polarisierten Themen. *(2.7.2026)*
@@ -188,6 +190,7 @@
 
 ### Gesellschaft & Politik
 
+- Die Demokraten haben die Kontrolle über den Senat und das Repräsentantenhaus gewonnen. *(4.11.2026)*
 - Die Mehrheit der Deutschen unterstützt Klimaschutzziele – die Einstellung ist kaum polarisiert. *(14.10.2026)*
 - Der CO2-Fußabdruck hängt in Deutschland stark vom Einkommen ab. *(14.10.2026)*
 - Online-Umfragen ohne Zufallsstichprobe können erheblich danebenliegen. *(13.8.2026)*
@@ -199,6 +202,40 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Mittwoch, 4. November 2026
+
+*Midterms / gehackte Kühlschränke / Mandrillen* · [Sendung anhören](https://www.deutschlandfunk.de/midterms-gehackte-kuehlschraenke-mandrillen-100.html)
+
+#### Forschung und Politik: Die Auswirkungen der US-Midterms
+
+`Gesellschaft & Politik` **Die Demokraten gewinnen die Kontrolle über den Senat und das Repräsentantenhaus, was die Forschung in den USA verändern könnte.**
+
+Christopher Weingart untersucht die möglichen Auswirkungen der US-Midterms auf die Wissenschaft. Die Demokraten könnten die Wissenschaftspolitik beeinflussen, indem sie die Verabschiedung von Fördermitteln verlangsamen. Ein Beispiel ist die mögliche Änderung des Ground Systems, das Forschungsfinanzierungsgelder vergeben. Der Kongress könnte die Regierung durch Verhandlungen und Bestätigungen von Ministern beeinflussen. Die Zukunft der Forschung in den USA hängt von weiteren Verhandlungen ab.
+
+> **Merke:** Die Demokraten haben die Kontrolle über den Senat und das Repräsentantenhaus gewonnen.
+
+*US-Midterms · Wissenschaftspolitik · Fördermittel · Peer Panels*
+
+#### Cyberangriffe auf Kühlschränke: Ein neuer Angriffsvektor
+
+`Technik & Informatik` **Cyberangriffe auf Kühlschränke in Supermärkten haben zu massiver Lebensmittelverschwendung geführt.**
+
+Dirk Engling, Sprecher des Chaos Computer Clubs, bespricht Cyberangriffe auf Kühlschränke in Supermärkten. Die Angriffe wurden durch schwache Passwörter und eine zentralisierte Überwachung ermöglicht. KI-Modelle könnten diese Angriffe erleichtern. Die Regulierung von Software und die Bewusstseinsbildung der Gesellschaft sind notwendig, um zukünftige Angriffe zu verhindern. Die Verschwendung von Lebensmitteln durch Cyberangriffe ist ein deutliches Angriffsziel, um die Bevölkerung zu beeinflussen.
+
+> **Merke:** Die Angriffe wurden durch schwache Passwörter ermöglicht.
+
+*Cyberangriffe · Kühlschränke · Passwörter · KI-Modelle*
+
+#### Fehlgeburten bei Mandrillen: Ein neuer Aspekt der Schwangerschaftsbiologie
+
+`Biologie & Evolution` **Forscher haben festgestellt, dass Mandrillweibchen besonders häufig Fehlgeburten haben.**
+
+Claudia Neumeier berichtet über eine Studie, die Mandrillweibchen beobachtet hat, die in der Wildnis leben. Es wurde festgestellt, dass Mandrillweibchen besonders häufig Fehlgeburten haben. Die Schwangerschaftsschwellung am Hinterteil kann verwendet werden, um die Fruchtbare zu erkennen. Es wurden 356 Schwangerschaften bei 117 Mandrillweibchen beobachtet, von denen 52 (ca. 7%) in Fehlgeburten endeten. Die Ursachen sind noch nicht klar, aber es könnte mit dem Alter oder dem Zustand der Jungtiere zusammenhängen.
+
+> **Merke:** 52 von 356 Schwangerschaften endeten in Fehlgeburten (ca. 7%).
+
+*Mandrillen · Fehlgeburten · Schwangerschaftsschwellung*
 
 ### Dienstag, 3. November 2026
 
