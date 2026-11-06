@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 338 Themen aus 106 Sendungen · Stand 05.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 340 Themen aus 107 Sendungen · Stand 06.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -180,6 +180,7 @@
 
 ### Archäologie & Anthropologie
 
+- Das Team analysierte fast 4.800 Genomdaten, um die Bewegungen und Differenzierung der Sprachen zu rekonstruieren. *(5.11.2026)*
 - Bei den Skythen war die Herrscherelite untereinander verwandt, Frauen und Männer weitgehend gleichgestellt. *(7.7.2026)*
 - Die Homo-naledi-Knochen aus einer südafrikanischen Höhle stammen ausschließlich von Frauen und Mädchen. *(25.6.2026)*
 - Ötzis Mikrobiom wurde erstmals mit DNA-Analysen untersucht. *(3.6.2026)*
@@ -199,9 +200,34 @@
 
 ### Sonstiges
 
+- Das Team untersuchte mehr als 150 Kandidaten, 40 wurden im Labor hergestellt. *(5.11.2026)*
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Donnerstag, 5. November 2026
+
+*Swift / Trump und die Tech-Bros / Moleküle als Qubits / Germanische Sprachen* · [Sendung anhören](https://www.deutschlandfunk.de/swift-trump-und-die-tech-bros-molekuele-als-qubits-germanische-sprachen-100.html)
+
+#### Moleküle als Quantenbits
+
+`Sonstiges` **Forscher in Ulm untersuchen Moleküle als potenzielle Quantenbits für Quantencomputer.**
+
+Forschende an der Universität Ulm arbeiten an der Nutzung von Molekülen als Quantenbits, um praktische Quantencomputer zu realisieren. Sie untersuchen organische Moleküle, die Elektronen ansteuern lassen, Quanteninformationen speichern und Lichtteilchen austauschen können. Das Team untersuchte mehr als 150 Kandidaten und fand eines, das potenziell zur Speicherung und Veränderung von Quantenzuständen geeignet ist. Dieser Ansatz könnte eine neue Richtung in der Entwicklung von Quantencomputern bieten, da es schwierig ist, Millionen von Quantenbits zu skalieren. Forschung ist noch in der Frühphase, aber es gibt Hoffnung, dass in etwa fünf Jahren ein Quantencomputer mit hundert oder tausend logischen Cubits realisiert werden könnte.
+
+> **Merke:** Das Team untersuchte mehr als 150 Kandidaten, 40 wurden im Labor hergestellt.
+
+*Quantencomputer · Moleküle · Quantenbits*
+
+#### Germanische Sprachen in Europa
+
+`Archäologie & Anthropologie` **Forscher haben durch Erbgutanalysen die Ausbreitung kältischer und germanischer Sprachen in Europa untersucht.**
+
+Wissenschaftler von der Universität Copenhagen haben durch Erbgutanalysen die Ausbreitung der indogermanischen Sprachfamilie in Europa untersucht. Sie analysierten fast 4.800 Genomdaten und konnten feststellen, dass die germanischen Sprachen vor etwa 4.000 Jahren in Europa eingeführt wurden. Dies ermöglichte es, die Bewegungen und Differenzierung der germanischen Sprachen in der vorgeschichtlichen und Eisenzeit zu verfolgen. Die Forschung basiert auf der Analyse von Erbgut, das Verwandtschaften und Wanderungsbewegungen erkennen lässt. Diese Methode ermöglicht es, die Geschichte der Sprachverbreitung in Europa zu rekonstruieren, was wertvolle Einblicke in die historische Entwicklung der Sprachen bietet.
+
+> **Merke:** Das Team analysierte fast 4.800 Genomdaten, um die Bewegungen und Differenzierung der Sprachen zu rekonstruieren.
+
+*Erbgut · Germanische Sprachen · Sprachfamilie*
 
 ### Mittwoch, 4. November 2026
 
