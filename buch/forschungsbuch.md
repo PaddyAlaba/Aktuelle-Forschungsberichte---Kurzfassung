@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 340 Themen aus 107 Sendungen · Stand 06.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 343 Themen aus 108 Sendungen · Stand 07.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -83,6 +83,8 @@
 
 ### Klima & Atmosphäre
 
+- 12 % Temperaturanstieg verringert *(6.11.2026)*
+- 1,8-Grad-Zelsius über das vorindustrielle Niveau *(6.11.2026)*
 - Die Erwärmung über 1,5 Grad Celsius ist unumkehrbar für die Kryosphäre. *(3.11.2026)*
 - Der Klimawandel lässt Hochwasserpegel überproportional steigen, obwohl Niederschläge nur leicht zunehmen. *(29.10.2026)*
 - Der Stern-Report (2006) zeigte: Klimaschutz ist viel günstiger als ungebremster Klimawandel. *(28.10.2026)*
@@ -142,6 +144,8 @@
 
 ### Energie
 
+- Fünf Jahre Planung und Bau *(6.11.2026)*
+- 2 Milliarden Euro Kosten *(6.11.2026)*
 - Wasserstoff lässt sich in Erdgaskavernen speichern – Schwefelwasserstoff kann aber Probleme machen. *(21.10.2026)*
 - Schnellladesäulen können über Blindleistung das Stromnetz stabilisieren. *(30.9.2026)*
 - Wind- und Solarenergie wachsen weltweit deutlich stärker als die Kernkraft. *(29.9.2026)*
@@ -162,6 +166,8 @@
 
 ### Künstliche Intelligenz
 
+- KI-Systeme haben keine Körpersprache *(6.11.2026)*
+- Muster in Sprachmodellen nicht durch Trainingsdaten abgebildet *(6.11.2026)*
 - Aus der Sprache lässt sich das biologische Alter abschätzen – ein möglicher Frühhinweis auf Demenz. *(1.10.2026)*
 - Eine KI-Analyse stuft den „Mann mit dem Goldhelm“ als wahrscheinlich echten Rembrandt ein. *(2.9.2026)*
 - Mit KI entworfene Bakteriophagen konnten Bakterien infizieren und töten. *(7.8.2026)*
@@ -204,6 +210,46 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Freitag, 6. November 2026
+
+*Forschungsreaktor / Ruß und Methan / Maschinenpsychologie* · [Sendung anhören](https://www.deutschlandfunk.de/forschungsreaktor-russ-und-methan-maschinenpsychologie-100.html)
+
+#### Transmutationsforschung für radioaktiven Müll
+
+`Energie` **Ein neuer Reaktortyp könnte hoch radioaktiven Müll zu weniger gefährlichen Abbauprodukten verarbeiten.**
+
+Ein sächsisches Forschungsteam hat einen Reaktortyp entwickelt, der hoch radioaktiven Atommüll regelrecht verbrennt und damit entschärft. Dies könnte Deutschland von Energie-Ressourcen-Importen befreien und Ressourcen nutzen, um sich für die Zukunft abzusichern. Die TU Dresden hat eine Machbarkeitsstudie vorgelegt, die offene Fragestellungen identifiziert, wie Materialkorrosion und die Herstellung des Brennstoffes. Das Konzept Transmutation ohne Wiederaufarbeitung soll in einem Testreaktor-Demo demonstriert werden, das aber noch fünf Jahre dauern wird. Kosten betragen knapp 2 Milliarden Euro.
+
+> **Merke:** Fünf Jahre Planung und Bau
+
+> **Merke:** 2 Milliarden Euro Kosten
+
+*Transmutation · Atommüll · Reaktor*
+
+#### Klimakonferenz und Klimakiller
+
+`Klima & Atmosphäre` **Eine Studie legt nahe, dass Methan und Ruß die Erwärmung über 1,5 Grad in den nächsten Jahrzehnten zurückdrücken könnten.**
+
+Eine aktuelle Studie legt nahe, dass Methan und Ruß, die in der Atmosphäre kürzer als Kohlendioxid verbleiben, den Temperaturanstieg in den nächsten 10 Jahren um 12 % verringern könnten, wenn ihre Emissionen reduziert werden. Methan entsteht in Rindermägen, Reisfeldern, Müllkippen und fossilen Energiewirtschaften, Ruß bei der Verbrennung von Kohle, Holz und Verkehrskraftstoffen. Technische Lösungen existieren, aber ihre Umsetzung ist noch nicht ausreichend. Die EU-Staaten planen, die Methan-Emissionen um ein Jahr zu verschieben, um existenzielle Gefahren zu bekämpfen. Künstliche Intelligenz könnte dabei helfen, das Verhalten von Maschinen zu verstehen, indem sie psychologische Tests für Menschen anwendet.
+
+> **Merke:** 12 % Temperaturanstieg verringert
+
+> **Merke:** 1,8-Grad-Zelsius über das vorindustrielle Niveau
+
+*Methan · Ruß · Klimakonferenz*
+
+#### Maschinenpsychologie und KI-Verhaltensanalyse
+
+`Künstliche Intelligenz` **Maschinenpsychologie versucht, das Verhalten von KI-Systemen mit psychologischen Tests für Menschen zu verstehen.**
+
+Maschinenpsychologie ist ein Forschungsfeld, das Sprachmodelle als Teilnehmer in psychologischen Experimenten betrachtet, um ihre kognitiven Fähigkeiten zu verstehen. Es unterscheidet sich von der Mechanistic Interpretability, die in die Gehirne von neuronalen Netzen schaut. KI-Systeme haben keine Körpersprache, aber ihre Verhaltensweisen sind oft ähnlich denen von Menschen. Die Maschinenpsychologie kann emergente Phänomene in Sprachmodellen finden, die nicht durch Trainingsdaten abgebildet sind. Ein Beispiel ist die Vielfalt des Vogelgesangs, der ähnliche Muster wie die menschliche Sprache aufweist. Dies kann biologische Effekte und akustische Vorlieben erklären.
+
+> **Merke:** KI-Systeme haben keine Körpersprache
+
+> **Merke:** Muster in Sprachmodellen nicht durch Trainingsdaten abgebildet
+
+*Maschinenpsychologie · KI-Verhaltensanalyse · Vogelgesang*
 
 ### Donnerstag, 5. November 2026
 
