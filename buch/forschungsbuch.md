@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 343 Themen aus 108 Sendungen · Stand 08.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 343 Themen aus 108 Sendungen · Stand 10.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
