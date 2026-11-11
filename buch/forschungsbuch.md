@@ -1,11 +1,12 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 343 Themen aus 108 Sendungen · Stand 10.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 346 Themen aus 109 Sendungen · Stand 11.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
 ### Medizin & Gesundheit
 
+- Malaria-Parasiten stammen wahrscheinlich aus Westafrika und wurden mit einem Flugzeug eingeschleppt. *(10.11.2026)*
 - Ein elektrisch steuerbarer Katalysator kann Blutzucker in Gluconat umwandeln. *(23.10.2026)*
 - Hirnfressende Amöben in Mexiko gefährden Badende vor allem in künstlich angelegten Seen. *(16.10.2026)*
 - Wenig Zucker in früher Kindheit geht mit geringerem Krebsrisiko im Erwachsenenalter einher. *(15.10.2026)*
@@ -83,6 +84,8 @@
 
 ### Klima & Atmosphäre
 
+- Weltweite CO2-Emissionen sinken leicht, trotz Anstieges durch Entwaldung. *(10.11.2026)*
+- USA haben die Demokratische Partei gewonnen, was Hoffnung gibt, dass sie bald wieder aktiv werden. *(10.11.2026)*
 - 12 % Temperaturanstieg verringert *(6.11.2026)*
 - 1,8-Grad-Zelsius über das vorindustrielle Niveau *(6.11.2026)*
 - Die Erwärmung über 1,5 Grad Celsius ist unumkehrbar für die Kryosphäre. *(3.11.2026)*
@@ -210,6 +213,40 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Dienstag, 10. November 2026
+
+*Global Carbon Budget / Auftakt Weltklimakonferenz / Malariafälle in Frankfurt* · [Sendung anhören](https://www.deutschlandfunk.de/global-carbon-budget-auftakt-weltklimakonferenz-malariafaelle-in-frankfurt-100.html)
+
+#### Globaler CO2-Budget-Report
+
+`Klima & Atmosphäre` **Weltweite CO2-Emissionen aus fossilen Energieträgern sinken leicht, trotz Anstieges durch Entwaldung.**
+
+Ein internationales Forschungsteam veröffentlichte den Global Carbon Budget 2026, der zeigt, dass weltweite CO2-Emissionen aus fossilen Energieträgern in diesem Jahr um 0,4% zurückgehen. Der Rückgang wird durch geopolitische Krisen und Fortschritte in der Nutzung von erneuerbaren Energien und Elektrifizierung erklärt. Allerdings steigen CO2-Emissionen durch Entwaldung, insbesondere durch Waldbrände, an. Die Welt hat knapp vier Jahre, um bei Netto Null zu sein, wenn das 1,5-Grad-Ziel aus Paris erreicht werden soll. Forschungsmethoden zur Kohlenstoffdioxid-Entziehung sind derzeit noch sehr begrenzt.
+
+> **Merke:** Weltweite CO2-Emissionen sinken leicht, trotz Anstieges durch Entwaldung.
+
+*Global Carbon Budget · CO2-Emissionen · Klimawandel · erneuerbare Energien · Waldbrände*
+
+#### Weltklimakonferenz in Antalya
+
+`Klima & Atmosphäre` **Weltklimakonferenz COP31 beginnt mit schwachen politischen Bedingungen, aber Hoffnung auf Fortschritte durch USA und Energiekrise.**
+
+Die Weltklimakonferenz COP31 in Antalya, Türkei, beginnt mit schwachen politischen Bedingungen, da die Welt auf Konfrontation gepolt ist und Klimawandel nicht das Nummer-1-Thema ist. Die USA haben die Demokratische Partei gewonnen, was Hoffnung gibt, dass sie bald wieder aktiv werden. Die Energiekrise führt zu hohen Preisen, was die Elektrifizierung voranbringt. Die Konferenz muss aussteigen aus fossilen Energien, Elektrifizierung fördern und globale Emissionen halbieren. Die Erwärmung der Welt steuert im schlechtesten Fall auf 2,8 Grad Celsius zu. Die Präsidentschaft der Konferenz wird von der Türkei und Australien geleitet, die stark abhängig von fossilen Energien sind. Kleinere Gruppen können Fortschritte erzielen, aber eine einstimmige Entscheidung bei über 190 Staaten ist extrem schwierig.
+
+> **Merke:** USA haben die Demokratische Partei gewonnen, was Hoffnung gibt, dass sie bald wieder aktiv werden.
+
+*Weltklimakonferenz · COP31 · Klimapolitik · Elektrifizierung · Fossile Energien*
+
+#### Malariafälle in Frankfurt
+
+`Medizin & Gesundheit` **Malaria-Parasiten in Frankfurt stammen wahrscheinlich aus Westafrika und wurden mit einem Flugzeug eingeschleppt.**
+
+In Frankfurt wurden acht Menschen im Sommer 2026 an Malaria erkrankt, drei davon gestorben. Die Gesundheitsbehörden fanden heraus, dass die Parasiten stammen aus Westafrika und wurden wahrscheinlich mit einem Flugzeug eingeschleppt. Die Parasiten wurden in drei getrennte Gruppen eingeteilt, was darauf hindeutet, dass sie nicht durch heimische Mücken weiterverbreitet wurden. Es wird angenommen, dass die Mücken entweder umgestiegen sind oder in einem Koffer oder Container mitgeflogen sind. Die Malaria-Parasiten sind in der Regel in Passagierkabine oder Frachtraum mit, aber es gibt auch die Möglichkeit, dass sie in Gepäck mitreisen. Diese Erkenntnisse sind wichtig, um Maßnahmen zu ergreifen, um Malaria in Flughäfen zu kontrollieren.
+
+> **Merke:** Malaria-Parasiten stammen wahrscheinlich aus Westafrika und wurden mit einem Flugzeug eingeschleppt.
+
+*Malaria · Frankfurt · Flughafen · Parasiten · Westafrika*
 
 ### Freitag, 6. November 2026
 
