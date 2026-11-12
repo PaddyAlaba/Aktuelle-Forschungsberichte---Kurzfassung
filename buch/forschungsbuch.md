@@ -1,11 +1,12 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 346 Themen aus 109 Sendungen · Stand 11.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 349 Themen aus 110 Sendungen · Stand 12.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
 ### Medizin & Gesundheit
 
+- Biomarker ermöglicht Nachweis von GHB bis zu 28 Stunden, was die aktuelle Methode um bis zu drei Tage verlängert. *(11.11.2026)*
 - Malaria-Parasiten stammen wahrscheinlich aus Westafrika und wurden mit einem Flugzeug eingeschleppt. *(10.11.2026)*
 - Ein elektrisch steuerbarer Katalysator kann Blutzucker in Gluconat umwandeln. *(23.10.2026)*
 - Hirnfressende Amöben in Mexiko gefährden Badende vor allem in künstlich angelegten Seen. *(16.10.2026)*
@@ -84,6 +85,7 @@
 
 ### Klima & Atmosphäre
 
+- Kanadas Waldbrände freisetzen 800 Millionen Tonnen CO2, fast 50% des jährlichen Ausstoßes. *(11.11.2026)*
 - Weltweite CO2-Emissionen sinken leicht, trotz Anstieges durch Entwaldung. *(10.11.2026)*
 - USA haben die Demokratische Partei gewonnen, was Hoffnung gibt, dass sie bald wieder aktiv werden. *(10.11.2026)*
 - 12 % Temperaturanstieg verringert *(6.11.2026)*
@@ -159,6 +161,7 @@
 
 ### Technik & Informatik
 
+- Luftschiff kostet 50.000 Dollar, kann wochenlang in der Luft bleiben. *(11.11.2026)*
 - Die Angriffe wurden durch schwache Passwörter ermöglicht. *(4.11.2026)*
 - KI-Werkzeuge haben kritische Sicherheitslücken in PHP-Webseiten aufgespürt. *(22.10.2026)*
 - Gehirnorganoide konnten lernen, Brailleschrift zu entziffern. *(16.10.2026)*
@@ -213,6 +216,40 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Mittwoch, 11. November 2026
+
+*Waldbrände / Arktis-Notfälle / Nachweis K.o.-Tropfen* · [Sendung anhören](https://www.deutschlandfunk.de/waldbraende-arktis-notfaelle-nachweis-k-o-tropfen-100.html)
+
+#### Waldbrände in Europa und Kanada
+
+`Klima & Atmosphäre` **Klimawandel verstärkt Waldbrände in Europa und Kanada.**
+
+Ein neuer Expertenbericht dokumentiert, dass Waldbrände in Europa und Kanada im vergangenen Feuerjahr extrem waren, mit hohen Todeszahlen und großen Flächenverlusten. Klimawandel verstärkt die Wahrscheinlichkeit und Intensität dieser Ereignisse. Forscher warnen, dass ohne drastische Klimaschutzmaßnahmen die Risiken weiter steigen werden. Die Studie wurde von der Universität Birmingham durchgeführt.
+
+> **Merke:** Kanadas Waldbrände freisetzen 800 Millionen Tonnen CO2, fast 50% des jährlichen Ausstoßes.
+
+*Waldbrände · Klimawandel · Treibhausgase · Feuerökologie*
+
+#### Kommunikationslösungen für Arktis-Inuit
+
+`Technik & Informatik` **Neues Luftschiff-System hilft Arktis-Inuit bei der Notfallkommunikation.**
+
+Kanadische Forscher haben ein Luftschiff-System entwickelt, das Inuit in der Arktis bei der Notfallkommunikation unterstützt. Das Luftschiff verstärkt das Satellitensignal und ermöglicht den Jägern und Fallenstellern Kontakt zu ihren Familien. Die Technik wurde in Zusammenarbeit mit den Inuit entwickelt und soll in den kommenden Jahren weiter verbessert werden. Das Projekt wird von der kanadischen Regierung finanziert.
+
+> **Merke:** Luftschiff kostet 50.000 Dollar, kann wochenlang in der Luft bleiben.
+
+*Arktis · Inuit · Kommunikation · Luftschiffe*
+
+#### Nachweis von K.o.-Tropfen im Urin
+
+`Medizin & Gesundheit` **Neuer Biomarker ermöglicht längeren Nachweis von GHB im Urin.**
+
+Forscher haben einen neuen Biomarker entdeckt, der GHB im Urin bis zu 28 Stunden nachweisen kann, was derzeitige Methoden um bis zu drei Tage verlängert. Der Biomarker wurde in kontrollierten Studien und rechtsmedizinischen Fällen getestet. Er könnte in Zukunft die Analyse von GHB-Einnahmen verbessern und alte Kriminalfälle erneut aufrollen. Die Forschung wurde von der Universität Zürich durchgeführt.
+
+> **Merke:** Biomarker ermöglicht Nachweis von GHB bis zu 28 Stunden, was die aktuelle Methode um bis zu drei Tage verlängert.
+
+*GHB · Biomarker · Nachweis · Rechtsmedizin*
 
 ### Dienstag, 10. November 2026
 
