@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 349 Themen aus 110 Sendungen · Stand 12.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 353 Themen aus 111 Sendungen · Stand 13.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -216,6 +216,42 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Donnerstag, 12. November 2026
+
+*3D-Karte des Universums / BMI-Alternative / Akrobatische Baumaschinen* · [Sendung anhören](https://www.deutschlandfunk.de/3d-karte-des-universums-bmi-alternative-akrobatische-baumaschinen-100.html)
+
+#### 3D-Karte des Universums durch Euklid
+
+`Astronomie & Raumfahrt` **Euklid bildet eine 3D-Karte des Universums mit 1,7 Millionen Galaxien.**
+
+Das Europäische Weltraumteleskop Euklid hat im ersten Jahr 900 Millionen Galaxien fotografiert und 100 Millionen Entfernungen exakt gemessen. Dies bildet das Fundament für eine 3D-Karte des gesamten Weltalls. Die ESA veröffentlicht die Daten frei, um wissenschaftliche Fortschritte zu fördern. Die Forschung konzentriert sich auf dunkle Materie und dunkle Energie, die 95% des Universums ausmachen. Die Daten könnten die Zukunft des Universums offenlegen, indem sie zeigen, ob es ewig auseinanderfliegt oder zusammenstürzt.
+
+*Euklid · Galaxien · 3D-Karte · Universum · dunkle Materie · dunkle Energie*
+
+#### Alternative zum Body-Mass-Index
+
+`Medizin & Gesundheit` **Eine neue Definition des BMI berücksichtigt Bauchumfang und klinische Folgen.**
+
+Eine Studie in der Fachzeitschrift Nature vorgestellt eine erweiterte Definition des Body-Mass-Index (BMI), die Bauchumfang und klinische Folgen berücksichtigt. Die neue Definition unterscheidet zwischen präklinischer und klinischer Adipositas. Sie zeigt, dass Menschen mit klinischer Adipositas ein erhöhtes Risiko für eine frühe Todesrate haben. Die Forscher hoffen, dass diese Definition die Behandlung von Adipositas verbessern und die Kostenübernahme von Gesetzgebern überzeugen könnte. Der BMI alleine reicht nicht aus, um das Risiko für klinische Folgen zu bestimmen.
+
+*BMI · Adipositas · Bauchumfang · klinische Adipositas · Behandlung*
+
+#### Auswirkungen des Klimawandels auf Kaktänen
+
+`Ökologie & Artenvielfalt` **Kaktänen könnten durch extreme Dürre in den kommenden Jahrzehnten stark reduziert werden.**
+
+Eine Studie im Fachmagazin Nature untersucht die Auswirkungen des Klimawandels auf Kaktänen. Die Forscher haben 650.000 Funddaten von Kaktänenarten aus Nord-, Mittel- und Südamerika analysiert und prognostizieren, dass bis zum Ende des Jahrhunderts je nach Szenario bis zu 15% der Kaktänenarten ihren klimatischen Lebensraum verlieren könnten. In extremen Dürren könnten sogar 85% der untersuchten Kaktänenarten einen Teil ihrer Lebensräume verlieren. Die Studie zeigt, dass Kaktänen empfindlich auf extreme Dürre reagieren, was bisher unterschätzt wurde. Die Ergebnisse könnten auch auf andere Pflanzenarten übertragen werden, aber der Klimawandel ist nur einer von mehreren Faktoren, die Arten bedrohen.
+
+*Kaktänen · Klimawandel · extreme Dürre · Artenvielfalt · Pflanzen*
+
+#### Akrobatische Baumaschinen
+
+`Technik & Informatik` **Kompaktlader können akrobatische Bewegungen vollführen, um Gleichgewicht zu halten.**
+
+Eine Studie in der aktuellen Ausgabe von Science Robotics beschreibt, wie ein Kompaktlader akrobatische Bewegungen vollführt, um Gleichgewicht zu halten. Das Team der ETH Zürich hat den Kompaktlader mit Techniken wie bestärkendes Lernen (Reinforcement Learning) trainiert. Die Maschine kann auf Vorder- und Hinterrädern balancieren und verwendet eine hydraulische Schaufel, um das Gleichgewicht zu halten. Die Forscher zeigen, dass solche Techniken auch auf hydraulisch angetriebene Maschinen anwendbar sind, was neue Möglichkeiten für die Steuerung und Kontrolle von Maschinen eröffnet.
+
+*Kompaktlader · akrobatische Bewegungen · Reinforcement Learning · hydraulische Maschinen*
 
 ### Mittwoch, 11. November 2026
 
