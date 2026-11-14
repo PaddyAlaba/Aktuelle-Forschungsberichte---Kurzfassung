@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 353 Themen aus 111 Sendungen · Stand 13.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 357 Themen aus 112 Sendungen · Stand 14.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -216,6 +216,42 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Freitag, 13. November 2026
+
+*Polarwirbel und Winterwetter / Elefanten / Papierfasern / Weltuntergang* · [Sendung anhören](https://www.deutschlandfunk.de/polarwirbel-und-winterwetter-elefanten-papierfasern-weltuntergang-100.html)
+
+#### Polarwirbel und kommendes Winterwetter
+
+`Klima & Atmosphäre` **Der stratospherische Polarwirbel ist ungewöhnlich schwach, was möglicherweise zu einem kalten Winter führen könnte.**
+
+Atmosphärenphysiker Raphael Köhler vom Alfred Wegener Institut erklärt, dass der stratospherische Polarwirbel ungewöhnlich früh schwach ist, was möglicherweise zu einem kalten Winter führen könnte. Dies basiert auf historischen Beobachtungen und Indizien, die El Nino beeinflussen könnte. Allerdings ist es schwierig, konkretes Wettervoraussehen über mehr als sechs Wochen hinaus zu treffen, da das Systemwetter chaotisch ist. Forschungslücken bestehen, da kein Vergleich mit früheren Ereignissen im selben Zeitraum möglich ist.
+
+*Polarwirbel · Winterwetter · Klimaforschung*
+
+#### Veränderungen im Sozialleben asiatischer Elefanten
+
+`Ökologie & Artenvielfalt` **Das Sozialleben asiatischer Elefanten im Uda Wallawar Nationalpark in Sri Lanka ändert sich durch Konflikte mit Menschen und Veränderungen in der Umgebung.**
+
+Forscher haben das Sozialleben asiatischer Elefanten im Uda Wallawar Nationalpark in Sri Lanka über zwölf Jahre verfolgt. Sie bemerkten, dass die Elefanten in Gruppen zusammenkommen, die sich in der Trockenzeit formieren, aber mit der Zeit seltener und kleiner werden. Dies ist auf Konflikte mit Menschen und Veränderungen in der Umgebung zurückzuführen, wie Landwirtschaft und Verdrängung von Nahrungsquellen. Die Forscher sprechen von einem möglichen sozialen Kipppunkt, da Elefanten Schwierigkeiten haben, neue Kontakte zu knüpfen, was ihre Überlebenschancen beeinträchtigen könnte.
+
+*Elefanten · Soziale Veränderungen · Sri Lanka*
+
+#### Papierfasern aus Pflanzenmaterialien
+
+`Energie` **Ein Unternehmen in Baden-Württemberg produziert Papierfasern aus Pflanzenmaterialien, um Ressourcen zu sparen.**
+
+Ein Unternehmen in Baden-Württemberg produziert Papierfasern aus Pflanzenmaterialien, wie Gerstenstroh, um Ressourcen zu sparen. Das Verfahren, Dampf-Schockentspannung, ermöglicht es, Fasern aus Pflanzen wie Gräsern zu gewinnen, die innerhalb eines Jahres wachsen. Das Kochen und das Entspannen des Materials unter hohen Temperaturen löst den natürlichen braunen Kleber, Lignin, aus und ermöglicht die Fasern zu zerfasern. Das Unternehmen arbeitet an der Herstellung von Papierfasern aus verschiedenen Pflanzen, um alternative Rohstoffe für die Papierindustrie zu finden. Dies könnte dazu beitragen, die Nachhaltigkeit der Papierproduktion zu erhöhen.
+
+*Papierfasern · Nachhaltigkeit · Pflanzenmaterialien*
+
+#### Weltuntergangsprophezeiungen
+
+`Gesellschaft & Politik` **Weltuntergangsprophezeiungen sind nicht neu, sondern haben sich in verschiedenen Kulturen und Zeiten wiederholt.**
+
+Weltuntergangsprophezeiungen sind nicht neu und haben sich in verschiedenen Kulturen und Zeiten wiederholt. Ein Beispiel ist der Mai 1910, bei dem ein Komet die Erde so nahe kommen sollte, dass er das Leben auf der Erde auslöschen würde. Ein anderes Beispiel ist der Maya-Kalender, bei dem ein Zyklus am 21. Dezember 2012 endete und die Welt untergehen sollte. Eine moderne Prophezeiung von drei Physikern im Jahr 1960 basierte auf dem rasanten Bevölkerungswachstum und prognostizierte, dass die Weltbevölkerung im Jahr 2026 unendlich groß und sich daher selbst auslöschen würde. Diese Prophezeiung basierte auf mathematischen Berechnungen, die jedoch in der Realität nicht zutreffen, da Faktoren wie Demografie sich verändern können.
+
+*Weltuntergang · Prophezeiungen · Bevölkerungswachstum*
 
 ### Donnerstag, 12. November 2026
 
