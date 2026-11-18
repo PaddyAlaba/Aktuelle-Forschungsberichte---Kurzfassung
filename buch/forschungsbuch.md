@@ -1,11 +1,12 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 357 Themen aus 112 Sendungen · Stand 17.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 360 Themen aus 113 Sendungen · Stand 18.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
 ### Medizin & Gesundheit
 
+- Vier Säuglinge sind durch Maserninfektion gestorben in diesem Jahr. *(17.11.2026)*
 - Biomarker ermöglicht Nachweis von GHB bis zu 28 Stunden, was die aktuelle Methode um bis zu drei Tage verlängert. *(11.11.2026)*
 - Malaria-Parasiten stammen wahrscheinlich aus Westafrika und wurden mit einem Flugzeug eingeschleppt. *(10.11.2026)*
 - Ein elektrisch steuerbarer Katalysator kann Blutzucker in Gluconat umwandeln. *(23.10.2026)*
@@ -40,6 +41,7 @@
 
 ### Biologie & Evolution
 
+- Kelb kann sich durch Samenzellen asexuell vermehren, was ungewöhnlich ist. *(17.11.2026)*
 - 52 von 356 Schwangerschaften endeten in Fehlgeburten (ca. 7%). *(4.11.2026)*
 - Wasseramseln verständigen sich an lauten Bächen per Blinzeln. *(30.10.2026)*
 - Afrikanische Wildhunde treffen Gruppenentscheidungen per Niesen. *(28.10.2026)*
@@ -85,6 +87,7 @@
 
 ### Klima & Atmosphäre
 
+- Rechenzentren verbrauchen so viel Strom wie ganze US-Bundesstaaten. *(17.11.2026)*
 - Kanadas Waldbrände freisetzen 800 Millionen Tonnen CO2, fast 50% des jährlichen Ausstoßes. *(11.11.2026)*
 - Weltweite CO2-Emissionen sinken leicht, trotz Anstieges durch Entwaldung. *(10.11.2026)*
 - USA haben die Demokratische Partei gewonnen, was Hoffnung gibt, dass sie bald wieder aktiv werden. *(10.11.2026)*
@@ -216,6 +219,40 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Dienstag, 17. November 2026
+
+*Rechenzentren / Masern in den USA / Parthenogenese* · [Sendung anhören](https://www.deutschlandfunk.de/rechenzentren-masern-in-den-usa-parthenogenese-100.html)
+
+#### Hyper-Rechenzentren und ihre Umweltbelastung
+
+`Klima & Atmosphäre` **Hyper-Rechenzentren verbrauchen enormen Strom, was zu hoher CO2-Emission führt.**
+
+Eine Harvard-Universität-Forschung hat gezeigt, dass 400 Hyper-Rechenzentren in den USA pro Jahr bis zu 100 Terawattstunden Strom verbrauchen, was etwa so viel wie Dänemark ausstößt. Die CO2-Emissionen hängen stark von der Stromquelle ab, was bedeutet, dass sie in Regionen mit fossilen Energieträgern viel höher sind. Dies ist ein Problem für den Klimaschutz und die Umweltbelastung. Studien zeigen, dass die CO2-Fußabdrücke in Ländern wie China und Indien noch viel stärker sind als in Norwegen.
+
+> **Merke:** Rechenzentren verbrauchen so viel Strom wie ganze US-Bundesstaaten.
+
+*Hyper-Rechenzentren · CO2-Emissionen · Umweltbelastung · Klimaschutz*
+
+#### USA könnten ihren Masernfreiheitsstatus verlieren
+
+`Medizin & Gesundheit` **Die USA könnten ihren Status als masernfrei verlieren, da die Impfrate zu niedrig ist.**
+
+Nachdem die USA 26 Jahre lang masernfrei waren, könnte der Status verloren gehen, da die Impfrate zu niedrig ist. Das Wall Street Journal berichtete, dass die USA den Status als masernfrei verlieren könnten. Das liegt daran, dass die Impfrate unter 95% liegt, was zu mehr Infektionen führt. Säuglinge sind besonders gefährdet, da sie nicht geimpft werden können. Deutschland steht im Vergleich dazu besser da, da es das Masernschutzgesetz hat, das die Impfquote erhöht hat.
+
+> **Merke:** Vier Säuglinge sind durch Maserninfektion gestorben in diesem Jahr.
+
+*Masern · Impfrate · Masernfreiheit · Impfgegner*
+
+#### Parthenogenese bei braunalgen Art Kelb
+
+`Biologie & Evolution` **Kelb, eine braunalgen Art, kann sich ohne Partner für Nachwuchs verwenden.**
+
+Kelb, eine Art von braunalgen, kann sich ohne Partner für Nachwuchs verwenden, indem es Samenzellen für die ungeschlechtliche Vermehrung nutzt. Dies ist ungewöhnlich, da die Samenzellen normalerweise nur wenige Ressourcen haben. Die Genexpression zeigt, dass die Samenzellen in der Lage sind, sich zu teilen, was bedeutet, dass sie eine Art von ungeschlechtlicher Vermehrung durchlaufen. Dies ist interessant, da es die Evolution von Braunalgen und die Entwicklung von Geschlechtszellen in verschiedenen Linien der Evolution beleuchtet.
+
+> **Merke:** Kelb kann sich durch Samenzellen asexuell vermehren, was ungewöhnlich ist.
+
+*Parthenogenese · Kelb · braunalgen · Genexpression · Evolution*
 
 ### Freitag, 13. November 2026
 
