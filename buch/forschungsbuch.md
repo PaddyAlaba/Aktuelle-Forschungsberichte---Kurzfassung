@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 360 Themen aus 113 Sendungen · Stand 18.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 364 Themen aus 114 Sendungen · Stand 19.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -219,6 +219,42 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Mittwoch, 18. November 2026
+
+*Europäischer Aal / Musik und biographische Erinnerung / Roboterlibelle* · [Sendung anhören](https://www.deutschlandfunk.de/europaeischer-aal-musik-und-biographische-erinnerung-roboterlibelle-100.html)
+
+#### Europäischer Aal: Gezeitensperrwerke als Hindernis
+
+`Ökologie & Artenvielfalt` **Gezeitensperrwerke behindern den Zugang von Glasahlen zu Süßwasserflüsse.**
+
+Ein Forschungsteam aus Belgien hat gezeitensperrwerkseingänge für Glasahle geöffnet, um sie besser in Süßwasserflüsse zu lenken. Dies erhöht die Überlebenschancen der Aale. Die Ergebnisse wurden auf der Weltkonferenz für maritime Biodiversität in Brügge präsentiert. Das Thema ist relevant, da der europäische Aal vom Aussterben bedroht ist. Die Studie ist auf den Einfluss von Gezeitensperrwerken in Flüssen beschränkt.
+
+*Glasahl · Gezeitensperrwerk · Süßwasserflüsse · Biodiversität*
+
+#### Musik und biografische Erinnerungen
+
+`Psychologie & Neurowissenschaft` **Pop-Songs wecken ähnliche Erinnerungen bei Menschen gleicher Altersgruppe.**
+
+Eine Studie der Princeton University untersuchte, ob Pop-Songs bei Menschen gleicher Altersgruppe ähnliche Erinnerungen hervorrufen. Es wurde festgestellt, dass viele Teilnehmer ähnliche Erinnerungen an vergleichbare Lebensmomente teilen. Die Studie ist auf eine spezifische Gruppe von Studierenden beschränkt und kann nicht allgemeingültig auf andere Anwendungsbereiche übertragen werden. Die Ergebnisse deuten darauf hin, dass autobiografische Erinnerungen stark kulturell geprägt sind.
+
+*Musik · Erinnerungen · Autobiografie · Kognition*
+
+#### Hochgebirge als Evolutionstreibwerke
+
+`Biologie & Evolution` **Hochgebirge könnten die Evolution von Lebensformen beschleunigt haben.**
+
+Forscher aus den Niederlanden vermuten, dass die Entstehung von Gebirgen zur ersten großen Sauerstoffkatastrophe geführt hat, was zu einer Evolution von Lebensformen geführt hat. Das Studienergebnis wurde im Fachmagazin Science Advances veröffentlicht. Es wird vermutet, dass die Bergfaltung die Verfügbarkeit chemischer Elemente für das Leben erhöht hat, was zu einer Evolution von Lebensformen geführt hat. Die Studie ist auf die Erde beschränkt und kann nicht direkt auf andere Planeten übertragen werden.
+
+*Gebirge · Evolution · Sauerstoffkatastrophe · Bergfaltung*
+
+#### Roboterlibelle: Flugfähigkeit ohne externe Hilfe
+
+`Technik & Informatik` **Ein Roboterlibelle kann autonom fliegen, indem es Sensoren und einen Rechner an Bord trägt.**
+
+Ein Team am MIT hat einen Roboterlibelle entwickelt, der autonom fliegen kann, indem es Sensoren und einen Rechner an Bord trägt. Der Roboter ist 1,29 Gramm schwer und fliegt mit 330 Schlägen pro Sekunde. Es wurde getestet, ob der Roboter autonom fliegen kann, indem er durch einen Parcours mit künstlichen Blumen flog. Die Ergebnisse deuten darauf hin, dass künftige Anwendungen wie Gewächshausbestäubung und Katastrophenhelfer möglich sind. Der Roboter ist noch nicht vollständig autonom und benötigt eine winzige Batterie und eine Kamera.
+
+*Roboter · Libelle · Autonomie · Flug*
 
 ### Dienstag, 17. November 2026
 
