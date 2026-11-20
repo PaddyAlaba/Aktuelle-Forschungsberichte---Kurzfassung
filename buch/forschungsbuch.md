@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 364 Themen aus 114 Sendungen · Stand 19.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 368 Themen aus 115 Sendungen · Stand 20.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -219,6 +219,42 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Donnerstag, 19. November 2026
+
+*World Energy Outlook / Geothermie in den Alpen / Museumsschädlinge /Homo erectus* · [Sendung anhören](https://www.deutschlandfunk.de/world-energy-outlook-geothermie-in-den-alpen-museumsschaedlinge-homo-erectus-100.html)
+
+#### Weltenergieausschau: Iran-Krieg und Geopolitik beeinflussen Energiemärkte
+
+`Energie` **Der Iran-Krieg und die blockierte Straße von Hormuz haben zu einem größten Schock in der Geschichte der globalen Energieversorgung geführt.**
+
+Der World Energy Outlook 2026 der Internationalen Energieagentur (IEA) zeigt, dass der Iran-Krieg und die blockierte Straße von Hormuz zu einem historischen Schock in der Energieversorgung geführt haben. Die IEA vermutet, dass die Märkte bisher fast 3 Milliarden Fässer Öl und 60 Milliarden Kubikmeter Erdgas verloren haben. Viele Länder versuchen unabhängiger von fossilen Brennstoffen zu werden und setzen auf erneuerbare Energieträger. Die IEA sieht dies als eine positive Entwicklung, insbesondere in Asien, wo die Zahl der Solarprojekte in den letzten neun Monaten um 40% gestiegen ist.
+
+*World Energy Outlook · Iran-Krieg · Energieversorgung · Erneuerbare Energien · Blockierte Straße von Hormuz*
+
+#### Tiefe Geothermie in den Alpen: Neues Potential für Wärmeversorgung
+
+`Geowissenschaften` **Schweizer Forscher haben untersucht, wie tiefe Geothermie-Systeme unter den Alpen aufspürt und potenzielle Anwendungen für die Wärmeversorgung identifizieren.**
+
+Schweizer Forscher haben untersucht, wie tiefe Geothermie-Systeme unter den Alpen aufspürt. Sie haben herausgefunden, dass das Thermalwasser bis zu 10 Kilometer Tiefe reicht und eine Temperatur von 250 Grad erreicht. Dieses Wasser wird durch den Druckunterschied zwischen den Bergen und den Tälern zirkuliert. Indirekte Methoden wie Heliummessungen und hydrochemische Analysen helfen, die Stellen zu identifizieren, an denen das warme Wasser an der Oberfläche ausströmt. Dieses Potenzial könnte für die Wärmeversorgung interessant sein, insbesondere in Gebieten mit großen Höhenunterschieden.
+
+*Geothermie · Alpen · Tiefe Geothermie · Wärmeversorgung · Druckunterschied*
+
+#### Klimawandel und Museumsschädlinge: Einfluss auf Sammlungen
+
+`Ökologie & Artenvielfalt` **Der Klimawandel führt zu einer höheren Temperatur in Museen, was Schädlinge wie Kleidermotte und Silberfischchen zu einem größeren Problem macht.**
+
+Der Klimawandel verursacht höhere Durchschnittstemperaturen und Temperaturmaxima, was die Entwicklung von Schädlingen in Museen beschleunigt. In einem Forschungsprojekt untersuchten Wissenschaftler, wie der Klimawandel auf Museumsschädlinge in Deutschland einwirkt. Sie fanden heraus, dass klimatische Veränderungen die Entwicklungszeit der Schädlinge verkürzen und mehr Schaden an den Objekten verursachen. Die Forscher empfehlen, Museen zu klimatisieren oder mit anderen Methoden wie UV-Schutzfolien und intelligenter Lüftung die Temperaturen zu senken, um den Schaden zu minimieren.
+
+*Klimawandel · Museumsschädlinge · Kleidermotte · Silberfischchen · Klimatisierung*
+
+#### Homo erectus: Neue Fossilienfunde in China deuten auf Flexibilität hin
+
+`Archäologie & Anthropologie` **Neue Fossilienfunde in China deuten darauf hin, dass Homo erectus länger in Asien gelebt hat und sich an neue Umweltbedingungen angepasst hat.**
+
+Zwei Studien in der Fachzeitschrift Nature haben neue Fossilienfunde von Homo erectus in China vorgestellt. Diese Fossilien deuten darauf hin, dass Homo erectus bis 324.000 bis 184.000 Jahren gelebt hat, was eine zeitliche Lücke schließt. Die Forscher haben auch Analysen von Tierzähnen durchgeführt, um die Lebensräume der Menschen zu ermitteln. Die Ergebnisse deuten darauf hin, dass Homo erectus in Regenwäldern gelebt hat und sich an neue Umweltbedingungen angepasst hat. Dies zeigt, dass Homo erectus flexibler war, als bisher angenommen, und stellt eine neue Perspektive auf die Evolution dieser Menschenart dar.
+
+*Homo erectus · Fossilien · Flexibilität · Regenwälder · China*
 
 ### Mittwoch, 18. November 2026
 
