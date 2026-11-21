@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 368 Themen aus 115 Sendungen · Stand 20.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 371 Themen aus 116 Sendungen · Stand 21.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -41,6 +41,7 @@
 
 ### Biologie & Evolution
 
+- Hummeln haben ein Gehirn, das nur eine Million Nervenzellen besitzt, verglichen mit 86 Milliarden in menschlichem Gehirn. *(20.11.2026)*
 - Kelb kann sich durch Samenzellen asexuell vermehren, was ungewöhnlich ist. *(17.11.2026)*
 - 52 von 356 Schwangerschaften endeten in Fehlgeburten (ca. 7%). *(4.11.2026)*
 - Wasseramseln verständigen sich an lauten Bächen per Blinzeln. *(30.10.2026)*
@@ -125,6 +126,7 @@
 
 ### Astronomie & Raumfahrt
 
+- BepiColombo ist eine Kooperation zwischen ESA und JAXA, um Merkur zu untersuchen. *(20.11.2026)*
 - Hera wird die Bahn des Morphos überprüfen, indem sie 30 Kilometer vor dem Asteroiden fliegt. *(3.11.2026)*
 - 2026 ED138 könnte der sechste bekannte Zwergplanet des Sonnensystems sein. *(29.10.2026)*
 - Der Rover Idefix soll als erstes Fahrzeug auf dem Marsmond Phobos fahren. *(20.10.2026)*
@@ -219,6 +221,38 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Freitag, 20. November 2026
+
+*Abschluss Weltklimakonferenz / BepiColombo erreicht Merkur / Schlaue Hummeln* · [Sendung anhören](https://www.deutschlandfunk.de/abschluss-weltklimakonferenz-bepicolombo-erreicht-merkur-schlaue-hummeln-100.html)
+
+#### Intelligente Hummeln: Ein neuer Lichtstrahl auf die Evolution der Intelligenz
+
+`Biologie & Evolution` **Hummeln können komplexes Problemverhalten lernen, was auf die Evolution der Intelligenz Einblicke gibt.**
+
+Forschung an Hummeln hat gezeigt, dass sie lernen können, komplexes Problemverhalten, wie das Rollen von Bällchen, um Zuckerwasser zu erreichen. Dies deutet auf eine mögliche einfachere Evolution von Intelligenz hin. Studien wurden durch Stanley Heinze und Lars Schittka an der Universität Lund durchgeführt. Die Ergebnisse könnten helfen, zu verstehen, wie intelligente Verhaltensweisen in kleineren Gehirnen wie dem der Hummeln entstehen.
+
+> **Merke:** Hummeln haben ein Gehirn, das nur eine Million Nervenzellen besitzt, verglichen mit 86 Milliarden in menschlichem Gehirn.
+
+*Hummeln · Intelligenz · Problemloesen · Evolution*
+
+#### Klimakonferenz in Antalya: Fortschritte und Herausforderungen
+
+`Klima & Atmosphäre` **Die Weltklimakonferenz in Antalya hat erhebliche Herausforderungen, aber auch einige Fortschritte bei der Bekämpfung des Klimawandels.**
+
+Die Weltklimakonferenz in Antalya hat sich mit dem Ausstieg aus fossilen Energien und der Finanzierung von Klimaanpassungsschritten auseinandergesetzt. Obwohl es keine Einigung über den Ausstieg aus fossilen Brennstoffen gegeben hat, haben mehr als 20 Länder einen Fahrplan für den Ausstieg aus der Nutzung fossiler Brennstoffe beschlossen. Die Finanzierung des IPCC ist unterfinanziert, was die Verzögerung des nächsten Weltklimaberichts bedroht. Allerdings hat die Konferenz einen Lichtblick geliefert, indem sie mehr als 20 Länder dazu bewegt hat, einen Fahrplan für den Ausstieg aus fossilen Brennstoffen zu erstellen.
+
+*Klimakonferenz · Klimawandel · Fossile Brennstoffe · Finanzierung*
+
+#### BepiColombo erreicht Merkur: Ein neuer Horizont in der Raumfahrt
+
+`Astronomie & Raumfahrt` **Die Raumsonde BepiColombo erreicht Merkur, um sein Magnetfeld und die Oberfläche des Planeten zu untersuchen.**
+
+Die Raumsonde BepiColombo, eine Kooperation zwischen der Europäischen Weltraumagentur ESA und der japanischen Raumfahrtagentur JAXA, erreicht Merkur, um sein Magnetfeld und die Oberfläche zu untersuchen. Die Sonde besteht aus einem europäischen und einem japanischen Teil, der jeweils von unterschiedlichen Wissenschaftlern untersucht wird. Das Ziel ist es, das schwache Magnetfeld Merkurs zu verstehen und herauszufinden, ob es eine Barriere gegen den Sonnenwind bildet. Die Sonde wird in einer Umlaufbahn um Merkur eintreten und wird in den kommenden Monaten verschiedene Messungen durchführen.
+
+> **Merke:** BepiColombo ist eine Kooperation zwischen ESA und JAXA, um Merkur zu untersuchen.
+
+*BepiColombo · Merkur · Raumfahrt · Magnetfeld*
 
 ### Donnerstag, 19. November 2026
 
