@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 371 Themen aus 116 Sendungen · Stand 24.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 375 Themen aus 117 Sendungen · Stand 25.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -221,6 +221,42 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Dienstag, 24. November 2026
+
+*Atomwaffen/ Riemann Vermutung/ Krebsmedikament aus Tabakblättern* · [Sendung anhören](https://www.deutschlandfunk.de/atomwaffen-riemann-vermutung-krebsmedikament-aus-tabakblaettern-100.html)
+
+#### Atomwaffen im Weltraum: Ein neues Horror-Szenario
+
+`Technik & Informatik` **Russland plant, einen Atomsprengkopf in Umlaufbahn zu stationieren, um Satelliten zu zerstören.**
+
+Russland plant, einen Atomsprengkopf in Umlaufbahn zu stationieren, um Satelliten zu zerstören. Dies könnte die Kommunikation und Navigation der westlichen Länder stärker beeinträchtigen als die eigenen. Experten sehen dies als Teil der psychologischen Kriegsführung Russlands. Allerdings ist es noch unwahrscheinlich, dass Russland eine solche Bombe absichtlich in den Weltraum zündet. Es gibt auch Möglichkeiten zur Verteidigung, wie Satelliten zu stören oder zu zerstören, aber dies ist noch nicht realisiert.
+
+*Atomwaffen · Weltraum · Satelliten*
+
+#### Weltklimakonferenz COP27: Keine Abschlusserklärung
+
+`Klima & Atmosphäre` **Die COP27 endete ohne Abschlusserklärung, was als Rückschritt im Vergleich zu früheren Konferenzen angesehen wird.**
+
+Die COP27 endete ohne Abschlusserklärung, was als Rückschritt im Vergleich zu früheren Konferenzen angesehen wird. Die UN-Klimakonferenzen funktionieren nach dem Einstimmigkeitsprinzip, was die Annahme untergräbt, dass alle Staaten Interesse am Klimaschutz haben. Stattdessen nutzen einige Staaten die Konferenzen, um Bremsklitzer zu werfen. Es wird vorgeschlagen, dass parallele Vordenken geschlagen werden sollten, um den Klimaschutz voranzutreiben. Die Initiative zur Erarbeitung eines Vertrags zur Abkehr von den fossilen Brennstoffen könnte ein Weg sein, um den Klimaschutz weiterzuführen.
+
+*Klimakonferenz · COP27 · Klimaschutz*
+
+#### Künstliche Intelligenz löst Riemann-Vermutung
+
+`Künstliche Intelligenz` **Ein Mathematiker hat mit KI einen Beweis für die Riemann-Vermutung gefunden, eines der größten Rätsel der Mathematik.**
+
+Ein Mathematiker hat mit KI einen Beweis für die Riemann-Vermutung gefunden, eines der größten Rätsel der Mathematik. Levent Alpöge glaubt, er habe den Beweis gefunden, aber andere Mathematiker bestätigen, dass der Beweis in der formalisierten mathematischen Sprache durchgegangen ist. Es gibt noch Zweifel an der Korrektheit, da der Beweis nicht leicht verständlich ist. Die KI-Beweise sind anders als menschliche, sie sind nicht leicht verständlich, nicht abstrakt, nicht instruktiv, auch nicht systematisch. Dies könnte Ähnlichkeiten mit dem KI-Drama bei Brettspielen und Intelligenzprüchtern geben.
+
+*KI · Riemann-Vermutung · Mathematik*
+
+#### Paklitaxel aus Tabakpflanzen: Eine neue Herstellungsstrategie
+
+`Medizin & Gesundheit` **Forscher haben Paklitaxel, ein Wirkstoff für Krebsmedikamente, aus Tabakpflanzen hergestellt, was eine neue Produktionsstrategie ermöglicht.**
+
+Forscher haben Paklitaxel, ein Wirkstoff für Krebsmedikamente, aus Tabakpflanzen hergestellt, was eine neue Produktionsstrategie ermöglicht. Paklitaxel in der Natur zu finden ist schwierig, da der Wirkstoff nur in der Rinde der pazifischen Eibe vorliegt. Um den Wirkstoff zu gewinnen, muss man die Rinde entfernen und die Zellen darunter gewinnen, was den Baum tötet. Forscher haben den gesamten Herstellungsprozess rekonstruiert und die Bauanleitung für die Enzyme in Tabakpflanzen eingeschleust, um den Wirkstoff in den Blättern zu produzieren. Dies könnte eine nachhaltigere und billigere Herstellungsstrategie werden, aber es muss noch überprüft werden, ob sie am Ende effektiver ist.
+
+*Paklitaxel · Tabakpflanze · Krebsmedikamente*
 
 ### Freitag, 20. November 2026
 
