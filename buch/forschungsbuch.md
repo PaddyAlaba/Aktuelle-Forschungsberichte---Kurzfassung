@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 375 Themen aus 117 Sendungen · Stand 25.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 378 Themen aus 118 Sendungen · Stand 26.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -68,6 +68,7 @@
 
 ### Ökologie & Artenvielfalt
 
+- Laubwälder zeigten eine positive Tendenz im Vergleich zu Nadelbäumen und Monokulturen. *(25.11.2026)*
 - Kiefernprachtkäfer spüren Waldbrände auf und fliegen gezielt dorthin. *(27.10.2026)*
 - Der Amazonas-Regenwald gibt inzwischen mehr CO2 ab, als er aufnimmt. *(22.10.2026)*
 - Sommerhitze beeinträchtigt die Entwicklung von Hummeln stark. *(25.9.2026)*
@@ -88,6 +89,7 @@
 
 ### Klima & Atmosphäre
 
+- Die Luft in den Dörfern ist im Durchschnitt 20% stärker verschmutzt als in der Stadt. *(25.11.2026)*
 - Rechenzentren verbrauchen so viel Strom wie ganze US-Bundesstaaten. *(17.11.2026)*
 - Kanadas Waldbrände freisetzen 800 Millionen Tonnen CO2, fast 50% des jährlichen Ausstoßes. *(11.11.2026)*
 - Weltweite CO2-Emissionen sinken leicht, trotz Anstieges durch Entwaldung. *(10.11.2026)*
@@ -189,6 +191,7 @@
 
 ### Psychologie & Neurowissenschaft
 
+- Depressionen und Psychosen könnten voneinander getrennte Krankheitskategorien sein. *(25.11.2026)*
 - Die Verbindung zwischen Führungsposition und Risikobereitschaft ist stärker bei Schimpansen als bei Menschen. *(3.11.2026)*
 - Forschende suchen nach LSD-Varianten, die ohne Halluzinationen wirken. *(8.9.2026)*
 - Im Winterschlaf bleibt das Gedächtnis erhalten, obwohl viele Synapsen abgebaut werden. *(14.8.2026)*
@@ -221,6 +224,40 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Mittwoch, 25. November 2026
+
+*Wald-Ökosystem-Bericht / Luftverschmutzung / Psychose oder Depression* · [Sendung anhören](https://www.deutschlandfunk.de/wald-oekosystem-bericht-luftverschmutzung-psychose-oder-depression-100.html)
+
+#### Wald-Ökosystembericht
+
+`Ökologie & Artenvielfalt` **Deutschland hat in den letzten zehn Jahren 13,3% Waldfläche verloren.**
+
+Ein neuer Wald-Ökosystembericht, der auf hochauflösenden Satellitendaten basiert, hat ergeben, dass Deutschland in den letzten zehn Jahren 13,3% Waldfläche verloren hat. Die Studie, die von einer Gruppe von Institutionen der Zivilgesellschaft unter Wissenschaft erstellt wurde, unterscheidet sich von traditionellen Waldzustandsberichten, da sie eine bundesweite und flächendeckende Untersuchung durchführt. Die Erkenntnisse sind besorgt, insbesondere in Bezug auf die Zerschneidung des Waldes, die zu erhöhter Hitze und Dürre führt. Die Laubwälder zeigten eine positive Tendenz, während Nadelbäume und Monokulturen negativ beeinflusst wurden. Satellitendaten ermöglichen eine präzise Messung der Grünheit und der Oberflächentemperaturen, was zuverlässige statistische Auswertungen ermöglicht.
+
+> **Merke:** Laubwälder zeigten eine positive Tendenz im Vergleich zu Nadelbäumen und Monokulturen.
+
+*Wald-Ökosystembericht · Satellitendaten · Waldflächenverlust*
+
+#### Luftverschmutzung in Indien
+
+`Klima & Atmosphäre` **Die Luft in den Dörfern rund um Delhi ist im Durchschnitt noch schlechter als in der Stadt.**
+
+Ein amerikanisch-indisches Forscher-Team hat festgestellt, dass die Luft in den Dörfern rund um Delhi im Durchschnitt noch schlechter als in der Stadt ist. Dieser überraschende Fund wurde durch Feinstaubsensoren bestätigt, die eine höhere Feinstaubbelastung in den Dörfern ermittelten. Die Untersuchung, die in der Fachzeitschrift PNAS veröffentlicht wurde, zeigte, dass die Luftverschmutzung in den Dörfern vor allem durch tägliche Kochvorgänge und das Abrennen von Ernten verursacht wird. Satellitendaten, die vor allem um die Mittagszeit überfliegen, verdecken diese Morgen- und Abendstunden, in denen die Luft in den Dörfern stark verschmutzt ist. Diese Erkenntnisse könnten die gesundheitlichen Folgen der Luftverschmutzung in Indien erheblich überbewertet haben. Die Forscher betonen, dass weitere Studien in anderen Regionen erforderlich sind, um die Gültigkeit dieser Ergebnisse zu bestätigen.
+
+> **Merke:** Die Luft in den Dörfern ist im Durchschnitt 20% stärker verschmutzt als in der Stadt.
+
+*Luftverschmutzung · Feinstaub · Satellitendaten*
+
+#### Früherkennung von Psychosen
+
+`Psychologie & Neurowissenschaft` **Depressionen und Psychosen könnten voneinander getrennte Krankheitskategorien sein.**
+
+Eine Studie des Max-Planck-Instituts für Psychiatrie in München hat herausgefunden, dass Depressionen und Psychosen möglicherweise voneinander getrennte Krankheitskategorien sind, anstatt Teil eines Spektrums. Die Forschung, die im Fachjournal Jama Psychiatry veröffentlicht wurde, untersuchte Entzündungsmarker im Blut und Gehirnscans von gesunden, depressiven und psychosesuszeptiblen Individuen. Es wurden zwei Hauptsignaturen identifiziert: eine, die Depressionen von gesunden Individuen unterscheidet, und eine zweite, die Menschen im Psychose-Risikostadium von Menschen, die bereits an einer Psychose erkrankt sind, trennt. Diese Ergebnisse könnten die Kategorisierung von Depressionen und Psychosen als Teil eines Spektrums in Frage stellen. Ob diese Ergebnisse allgemeingültig sind, muss in weiteren Studien bestätigt werden.
+
+> **Merke:** Depressionen und Psychosen könnten voneinander getrennte Krankheitskategorien sein.
+
+*Psychosen · Früherkennung · Entzündungsmarker*
 
 ### Dienstag, 24. November 2026
 
