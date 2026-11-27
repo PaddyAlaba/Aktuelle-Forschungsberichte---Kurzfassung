@@ -1,6 +1,6 @@
 # Forschungsbuch
 
-*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 378 Themen aus 118 Sendungen · Stand 26.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
+*Kurzfassungen aus „Forschung aktuell“ (Deutschlandfunk) · 382 Themen aus 119 Sendungen · Stand 27.11.2026. Maschinell erstellt – Details bitte im Originalbeitrag prüfen.*
 
 ## Kurz & knapp
 
@@ -68,6 +68,7 @@
 
 ### Ökologie & Artenvielfalt
 
+- Bastöpeln und Balliarensturmtauchern registrieren täglich 68 Minuten Schiffsgeräusche, davon 22 Minuten ohne passende Positionsdaten. *(26.11.2026)*
 - Laubwälder zeigten eine positive Tendenz im Vergleich zu Nadelbäumen und Monokulturen. *(25.11.2026)*
 - Kiefernprachtkäfer spüren Waldbrände auf und fliegen gezielt dorthin. *(27.10.2026)*
 - Der Amazonas-Regenwald gibt inzwischen mehr CO2 ab, als er aufnimmt. *(22.10.2026)*
@@ -128,6 +129,7 @@
 
 ### Astronomie & Raumfahrt
 
+- Der Krater auf Dimorphos ist so groß wie ein Stadion, und es gibt viele Perlenkettenartige Linien, die von hunderten kleineren Brocken stammen. *(26.11.2026)*
 - BepiColombo ist eine Kooperation zwischen ESA und JAXA, um Merkur zu untersuchen. *(20.11.2026)*
 - Hera wird die Bahn des Morphos überprüfen, indem sie 30 Kilometer vor dem Asteroiden fliegt. *(3.11.2026)*
 - 2026 ED138 könnte der sechste bekannte Zwergplanet des Sonnensystems sein. *(29.10.2026)*
@@ -168,6 +170,7 @@
 
 ### Technik & Informatik
 
+- Nanoleitungen aus Niobphosphid leiten im Vergleich zu Kupfer besser, je schmaler sie sind. *(26.11.2026)*
 - Luftschiff kostet 50.000 Dollar, kann wochenlang in der Luft bleiben. *(11.11.2026)*
 - Die Angriffe wurden durch schwache Passwörter ermöglicht. *(4.11.2026)*
 - KI-Werkzeuge haben kritische Sicherheitslücken in PHP-Webseiten aufgespürt. *(22.10.2026)*
@@ -179,6 +182,7 @@
 
 ### Künstliche Intelligenz
 
+- FoodTrue hat einen Elektrodenschip in einem Menschen eingesetzt, um die Wahrnehmung von Berührung in der Hand zu ermöglichen. *(26.11.2026)*
 - KI-Systeme haben keine Körpersprache *(6.11.2026)*
 - Muster in Sprachmodellen nicht durch Trainingsdaten abgebildet *(6.11.2026)*
 - Aus der Sprache lässt sich das biologische Alter abschätzen – ein möglicher Frühhinweis auf Demenz. *(1.10.2026)*
@@ -224,6 +228,50 @@
 - Bei der Reerdigung wird ein Leichnam innerhalb von etwa 40 Tagen zu Erde. *(11.9.2026)*
 
 ## November 2026
+
+### Donnerstag, 26. November 2026
+
+*Verräterische Vögel/ Asteroidenabwehr/ Nanoleitungen* · [Sendung anhören](https://www.deutschlandfunk.de/verraeterische-voegel-asteroidenabwehr-nanoleitungen-100.html)
+
+#### Akustische Methode zur Überwachung von Fischereischiffen
+
+`Ökologie & Artenvielfalt` **Akustische Daten von Seevögeln helfen, unerfasste Fischereischiffe zu identifizieren.**
+
+Forscher haben Seevögel mit Audiorecordern ausgestattet, um unerfasste Fischereischiffe zu identifizieren. Dies wurde durch Analyse von Tonaufnahmen und Algorithmen erreicht. Die Methode ist besonders relevant für die Schutzmaßnahmen von Seevögeln, da sie mehr Informationen über die Aktivitäten von Fischereischiffen liefert. Die Forschung wurde durch die University of Oxford durchgeführt. Einige Fischereischiffe sind jedoch nicht erfasst, da sie ihre Ordnungssysteme ausschalten oder gar keine haben.
+
+> **Merke:** Bastöpeln und Balliarensturmtauchern registrieren täglich 68 Minuten Schiffsgeräusche, davon 22 Minuten ohne passende Positionsdaten.
+
+*Seevögel · Fischereischiffe · Akustik · Schutz*
+
+#### NASA- und ESA-Untersuchungen zur Abwehr von Asteroiden
+
+`Astronomie & Raumfahrt` **Die NASA und ESA haben erfolgreich einen Asteroiden abgelenkt und untersuchen die Auswirkungen.**
+
+Die NASA hat den Asteroiden-Mond Dimorphos mit der Raumsonde DART beschossen, um seine Umlaufbahn zu verändern. Die ESA schickte die Raumsonde Hera, um die Auswirkungen zu untersuchen. Hera hat Beobachtungen gemacht und erkannt, dass Dimorphos einen Krater von der Größe eines Stadions hat. Es gibt auch viele Perlenkettenartige Linien, die von hunderten kleineren Brocken stammen, die etwa so groß sind wie Autos oder Busse. Die Forscher arbeiten an der Analyse der Daten, um die genauen Auswirkungen zu verstehen und zukünftige Abwehrstrategien zu entwickeln.
+
+> **Merke:** Der Krater auf Dimorphos ist so groß wie ein Stadion, und es gibt viele Perlenkettenartige Linien, die von hunderten kleineren Brocken stammen.
+
+*Asteroiden · Abwehrstrategie · Raumsonde DART · Raumsonde Hera*
+
+#### Neuartige Gehirnimplantate für den Einsatz von Roboterhänden
+
+`Künstliche Intelligenz` **Ein deutsches Unternehmen hat erfolgreich einen Gehirnimplantat für den Einsatz von Roboterhänden getestet.**
+
+Das deutsche Unternehmen FoodTrue hat erfolgreich einen Elektrodenschip in einem Menschen eingesetzt, um die Wahrnehmung von Berührung in der Hand zu ermöglichen. Das Ziel ist es, Roboterarme zu steuern und zu fühlen. Die Forschung wurde durch die Technische Universität München (TUM) unterstützt. Das Setup ist für den Hausgebrauch gedacht und soll helfen, Roboterarme flüssig und alltagstauglich zu steuern. Das Unternehmen plant weitere Tests und die Anwendung in der Praxis. Die Methode könnte in Zukunft zu einem wichtigen Baustein für Neurotechnologie werden.
+
+> **Merke:** FoodTrue hat einen Elektrodenschip in einem Menschen eingesetzt, um die Wahrnehmung von Berührung in der Hand zu ermöglichen.
+
+*Gehirnimplantate · Roboterarme · Neurotechnologie · BCI*
+
+#### Neues Material für Energieeffizientere Computerchips
+
+`Technik & Informatik` **Ein neues Material könnte den Energieverbrauch von Computerchips senken.**
+
+Ein US-Forschungsteam hat ein neues Material, Nanoleitungen aus Niobphosphid, entwickelt, das den Energieverbrauch von Computerchips senken könnte. Die Forscher haben festgestellt, dass Nanoleitungen aus Niobphosphid im Vergleich zu Kupfer besser leiten, je schmaler sie sind. Das Material könnte in Speicherchips, Prozessoren oder GPU-Chips eingesetzt werden. Die genauen Energieersparnisse sind noch nicht bekannt, aber es könnte zu einem wichtigen Baustein für die Energieeffizienz von Rechenzentren und Handys werden.
+
+> **Merke:** Nanoleitungen aus Niobphosphid leiten im Vergleich zu Kupfer besser, je schmaler sie sind.
+
+*Computerchips · Energieeffizienz · Nanoleitungen · Niobphosphid*
 
 ### Mittwoch, 25. November 2026
 
